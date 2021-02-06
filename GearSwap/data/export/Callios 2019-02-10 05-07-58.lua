@@ -1,0 +1,17 @@
+sets.exported={
+    main="Kaja Sword",
+    sub="Ochain",
+    ammo="Amar Cluster",
+    head={ name="Valorous Mask", augments={'Weapon skill damage +3%','STR+10','Accuracy+7','Attack+10',}},
+    body="Sulevia's Plate. +2",
+    hands={ name="Valorous Mitts", augments={'Accuracy+13','Weapon skill damage +2%','STR+1','Attack+13',}},
+    legs={ name="Valor. Hose", augments={'"Subtle Blow"+3','Magic Damage +3','Weapon skill damage +9%','Accuracy+17 Attack+17',}},
+    feet="Sulev. Leggings +2",
+    neck="Caro Necklace",
+    waist="Grunfeld Rope",
+    left_ear={ name="Moonshade Earring", augments={'Attack+4','TP Bonus +250',}},
+    right_ear="Ishvara Earring",
+    left_ring="Regal Ring",
+    right_ring="Apate Ring",
+    back={ name="Weard Mantle", augments={'VIT+2','DEX+1','Enmity+4',}},
+}

@@ -1,0 +1,18 @@
+sets.exported={
+    main="Perun +1",
+    sub="Nusku Shield",
+    range="Fomalhaut",
+    ammo="Chrono Bullet",
+    head="Meghanada Visor +2",
+    body={ name="Rawhide Vest", augments={'HP+49','Accuracy+14','Evasion+19',}},
+    hands={ name="Adhemar Wristbands", augments={'DEX+10','AGI+10','Accuracy+15',}},
+    legs={ name="Adhemar Kecks", augments={'DEX+10','AGI+10','Accuracy+15',}},
+    feet={ name="Herculean Boots", augments={'Accuracy+14 Attack+14','"Triple Atk."+3','Accuracy+15',}},
+    neck="Anu Torque",
+    waist="Dynamic Belt",
+    left_ear="Telos Earring",
+    right_ear="Digni. Earring",
+    left_ring="Rajas Ring",
+    right_ring="Epona's Ring",
+    back={ name="Mecisto. Mantle", augments={'Cap. Point+48%','CHR+1','Attack+1','DEF+7',}},
+}

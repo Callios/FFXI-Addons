@@ -1,0 +1,17 @@
+sets.exported={
+    main="Flyssa +1",
+    sub="Aegis",
+    ammo="Staunch Tathlum +1",
+    head="Sulevia's Mask +2",
+    body={ name="Souv. Cuirass +1", augments={'HP+105','Enmity+9','Potency of "Cure" effect received +15%',}},
+    hands="Sulev. Gauntlets +1",
+    legs={ name="Odyssean Cuisses", augments={'"Fast Cast"+5','Mag. Acc.+7','"Mag.Atk.Bns."+7',}},
+    feet="Sulev. Leggings +2",
+    neck="Loricate Torque +1",
+    waist="Flume Belt",
+    left_ear="Genmei Earring",
+    right_ear="Etiolation Earring",
+    left_ring="Gelatinous Ring +1",
+    right_ring="Defending Ring",
+    back={ name="Weard Mantle", augments={'VIT+2','DEX+1','Enmity+4',}},
+}

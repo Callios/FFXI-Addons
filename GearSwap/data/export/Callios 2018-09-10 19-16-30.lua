@@ -1,0 +1,17 @@
+sets.exported={
+    main={ name="Himetsuruichimonji", augments={'STR+10','Accuracy+10','Attack+10','Quadruple Attack +3',}},
+    sub="Utu Grip",
+    ammo="Ginsen",
+    head="Flam. Zucchetto +2",
+    body="Flamma Korazin +1",
+    hands="Flam. Manopolas +1",
+    legs={ name="Valor. Hose", augments={'"Subtle Blow"+3','Magic Damage +3','Weapon skill damage +9%','Accuracy+17 Attack+17',}},
+    feet="Flam. Gambieras +1",
+    neck="Caro Necklace",
+    waist="Kentarch Belt",
+    left_ear="Telos Earring",
+    right_ear="Digni. Earring",
+    left_ring="Niqmaddu Ring",
+    right_ring="Flamma Ring",
+    back={ name="Smertrios's Mantle", augments={'DEX+20','Accuracy+20 Attack+20','"Store TP"+10',}},
+}

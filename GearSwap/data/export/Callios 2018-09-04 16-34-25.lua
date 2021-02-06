@@ -1,0 +1,17 @@
+sets.exported={
+    main="Sequence",
+    sub={ name="Nibiru Cudgel", augments={'MP+50','INT+10','"Mag.Atk.Bns."+15',}},
+    ammo="Dosis Tathlum",
+    head="Jhakri Coronal +1",
+    body="Jhakri Robe +2",
+    hands="Jhakri Cuffs +1",
+    legs={ name="Herculean Trousers", augments={'Mag. Acc.+20 "Mag.Atk.Bns."+20','Crit.hit rate+1','"Mag.Atk.Bns."+15',}},
+    feet="Jhakri Pigaches +1",
+    neck="Baetyl Pendant",
+    waist="Eschan Stone",
+    left_ear="Friomisi Earring",
+    right_ear="Novio Earring",
+    left_ring="Kishar Ring",
+    right_ring="Jhakri Ring",
+    back="Aurist's Cape +1",
+}

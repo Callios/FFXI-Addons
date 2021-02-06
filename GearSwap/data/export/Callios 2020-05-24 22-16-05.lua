@@ -1,0 +1,16 @@
+sets.exported={
+    main={ name="Crocea Mors", augments={'Path: C',}},
+    ammo="Staunch Tathlum +1",
+    head="Malignance Chapeau",
+    body="Malignance Tabard",
+    hands="Aya. Manopolas +2",
+    legs="Malignance Tights",
+    feet={ name="Vitiation Boots +2", augments={'Immunobreak Chance',}},
+    neck="Bathy Choker +1",
+    waist="Kentarch Belt",
+    left_ear="Digni. Earring",
+    right_ear="Sherida Earring",
+    left_ring="Chirich Ring +1",
+    right_ring="Chirich Ring +1",
+    back={ name="Sucellos's Cape", augments={'DEX+20','Accuracy+20 Attack+20','Accuracy+1','"Dbl.Atk."+10',}},
+}

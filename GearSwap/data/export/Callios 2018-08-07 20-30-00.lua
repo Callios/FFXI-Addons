@@ -1,0 +1,18 @@
+sets.exported={
+    main="Fettering Blade",
+    sub="Odium",
+    range="Fomalhaut",
+    ammo="Animikii Bullet",
+    head="Meghanada Visor +2",
+    body="Meg. Cuirie +2",
+    hands="Meg. Gloves +2",
+    legs={ name="Carmine Cuisses +1", augments={'Accuracy+20','Attack+12','"Dual Wield"+6',}},
+    feet="Meg. Jam. +2",
+    neck="Loricate Torque +1",
+    waist="Reiki Yotai",
+    left_ear="Infused Earring",
+    right_ear="Etiolation Earring",
+    left_ring="Meghanada Ring",
+    right_ring="Defending Ring",
+    back="Solemnity Cape",
+}

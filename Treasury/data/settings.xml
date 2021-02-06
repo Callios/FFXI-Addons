@@ -1,0 +1,25 @@
+<?xml version="1.1" ?>
+<settings>
+    <global>
+        <AutoDrop>true</AutoDrop>
+        <AutoStack>true</AutoStack>
+        <Delay>0</Delay>
+        <Drop>Goblin Armor,Kopparnickel Ore</Drop>
+        <Lot />
+        <Pass>Gold Orcmask</Pass>
+        <Verbose>false</Verbose>
+    </global>
+    <arkrazor>
+        <Drop>Fire Crystal,Goblin Armor,Heatsink,Pattern Reader,Goblin Helm,Mana Tank II,Auto-Repair Kit II,Mana Jammer II,Heat Seeker,Stabilizer II,Kopparnickel Ore,Mana Converter,Armor Plate II,,Loudspeaker II,Strobe,Accelerator II,Golem Shard,Hydrangea,Auto-Rep. Kit II,Shadow Geode,Tension Spring II,Januwiyah -1,Ten. Spring II,Plumbago,Goblin Mail</Drop>
+    </arkrazor>
+    <callios>
+        <Drop>Fire Crystal,Goblin Armor,Heatsink,Pattern Reader,Goblin Helm,Mana Tank II,Auto-Repair Kit II,Mana Jammer II,Heat Seeker,Stabilizer II,Kopparnickel Ore,Mana Converter,Armor Plate II,,Loudspeaker II,Strobe,Accelerator II,Golem Shard,Hydrangea,Auto-Rep. Kit II,Shadow Geode,Tension Spring II,Januwiyah -1,Ten. Spring II,Plumbago,Goblin Mail</Drop>
+        <Lot>Footshard: RDM,Voidfoot: RDM,Coeurl Meat</Lot>
+        <Pass>White Honey,Coeurl Meat,Peph. Hive Chip</Pass>
+    </callios>
+    <gimples>
+        <Drop>Fire Crystal,Goblin Armor,Heatsink,Pattern Reader,Goblin Helm,Mana Tank II,Auto-Repair Kit II,Mana Jammer II,Heat Seeker,Stabilizer II,Kopparnickel Ore,Mana Converter,Armor Plate II,,Loudspeaker II,Strobe,Accelerator II,Golem Shard,Hydrangea,Auto-Rep. Kit II,Shadow Geode,Tension Spring II,Januwiyah -1,Ten. Spring II,Plumbago,Goblin Mail</Drop>
+        <Lot>Peph. Hive Chip,Crawler Egg,White Honey</Lot>
+        <Pass>Airlixir,Airlixir +1,Airlixir +2</Pass>
+    </gimples>
+</settings>

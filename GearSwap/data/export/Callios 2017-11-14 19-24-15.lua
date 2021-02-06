@@ -1,0 +1,18 @@
+sets.exported={
+    main={ name="Malevolence", augments={'INT+10','Mag. Acc.+10','"Mag.Atk.Bns."+10','"Fast Cast"+5',}},
+    sub={ name="Malevolence", augments={'INT+6','Mag. Acc.+7','"Mag.Atk.Bns."+4','"Fast Cast"+3',}},
+    range="Fomalhaut",
+    ammo="Chrono Bullet",
+    head={ name="Adhemar Bonnet", augments={'DEX+10','AGI+10','Accuracy+15',}},
+    body="Meg. Cuirie +2",
+    hands="Meg. Gloves +2",
+    legs={ name="Adhemar Kecks", augments={'DEX+10','AGI+10','Accuracy+15',}},
+    feet="Jute Boots +1",
+    neck="Anu Torque",
+    waist="Grunfeld Rope",
+    left_ear="Telos Earring",
+    right_ear="Infused Earring",
+    left_ring="Meghanada Ring",
+    right_ring="Defending Ring",
+    back={ name="Mecisto. Mantle", augments={'Cap. Point+48%','CHR+1','Attack+1','DEF+7',}},
+}

@@ -1,0 +1,24 @@
+<?xml version="1.1" ?>
+<settings>
+    <global>
+        <autodecline>false</autodecline>
+        <blacklist />
+        <mode>whitelist</mode>
+        <whitelist>Xharric,Khirali,Hondo,Gipi,Yer,Sefadin</whitelist>
+    </global>
+    <arkrazor>
+        <whitelist>Xharric,Gimples,Khirali,Yer,Hondo,Gipi,Callios,Sefadin</whitelist>
+    </arkrazor>
+    <callios>
+        <whitelist>Wyatto,Hondo,Butabi,Padisharcreel,Sefadin,Xharric,Harperu,Yer,Maelicia,Gipi,Khirali,Gimples</whitelist>
+    </callios>
+    <gimples>
+        <whitelist>Easynuggets,Wyatto,Dimples,Harparu,Callios,Xharric,Yer,Gipi,Hondo</whitelist>
+    </gimples>
+    <gipi>
+        <whitelist>Easynuggets,Yer,Twom,Callios,Xharric</whitelist>
+    </gipi>
+    <sefadin>
+        <whitelist>Callios</whitelist>
+    </sefadin>
+</settings>

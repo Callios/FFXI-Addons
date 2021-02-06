@@ -1,0 +1,18 @@
+sets.exported={
+    main="Norifusa",
+    sub="Utu Grip",
+    range={ name="Yoichinoyumi", augments={'DMG:+8',}},
+    ammo="Kabura Arrow",
+    head={ name="Valorous Mask", augments={'Weapon skill damage +3%','STR+10','Accuracy+7','Attack+10',}},
+    body="Wakido Domaru +3",
+    hands="Wakido Kote +3",
+    legs="Flamma Dirs +2",
+    feet={ name="Ryuo Sune-Ate +1", augments={'HP+65','"Store TP"+5','"Subtle Blow"+8',}},
+    neck="Bathy Choker +1",
+    waist="Flume Belt",
+    left_ear="Infused Earring",
+    right_ear="Etiolation Earring",
+    left_ring="Gelatinous Ring +1",
+    right_ring="Dim. Ring (Dem)",
+    back={ name="Smertrios's Mantle", augments={'"Snapshot"+10',}},
+}
