@@ -1,13 +1,9 @@
 <?xml version="1.1" ?>
 <settings>
     <global>
-        <ShowFullID>true</ShowFullID>
-        <ShowHexID>true</ShowHexID>
-        <ShowSpeed>true</ShowSpeed>
-        <ShowTargetName>false</ShowTargetName>
         <display>
             <bg>
-                <alpha>102</alpha>
+                <alpha>150</alpha>
                 <blue>0</blue>
                 <green>0</green>
                 <red>0</red>
@@ -28,13 +24,13 @@
             <text>
                 <alpha>255</alpha>
                 <blue>255</blue>
-                <font>Consolas</font>
+                <font>Arial</font>
                 <fonts>
 
                 </fonts>
                 <green>255</green>
                 <red>255</red>
-                <size>12</size>
+                <size>9</size>
                 <stroke>
                     <alpha>255</alpha>
                     <blue>0</blue>
@@ -45,60 +41,44 @@
             </text>
         </display>
     </global>
-    <arkrazor>
-        <display>
-            <pos>
-                <x>1120</x>
-                <y>434</y>
-            </pos>
-        </display>
-    </arkrazor>
     <callios>
         <display>
             <pos>
-                <x>1606</x>
-                <y>455</y>
+                <x>1194</x>
+                <y>332</y>
             </pos>
         </display>
     </callios>
     <calsmule>
         <display>
             <pos>
-                <x>1311</x>
-                <y>88</y>
+                <x>1286</x>
+                <y>145</y>
             </pos>
         </display>
     </calsmule>
-    <gimples>
+    <iloveshaismom>
         <display>
             <pos>
-                <x>1146</x>
-                <y>79</y>
+                <x>1256</x>
+                <y>213</y>
             </pos>
         </display>
-    </gimples>
-    <gipi>
+    </iloveshaismom>
+    <ivanhelicopters>
         <display>
             <pos>
-                <x>1353</x>
-                <y>621</y>
+                <x>1157</x>
+                <y>620</y>
             </pos>
         </display>
-    </gipi>
+    </ivanhelicopters>
     <robertdeniro>
         <display>
             <pos>
-                <x>1271</x>
-                <y>81</y>
+                <x>462</x>
+                <y>453</y>
             </pos>
         </display>
     </robertdeniro>
-    <sefadin>
-        <display>
-            <pos>
-                <x>1222</x>
-                <y>322</y>
-            </pos>
-        </display>
-    </sefadin>
 </settings>

@@ -19,7 +19,9 @@ function init_gear_sets()
     --------------------------------------
     -- Start defining the sets
     --------------------------------------
-	
+	THFCape = {}
+    THFCape.TP      =       {name="Toutatis's Cape", augments={'DEX+20','Accuracy+20 Attack+20','DEX+5','"Store TP"+10',}}
+
 	--include('augmented-items.lua')
 	
     sets.TreasureHunter = {hands="Plunderer's Armlets +1", waist="Chaac belt", feet="Skulker's poulaines"}
@@ -106,7 +108,7 @@ function init_gear_sets()
     right_ear="Moonshade Earring",
     left_ring="Ilabrat Ring",
     right_ring="Regal Ring",
-    back="Lupine Cape",}
+    back= THFCape.TP,}
 		
     sets.precast.WS["Rudra's Storm"].Acc = set_combine(sets.precast.WS["Rudra's Storm"], {head="Meghanada visor +2"})
     sets.precast.WS["Rudra's Storm"].SA = set_combine(sets.precast.WS["Rudra's Storm"], {head="Lilitu headpiece",ammo="Yetshila"})
@@ -226,7 +228,7 @@ function init_gear_sets()
     right_ear="Sherida Earring",
     left_ring="Ilabrat Ring",
     right_ring="Epona's Ring",
-    back="Lupine Cape",}
+    back= THFCape.TP,}
 
     sets.engaged.Hybrid = {ammo="Yamarang",
     head="Malignance Chapeau",
@@ -241,12 +243,12 @@ function init_gear_sets()
     right_ear="Sherida Earring",
     left_ring="Ilabrat Ring",
     right_ring="Epona's Ring",
-    back="Lupine Cape",}
+    back= THFCape.TP,}
 	
 	sets.engaged.LowAcc = {ammo="Yamarang",
         head="Adhemar Bonnet +1",neck="Combatant's torque",ear1="Telos Earring",ear2="Sherida earring",
         body="Adhemar jacket +1",hands=gear.HercHandsACC,ring1="Petrov Ring",ring2="Epona's Ring",
-        back=gear.ToutCapeTP,waist="Grunfeld rope",legs="Samnuha tights",feet=gear.HercFeetTP}
+        back= THFCape.TP,waist="Grunfeld rope",legs="Samnuha tights",feet=gear.HercFeetTP}
 	
 	sets.engaged.MidAcc = {ammo="Yamarang",
         head="Skulker's bonnet +1",
@@ -257,7 +259,7 @@ function init_gear_sets()
         hands="Adhemar Wristbands +1",
         ring1="Petrov Ring",
         ring2="Epona's Ring",
-        back="Lupine Cape",
+        back= THFCape.TP,
         waist="Olseni belt",
         legs="Meg. Chausses +2",
         feet={ name="Herculean Boots", augments={'Accuracy+14 Attack+14','"Triple Atk."+3','Accuracy+15',}},
@@ -272,7 +274,7 @@ function init_gear_sets()
         hands="Meghanada gloves +2",
         ring1="Regal ring",
         ring2="Cacoethic ring +1",
-        back="Lupine Cape",
+        back= THFCape.TP,
         waist="Olseni belt",
         legs="Meg. Chausses +2",
         feet={ name="Herculean Boots", augments={'Accuracy+14 Attack+14','"Triple Atk."+3','Accuracy+15',}},

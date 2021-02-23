@@ -1,24 +1,27 @@
 <?xml version="1.1" ?>
 <settings>
     <global>
-        <AutoDrop>true</AutoDrop>
+        <AutoDrop>false</AutoDrop>
         <AutoStack>true</AutoStack>
         <Delay>0</Delay>
         <Drop>Goblin Armor,Kopparnickel Ore</Drop>
-        <Lot />
+        <Lot>Footshard: RDM,Voidfoot: RDM,Coeurl Meat</Lot>
         <Pass>Gold Orcmask</Pass>
         <Verbose>false</Verbose>
     </global>
     <arkrazor>
-        <Drop>Fire Crystal,Goblin Armor,Heatsink,Pattern Reader,Goblin Helm,Mana Tank II,Auto-Repair Kit II,Mana Jammer II,Heat Seeker,Stabilizer II,Kopparnickel Ore,Mana Converter,Armor Plate II,,Loudspeaker II,Strobe,Accelerator II,Golem Shard,Hydrangea,Auto-Rep. Kit II,Shadow Geode,Tension Spring II,Januwiyah -1,Ten. Spring II,Plumbago,Goblin Mail</Drop>
+        <AutoDrop>true</AutoDrop>
+        <Drop>Tension Spring II,Plumbago,Mana Jammer II,Pattern Reader,Doll Shard,Mana Tank II,Goblin Helm,Goblin Armor,Ten. Spring II,Armor Plate II,Auto-Repair Kit II,Heat Seeker,Stabilizer II,Kopparnickel Ore,Mana Converter,Fire Crystal,Auto-Rep. Kit II,Loudspeaker II,,Shadow Geode,Golem Shard,Accelerator II,Hydrangea,Crawler Egg,Strobe,Januwiyah -1,Heatsink,Pugil Scales,Goblin Mail</Drop>
+        <Pass>White Honey,Coeurl Meat,Peph. Hive Chip</Pass>
     </arkrazor>
     <callios>
-        <Drop>Fire Crystal,Goblin Armor,Heatsink,Pattern Reader,Goblin Helm,Mana Tank II,Auto-Repair Kit II,Mana Jammer II,Heat Seeker,Stabilizer II,Kopparnickel Ore,Mana Converter,Armor Plate II,,Loudspeaker II,Strobe,Accelerator II,Golem Shard,Hydrangea,Auto-Rep. Kit II,Shadow Geode,Tension Spring II,Januwiyah -1,Ten. Spring II,Plumbago,Goblin Mail</Drop>
-        <Lot>Footshard: RDM,Voidfoot: RDM,Coeurl Meat</Lot>
+        <AutoDrop>true</AutoDrop>
+        <Drop>Hi-Potion +2,Cerberus Meat,Durium Ore,Hi-Potion,Hydrangea,Heat Seeker,X-Potion,Mythril Ore,Elixir,X-Potion +1,Flocon-de-mer,Baramnesia,Fluorite,Behemoth Horn,Ram Horn,Imperial Cermet,Black Rock,Persikos,Strophadic Earring,Fiendish Skin,Chocobo Fltchg.,Kitron,Golem Shard,Horde Lullaby II,Boost-INT,Moonstone,Mind Potion,Wyvern Tailskin,Pro-Ether +1,Aquamarine,Goblin Mail,Purple Rock,Loudspeaker II,Aspir II,Yellow Rock,Tension Spring II,Strength Potion,White Rock,Auto-Rep. Kit II,Mage&apos;s Ballad III,Boost-AGI,Boost-MND,Shadow Geode,Hedera Cotehardie,Water Carol II,Whirlwind Dirs,Boost-DEX,Kopparnickel Ore,Strobe,Beech Log,Teak Log,Endark,Wind Carol II,Dexterity Potion,X-Potion +2,W. Spider&apos;s Web,Houyi&apos;s Gorget,Green Rock,Emperor Fish,Jacaranda Log,Zircon,Mana Jammer II,Jadeite,Ram Skin,Sunstone,Icarus Wing,Int. Potion,Armor Plate II,Kejusu Satin,Plumbago,Shell V,Hydra Fang,Cerberus Hide,Aisha: Ichi,Mana Tank II,Mana Converter,Red Rock,Holy II,Anc. Beast Horn,King Truffle,Charisma Potion,Protect V,Dragon Meat,Foe Requiem VII,Myoshu: Ichi,Hi-Elixir,Break,Breakga,Translucent Rock,Chrysoberyl,Hi-Potion +3,Ruszor Meat,X-Potion +3,Cure VI,Mahogany Log,Granite,Demon Horn,Agility Potion,Painite,Goblin Armor,Heatsink,Dragon Heart,Boost-CHR,Water V,Goblin Helm,Auto-Repair Kit II,Ten. Spring II,Khimaira Mane,Manticore Hide,Hydra Scale,Stabilizer II,Coral Fragment,Kudzu Aketon,Wyvern Skin,Boost-STR,Accelerator II,Fire Crystal,Hi-Potion +1,Vitality Potion,Petrified Log,Blue Rock,Boost-VIT,Wyvern Scales,Pro-Ether,Pattern Reader,Januwiyah -1,Ebony Log</Drop>
         <Pass>White Honey,Coeurl Meat,Peph. Hive Chip</Pass>
     </callios>
     <gimples>
-        <Drop>Fire Crystal,Goblin Armor,Heatsink,Pattern Reader,Goblin Helm,Mana Tank II,Auto-Repair Kit II,Mana Jammer II,Heat Seeker,Stabilizer II,Kopparnickel Ore,Mana Converter,Armor Plate II,,Loudspeaker II,Strobe,Accelerator II,Golem Shard,Hydrangea,Auto-Rep. Kit II,Shadow Geode,Tension Spring II,Januwiyah -1,Ten. Spring II,Plumbago,Goblin Mail</Drop>
+        <AutoDrop>true</AutoDrop>
+        <Drop>Tension Spring II,Armor Plate II,Mana Jammer II,Pattern Reader,Goblin Helm,Ten. Spring II,Mana Tank II,Heatsink,Heat Seeker,Stabilizer II,Kopparnickel Ore,Mana Converter,Plumbago,Strobe,Loudspeaker II,Fire Crystal,Accelerator II,Golem Shard,Hydrangea,Auto-Rep. Kit II,Shadow Geode,,Januwiyah -1,Goblin Armor,Auto-Repair Kit II,Goblin Mail</Drop>
         <Lot>Peph. Hive Chip,Crawler Egg,White Honey</Lot>
         <Pass>Airlixir,Airlixir +1,Airlixir +2</Pass>
     </gimples>
