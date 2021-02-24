@@ -75,7 +75,7 @@ function init_gear_sets()
 
     -- Fast cast sets for spells
     
-    sets.precast.FC = {head="Herculean helm",body="Adhemar jacket",ammo="Impatiens",ear1="Enchanter earring +1",ear2="Loquacious Earring",
+    sets.precast.FC = {head="Herculean helm",body="Adhemar jacket",legs="Herculean Trousers", augments={'"Fast Cast"+5','MND+5',},ammo="Impatiens",ear1="Enchanter earring +1",ear2="Loquacious Earring",
     hands="Leyline Gloves",ring1="Kishar Ring",ring2="Rahab Ring",neck="Baetyl Pendant",waist="Sailfi Belt+1"}
     sets.precast.FC.Utsusemi = set_combine(sets.precast.FC, {neck="Magoraga Beads",body="Passion jacket"})
 
@@ -192,14 +192,14 @@ function init_gear_sets()
     -- EG: sets.engaged.Dagger.Accuracy.Evasion
     
     -- Normal melee group
-    sets.engaged = {ammo="Yamarang",
-        head="Ryuo Somen",neck="Moonbeam Nodowa",ear1="Suppanomimi",ear2="Ebani Earring",
+    sets.engaged = {ammo="Happo Shuriken +1",
+        head="Ryuo Somen",neck="Moonbeam Nodowa",ear1="Suppanomimi",ear2="Eabani Earring",
         body="Adhemar jacket +1",hands="Adhemar wristband +1",ring1="Petrov Ring",ring2="Epona's Ring",
         back="Atheling Mantle",waist="Reiki yotai",legs="Samnuha Tights",
         feet="Hizamaru Sune-ate +2",}
 
     sets.engaged.Acc = {ammo="Yamarang",
-        head="Ryuo Somen",neck="Moonbeam Nodowa",ear1="Suppanomimi",ear2="Ebani Earring",
+        head="Ryuo Somen",neck="Moonbeam Nodowa",ear1="Suppanomimi",ear2="Eabani Earring",
         body="Adhemar jacket +1",hands="Adhemar wristband +1",ring1="Petrov Ring",ring2="Epona's Ring",
         back="Atheling Mantle",waist="Reiki yotai",legs="Samnuha Tights",
         feet="Hizamaru Sune-ate +2",}
@@ -225,14 +225,14 @@ function init_gear_sets()
      --   back="Yokaze Mantle",waist="Hurch'lan Sash",legs="Hachiya Hakama",feet="Otronif Boots +1"}
 
     -- Custom melee group: High Haste (~20% DW)
-    sets.engaged.HighHaste = {ammo="Yamarang",
-        head="Adhemar Bonnet +1",neck="Moonbeam Nodowa",ear1="Suppanomimi",ear2="Ebani Earring",
+    sets.engaged.HighHaste = {ammo="Happo shuriken +1",
+        head="Adhemar Bonnet +1",neck="Moonbeam Nodowa",ear1="Suppanomimi",ear2="Eabani Earring",
         body="Adhemar jacket +1",hands="Adhemar wristband +1",ring1="Petrov Ring",ring2="Epona's Ring",
         back="Atheling Mantle",waist="Reiki yotai",legs="Samnuha Tights",
         feet="Herculean Boots", augments={'Accuracy+14 Attack+14','"Triple Atk."+3','Accuracy+15',}}
 
     sets.engaged.Acc.HighHaste = {ammo="Yamarang",
-        head="Adhemar Bonnet +1",neck="Moonbeam Nodowa",ear1="Suppanomimi",ear2="Ebani Earring",
+        head="Adhemar Bonnet +1",neck="Moonbeam Nodowa",ear1="Suppanomimi",ear2="Eabani Earring",
         body="Adhemar jacket +1",hands="Adhemar wristband +1",ring1="Petrov Ring",ring2="Epona's Ring",
         back="Atheling Mantle",waist="Reiki yotai",legs="Samnuha Tights",
         feet="Herculean Boots", augments={'Accuracy+14 Attack+14','"Triple Atk."+3','Accuracy+15',}}
@@ -289,7 +289,7 @@ function init_gear_sets()
       --  back="Yokaze Mantle",waist="Hurch'lan Sash",legs="Manibozho Brais",feet="Otronif Boots +1"}
 
     -- Custom melee group: Max Haste (0% DW)
-    sets.engaged.MaxHaste = {ammo="Yamarang",
+    sets.engaged.MaxHaste = {ammo="Happo shuriken +1",
         head="Adhemar Bonnet +1",neck="Moonbeam Nodowa",ear1="Telos Earring",ear2="Brutal Earring",
         body="Adhemar jacket +1",hands="Adhemar wristband +1",ring1="Petrov Ring",ring2="Epona's Ring",
         back="Atheling Mantle",waist="Windbuffet Belt +1",legs="Samnuha Tights",
@@ -309,7 +309,7 @@ function init_gear_sets()
        -- body="Otronif Harness +1",hands="Otronif Gloves",ring1="Beeline Ring",ring2="Epona's Ring",
         --back="Yokaze Mantle",waist="Hurch'lan Sash",legs="Hachiya Hakama",feet="Otronif Boots +1"}
     
-    sets.engaged.PDT.MaxHaste = {ammo="Qirmiz Tathlum",
+    sets.engaged.PDT.MaxHaste = {ammo="Happo shuriken +1",
         head="Whirlpool Mask",neck="Twilight Torque",ear1="Bladeborn Earring",ear2="Steelflash Earring",
         body="Otronif Harness +1",hands="Otronif Gloves",ring1="Defending Ring",ring2="Epona's Ring",
         back="Yokaze Mantle",waist="Windbuffet Belt",legs="Manibozho Brais",feet="Otronif Boots +1"}

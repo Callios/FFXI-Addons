@@ -188,7 +188,7 @@ function init_gear_sets()
     body="Horos Casaque +3",
     hands="Adhemar Wristbands +1",
     legs={ name="Samnuha Tights", augments={'STR+10','DEX+10','"Dbl.Atk."+3','"Triple Atk."+3',}},
-    feet="Horos toe shoes +3",
+    feet="Horos T. Shoes +3",
     neck="Anu Torque",
     waist="Windbuffet Belt +1",
     left_ear="Telos Earring",
@@ -208,13 +208,13 @@ function init_gear_sets()
         head="Horos Casaque +3",neck="Combatant's torque",ear1="Telos Earring",ear2="Mache earring +1",
         body="Horos Casaque +3",hands="Adhemar Wristbands +1",ring1="Cacoethic ring +1",ring2="Regal ring",
         back={ name="Senuna's Mantle", augments={'DEX+20','Accuracy+20 Attack+20','"Store TP"+10',}},
-        waist="Olseni belt",legs="Meghanada chausses +2",feet="Horos Toe shoes +3"}
+        waist="Olseni belt",legs="Meghanada chausses +2",feet="Horos T. Shoes +3"}
 		
-	sets.engaged.Hybrid = {ammo="Staunch tathlum",
+	sets.engaged.Hybrid = {ammo="Staunch tathlum +1",
         head="Malignance Chapeau",neck="Loricate torque +1",ear1="Telos earring",ear2="Sherida earring",
-        body="Malignance Tabard",hands="Malignance Gloves",ring1="Defending ring",ring2="Moonbeam ring",
+        body="Malignance Tabard",hands="Malignance Gloves",ring1="Defending ring",ring2="Chirich Ring +1",
         back={ name="Senuna's Mantle", augments={'DEX+20','Accuracy+20 Attack+20','"Store TP"+10'}},
-        waist="Reiki Yotai",legs="Malignance tights",feet=gear.HercFeetTP}
+        waist="Reiki Yotai",legs="Malignance tights",feet="Horos T. Shoes +3"}
 
     -- Buff sets: Gear that needs to be worn to actively enhance a current player buff.
     sets.buff['Saber Dance'] = {legs="Horos Tights"}

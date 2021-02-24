@@ -1,0 +1,17 @@
+sets.exported={
+    main="Aeneas",
+    sub="Tauret",
+    ammo="Yamarang",
+    head="Meghanada Visor +2",
+    body={ name="Horos Casaque +3", augments={'Enhances "No Foot Rise" effect',}},
+    hands="Meg. Gloves +2",
+    legs="Meg. Chausses +2",
+    feet={ name="Horos T. Shoes +3", augments={'Enhances "Closed Position" effect',}},
+    neck="Bathy Choker +1",
+    waist="Flume Belt",
+    left_ear="Infused Earring",
+    right_ear="Odnowa Earring +1",
+    left_ring="Warp Ring",
+    right_ring="Gelatinous Ring +1",
+    back="Solemnity Cape",
+}

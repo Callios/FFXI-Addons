@@ -1,0 +1,17 @@
+sets.exported={
+    main={ name="Heishi Shorinken", augments={'Path: A',}},
+    sub={ name="Kanaria", augments={'"Triple Atk."+2','AGI+3','Attack+7','DMG:+11',}},
+    ammo="Yamarang",
+    head="Malignance Chapeau",
+    body="Malignance Tabard",
+    hands="Malignance Gloves",
+    legs={ name="Herculean Trousers", augments={'"Fast Cast"+5','MND+5',}},
+    feet="Danzo Sune-Ate",
+    neck="Bathy Choker +1",
+    waist="Flume Belt",
+    left_ear="Genmei Earring",
+    right_ear="Eabani Earring",
+    left_ring="Defending Ring",
+    right_ring="Gelatinous Ring +1",
+    back="Solemnity Cape",
+}
