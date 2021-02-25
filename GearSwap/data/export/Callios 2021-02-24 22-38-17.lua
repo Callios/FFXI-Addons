@@ -1,0 +1,17 @@
+sets.exported={
+    main={ name="Heishi Shorinken", augments={'Path: A',}},
+    sub={ name="Kanaria", augments={'"Triple Atk."+2','AGI+3','Attack+7','DMG:+11',}},
+    ammo="Happo Shuriken +1",
+    head={ name="Ryuo Somen", augments={'Ninjutsu skill +15','Mag. Acc.+20','"Mag.Atk.Bns."+20',}},
+    body={ name="Samnuha Coat", augments={'Mag. Acc.+14','"Mag.Atk.Bns."+13','"Fast Cast"+4','"Dual Wield"+3',}},
+    hands={ name="Leyline Gloves", augments={'Accuracy+15','Mag. Acc.+15','"Mag.Atk.Bns."+15','"Fast Cast"+3',}},
+    legs={ name="Herculean Trousers", augments={'Mag. Acc.+20 "Mag.Atk.Bns."+20','Crit.hit rate+1','"Mag.Atk.Bns."+15',}},
+    feet={ name="Herculean Boots", augments={'Accuracy+14 Attack+14','"Triple Atk."+3','Accuracy+15',}},
+    neck="Baetyl Pendant",
+    waist="Eschan Stone",
+    left_ear="Friomisi Earring",
+    right_ear="Novio Earring",
+    left_ring="Dingir Ring",
+    right_ring="Shiva Ring",
+    back="Solemnity Cape",
+}

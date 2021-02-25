@@ -1,13 +1,8 @@
 return {
-    ["slave"]=true, 
-    ["master"]=false, 
-    ["target"]="Aello", 
+    ["slave"]=false, 
+    ["master"]=true, 
+    ["target"]="Morta", 
     ["cells"]=false, 
-    ["trusts"]={}, 
-    ["should_engage"]=true, 
-    ["rubicund"]=0, 
-    ["leech"]=false, 
-    ["displacer"]=0, 
     ["actions"]={
         [1]={
             ["prefix"]="/jobability", 
@@ -33,5 +28,10 @@ return {
             ["condition"]="tp", 
             ["modifier"]="2000"
         }
-    }
+    }, 
+    ["should_engage"]=true, 
+    ["rubicund"]=0, 
+    ["leech"]=false, 
+    ["displacer"]=0, 
+    ["trusts"]={}
 }

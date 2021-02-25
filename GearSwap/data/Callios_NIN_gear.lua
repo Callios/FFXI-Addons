@@ -7,7 +7,7 @@ function get_sets()
     mote_include_version = 2
 
     -- Load and initialize the include file.
-    include('Mote-Include.lua')
+    include('Mote-Include.lua') 
 end
 
 
@@ -76,7 +76,9 @@ function init_gear_sets()
     -- Fast cast sets for spells
     
     sets.precast.FC = {head="Herculean helm",body="Adhemar jacket",legs="Herculean Trousers", augments={'"Fast Cast"+5','MND+5',},ammo="Impatiens",ear1="Enchanter earring +1",ear2="Loquacious Earring",
-    hands="Leyline Gloves",ring1="Kishar Ring",ring2="Rahab Ring",neck="Baetyl Pendant",waist="Sailfi Belt+1"}
+    hands="Leyline Gloves",ring1="Kishar Ring",ring2="Rahab Ring",neck="Baetyl Pendant",waist="Sailfi Belt+1",
+    feet="Herculean Boots", augments={'"Mag.Atk.Bns."+12','"Fast Cast"+6','Mag. Acc.+1',}}
+
     sets.precast.FC.Utsusemi = set_combine(sets.precast.FC, {neck="Magoraga Beads",body="Passion jacket"})
 
     -- Snapshot for ranged
@@ -120,9 +122,11 @@ function init_gear_sets()
     sets.midcast.Utsusemi = set_combine(sets.midcast.SelfNinjutsu, {feet="Iga Kyahan +2"})
 
     sets.midcast.ElementalNinjutsu = {
-        head="Hachiya Hatsuburi",neck="Baetyl Pendant",ear1="Friomisi Earring",ear2="Hecate's Earring",
-        body="Hachiya Chainmail +1",hands="Iga Tekko +2",ring1="Icesoul Ring",ring2="Acumen Ring",
-        back="Toro Cape",waist=gear.ElementalObi,legs="Nahtirah Trousers",feet="Hachiya Kyahan"}
+        head="Ryuo Somen",neck="Baetyl Pendant",ear1="Friomisi Earring",ear2="Novio Earring",
+        body="Samnuha Coat",hands="Leyline Gloves",ring1="Dingir Ring",ring2="Shiva Ring",
+        back="Toro Cape",waist="Eschan Stone",
+        legs="Herculean Trousers", augments={'Mag. Acc.+20 "Mag.Atk.Bns."+20','Crit.hit rate+1','"Mag.Atk.Bns."+15',},
+        feet="Herculean Boots", augments={'"Mag.Atk.Bns."+12','"Fast Cast"+6','Mag. Acc.+1',}}
 
     sets.midcast.ElementalNinjutsu.Resistant = set_combine(sets.midcast.Ninjutsu, {ear1="Lifestorm Earring",ear2="Psystorm Earring",
         back="Yokaze Mantle"})
@@ -193,14 +197,14 @@ function init_gear_sets()
     
     -- Normal melee group
     sets.engaged = {ammo="Happo Shuriken +1",
-        head="Ryuo Somen",neck="Moonbeam Nodowa",ear1="Suppanomimi",ear2="Eabani Earring",
-        body="Adhemar jacket +1",hands="Adhemar wristband +1",ring1="Petrov Ring",ring2="Epona's Ring",
+        head="Ryuo Somen +1",neck="Moonbeam Nodowa",ear1="Suppanomimi",ear2="Eabani Earring",
+        body="Adhemar jacket +1",hands="Adhemar wristbands +1",ring1="Petrov Ring",ring2="Epona's Ring",
         back="Atheling Mantle",waist="Reiki yotai",legs="Samnuha Tights",
         feet="Hizamaru Sune-ate +2",}
 
     sets.engaged.Acc = {ammo="Yamarang",
-        head="Ryuo Somen",neck="Moonbeam Nodowa",ear1="Suppanomimi",ear2="Eabani Earring",
-        body="Adhemar jacket +1",hands="Adhemar wristband +1",ring1="Petrov Ring",ring2="Epona's Ring",
+        head="Ryuo Somen +1",neck="Moonbeam Nodowa",ear1="Suppanomimi",ear2="Eabani Earring",
+        body="Adhemar jacket +1",hands="Adhemar wristbands +1",ring1="Petrov Ring",ring2="Epona's Ring",
         back="Atheling Mantle",waist="Reiki yotai",legs="Samnuha Tights",
         feet="Hizamaru Sune-ate +2",}
 
@@ -227,13 +231,13 @@ function init_gear_sets()
     -- Custom melee group: High Haste (~20% DW)
     sets.engaged.HighHaste = {ammo="Happo shuriken +1",
         head="Adhemar Bonnet +1",neck="Moonbeam Nodowa",ear1="Suppanomimi",ear2="Eabani Earring",
-        body="Adhemar jacket +1",hands="Adhemar wristband +1",ring1="Petrov Ring",ring2="Epona's Ring",
+        body="Adhemar jacket +1",hands="Adhemar wristbands +1",ring1="Petrov Ring",ring2="Epona's Ring",
         back="Atheling Mantle",waist="Reiki yotai",legs="Samnuha Tights",
         feet="Herculean Boots", augments={'Accuracy+14 Attack+14','"Triple Atk."+3','Accuracy+15',}}
 
     sets.engaged.Acc.HighHaste = {ammo="Yamarang",
         head="Adhemar Bonnet +1",neck="Moonbeam Nodowa",ear1="Suppanomimi",ear2="Eabani Earring",
-        body="Adhemar jacket +1",hands="Adhemar wristband +1",ring1="Petrov Ring",ring2="Epona's Ring",
+        body="Adhemar jacket +1",hands="Adhemar wristbands +1",ring1="Petrov Ring",ring2="Epona's Ring",
         back="Atheling Mantle",waist="Reiki yotai",legs="Samnuha Tights",
         feet="Herculean Boots", augments={'Accuracy+14 Attack+14','"Triple Atk."+3','Accuracy+15',}}
 
@@ -291,7 +295,7 @@ function init_gear_sets()
     -- Custom melee group: Max Haste (0% DW)
     sets.engaged.MaxHaste = {ammo="Happo shuriken +1",
         head="Adhemar Bonnet +1",neck="Moonbeam Nodowa",ear1="Telos Earring",ear2="Brutal Earring",
-        body="Adhemar jacket +1",hands="Adhemar wristband +1",ring1="Petrov Ring",ring2="Epona's Ring",
+        body="Adhemar jacket +1",hands="Adhemar wristbands +1",ring1="Petrov Ring",ring2="Epona's Ring",
         back="Atheling Mantle",waist="Windbuffet Belt +1",legs="Samnuha Tights",
         feet="Herculean Boots", augments={'Accuracy+14 Attack+14','"Triple Atk."+3','Accuracy+15',}}
 

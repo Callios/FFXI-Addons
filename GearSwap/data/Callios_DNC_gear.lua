@@ -151,24 +151,24 @@ function init_gear_sets()
 
     -- Idle sets
 
-    sets.idle = {ammo="Yamarang",
+    sets.idle = {ammo="Staunch tathlum +1",
 		head="Meghanada visor +2",neck="Bathy choker +1",ear1="Infused earring",ear2="Odnowa earring +1",
         body="Horos Casaque +3",hands="Meghanada gloves +2",ring1="Defending Ring",ring2="Gelatinous ring +1",
         back="Solemnity cape",waist="Flume Belt",legs="Meghanada chausses +2",feet="Meghanada jambeaux +2"}
 		
-    sets.idle.Town = {ammo="Yamarang",
+    sets.idle.Town = {ammo="Staunch tathlum +1",
 		head="Meghanada visor +2",neck="Bathy choker +1",ear1="Infused earring",ear2="Odnowa earring +1",
         body="Horos Casaque +3",hands="Meghanada gloves +2",ring1="Defending Ring",ring2="Gelatinous ring +1",
         back="Solemnity cape",waist="Flume Belt",legs="Meghanada chausses +2",feet="Meghanada jambeaux +2"}
     
     -- Defense sets
 
-    sets.defense.PDT = {ammo="Staunch tathlum",
+    sets.defense.PDT = {ammo="Staunch tathlum +1",
         head="Meghanada visor +2",neck="Loricate torque +1",ear1="Odnowa earring +1",ear2="Genmei Earring",
         body="Horos Casaque +3",hands="Meghanada gloves +2",ring1="Defending ring",ring2="Gelatinous ring +1",
         back="Solemnity Cape",waist="Flume Belt",legs="Mummu Kecks +2",feet="Meghanada jambeaux +2"}
 
-    sets.defense.MDT = {ammo="Staunch tathlum",
+    sets.defense.MDT = {ammo="Staunch tathlum +1",
         head="Meghanada visor +2",neck="Loricate torque +1",ear1="Odnowa earring +1",ear2="Odnowa Earring",
         body="Meghanada cuirie +2",hands="Meghanada gloves +2",ring1="Defending ring",ring2="Dark ring",
         back="Solemnity Cape",waist="Engraved belt",legs="Meghanada chausses +2",feet="Meghanada jambeaux +2"}
