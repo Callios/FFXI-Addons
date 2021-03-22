@@ -1,0 +1,17 @@
+sets.exported={
+    main="Burtgang",
+    sub="Ochain",
+    ammo="Amar Cluster",
+    head={ name="Odyssean Helm", augments={'Magic Damage +5','"Mag.Atk.Bns."+7','Accuracy+19 Attack+19','Mag. Acc.+18 "Mag.Atk.Bns."+18',}},
+    body={ name="Found. Breastplate", augments={'Accuracy+12','Mag. Acc.+12',}},
+    hands={ name="Carmine Fin. Ga. +1", augments={'Rng.Atk.+20','"Mag.Atk.Bns."+12','"Store TP"+6',}},
+    legs={ name="Odyssean Cuisses", augments={'"Fast Cast"+5','Mag. Acc.+7','"Mag.Atk.Bns."+7',}},
+    feet={ name="Odyssean Greaves", augments={'Mag. Acc.+15 "Mag.Atk.Bns."+15','Weapon skill damage +4%','INT+4','"Mag.Atk.Bns."+10',}},
+    neck="Baetyl Pendant",
+    waist="Eschan Stone",
+    left_ear="Friomisi Earring",
+    right_ear="Novio Earring",
+    left_ring="Shiva Ring",
+    right_ring="Shiva Ring",
+    back={ name="Rudianos's Mantle", augments={'HP+60','Eva.+20 /Mag. Eva.+20','Mag. Evasion+10','Enmity+10',}},
+}

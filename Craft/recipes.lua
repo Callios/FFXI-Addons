@@ -27112,13 +27112,13 @@ return {
             "Delkfutt Key",
         },
     },
-    ["Reverberation Sphere 2"] = {
+    ["Reverberation Sphere 3"] = {
         ["crystal"] = "Lightng. Crystal",
         ["ingredients"] = {
             "Fetich Torso",
         },
     },
-    ["Reverberation Sphere 3"] = {
+    ["Reverberation Sphere 2"] = {
         ["crystal"] = "Lightng. Crystal",
         ["ingredients"] = {
             "Desert Venom",

@@ -1,0 +1,17 @@
+sets.exported={
+    main="Burtgang",
+    sub="Ochain",
+    ammo="Staunch Tathlum +1",
+    head={ name="Souv. Schaller +1", augments={'HP+105','Enmity+9','Potency of "Cure" effect received +15%',}},
+    body="Dagon Breast.",
+    hands={ name="Souv. Handsch. +1", augments={'HP+105','Enmity+9','Potency of "Cure" effect received +15%',}},
+    legs="Flamma Dirs +2",
+    feet={ name="Odyssean Greaves", augments={'Mag. Acc.+11 "Mag.Atk.Bns."+11','"Fast Cast"+2','"Mag.Atk.Bns."+1',}},
+    neck="Bathy Choker +1",
+    waist="Fucho-no-Obi",
+    left_ear="Odnowa Earring +1",
+    right_ear="Infused Earring",
+    left_ring="Regal Ring",
+    right_ring="Defending Ring",
+    back={ name="Rudianos's Mantle", augments={'HP+60','Eva.+20 /Mag. Eva.+20','Mag. Evasion+10','Enmity+10',}},
+}

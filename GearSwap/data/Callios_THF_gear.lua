@@ -53,7 +53,7 @@ function init_gear_sets()
     -- Fast cast sets for spells
     sets.precast.FC = {ammo="Staunch tathlum +1",
 		head="Herculean helm",neck="Orunmila's torque",ear1="Enchanter earring +1",ear2="Loquacious Earring",
-		body="Dread jupon",ring2="Lebeche ring",
+		body="Adhemar jacket",ring2="Lebeche ring",
 		back="Swith cape",waist="Witful belt"}
      
     sets.precast.FC.Utsusemi = set_combine(sets.precast.FC, {body="Passion jacket",neck="Magoraga Beads"})
@@ -77,7 +77,7 @@ function init_gear_sets()
     -- Specific weaponskill sets. Uses the base set if an appropriate WSMod version isnt found.
     sets.precast.WS['Evisceration'] = {ammo="Yetshila",
 		head="Adhemar bonnet +1",neck="Fotia gorget",ear1="Sherida earring",ear2="Moonshade earring",
-        body="Plunderer's vest +3",hands="Meghanada gloves +2",ring1="Mummu ring",ring2="Ilabrat ring",
+        body="Plunderer's vest +3",hands="Meghanada gloves +2",ring1="Regal ring",ring2="Ilabrat ring",
         back=gear.ToutCapeCRIT,waist="Fotia belt",legs="Lustratio subligar +1",feet="Lustratio leggings +1"}
 		
     sets.precast.WS['Evisceration'].Acc = set_combine(sets.precast.WS['Evisceration'], {ammo="Falcon eye"})
@@ -196,14 +196,14 @@ function init_gear_sets()
 	
     -- Defense sets
     sets.defense.PDT = {ammo="Staunch tathlum +1",
-        head="Meghanada visor +2",neck="Loricate torque +1",ear1="Odnowa earring +1",ear2="Telos Earring",
-        body="Meg. Cuirie +2",hands="Meghanada gloves +2",ring1="Defending ring",ring2="Moonbeam ring",
-        back="Solemnity cape",waist="Reiki yotai",legs="Meghanada chausses +2",feet=gear.HercFeetDT}
+        head="Malignance Chapeau",neck="Loricate torque +1",ear1="Odnowa earring +1",ear2="Genmei Earring",
+        body="Malignance Tabard",hands="Malignance gloves",ring1="Defending ring",ring2="Gelationus ring +1",
+        back="Solemnity cape",waist="Reiki yotai",legs="Malignance tights",feet="Jute boots +1"}
 
     sets.defense.MDT = {ammo="Staunch tathlum +1",
-        head=gear.HercHeadDT,neck="Loricate torque +1",ear1="Odnowa earring +1",ear2="Odnowa earring",
-        body="Meg. Cuirie +2",hands=gear.HercHandsACC,ring1="Defending ring",ring2="Moonbeam ring",
-        back="Solemnity cape",waist="Reiki yotai",legs="Mummu kecks +1",feet=gear.HercFeetDT}
+        head="Malignance Chapeau",neck="Loricate torque +1",ear1="Odnowa earring +1",ear2="Odnowa earring",
+        body="Malignance Tabard",hands="Malignance gloves",ring1="Defending ring",ring2="Moonbeam ring",
+        back="Solemnity cape",waist="Reiki yotai",legs="Malignance tights",feet="Jute boots +1"}
 		
     sets.Kiting = {feet="Jute boots +1"}
      
@@ -226,8 +226,8 @@ function init_gear_sets()
     waist="Reiki yotai",
     left_ear="Telos Earring",
     right_ear="Sherida Earring",
-    left_ring="Ilabrat Ring",
-    right_ring="Epona's Ring",
+    ring1="Ilabrat Ring",
+    ring2="Epona's Ring",
     back= THFCape.TP,}
 
     sets.engaged.Hybrid = {ammo="Yamarang",
@@ -241,8 +241,8 @@ function init_gear_sets()
     waist="Reiki yotai",
     left_ear="Telos Earring",
     right_ear="Sherida Earring",
-    left_ring="Ilabrat Ring",
-    right_ring="Epona's Ring",
+    ring1="Ilabrat Ring",
+    ring2="Epona's Ring",
     back= THFCape.TP,}
 	
 	sets.engaged.LowAcc = {ammo="Yamarang",

@@ -44,9 +44,9 @@ function user_setup()
     state.CastingMode:options('Normal', 'Resistant')
     state.IdleMode:options('Normal', 'PDT', 'Refresh')
 
-    gear.RAbullet = "Adlivun Bullet"
-    gear.WSbullet = "Adlivun Bullet"
-    gear.MAbullet = "Bronze Bullet"
+    gear.RAbullet = "Bronze Bullet"
+    gear.WSbullet = "Chrono Bullet"
+    gear.MAbullet = "Chrono Bullet"
     gear.QDbullet = "Adlivun Bullet"
     options.ammo_warning_limit = 15
 

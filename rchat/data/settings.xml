@@ -1,0 +1,111 @@
+<?xml version="1.1" ?>
+<settings>
+    <global>
+        <archive>false</archive>
+        <battle_all>true</battle_all>
+        <battle_flash>false</battle_flash>
+        <battle_off>false</battle_off>
+        <bg>
+            <alpha>255</alpha>
+            <blue>0</blue>
+            <green>0</green>
+            <red>0</red>
+            <visible>true</visible>
+        </bg>
+        <bg_alpha>150</bg_alpha>
+        <chat_input>false</chat_input>
+        <chat_input_placement>1</chat_input_placement>
+        <drag_status>true</drag_status>
+        <drops_window>true</drops_window>
+        <enh_whitespace>true</enh_whitespace>
+        <flags>
+            <bold>false</bold>
+            <bottom>false</bottom>
+            <draggable>false</draggable>
+            <italic>false</italic>
+            <right>false</right>
+        </flags>
+        <incoming_pause>false</incoming_pause>
+        <log_dlength>0</log_dlength>
+        <log_dwidth>0</log_dwidth>
+        <log_length>12</log_length>
+        <log_width>500</log_width>
+        <mentions>
+            <All />
+            <Battle />
+            <General />
+            <Linkshell />
+            <Linkshell2 />
+            <Party />
+            <Tell />
+        </mentions>
+        <padding>0</padding>
+        <pos>
+            <x>0</x>
+            <y>0</y>
+        </pos>
+        <snapback>true</snapback>
+        <split_drops>false</split_drops>
+        <strict_length>true</strict_length>
+        <strict_width>true</strict_width>
+        <text>
+            <alpha>255</alpha>
+            <blue>255</blue>
+            <font>Courier New</font>
+            <fonts>
+                <1>Arial</1>
+                <2>Lucida Sans Typewriter</2>
+            </fonts>
+            <green>255</green>
+            <red>255</red>
+            <size>10</size>
+            <stroke>
+                <alpha>185</alpha>
+                <blue>20</blue>
+                <green>20</green>
+                <red>20</red>
+                <width>1</width>
+            </stroke>
+        </text>
+        <undocked_hide>false</undocked_hide>
+        <undocked_tab>battle</undocked_tab>
+        <undocked_window>false</undocked_window>
+        <vanilla_mode>false</vanilla_mode>
+        <window_visible>true</window_visible>
+    </global>
+    <arkrazor>
+        <log_width>1000</log_width>
+        <pos>
+            <x>442</x>
+            <y>727</y>
+        </pos>
+        <text>
+            <font>arial</font>
+            <fonts>
+
+            </fonts>
+        </text>
+    </arkrazor>
+    <callios>
+        <archive>true</archive>
+        <battle_all>false</battle_all>
+        <battle_flash>true</battle_flash>
+        <bg_alpha>255</bg_alpha>
+        <chat_input>true</chat_input>
+        <chat_input_placement>2</chat_input_placement>
+        <log_dlength>12</log_dlength>
+        <log_dwidth>600</log_dwidth>
+        <log_width>1500</log_width>
+        <pos>
+            <x>21</x>
+            <y>831</y>
+        </pos>
+        <split_drops>true</split_drops>
+        <text>
+            <font>arial</font>
+            <size>12</size>
+        </text>
+        <undocked_tab>Battle</undocked_tab>
+        <undocked_window>true</undocked_window>
+    </callios>
+</settings>

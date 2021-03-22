@@ -1,0 +1,23 @@
+<?xml version="1.1" ?>
+<settings>
+    <global>
+        <Attempts>22</Attempts>
+        <AutoCraft>false</AutoCraft>
+        <AutoSave>true</AutoSave>
+        <Catalyst1>0</Catalyst1>
+        <Catalyst2>0</Catalyst2>
+        <Catalyst3>0</Catalyst3>
+        <CraftEquipset>9</CraftEquipset>
+        <DefaultEquipset>9</DefaultEquipset>
+        <Delay>5</Delay>
+        <Level1>0</Level1>
+        <Level2>0</Level2>
+        <Level3>1</Level3>
+        <Materials>Bruised Starfruit,Delkfutt Key,Demon Pen,Magicked Steel,Indigo Memosphere,Fetich Legs,Ancient Salt,Rusty Key,Beryl Memosphere,Orcish Mail Scales,Ancient Papyrus,Fetich Arms,Frayed Arrow,Giant Fish Bones,Exoray Mold,Desert Venom,Colorful Hair,Carbuncle&apos;s Ruby,Soiled Letter,Lucky Egg,Star Spinel,Rusty Medal,Elshimo Marble,Teal Memosphere,Shoalweed,Fetich Torso,Test Answers,White Memosphere,Tonberry Board,Bomb Coal,Fetich Head,Scorpion Stinger</Materials>
+        <Obtain>2</Obtain>
+        <RecheckDelay>5</RecheckDelay>
+        <SpiritImbue>0</SpiritImbue>
+        <SpiritLost>0</SpiritLost>
+        <Verbose>true</Verbose>
+    </global>
+</settings>

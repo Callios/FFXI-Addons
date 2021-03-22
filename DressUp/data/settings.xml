@@ -19,13 +19,13 @@
                 <target>false</target>
             </others>
             <party>
-                <always>false</always>
-                <combat>false</combat>
+                <always>true</always>
+                <combat>true</combat>
                 <target>false</target>
             </party>
             <self>
-                <always>false</always>
-                <combat>false</combat>
+                <always>true</always>
+                <combat>true</combat>
                 <target>false</target>
             </self>
         </blinking>
@@ -33,6 +33,15 @@
             <face>3</face>
             <race>1</race>
         </callios>
+        <calsmule>
+
+        </calsmule>
+        <iloveshaismom>
+
+        </iloveshaismom>
+        <ivanhelicopters>
+
+        </ivanhelicopters>
         <others>
 
         </others>
@@ -71,5 +80,8 @@
 
             </sub>
         </replacements>
+        <robertdeniro>
+
+        </robertdeniro>
     </global>
 </settings>

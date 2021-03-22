@@ -283,9 +283,9 @@ function init_gear_sets()
 		back="Solemnity cape",waist="Flume belt",legs="Brioso cannions +3",feet="Fili cothurnes +1"} 
 	 
 	sets.defense.MDT = {range="Nibiru harp",
-		head="Bihu Roundlet +3",neck="Loricate torque +1",ear1="Etiolation earring",ear2="Odnowa earring +1",
-		body="Bihu Jstcorps. +3",hands="Bihu Cuffs +3",ring1="Defending ring",ring2="Dark ring",
-		back="Solemnity cape",waist="Flume Belt",legs="Brioso cannions +3",feet="Bihu Slippers +3"} 
+		head="Inyanga tiara +2",neck="Warder's charm +1",ear1="Etiolation earring",ear2="Odnowa earring +1",
+		body="Inyanga jubbah +2",hands="Inyanga dastanas +2",ring1="Defending ring",ring2="Dark ring",
+		back="Solemnity cape",waist="Carrier's sash",legs="Brioso cannions +3",feet="Bihu Slippers +3"} 
  
  
 -- Engaged sets
@@ -298,7 +298,7 @@ function init_gear_sets()
 
 	sets.engaged = {range="linos",
 		head="Bihu roundlet +3",neck="Combatant's torque",ear1="Telos Earring",ear2="Cessance Earring",
-		body="Volte Harness",hands="Ayanmo manopolas +2",ring1="Petrov ring",ring2="Ilabrat ring",
+		body="Ayanmo Corazza +2",hands="Ayanmo manopolas +2",ring1="Petrov ring",ring2="Ilabrat ring",
 		back=BRD_MELEE,waist="Windbuffet belt +1",legs="Volte Tights",feet="Bihu Slippers +3"}
 	 
 	sets.engaged.MidAcc = {range="linos",

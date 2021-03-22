@@ -20,6 +20,9 @@ function job_setup()
     state.Buff.Futae = buffactive.Futae or false
 
     determine_haste_group()
+
+    
+
 end
 
 -------------------------------------------------------------------------------------------------------------------

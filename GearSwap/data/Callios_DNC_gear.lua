@@ -166,7 +166,7 @@ function init_gear_sets()
     sets.defense.PDT = {ammo="Staunch tathlum +1",
         head="Meghanada visor +2",neck="Loricate torque +1",ear1="Odnowa earring +1",ear2="Genmei Earring",
         body="Horos Casaque +3",hands="Meghanada gloves +2",ring1="Defending ring",ring2="Gelatinous ring +1",
-        back="Solemnity Cape",waist="Flume Belt",legs="Mummu Kecks +2",feet="Meghanada jambeaux +2"}
+        back="Solemnity Cape",waist="Flume Belt",legs="Malignance tights",feet="Meghanada jambeaux +2"}
 
     sets.defense.MDT = {ammo="Staunch tathlum +1",
         head="Meghanada visor +2",neck="Loricate torque +1",ear1="Odnowa earring +1",ear2="Odnowa Earring",

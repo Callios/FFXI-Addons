@@ -253,7 +253,7 @@
             </other_pets>
             <others>
             <!-- He's targeting some guy nearby -->
-                <all>false</all>         <!-- Prevents all of your messages from appearing -->
+                <all>true</all>          <!-- Prevents all of your messages from appearing -->
                 <casting>false</casting> <!-- Prevents your "Jim begins casting ____" messages from appearing -->
                 <damage>false</damage>   <!-- Prevents your damage from appearing -->
                 <healing>false</healing> <!-- Prevents your healing from appearing -->

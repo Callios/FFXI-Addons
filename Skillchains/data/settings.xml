@@ -51,4 +51,17 @@
             </pos>
         </display>
     </callios>
+    <gipi>
+        <display>
+            <pos>
+                <x>1190</x>
+                <y>266</y>
+            </pos>
+            <text>
+                <fonts>
+
+                </fonts>
+            </text>
+        </display>
+    </gipi>
 </settings>

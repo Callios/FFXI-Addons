@@ -56,8 +56,8 @@
     <callios>
         <display>
             <pos>
-                <x>1606</x>
-                <y>455</y>
+                <x>1466</x>
+                <y>163</y>
             </pos>
         </display>
     </callios>
@@ -80,8 +80,8 @@
     <gipi>
         <display>
             <pos>
-                <x>1353</x>
-                <y>621</y>
+                <x>1149</x>
+                <y>48</y>
             </pos>
         </display>
     </gipi>
