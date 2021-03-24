@@ -36,5 +36,10 @@ return {
 		["Barreling Smash"] = "Smash that, give me some more!",
 		["Zealous Snort"] = "",
 	},
+	["Lady Lilith"]={
+        ["Fatal Allure"] = "CHARM CHARM CHARM CHARM TURNAROUND",
+		["Dark Thorn"] = "DREADSPIKES STOP THE HIT THINGS OH SHIT",
+		["Subjugating Slash"] = "OH SHIT BIG DMG",
+	},
 	
 }

@@ -39,6 +39,12 @@ return {
         ["Imperiling Disregard"]={
             ["complete_reaction"]="", 
             ["ready_reaction"]="facemob"
-        }
-    }
+        },
+    },
+    ["Lady Lilith"]={
+        ["Fatal Allure"]={
+            ["complete_reaction"]="facemob", 
+            ["ready_reaction"]="turnaround"
+    },
+}
 }

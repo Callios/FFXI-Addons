@@ -170,7 +170,7 @@ function init_gear_sets()
     sets.idle = {
         head="Malignance Chapeau",neck="Bathy Choker +1",ear1="Genmei Earring",ear2="Eabani Earring",
         body="Malignance Tabard",hands="Malignance Gloves",ring1="Defending Ring",ring2="Gelatinous Ring +1",
-        back="Solemnity",waist="Flume Belt",legs="Malignance Tights",feet="Danzo Sune-ate"}
+        back="Solemnity",waist="Flume Belt",legs="Malignance Tights",feet="Danzo Sune-ate", ammo="Staunch Tathlum +1"}
 
     sets.idle.Town = {head="Malignance Chapeau",neck="Bathy Choker +1",ear1="Genmei Earring",ear2="Eabani Earring",
         body="Malignance Tabard",hands="Malignance Gloves",ring1="Defending Ring",ring2="Gelatinous Ring +1",

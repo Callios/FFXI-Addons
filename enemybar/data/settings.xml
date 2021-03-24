@@ -39,13 +39,14 @@
         </specialdesc>
         <specialtext>
             <bold>true</bold>
-            <font>sans-serif</font>
+            <font>Impact</font>
             <italic>true</italic>
             <padding>15</padding>
-            <size>30</size>
+            <size>36</size>
         </specialtext>
         <specialtextpos>
-            <y>300</y>
+            <x>300</x>
+            <y>500</y>
         </specialtextpos>
         <subTargetBar>
             <height>5</height>
