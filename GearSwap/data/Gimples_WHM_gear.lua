@@ -38,20 +38,65 @@ function init_gear_sets()
     -- Precast Sets
 
     -- Fast cast sets for spells
-    sets.precast.FC = {main=gear.FastcastStaff,ammo="Incantor Stone",
-        head="Nahtirah Hat",neck="Orison Locket",ear2="Loquacious Earring",
-        body="Vanir Cotehardie",hands="Gendewitha Gages",ring1="Prolix Ring",
-        back="Swith Cape +1",waist="Witful Belt",legs="Orvail Pants +1",feet="Chelona Boots +1"}
+    sets.precast.FC = {main="Queller Rod", augments={'Healing magic skill +15','"Cure" potency +10%','"Cure" spellcasting time -7%',},
+    sub="Sors Shield",
+    ammo="Hydrocera",
+    head="Nahtirah Hat",
+    body="Telchine Chas.", augments={'"Fast Cast"+3','Pet: Damage taken -2%',},
+    hands="Telchine Gloves", augments={'"Fast Cast"+4','Enh. Mag. eff. dur. +10',},
+    legs="Telchine Braconi", augments={'"Fast Cast"+3','Pet: Damage taken -2%',},
+    feet="Regal Pumps",
+    neck="Voltsurge Torque",
+    waist="Embla Sash",
+    left_ear="Etiolation Earring",
+    right_ear="Hearty Earring",
+    left_ring="Kishar Ring",
+    right_ring="Lebeche Ring",
+    back="Disperser's Cape"}
         
     sets.precast.FC['Enhancing Magic'] = set_combine(sets.precast.FC, {waist="Siegel Sash"})
 
     sets.precast.FC.Stoneskin = set_combine(sets.precast.FC['Enhancing Magic'], {head="Umuthi Hat"})
 
-    sets.precast.FC['Healing Magic'] = set_combine(sets.precast.FC, {legs="Orison Pantaloons +2"})
+    sets.precast.FC['Healing Magic'] = {
+    main="Queller Rod", augments={'Healing magic skill +15','"Cure" potency +10%','"Cure" spellcasting time -7%',},
+    sub="Sors Shield",
+    ammo="Hydrocera",
+    head="Theo. Cap +1",
+    body="Telchine Chas.", augments={'"Fast Cast"+3','Pet: Damage taken -2%',},
+    hands="Telchine Gloves", augments={'"Fast Cast"+4','Enh. Mag. eff. dur. +10',},
+    legs="Doyen Pants",
+    feet="Hygieia Clogs +1",
+    neck="Voltsurge Torque",
+    waist="Embla Sash",
+    left_ear="Etiolation Earring",
+    right_ear="Nourish. Earring",
+    left_ring="Kishar Ring",
+    right_ring="Lebeche Ring",
+    back="Pahtli Cape",
+    }
 
     sets.precast.FC.StatusRemoval = sets.precast.FC['Healing Magic']
 
-    sets.precast.FC.Cure = set_combine(sets.precast.FC['Healing Magic'], {main="Tamaxchi",sub="Genbu's Shield",ammo="Impatiens"})
+    sets.precast.FC.Cure = {
+        main="Queller Rod", augments={'Healing magic skill +15','"Cure" potency +10%','"Cure" spellcasting time -7%',},
+        sub="Sors Shield",
+        ammo="Hydrocera",
+        head="Theo. Cap +1",
+        body="Telchine Chas.", augments={'"Fast Cast"+3','Pet: Damage taken -2%',},
+        hands="Telchine Gloves", augments={'"Fast Cast"+4','Enh. Mag. eff. dur. +10',},
+        legs="Doyen Pants",
+        feet="Hygieia Clogs +1",
+        neck="Voltsurge Torque",
+        waist="Embla Sash",
+        left_ear="Etiolation Earring",
+        right_ear="Nourish. Earring",
+        left_ring="Kishar Ring",
+        right_ring="Lebeche Ring",
+        back="Pahtli Cape"
+    }
+
+
     sets.precast.FC.Curaga = sets.precast.FC.Cure
     sets.precast.FC.CureSolace = sets.precast.FC.Cure
     -- CureMelee spell map should default back to Healing Magic.
@@ -93,20 +138,53 @@ function init_gear_sets()
     gear.default.obi_waist = "Goading Belt"
     gear.default.obi_back = "Mending Cape"
 
-    sets.midcast.CureSolace = {main="Tamaxchi",sub="Genbu's Shield",ammo="Incantor Stone",
-        head="Gendewitha Caubeen",neck="Orison Locket",ear1="Lifestorm Earring",ear2="Orison Earring",
-        body="Orison Bliaud +2",hands="Theophany Mitts",ring1="Prolix Ring",ring2="Sirona's Ring",
-        back="Tuilha Cape",waist=gear.ElementalObi,legs="Orison Pantaloons +2",feet="Piety Duckbills +1"}
+    sets.midcast.CureSolace = { main="Gada", augments={'Enh. Mag. eff. dur. +3','MND+14','Mag. Acc.+20','"Mag.Atk.Bns."+18',},
+    sub="Sors Shield",
+    ammo="Hydrocera",
+    head="Theo. Cap +1",
+    body="Annoint. Kalasiris",
+    hands="Theo. Mitts +1",
+    legs="Sifahir Slacks",
+    feet="Regal Pumps",
+    neck="Voltsurge Torque",
+    waist="Embla Sash",
+    left_ear="Gwati Earring",
+    right_ear="Nourish. Earring",
+    left_ring="Sirona's Ring",
+    right_ring="Lebeche Ring",
+    back="Pahtli Cape"}
 
-    sets.midcast.Cure = {main="Tamaxchi",sub="Genbu's Shield",ammo="Incantor Stone",
-        head="Gendewitha Caubeen",neck="Orison Locket",ear1="Lifestorm Earring",ear2="Orison Earring",
-        body="Vanir Cotehardie",hands="Theophany Mitts",ring1="Prolix Ring",ring2="Sirona's Ring",
-        back="Tuilha Cape",waist=gear.ElementalObi,legs="Orison Pantaloons +2",feet="Piety Duckbills +1"}
+    sets.midcast.Cure = { main="Gada", augments={'Enh. Mag. eff. dur. +3','MND+14','Mag. Acc.+20','"Mag.Atk.Bns."+18',},
+    sub="Sors Shield",
+    ammo="Hydrocera",
+    head="Theo. Cap +1",
+    body="Annoint. Kalasiris",
+    hands="Theo. Mitts +1",
+    legs="Sifahir Slacks",
+    feet="Regal Pumps",
+    neck="Voltsurge Torque",
+    waist="Embla Sash",
+    left_ear="Gwati Earring",
+    right_ear="Nourish. Earring",
+    left_ring="Sirona's Ring",
+    right_ring="Lebeche Ring",
+    back="Pahtli Cape"}
 
-    sets.midcast.Curaga = {main="Tamaxchi",sub="Genbu's Shield",ammo="Incantor Stone",
-        head="Gendewitha Caubeen",neck="Orison Locket",ear1="Lifestorm Earring",ear2="Orison Earring",
-        body="Vanir Cotehardie",hands="Theophany Mitts",ring1="Prolix Ring",ring2="Sirona's Ring",
-        back="Tuilha Cape",waist=gear.ElementalObi,legs="Orison Pantaloons +2",feet="Piety Duckbills +1"}
+    sets.midcast.Curaga = { main="Gada", augments={'Enh. Mag. eff. dur. +3','MND+14','Mag. Acc.+20','"Mag.Atk.Bns."+18',},
+    sub="Sors Shield",
+    ammo="Hydrocera",
+    head="Theo. Cap +1",
+    body="Annoint. Kalasiris",
+    hands="Theo. Mitts +1",
+    legs="Sifahir Slacks",
+    feet="Regal Pumps",
+    neck="Voltsurge Torque",
+    waist="Embla Sash",
+    left_ear="Gwati Earring",
+    right_ear="Nourish. Earring",
+    left_ring="Sirona's Ring",
+    right_ring="Lebeche Ring",
+    back="Pahtli Cape"}
 
     sets.midcast.CureMelee = {ammo="Incantor Stone",
         head="Gendewitha Caubeen",neck="Orison Locket",ear1="Lifestorm Earring",ear2="Orison Earring",
