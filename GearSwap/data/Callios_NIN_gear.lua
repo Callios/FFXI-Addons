@@ -50,6 +50,7 @@ function init_gear_sets()
 
     gear.HercFeetFC = { name="Herculean Boots", augments={'"Mag.Atk.Bns."+12','"Fast Cast"+6','Mag. Acc.+1',}}
     gear.HercFeetTP = { name="Herculean Boots", augments={'Accuracy+14 Attack+14','"Triple Atk."+3','Accuracy+15',}}
+    gear.HercLegsFC = { name="Herculean Trousers", augments={'"Fast Cast"+5','MND+5',}}
 
     sets.TreasureHunter = {waist="Chaac Belt", 
     body="Herculean Vest", augments={'Accuracy+22','"Fast Cast"+1','"Treasure Hunter"+1','Mag. Acc.+16 "Mag.Atk.Bns."+16',}}
@@ -88,7 +89,8 @@ function init_gear_sets()
 
     -- Fast cast sets for spells
     
-    sets.precast.FC = {head="Herculean helm",body="Adhemar jacket",legs="Herculean Trousers", augments={'"Fast Cast"+5','MND+5',},ammo="Impatiens",ear1="Enchanter earring +1",ear2="Loquacious Earring",
+    sets.precast.FC = {head="Herculean helm",body="Adhemar jacket",legs="Herculean Trousers", augments={'"Fast Cast"+5','MND+5',},
+    ammo="Impatiens",ear1="Enchanter earring +1",ear2="Loquacious Earring",
     hands="Leyline Gloves",ring1="Kishar Ring",ring2="Rahab Ring",neck="Baetyl Pendant",waist="Sailfi Belt+1",
     feet=gear.HercFeetFC}
 
