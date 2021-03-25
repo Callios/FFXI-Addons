@@ -35,11 +35,21 @@ return {
             ["ready_reaction"]="turnaround"
         }
         },
-        ["Lilith Ascendant"]={
+["Lilith Ascendant"]={
         ["Dark Thorn"]={
             ["complete_reaction"]="", 
             ["ready_reaction"]="turnaround"
         }
 },
+ ["Bozzetto Monarch"]={
+        ["Lateral Reap"]={
+            ["complete_reaction"]="", 
+            ["ready_reaction"]="turnaround"
+        },
+        ["Vertical Slice"]={
+            ["complete_reaction"]="", 
+            ["ready_reaction"]="turnaround"
+        }
+    }
 }
 

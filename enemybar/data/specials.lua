@@ -41,5 +41,13 @@ return {
 		["Dark Thorn"] = "DREADSPIKES STOP THE HIT THINGS OH SHIT",
 		["Subjugating Slash"] = "OH SHIT BIG DMG",
 	},
+	["Bozzetto Monarch"]={
+        ["Lateral Reap"] = "TURNAROUND TRUN THE FUCK AROUND TURNAROUND",
+        ["Lateral Slice"] = "TURNAROUND TRUN THE FUCK AROUND TURNAROUND",
+        ["Lateral Slash"] = "TURNAROUND TRUN THE FUCK AROUND TURNAROUND",
+		["Vertical Slice"] = "TURNAROUND TRUN THE FUCK AROUND TURNAROUND",
+		["Vertical Slash"] = "TURNAROUND TRUN THE FUCK AROUND TURNAROUND",
+		["Light of Condemnation"] = "SC STARTING SHIT SHIT FUCK",
+	},
 	
 }
