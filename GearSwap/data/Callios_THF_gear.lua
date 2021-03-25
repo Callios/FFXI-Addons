@@ -22,6 +22,7 @@ function init_gear_sets()
 	THFCape = {}
     THFCape.TP      = {name="Toutatis's Cape", augments={'DEX+20','Accuracy+20 Attack+20','DEX+5','"Store TP"+10',}}
     THFCape.DEXWS = {name="Toutatis's Cape", augments={'DEX+20','Accuracy+20 Attack+20','DEX+10','Weapon skill damage +10%',}}
+    gear.HercFeetFC = { name="Herculean Boots", augments={'"Mag.Atk.Bns."+12','"Fast Cast"+6','Mag. Acc.+1',}}
 	--include('augmented-items.lua')
 	
     sets.TreasureHunter = {hands="Plunderer's Armlets +1", waist="Chaac belt", feet="Skulker's poulaines"}
@@ -53,8 +54,8 @@ function init_gear_sets()
     -- Fast cast sets for spells
     sets.precast.FC = {ammo="Staunch tathlum +1",
 		head="Herculean helm",neck="Orunmila's torque",ear1="Enchanter earring +1",ear2="Loquacious Earring",
-		body="Adhemar jacket",ring2="Lebeche ring", neck="Baetyl Pendant",
-		back="Swith cape",waist="Witful belt"}
+		body="Adhemar jacket",ring2="Lebeche ring", neck="Baetyl Pendant", hands="Leyline gloves",
+		back="Swith cape",waist="Tempus Fugit +1", feet=gear.HercFeetFC}
      
     sets.precast.FC.Utsusemi = set_combine(sets.precast.FC, {body="Passion jacket",neck="Magoraga Beads"})
      
