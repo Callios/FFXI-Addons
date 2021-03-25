@@ -89,7 +89,7 @@ function init_gear_sets()
 
     -- Fast cast sets for spells
     
-    sets.precast.FC = {head="Herculean helm",body="Adhemar jacket",legs="Herculean Trousers", augments={'"Fast Cast"+5','MND+5',},
+    sets.precast.FC = {head="Herculean helm",body="Adhemar jacket",legs=gear.HercLegsFC,
     ammo="Impatiens",ear1="Enchanter earring +1",ear2="Loquacious Earring",
     hands="Leyline Gloves",ring1="Kishar Ring",ring2="Rahab Ring",neck="Baetyl Pendant",waist="Sailfi Belt+1",
     feet=gear.HercFeetFC}
