@@ -1,0 +1,17 @@
+sets.exported={
+    main="Bolelabunga",
+    sub="Sors Shield",
+    ammo="Hydrocera",
+    head={ name="Piety Cap", augments={'Enhances "Devotion" effect',}},
+    body="Cleric's Briault",
+    hands={ name="Telchine Gloves", augments={'"Fast Cast"+4','Enh. Mag. eff. dur. +10',}},
+    legs="Theo. Pant. +1",
+    feet="Theo. Duckbills",
+    neck="Voltsurge Torque",
+    waist="Embla Sash",
+    left_ear="Andoaa Earring",
+    right_ear="Nourish. Earring",
+    left_ring="Sirona's Ring",
+    right_ring="Kishar Ring",
+    back="Disperser's Cape",
+}

@@ -82,7 +82,7 @@ function init_gear_sets()
         main="Queller Rod", augments={'Healing magic skill +15','"Cure" potency +10%','"Cure" spellcasting time -7%',},
         sub="Sors Shield",
         ammo="Hydrocera",
-        head="Theo. Cap +1",
+        head="Piety Cap",
         body="Telchine Chas.", augments={'"Fast Cast"+3','Pet: Damage taken -2%',},
         hands="Telchine Gloves", augments={'"Fast Cast"+4','Enh. Mag. eff. dur. +10',},
         legs="Doyen Pants",
@@ -217,9 +217,23 @@ function init_gear_sets()
         body="Orison Bliaud +2",hands="Orison Mitts +2",
         back="Mending Cape",waist="Olympus Sash",legs="Piety Pantaloons",feet="Orison Duckbills +2"}
 
-    sets.midcast.Regen = {main="Bolelabunga",sub="Genbu's Shield",
-        body="Piety Briault",hands="Orison Mitts +2",
-        legs="Theophany Pantaloons"}
+    sets.midcast.Regen = {
+        main="Bolelabunga",
+        sub="Sors Shield",
+        ammo="Hydrocera",
+        head="Piety Cap", augments={'Enhances "Devotion" effect',},
+        body="Cleric's Briault",
+        hands="Telchine Gloves", augments={'"Fast Cast"+4','Enh. Mag. eff. dur. +10',},
+        legs="Theo. Pant. +1",
+        feet="Theo. Duckbills",
+        neck="Voltsurge Torque",
+        waist="Embla Sash",
+        left_ear="Andoaa Earring",
+        right_ear="Nourish. Earring",
+        left_ring="Sirona's Ring",
+        right_ring="Kishar Ring",
+        back="Disperser's Cape",
+    }
 
     sets.midcast.Protectra = {ring1="Sheltered Ring",feet="Piety Duckbills +1"}
 
@@ -257,20 +271,44 @@ function init_gear_sets()
     
 
     -- Idle sets (default idle set not needed since the other three are defined, but leaving for testing purposes)
-    sets.idle = {main="Bolelabunga", sub="Genbu's Shield",ammo="Incantor Stone",
-        head="Nahtirah Hat",neck="Wiglen Gorget",ear1="Bloodgem Earring",ear2="Loquacious Earring",
-        body="Gendewitha Bliaut",hands="Serpentes Cuffs",ring1="Sheltered Ring",ring2="Paguroidea Ring",
-        back="Umbra Cape",waist="Witful Belt",legs="Nares Trews",feet="Herald's Gaiters"}
+    sets.idle ={
+    main="Bolelabunga",
+    sub="Sors Shield",
+    ammo="Hydrocera",
+    head="Befouled Crown",
+    body="Annoint. Kalasiris",
+    hands="Angantyr Mittens",
+    legs="Assiduity Pants",
+    feet="Inyanga Crackows",
+    neck="Warder's Charm +1",
+    waist="Fucho-no-Obi",
+    left_ear="Hearty Earring",
+    right_ear="Etiolation Earring",
+    left_ring="Defending Ring",
+    right_ring="Warden's Ring",
+    back="Disperser's Cape",}
 
     sets.idle.PDT = {main="Bolelabunga", sub="Genbu's Shield",ammo="Incantor Stone",
         head="Nahtirah Hat",neck="Twilight Torque",ear1="Bloodgem Earring",ear2="Loquacious Earring",
         body="Gendewitha Bliaut",hands="Gendewitha Gages",ring1="Defending Ring",ring2=gear.DarkRing.physical,
         back="Umbra Cape",waist="Witful Belt",legs="Gendewitha Spats",feet="Herald's Gaiters"}
 
-    sets.idle.Town = {main="Bolelabunga", sub="Genbu's Shield",ammo="Incantor Stone",
-        head="Gendewitha Caubeen",neck="Wiglen Gorget",ear1="Bloodgem Earring",ear2="Loquacious Earring",
-        body="Gendewitha Bliaut",hands="Gendewitha Gages",ring1="Sheltered Ring",ring2="Paguroidea Ring",
-        back="Umbra Cape",waist="Witful Belt",legs="Nares Trews",feet="Herald's Gaiters"}
+    sets.idle.Town = {    
+    main="Bolelabunga",
+    sub="Sors Shield",
+    ammo="Hydrocera",
+    head="Befouled Crown",
+    body="Annoint. Kalasiris",
+    hands="Angantyr Mittens",
+    legs="Assiduity Pants",
+    feet="Inyanga Crackows",
+    neck="Warder's Charm +1",
+    waist="Fucho-no-Obi",
+    left_ear="Hearty Earring",
+    right_ear="Etiolation Earring",
+    left_ring="Defending Ring",
+    right_ring="Warden's Ring",
+    back="Disperser's Cape",}
     
     sets.idle.Weak = {main="Bolelabunga",sub="Genbu's Shield",ammo="Incantor Stone",
         head="Nahtirah Hat",neck="Twilight Torque",ear1="Bloodgem Earring",ear2="Loquacious Earring",
