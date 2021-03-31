@@ -315,7 +315,12 @@ function init_gear_sets()
         body="Sakpata's breastplate",hands="Sakpata's gauntlets",ring1="Gelatinous ring +1",ring2="Defending Ring",
         back=gear.RudianosEnm,waist="Carrier's sash",legs="Carmine Cuisses +1",feet="Sakpata's Leggings"}
 
-        sets.idle.DT = {ammo="Staunch Tathlum +1",
+    sets.idle.DT = {ammo="Staunch Tathlum +1",
+        head="Sakpata's Helm",neck="Loricate Torque +1",ear1="Odnowa earring +1",ear2="Eabani Earring",
+        body="Sakpata's breastplate",hands="Sakpata's gauntlets",ring1="Gelatinous ring +1",ring2="Defending Ring",
+        back=gear.RudianosEnm,waist="Carrier's sash",legs="Sakpata's cuisses",feet="Sakpata's Leggings"}
+
+    sets.idle.HP = {ammo="Staunch Tathlum +1",
         head="Souveran schaller +1",neck="Loricate Torque +1",ear1="Genmei Earring",ear2="Etiolation Earring",
         body="Souveran cuirass +1",hands="Souveran handschuhs +1",ring1="Gelatinous Ring +1",ring2="Defending Ring",
         back=gear.RudianosEnm,waist="Flume Belt",legs="Souveran Diechlings +1",feet="Souveran Schuhs +1"}
@@ -355,29 +360,33 @@ function init_gear_sets()
     -- Basic defense sets.
          
     sets.defense.PDT = {ammo="Staunch Tathlum +1",
-        head="Souveran schaller +1",neck="Loricate Torque +1",ear1="Genmei Earring",ear2="Etiolation Earring",
-        body="Souveran cuirass +1",hands="Sulevia's Gauntlets +2",ring1="Gelatinous Ring +1",ring2="Defending Ring",
-        back=gear.RudianosTP,waist="Flume Belt",legs="Sulevia's Cuisses +2",feet="Souveran schuhs +1"}
+    head="Sakpata's Helm",neck="Loricate Torque +1",ear1="Odnowa earring +1",ear2="Eabani Earring",
+    body="Sakpata's breastplate",hands="Sakpata's gauntlets",ring1="Gelatinous ring +1",ring2="Defending Ring",
+    back=gear.RudianosEnm,waist="Carrier's sash",legs="Sakpata's cuisses",feet="Sakpata's Leggings"}
+
     sets.defense.HP = {ammo="Plumose Sachet",
         head="Souveran schaller +1",neck="Bathy Chocker +1",ear1="Odnowa earring +1",ear2="Odnowa Earring",
         body="Reverence Surcoat +2",hands="Souveran handschuhs +1",ring1="Gelatinous Ring +1",ring2="Defending Ring",
         back="Moonbeam Cape", waist="Creed Baudrier",legs="Souveran diechlings +1",feet="Souveran Schuhs +1"}
+
     sets.defense.Reraise = {ammo="Staunch Tathlum +1",
         head="Twilight Helm",neck="Twilight Torque",ear1="Oneiros Earring",ear2="Creed Earring",
         body="Twilight Mail",hands="Sulevia's Gauntlets +2",ring1="Vocane Ring +1",ring2="Defending Ring",
         back=gear.Weard,
         waist="Nierenschutz",legs="Sulevia's Cuisses +2",feet="Sulevia's Leggings +2"}
+
     sets.defense.Charm = {ammo="Homiliary",
         head="Sulevia's Mask +2",neck="Twilight Torque",ear1="Oneiros Earring",ear2="Creed Earring",
         body="Sulevia's Platemail +2",hands="Sulevia's Gauntlets +2",ring1="Vocane Ring +1",ring2="Defending Ring",
         back=gear.Weard,
         waist="Flume Belt",legs="Sulevia's Cuisses +2",feet="Sulevia's Leggings +2"}
+
     -- To cap MDT with Shell IV (52/256), need 76/256 in gear.
     -- Shellra V can provide 75/256, which would need another 53/256 in gear.
     sets.defense.MDT = {ammo="Staunch Tathlum +1",
-        head="Souveran schaller +1",neck="Loricate Torque +1",ear1="Odnowa Earring +1",ear2="Etiolation earring",
-        body="Souveran cuirass +1",hands="Flamma Manopolas +2",ring1="Dark Ring",ring2="Defending Ring",
-        back=gear.RudianosEnm,waist="Flume Belt",legs="Souveran diechlings +1",feet="Flamma Gambieras +2"}
+    head="Sakpata's Helm",neck="Warder's Charm +1",ear1="Odnowa earring +1",ear2="Eabani Earring",
+    body="Sakpata's breastplate",hands="Sakpata's gauntlets",ring1="Minerva's Ring",ring2="Defending Ring",
+    back=gear.RudianosEnm,waist="Carrier's sash",legs="Sakpata's cuisses",feet="Sakpata's Leggings"}
  
  
     --------------------------------------
@@ -389,10 +398,15 @@ function init_gear_sets()
         body="Dagon breastplate",hands="Sulevia's Gauntlets +2",ring1="Petrov Ring",ring2="Chirich Ring +1",
         back=gear.RudianosTP,waist="Tempus Fugit +1",legs="Sulevia's Cuisses +2",feet="Flamma Gambieras +2"}
  
- sets.engaged.Hybrid = {ammo="Staunch Tathlum +1",
+    sets.engaged.Hybrid = {ammo="Staunch Tathlum +1",
         head="Hjarrandi Helm",neck="Combatant's Torque",ear1="Cessance Earring",ear2="Brutal Earring",
         body="Hjarrandi breastplate",hands="Sulevia's Gauntlets +2",ring1="Chirich Ring +1",ring2="Defending Ring",
         back=gear.RudianosTP,waist="Tempus Fugit +1",legs="Sulevia's Cuisses +2",feet="Flamma Gambieras +2"}
+
+    sets.engaged.Sakpata = {ammo="Staunch Tathlum +1",
+        head="Sakpata's Helm",neck="Combatant's Torque",ear1="Cessance Earring",ear2="Brutal Earring",
+        body="Sakpata's breastplate",hands="Sakpata's gauntlets",ring1="Chirich Ring +1",ring2="Defending Ring",
+        back=gear.RudianosTP,waist="Sailfi belt +1",legs="Sakpata's cuisses",feet="Sakpata's Leggings"}
 
         sets.engaged.AM3 = {ammo="Ginsen",
         head="Hjarrandi Helm",neck="Combatant's Torque",ear1="Telos Earring",ear2="Dedition Earring",
@@ -638,32 +652,32 @@ end
 function select_default_macro_book()
     -- Default macro set/book
     if player.sub_job == 'WAR' then
-        set_macro_page(5, 1)
+        set_macro_page(1, 5)
     elseif player.sub_job == 'DNC' then
-        set_macro_page(1, 1)
+        set_macro_page(1, 5)
     elseif player.sub_job == 'THF' then
-        set_macro_page(6, 1)
+        set_macro_page(1, 5)
     elseif player.sub_job == 'SAM' then
-        set_macro_page(7, 1)
+        set_macro_page(1, 5)
     elseif player.sub_job == 'RNG' then
-        set_macro_page(8, 1)
+        set_macro_page(1, 5)
     elseif player.sub_job == 'PLD' then
-        set_macro_page(9, 1)
+        set_macro_page(1, 5)
     elseif player.sub_job == 'WHM' then
-        set_macro_page(1, 2)
+        set_macro_page(1, 5)
     elseif player.sub_job == 'RDM' then
-        set_macro_page(1, 3)
+        set_macro_page(1, 5)
     elseif player.sub_job == 'SCH' then
-        set_macro_page(1, 4)
+        set_macro_page(1, 5)
     elseif player.sub_job == 'BLU' then
         set_macro_page(1, 5)
     elseif player.sub_job == 'DRK' then
-        set_macro_page(5, 5)
+        set_macro_page(1, 5)
     elseif player.sub_job == 'RUN' then
-        set_macro_page(1, 6)
+        set_macro_page(1, 5)
     elseif player.sub_job == 'NIN' then
-        set_macro_page(10, 1)
+        set_macro_page(1, 5)
     else
-        set_macro_page(1, 7)  --BRD
+        set_macro_page(1, 5)  --BRD
     end
 end
