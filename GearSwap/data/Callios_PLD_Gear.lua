@@ -45,7 +45,7 @@ function user_setup()
      
     gear.Weard = { name="Weard Mantle", augments={'VIT+1','DEX+3','Enmity+2','Phalanx +5'}}
     gear.RudianosTP = { name="Rudianos's Mantle", augments={'DEX+20','Accuracy+20 Attack+20','Accuracy+10','"Dbl.Atk."+10',}}
-    gear.RudianosWS = { name="Rudianos's Mantle", augments={'DEX+20','Accuracy+20 Attack+20','Accuracy+10','Weapon skill damage +10%',}}
+    gear.RudianosWS = { name="Rudianos's Mantle", augments={'STR+20','Accuracy+20 Attack+20','Weapon skill damage +10%',}}
     gear.RudianosFC = { name="Rudianos's Mantle", augments={'"Fast Cast"+10',}}
     gear.RudianosEnm = { name="Rudianos's Mantle", augments={'HP+60','Eva.+20 /Mag. Eva.+20','Mag. Evasion+10','Enmity+10',}}
     gear.Ejekamal = { name="Ejekamal Boots", augments={'Haste+2','"Snapshot"+2','"Fast Cast"+3',}}
@@ -311,9 +311,9 @@ function init_gear_sets()
  
     -- Idle sets
     sets.idle = {ammo="Staunch Tathlum +1",
-        head="Souveran schaller +1",neck="Bathy Choker +1",ear1="Odnowa earring +1",ear2="Infused Earring",
-        body="Dagon breastplate",hands="Sulevia's Gauntlets +2",ring1="Gelatinous ring +1",ring2="Defending Ring",
-        back=gear.RudianosEnm,waist="Fucho-no-obi",legs="Carmine Cuisses +1",feet="Sulevia's Leggings +2"}
+        head="Sakpata's Helm",neck="Bathy Choker +1",ear1="Odnowa earring +1",ear2="Infused Earring",
+        body="Sakpata's breastplate",hands="Sakpata's gauntlets",ring1="Gelatinous ring +1",ring2="Defending Ring",
+        back=gear.RudianosEnm,waist="Carrier's sash",legs="Carmine Cuisses +1",feet="Sakpata's Leggings"}
 
         sets.idle.DT = {ammo="Staunch Tathlum +1",
         head="Souveran schaller +1",neck="Loricate Torque +1",ear1="Genmei Earring",ear2="Etiolation Earring",
@@ -325,9 +325,9 @@ function init_gear_sets()
         body="Twilight Mail",ring1="Sheltered Ring",ring2="Paguroidea Ring"})
  
     sets.idle.Town = {ammo="Staunch Tathlum +1",
-        head="Souveran schaller +1",neck="Bathy Choker +1",ear1="Odnowa earring +1",ear2="Infused Earring",
-        body="Dagon breastplate",hands="Souveran handschuhs +1",ring1="Gelatinous Ring +1",ring2="Defending Ring",
-        back=gear.RudianosEnm,waist="Fucho-no-obi",legs="Carmine Cuisses +1",feet="Souveran Schuhs +1"}
+        head="Sakpata's Helm",neck="Bathy Choker +1",ear1="Odnowa earring +1",ear2="Infused Earring",
+        body="Sakpata's breastplate",hands="Sakpata's gauntlets",ring1="Gelatinous Ring +1",ring2="Defending Ring",
+        back=gear.RudianosEnm,waist="Carrier's sash",legs="Carmine Cuisses +1",feet="Sakpata's Leggings"}
      
     sets.idle.Weak = set_combine(sets.idle,{back=gear.RudianosEnm,legs="Sulevia's Cuisses +2"})
      
@@ -361,8 +361,7 @@ function init_gear_sets()
     sets.defense.HP = {ammo="Plumose Sachet",
         head="Souveran schaller +1",neck="Bathy Chocker +1",ear1="Odnowa earring +1",ear2="Odnowa Earring",
         body="Reverence Surcoat +2",hands="Souveran handschuhs +1",ring1="Gelatinous Ring +1",ring2="Defending Ring",
-        back="Moonbeam Cape",
-        waist="Creed Baudrier",legs="Souveran diechlings +1",feet="Souveran Schuhs +1"}
+        back="Moonbeam Cape", waist="Creed Baudrier",legs="Souveran diechlings +1",feet="Souveran Schuhs +1"}
     sets.defense.Reraise = {ammo="Staunch Tathlum +1",
         head="Twilight Helm",neck="Twilight Torque",ear1="Oneiros Earring",ear2="Creed Earring",
         body="Twilight Mail",hands="Sulevia's Gauntlets +2",ring1="Vocane Ring +1",ring2="Defending Ring",
