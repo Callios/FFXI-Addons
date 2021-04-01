@@ -26,6 +26,10 @@ function user_setup()
     state.CastingMode:options('Normal', 'Resistant')
     state.IdleMode:options('Normal', 'PDT')
 
+
+    gear.WHMFCCape = { name="Alaunus's Cape", augments={'"Fast Cast"+10',}}
+    gear.WHMCURECape = { name="Alaunus's Cape", augments={'MND+20','"Cure" potency +10%',}}
+
     select_default_macro_book()
 end
 
@@ -38,11 +42,11 @@ function init_gear_sets()
     -- Precast Sets
 
     -- Fast cast sets for spells
-    sets.precast.FC = {main="Queller Rod", augments={'Healing magic skill +15','"Cure" potency +10%','"Cure" spellcasting time -7%',},
+    sets.precast.FC = {main="Gada",
     sub="Sors Shield",
     ammo="Hydrocera",
     head="Nahtirah Hat",
-    body="Telchine Chas.", augments={'"Fast Cast"+3','Pet: Damage taken -2%',},
+    body="Inyanga Jubbah +2",
     hands="Telchine Gloves", augments={'"Fast Cast"+4','Enh. Mag. eff. dur. +10',},
     legs="Telchine Braconi", augments={'"Fast Cast"+3','Pet: Damage taken -2%',},
     feet="Regal Pumps",
@@ -52,20 +56,20 @@ function init_gear_sets()
     right_ear="Hearty Earring",
     left_ring="Kishar Ring",
     right_ring="Lebeche Ring",
-    back="Disperser's Cape"}
+    back=gear.WHMFCCape,}
         
     sets.precast.FC['Enhancing Magic'] = set_combine(sets.precast.FC, {waist="Siegel Sash"})
 
     sets.precast.FC.Stoneskin = set_combine(sets.precast.FC['Enhancing Magic'], {head="Umuthi Hat"})
 
     sets.precast.FC['Healing Magic'] = {
-    main="Queller Rod", augments={'Healing magic skill +15','"Cure" potency +10%','"Cure" spellcasting time -7%',},
+    main="Gada",
     sub="Sors Shield",
     ammo="Hydrocera",
     head="Theo. Cap +1",
-    body="Telchine Chas.", augments={'"Fast Cast"+3','Pet: Damage taken -2%',},
+    body="Inyanga Jubbah +2",
     hands="Telchine Gloves", augments={'"Fast Cast"+4','Enh. Mag. eff. dur. +10',},
-    legs="Doyen Pants",
+    legs="Telchine Braconi", augments={'"Fast Cast"+3','Pet: Damage taken -2%',},
     feet="Hygieia Clogs +1",
     neck="Voltsurge Torque",
     waist="Embla Sash",
@@ -73,7 +77,7 @@ function init_gear_sets()
     right_ear="Nourish. Earring",
     left_ring="Kishar Ring",
     right_ring="Lebeche Ring",
-    back="Pahtli Cape",
+    back=gear.WHMFCCape,
     }
 
     sets.precast.FC.StatusRemoval = sets.precast.FC['Healing Magic']
@@ -83,7 +87,7 @@ function init_gear_sets()
         sub="Sors Shield",
         ammo="Hydrocera",
         head="Piety Cap",
-        body="Telchine Chas.", augments={'"Fast Cast"+3','Pet: Damage taken -2%',},
+        body="Inyanga Jubbah +2",
         hands="Telchine Gloves", augments={'"Fast Cast"+4','Enh. Mag. eff. dur. +10',},
         legs="Doyen Pants",
         feet="Hygieia Clogs +1",
@@ -93,7 +97,7 @@ function init_gear_sets()
         right_ear="Nourish. Earring",
         left_ring="Kishar Ring",
         right_ring="Lebeche Ring",
-        back="Pahtli Cape"
+        back=gear.WHMFCCape
     }
 
 
@@ -131,14 +135,14 @@ function init_gear_sets()
     
     sets.midcast.FastRecast = {
         head="Nahtirah Hat",ear2="Loquacious Earring",
-        body="Vanir Cotehardie",hands="Dynasty Mitts",ring1="Prolix Ring",
+        body="Inyanga Jubbah +2",hands="Dynasty Mitts",ring1="Prolix Ring",
         back="Swith Cape +1",waist="Goading Belt",legs="Gendewitha Spats",feet="Gendewitha Galoshes"}
     
     -- Cure sets
     gear.default.obi_waist = "Goading Belt"
     gear.default.obi_back = "Mending Cape"
 
-    sets.midcast.CureSolace = { main="Gada", augments={'Enh. Mag. eff. dur. +3','MND+14','Mag. Acc.+20','"Mag.Atk.Bns."+18',},
+    sets.midcast.CureSolace = { main="Gada",
     sub="Sors Shield",
     ammo="Hydrocera",
     head="Theo. Cap +1",
@@ -152,9 +156,9 @@ function init_gear_sets()
     right_ear="Nourish. Earring",
     left_ring="Sirona's Ring",
     right_ring="Lebeche Ring",
-    back="Pahtli Cape"}
+    back=gear.WHMCURECape}
 
-    sets.midcast.Cure = { main="Gada", augments={'Enh. Mag. eff. dur. +3','MND+14','Mag. Acc.+20','"Mag.Atk.Bns."+18',},
+    sets.midcast.Cure = { main="Gada",
     sub="Sors Shield",
     ammo="Hydrocera",
     head="Theo. Cap +1",
@@ -168,9 +172,9 @@ function init_gear_sets()
     right_ear="Nourish. Earring",
     left_ring="Sirona's Ring",
     right_ring="Lebeche Ring",
-    back="Pahtli Cape"}
+    back=gear.WHMCURECape}
 
-    sets.midcast.Curaga = { main="Gada", augments={'Enh. Mag. eff. dur. +3','MND+14','Mag. Acc.+20','"Mag.Atk.Bns."+18',},
+    sets.midcast.Curaga = { main="Gada",
     sub="Sors Shield",
     ammo="Hydrocera",
     head="Theo. Cap +1",
@@ -184,7 +188,7 @@ function init_gear_sets()
     right_ear="Nourish. Earring",
     left_ring="Sirona's Ring",
     right_ring="Lebeche Ring",
-    back="Pahtli Cape"}
+    back=gear.WHMCURECape}
 
     sets.midcast.CureMelee = {ammo="Incantor Stone",
         head="Gendewitha Caubeen",neck="Orison Locket",ear1="Lifestorm Earring",ear2="Orison Earring",
@@ -221,7 +225,7 @@ function init_gear_sets()
         main="Bolelabunga",
         sub="Sors Shield",
         ammo="Hydrocera",
-        head="Piety Cap", augments={'Enhances "Devotion" effect',},
+        head="Inyanga Tiara +2",
         body="Cleric's Briault",
         hands="Telchine Gloves", augments={'"Fast Cast"+4','Enh. Mag. eff. dur. +10',},
         legs="Theo. Pant. +1",
@@ -277,15 +281,15 @@ function init_gear_sets()
     ammo="Hydrocera",
     head="Befouled Crown",
     body="Annoint. Kalasiris",
-    hands="Angantyr Mittens",
+    hands="Inyanga Dastanas +2",
     legs="Assiduity Pants",
-    feet="Inyanga Crackows",
+    feet="Inyanga Crackows +1",
     neck="Warder's Charm +1",
-    waist="Fucho-no-Obi",
+    waist="Carrier's sash",
     left_ear="Hearty Earring",
     right_ear="Etiolation Earring",
     left_ring="Defending Ring",
-    right_ring="Warden's Ring",
+    right_ring="Inyanga Ring",
     back="Disperser's Cape",}
 
     sets.idle.PDT = {main="Bolelabunga", sub="Genbu's Shield",ammo="Incantor Stone",
@@ -299,15 +303,15 @@ function init_gear_sets()
     ammo="Hydrocera",
     head="Befouled Crown",
     body="Annoint. Kalasiris",
-    hands="Angantyr Mittens",
+    hands="Inyanga Dastanas +2",
     legs="Assiduity Pants",
-    feet="Inyanga Crackows",
+    feet="Inyanga Crackows +1",
     neck="Warder's Charm +1",
-    waist="Fucho-no-Obi",
+    waist="Carrier's Sash",
     left_ear="Hearty Earring",
     right_ear="Etiolation Earring",
     left_ring="Defending Ring",
-    right_ring="Warden's Ring",
+    right_ring="Inyanga Ring",
     back="Disperser's Cape",}
     
     sets.idle.Weak = {main="Bolelabunga",sub="Genbu's Shield",ammo="Incantor Stone",
