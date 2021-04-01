@@ -16,7 +16,7 @@ function job_setup()
     state.Buff.Sentinel = buffactive.sentinel or false
     state.Buff.Cover = buffactive.cover or false
     state.Buff.Doom = buffactive.Doom or false
-
+    state.Buff.MythicAM3 = buffactive["Aftermath: Lv. 3"] or false
 blue_magic_maps = {}
 -- Spell sets
     blue_magic_maps.Enhance = S{'Cocoon','Metallic Body'}
@@ -32,7 +32,7 @@ end
  
 -- Setup vars that are user-dependent.  Can override this function in a sidecar file.
 function user_setup()
-    state.OffenseMode:options('Normal', 'Hybrid', 'AM3', 'Acc','PDT', 'MDT', 'CleaveTest')
+    state.OffenseMode:options('Normal', 'Hybrid', 'Sakpata','PDT', 'MDT', 'CleaveTest')
     state.HybridMode:options('Normal', 'PDT', 'Reraise')
     state.WeaponskillMode:options('Normal', 'Acc')
     state.CastingMode:options('Normal', 'SIRD', 'Resistant')
@@ -408,7 +408,16 @@ function init_gear_sets()
         body="Sakpata's breastplate",hands="Sakpata's gauntlets",ring1="Chirich Ring +1",ring2="Defending Ring",
         back=gear.RudianosTP,waist="Sailfi belt +1",legs="Sakpata's cuisses",feet="Sakpata's Leggings"}
 
-        sets.engaged.AM3 = {ammo="Ginsen",
+    
+
+    ---End Burtgang
+
+    sets.engaged.Sakpata = {ammo="Staunch Tathlum +1",
+        head="Sakpata's Helm",neck="Combatant's Torque",ear1="Cessance Earring",ear2="Brutal Earring",
+        body="Sakpata's breastplate",hands="Sakpata's gauntlets",ring1="Chirich Ring +1",ring2="Defending Ring",
+        back=gear.RudianosTP,waist="Sailfi belt +1",legs="Sakpata's cuisses",feet="Sakpata's Leggings"}
+
+        sets.engaged.MythicAM3 = {ammo="Ginsen",
         head="Hjarrandi Helm",neck="Combatant's Torque",ear1="Telos Earring",ear2="Dedition Earring",
         body="Hjarrandi breastplate",hands="Flamma Manopolas +2",ring1="Flamma Ring",ring2="Chirich Ring +1",
         back=gear.RudianosTP,waist="Tempus Fugit +1",legs="Sulevia's Cuisses +2",feet="Flamma Gambieras +2"}
@@ -432,6 +441,23 @@ function init_gear_sets()
         body="Souveran cuirass +1",hands="Souveran handschuhs +1",ring1="Dark Ring",ring2="Defending Ring",
         back=gear.RudianosEnm,waist="Flume Belt",legs="Souveran diechlings +1",feet="Flamma Gambieras +2"}
 
+--Burtgang 
+
+sets.engaged.Burtgang = sets.engaged
+sets.engaged.Burtgang.Sakpata = sets.engaged.Sakpata
+
+-- --Burtgang AM3
+
+sets.engaged.Burtgang.MythicAM3 = set_combine(sets.engaged.Burtgang, {ammo="Ginsen",
+    head="Hjarrandi Helm",neck="Combatant's Torque",ear1="Telos Earring",ear2="Dedition Earring",
+    body="Hjarrandi breastplate",hands="Flamma Manopolas +2",ring1="Flamma Ring",ring2="Chirich Ring +1",
+    back=gear.RudianosTP,waist="Tempus Fugit +1",legs="Sulevia's Cuisses +2",feet="Flamma Gambieras +2"})
+
+sets.engaged.Burtgang.Sakpata.MythicAM3 = set_combine(sets.engaged.Burtgang.MythicAM3, {
+    head="Sakpata's Helm",neck="Combatant's Torque",
+    body="Sakpata's breastplate",hands="Sakpata's gauntlets",ring1="Chirich Ring +1",ring2="Defending Ring",
+    back=gear.RudianosTP,waist="Sailfi belt +1",legs="Sakpata's cuisses",feet="Sakpata's Leggings"})
+
     sets.engaged.Acc.PDT = sets.engaged.PDT
     sets.engaged.Reraise = set_combine(sets.engaged, sets.Reraise)
     sets.engaged.Acc.Reraise = set_combine(sets.engaged.Acc, sets.Reraise)
@@ -448,6 +474,11 @@ function init_gear_sets()
  
     sets.buff.Doom = {ring1="Saida Ring"}
     sets.buff.Cover = {head="Reverence Coronet +1", body="Caballarius Surcoat +1"}
+   
+    sets.buff.MythicAM3 = {ammo="Ginsen",
+    head="Hjarrandi Helm",neck="Combatant's Torque",ear1="Telos Earring",ear2="Dedition Earring",
+    body="Hjarrandi breastplate",hands="Flamma Manopolas +2",ring1="Flamma Ring",ring2="Chirich Ring +1",
+    back=gear.RudianosTP,waist="Tempus Fugit +1",legs="Sulevia's Cuisses +2",feet="Flamma Gambieras +2"}
  
 end
  
@@ -531,7 +562,9 @@ function customize_melee_set(meleeSet)
     if state.Buff.Doom then
         meleeSet = set_combine(meleeSet, sets.buff.Doom)
     end
-     
+    if state.Buff.MythicAM3 then
+        meleeSet = set_combine(meleeSet, sets.engaged.MythicAM3)
+    end
     return meleeSet
 end
  
@@ -597,8 +630,37 @@ function display_current_job_state(eventArgs)
  
     eventArgs.handled = true
 end
- 
- 
+
+
+function job_buff_change(buff, gain)
+  -- AM custom groups
+if buff:startswith('Aftermath') then
+    if player.equipment.main == 'Burtgang' then
+        classes.CustomMeleeGroups:clear()
+
+        if (buff == "Aftermath: Lv.3" and gain) or buffactive['Aftermath: Lv.3'] then
+            classes.CustomMeleeGroups:append('MythicAM3')
+            add_to_chat(8, '-------------Mythic AM3 UP-------------')
+        -- elseif (buff == "Aftermath: Lv.3" and not gain) then
+        --     add_to_chat(8, '-------------Mythic AM3 DOWN-------------')
+        end
+
+        if not midaction() then
+            handle_equipping_gear(player.status)
+        end
+    else
+        classes.CustomMeleeGroups:clear()
+
+        if buff == "Aftermath" and gain or buffactive.Aftermath then
+            classes.CustomMeleeGroups:append('AM')
+        end
+
+        if not midaction() then
+            handle_equipping_gear(player.status)
+        end
+    end
+end
+end
 -------------------------------------------------------------------------------------------------------------------
 -- User self-commands.
 -------------------------------------------------------------------------------------------------------------------
@@ -681,3 +743,23 @@ function select_default_macro_book()
         set_macro_page(1, 5)  --BRD
     end
 end
+
+function update_melee_groups()
+
+    classes.CustomMeleeGroups:clear()
+    -- mythic AM	
+    if player.equipment.main == 'Burtgang' then
+        if buffactive['Aftermath: Lv.3'] then
+            classes.CustomMeleeGroups:append('MythicAM3')
+        end
+    else
+        -- relic AM
+        if buffactive['Aftermath'] then
+            classes.CustomMeleeGroups:append('AM')
+        end
+        -- if buffactive['Samurai Roll'] then
+        --     classes.CustomRangedGroups:append('SamRoll')
+        -- end
+    end
+end
+
