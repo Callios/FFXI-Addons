@@ -1,0 +1,5594 @@
+00:00:06Received 0x05C. Current Status: Chain Ready   Showing all non 0 byte packets:
+00:00:06Byte 1: 92
+00:00:06Byte 2: 18
+00:00:06Byte 3: 143
+00:00:06Byte 4: 50
+00:00:06Byte 5: 5
+00:00:06Byte 9: 78
+00:00:06Byte 10: 103
+00:00:06Byte 21: 99
+00:00:07Finished synth. Setting Status back to Initial
+00:00:07Received 0x05C. Current Status: Initial   Showing all non 0 byte packets:
+00:00:07Byte 1: 92
+00:00:07Byte 2: 18
+00:00:07Byte 3: 146
+00:00:07Byte 4: 50
+00:00:07Byte 5: 122
+00:00:07Byte 6: 130
+00:00:07Byte 7: 149
+00:00:08Byte 8: 158
+00:00:08Byte 9: 147
+00:00:08Byte 10: 99
+00:00:08Byte 11: 148
+00:00:08Byte 12: 132
+00:00:08Byte 13: 176
+00:00:08Byte 14: 168
+00:00:08Byte 16: 195
+00:00:08Byte 17: 178
+00:00:08Byte 18: 206
+00:00:08Byte 19: 159
+00:00:08Byte 20: 89
+00:00:08Byte 21: 9
+00:00:08Byte 22: 170
+00:00:08Byte 23: 83
+00:00:08Byte 24: 99
+00:00:08Byte 25: 9
+00:00:08Byte 26: 6
+00:00:08Byte 27: 30
+00:00:08Byte 28: 116
+00:00:08Byte 29: 137
+00:00:08Looking up Chain..Scission
+00:00:08Scission: Found Crystal: Earth Crystal
+00:00:10Sending Synthchain: 17409.  Setting info.status to Spirit Update
+00:00:10Received 0x05C. Current Status: Spirit Update   Showing all non 0 byte packets:
+00:00:10Byte 1: 92
+00:00:10Byte 2: 18
+00:00:10Byte 3: 152
+00:00:10Byte 4: 50
+00:00:10Byte 5: 2
+00:00:10Byte 9: 10
+00:00:10Byte 17: 3
+00:00:10Byte 21: 134
+00:00:10Byte 22: 1
+00:00:10Byte 25: 8
+00:00:10Byte 33: 66
+00:00:10Byte 34: 63
+00:00:10HQ Synth Success! Chain Performed:Distortion Spirit Gained:8 Current Spirit:16194
+00:00:10Moving to next step. 4 Current Spirit:16194
+00:00:10Sleeping 10 for animation delay and sending ACK, setting to 'Chain Ready'
+00:00:20Received 0x05C. Current Status: Chain Ready   Showing all non 0 byte packets:
+00:00:20Byte 1: 92
+00:00:20Byte 2: 18
+00:00:20Byte 3: 176
+00:00:20Byte 4: 50
+00:00:20Byte 5: 5
+00:00:20Byte 9: 78
+00:00:20Byte 10: 103
+00:00:20Byte 21: 99
+00:00:21Finished synth. Setting Status back to Initial
+00:00:22Received 0x05C. Current Status: Initial   Showing all non 0 byte packets:
+00:00:22Byte 1: 92
+00:00:22Byte 2: 18
+00:00:22Byte 3: 179
+00:00:22Byte 4: 50
+00:00:22Byte 5: 122
+00:00:22Byte 6: 130
+00:00:22Byte 7: 149
+00:00:22Byte 8: 157
+00:00:22Byte 9: 147
+00:00:22Byte 10: 99
+00:00:22Byte 11: 148
+00:00:22Byte 12: 132
+00:00:22Byte 13: 175
+00:00:22Byte 14: 168
+00:00:22Byte 16: 195
+00:00:22Byte 17: 178
+00:00:22Byte 18: 206
+00:00:22Byte 19: 158
+00:00:22Byte 20: 89
+00:00:22Byte 21: 9
+00:00:22Byte 22: 170
+00:00:22Byte 23: 83
+00:00:22Byte 24: 99
+00:00:22Byte 25: 9
+00:00:22Byte 26: 6
+00:00:22Byte 27: 30
+00:00:22Byte 28: 116
+00:00:22Byte 29: 137
+00:00:22Looking up Chain..Gravitation
+00:00:22Gravitation: Found Crystal: Dark Crystal
+00:00:24Sending Synthchain: 51201.  Setting info.status to Spirit Update
+00:00:24Received 0x05C. Current Status: Spirit Update   Showing all non 0 byte packets:
+00:00:24Byte 1: 92
+00:00:24Byte 2: 18
+00:00:24Byte 3: 185
+00:00:24Byte 4: 50
+00:00:24Byte 5: 2
+00:00:24Byte 9: 14
+00:00:24Byte 17: 7
+00:00:24Byte 21: 134
+00:00:24Byte 22: 1
+00:00:24Byte 25: 23
+00:00:24Byte 33: 89
+00:00:24Byte 34: 63
+00:00:24HQ Synth Success! Chain Performed:Darkness Spirit Gained:23 Current Spirit:16217
+00:00:24Hit end of chain - resetting. Current Spirit:16217
+00:00:24Sleeping 10 for animation delay and sending ACK, setting to 'Chain Ready'
+00:00:34Received 0x05C. Current Status: Chain Ready   Showing all non 0 byte packets:
+00:00:34Byte 1: 92
+00:00:34Byte 2: 18
+00:00:34Byte 3: 209
+00:00:34Byte 4: 50
+00:00:34Byte 5: 5
+00:00:34Byte 9: 78
+00:00:34Byte 10: 103
+00:00:34Byte 21: 99
+00:00:35Finished synth. Setting Status back to Initial
+00:00:36Received 0x05C. Current Status: Initial   Showing all non 0 byte packets:
+00:00:36Byte 1: 92
+00:00:36Byte 2: 18
+00:00:36Byte 3: 212
+00:00:36Byte 4: 50
+00:00:36Byte 5: 122
+00:00:36Byte 6: 130
+00:00:36Byte 7: 149
+00:00:36Byte 8: 157
+00:00:36Byte 9: 147
+00:00:36Byte 10: 99
+00:00:36Byte 11: 148
+00:00:36Byte 12: 131
+00:00:36Byte 13: 175
+00:00:36Byte 14: 167
+00:00:36Byte 16: 195
+00:00:36Byte 17: 178
+00:00:36Byte 18: 206
+00:00:36Byte 19: 158
+00:00:36Byte 20: 89
+00:00:36Byte 21: 9
+00:00:36Byte 22: 170
+00:00:36Byte 23: 83
+00:00:36Byte 24: 99
+00:00:36Byte 25: 9
+00:00:36Byte 26: 6
+00:00:36Byte 27: 29
+00:00:36Byte 28: 116
+00:00:36Byte 29: 137
+00:00:36Looking up Chain..Compression
+00:00:36Compression: Found Crystal: Dark Crystal
+00:00:38Sending Synthchain: 34817.  Setting info.status to Spirit Update
+00:00:38Received 0x05C. Current Status: Spirit Update   Showing all non 0 byte packets:
+00:00:38Byte 1: 92
+00:00:38Byte 2: 18
+00:00:38Byte 3: 218
+00:00:38Byte 4: 50
+00:00:38Byte 5: 2
+00:00:38Byte 17: 7
+00:00:38Byte 21: 134
+00:00:38Byte 22: 1
+00:00:38Byte 25: 2
+00:00:38Byte 29: 1
+00:00:38Byte 33: 91
+00:00:38Byte 34: 63
+00:00:38HQ Synth Success! Chain Performed:None Spirit Gained:2 Current Spirit:16219
+00:00:38Moving to next step. 2 Current Spirit:16219
+00:00:38Sleeping 10 for animation delay and sending ACK, setting to 'Chain Ready'
+00:00:49Received 0x05C. Current Status: Chain Ready   Showing all non 0 byte packets:
+00:00:49Byte 1: 92
+00:00:49Byte 2: 18
+00:00:49Byte 3: 243
+00:00:49Byte 4: 50
+00:00:49Byte 5: 5
+00:00:49Byte 9: 78
+00:00:49Byte 10: 103
+00:00:49Byte 21: 99
+00:00:50Finished synth. Setting Status back to Initial
+00:00:50Received 0x05C. Current Status: Initial   Showing all non 0 byte packets:
+00:00:50Byte 1: 92
+00:00:50Byte 2: 18
+00:00:50Byte 3: 246
+00:00:50Byte 4: 50
+00:00:50Byte 5: 122
+00:00:50Byte 6: 130
+00:00:50Byte 7: 149
+00:00:50Byte 8: 157
+00:00:50Byte 9: 147
+00:00:50Byte 10: 99
+00:00:50Byte 11: 148
+00:00:50Byte 12: 130
+00:00:50Byte 13: 174
+00:00:50Byte 14: 167
+00:00:50Byte 16: 195
+00:00:50Byte 17: 178
+00:00:50Byte 18: 206
+00:00:50Byte 19: 158
+00:00:50Byte 20: 89
+00:00:50Byte 21: 9
+00:00:50Byte 22: 170
+00:00:50Byte 23: 82
+00:00:50Byte 24: 99
+00:00:50Byte 25: 9
+00:00:50Byte 26: 6
+00:00:50Byte 27: 29
+00:00:50Byte 28: 116
+00:00:50Byte 29: 137
+00:00:50Looking up Chain..Transfixion
+00:00:50Transfixion: Found Crystal: Light Crystal
+00:00:52Sending Synthchain: 30465.  Setting info.status to Spirit Update
+00:00:53Received 0x05C. Current Status: Spirit Update   Showing all non 0 byte packets:
+00:00:53Byte 1: 92
+00:00:53Byte 2: 18
+00:00:53Byte 3: 252
+00:00:53Byte 4: 50
+00:00:53Byte 5: 1
+00:00:53Byte 9: 7
+00:00:53Byte 17: 6
+00:00:53Byte 21: 134
+00:00:53Byte 22: 1
+00:00:53Byte 25: 2
+00:00:53Byte 29: 1
+00:00:53Byte 33: 93
+00:00:53Byte 34: 63
+00:00:53Synth Success! Chain Performed:Transfixion Spirit Gained:2 Current Spirit:16221
+00:00:53Moving to next step. 3 Current Spirit:16221
+00:00:53Sleeping 10 for animation delay and sending ACK, setting to 'Chain Ready'
+00:01:03Received 0x05C. Current Status: Chain Ready   Showing all non 0 byte packets:
+00:01:03Byte 1: 92
+00:01:03Byte 2: 18
+00:01:03Byte 3: 20
+00:01:03Byte 4: 51
+00:01:03Byte 5: 5
+00:01:03Byte 9: 78
+00:01:03Byte 10: 103
+00:01:03Byte 21: 99
+00:01:04Finished synth. Setting Status back to Initial
+00:01:04Received 0x05C. Current Status: Initial   Showing all non 0 byte packets:
+00:01:04Byte 1: 92
+00:01:04Byte 2: 18
+00:01:04Byte 3: 23
+00:01:04Byte 4: 51
+00:01:04Byte 5: 122
+00:01:04Byte 6: 130
+00:01:04Byte 7: 149
+00:01:04Byte 8: 157
+00:01:04Byte 9: 147
+00:01:04Byte 10: 99
+00:01:04Byte 11: 147
+00:01:04Byte 12: 130
+00:01:04Byte 13: 173
+00:01:04Byte 14: 167
+00:01:04Byte 16: 195
+00:01:04Byte 17: 178
+00:01:04Byte 18: 206
+00:01:04Byte 19: 158
+00:01:04Byte 20: 89
+00:01:04Byte 21: 9
+00:01:04Byte 22: 169
+00:01:04Byte 23: 82
+00:01:04Byte 24: 99
+00:01:04Byte 25: 9
+00:01:04Byte 26: 6
+00:01:04Byte 27: 29
+00:01:04Byte 28: 116
+00:01:04Byte 29: 137
+00:01:04Looking up Chain..Scission
+00:01:04Scission: Found Crystal: Earth Crystal
+00:01:06Sending Synthchain: 17409.  Setting info.status to Spirit Update
+00:01:07Received 0x05C. Current Status: Spirit Update   Showing all non 0 byte packets:
+00:01:07Byte 1: 92
+00:01:07Byte 2: 18
+00:01:07Byte 3: 29
+00:01:07Byte 4: 51
+00:01:07Byte 5: 1
+00:01:07Byte 9: 10
+00:01:07Byte 17: 3
+00:01:07Byte 21: 134
+00:01:07Byte 22: 1
+00:01:07Byte 25: 5
+00:01:07Byte 33: 98
+00:01:07Byte 34: 63
+00:01:07Synth Success! Chain Performed:Distortion Spirit Gained:5 Current Spirit:16226
+00:01:07Moving to next step. 4 Current Spirit:16226
+00:01:07Sleeping 10 for animation delay and sending ACK, setting to 'Chain Ready'
+00:01:17Received 0x05C. Current Status: Chain Ready   Showing all non 0 byte packets:
+00:01:17Byte 1: 92
+00:01:17Byte 2: 18
+00:01:17Byte 3: 53
+00:01:17Byte 4: 51
+00:01:17Byte 5: 5
+00:01:17Byte 9: 78
+00:01:17Byte 10: 103
+00:01:17Byte 21: 99
+00:01:18Finished synth. Setting Status back to Initial
+00:01:18Received 0x05C. Current Status: Initial   Showing all non 0 byte packets:
+00:01:18Byte 1: 92
+00:01:18Byte 2: 18
+00:01:18Byte 3: 56
+00:01:18Byte 4: 51
+00:01:18Byte 5: 122
+00:01:18Byte 6: 130
+00:01:18Byte 7: 149
+00:01:18Byte 8: 156
+00:01:18Byte 9: 147
+00:01:18Byte 10: 99
+00:01:18Byte 11: 147
+00:01:18Byte 12: 130
+00:01:18Byte 13: 172
+00:01:18Byte 14: 167
+00:01:18Byte 16: 195
+00:01:18Byte 17: 178
+00:01:18Byte 18: 206
+00:01:18Byte 19: 157
+00:01:18Byte 20: 89
+00:01:18Byte 21: 9
+00:01:18Byte 22: 169
+00:01:18Byte 23: 82
+00:01:18Byte 24: 99
+00:01:18Byte 25: 9
+00:01:18Byte 26: 6
+00:01:18Byte 27: 29
+00:01:18Byte 28: 116
+00:01:18Byte 29: 137
+00:01:18Looking up Chain..Gravitation
+00:01:18Gravitation: Found Crystal: Dark Crystal
+00:01:20Sending Synthchain: 51201.  Setting info.status to Spirit Update
+00:01:21Received 0x05C. Current Status: Spirit Update   Showing all non 0 byte packets:
+00:01:21Byte 1: 92
+00:01:21Byte 2: 18
+00:01:21Byte 3: 62
+00:01:21Byte 4: 51
+00:01:21Byte 5: 1
+00:01:21Byte 9: 14
+00:01:21Byte 17: 7
+00:01:21Byte 21: 134
+00:01:21Byte 22: 1
+00:01:21Byte 25: 15
+00:01:21Byte 33: 113
+00:01:21Byte 34: 63
+00:01:21Synth Success! Chain Performed:Darkness Spirit Gained:15 Current Spirit:16241
+00:01:21Hit end of chain - resetting. Current Spirit:16241
+00:01:21Sleeping 10 for animation delay and sending ACK, setting to 'Chain Ready'
+00:01:31Received 0x05C. Current Status: Chain Ready   Showing all non 0 byte packets:
+00:01:31Byte 1: 92
+00:01:31Byte 2: 18
+00:01:31Byte 3: 87
+00:01:31Byte 4: 51
+00:01:31Byte 5: 5
+00:01:31Byte 9: 78
+00:01:31Byte 10: 103
+00:01:31Byte 21: 99
+00:01:32Finished synth. Setting Status back to Initial
+00:01:32Received 0x05C. Current Status: Initial   Showing all non 0 byte packets:
+00:01:32Byte 1: 92
+00:01:32Byte 2: 18
+00:01:32Byte 3: 90
+00:01:32Byte 4: 51
+00:01:32Byte 5: 122
+00:01:32Byte 6: 130
+00:01:32Byte 7: 149
+00:01:32Byte 8: 156
+00:01:32Byte 9: 147
+00:01:32Byte 10: 99
+00:01:32Byte 11: 147
+00:01:32Byte 12: 129
+00:01:33Byte 13: 172
+00:01:33Byte 14: 166
+00:01:33Byte 16: 195
+00:01:33Byte 17: 178
+00:01:33Byte 18: 206
+00:01:33Byte 19: 157
+00:01:33Byte 20: 89
+00:01:33Byte 21: 9
+00:01:33Byte 22: 169
+00:01:33Byte 23: 82
+00:01:33Byte 24: 99
+00:01:33Byte 25: 9
+00:01:33Byte 26: 6
+00:01:33Byte 27: 28
+00:01:33Byte 28: 116
+00:01:33Byte 29: 137
+00:01:33Looking up Chain..Compression
+00:01:33Compression: Found Crystal: Dark Crystal
+00:01:35Sending Synthchain: 34817.  Setting info.status to Spirit Update
+00:01:35Received 0x05C. Current Status: Spirit Update   Showing all non 0 byte packets:
+00:01:35Byte 1: 92
+00:01:35Byte 2: 18
+00:01:35Byte 3: 96
+00:01:35Byte 4: 51
+00:01:35Byte 5: 1
+00:01:35Byte 17: 7
+00:01:35Byte 21: 134
+00:01:35Byte 22: 1
+00:01:35Byte 25: 1
+00:01:35Byte 29: 1
+00:01:35Byte 33: 114
+00:01:35Byte 34: 63
+00:01:35Synth Success! Chain Performed:None Spirit Gained:1 Current Spirit:16242
+00:01:35Moving to next step. 2 Current Spirit:16242
+00:01:35Sleeping 10 for animation delay and sending ACK, setting to 'Chain Ready'
+00:01:45Received 0x05C. Current Status: Chain Ready   Showing all non 0 byte packets:
+00:01:45Byte 1: 92
+00:01:45Byte 2: 18
+00:01:45Byte 3: 120
+00:01:45Byte 4: 51
+00:01:45Byte 5: 5
+00:01:45Byte 9: 78
+00:01:45Byte 10: 103
+00:01:45Byte 21: 99
+00:01:46Finished synth. Setting Status back to Initial
+00:01:46Received 0x05C. Current Status: Initial   Showing all non 0 byte packets:
+00:01:46Byte 1: 92
+00:01:46Byte 2: 18
+00:01:46Byte 3: 123
+00:01:46Byte 4: 51
+00:01:46Byte 5: 122
+00:01:46Byte 6: 130
+00:01:46Byte 7: 149
+00:01:46Byte 8: 156
+00:01:46Byte 9: 147
+00:01:46Byte 10: 99
+00:01:46Byte 11: 147
+00:01:46Byte 12: 128
+00:01:46Byte 13: 171
+00:01:46Byte 14: 166
+00:01:46Byte 16: 195
+00:01:46Byte 17: 178
+00:01:46Byte 18: 206
+00:01:46Byte 19: 157
+00:01:46Byte 20: 89
+00:01:46Byte 21: 9
+00:01:46Byte 22: 169
+00:01:46Byte 23: 81
+00:01:46Byte 24: 99
+00:01:46Byte 25: 9
+00:01:46Byte 26: 6
+00:01:46Byte 27: 28
+00:01:46Byte 28: 116
+00:01:46Byte 29: 137
+00:01:46Looking up Chain..Transfixion
+00:01:46Transfixion: Found Crystal: Light Crystal
+00:01:48Sending Synthchain: 30465.  Setting info.status to Spirit Update
+00:01:49Received 0x05C. Current Status: Spirit Update   Showing all non 0 byte packets:
+00:01:49Byte 1: 92
+00:01:49Byte 2: 18
+00:01:49Byte 3: 129
+00:01:49Byte 4: 51
+00:01:49Byte 5: 2
+00:01:49Byte 9: 7
+00:01:49Byte 17: 6
+00:01:49Byte 21: 134
+00:01:49Byte 22: 1
+00:01:49Byte 25: 3
+00:01:49Byte 29: 1
+00:01:49Byte 33: 117
+00:01:49Byte 34: 63
+00:01:49HQ Synth Success! Chain Performed:Transfixion Spirit Gained:3 Current Spirit:16245
+00:01:49Moving to next step. 3 Current Spirit:16245
+00:01:49Sleeping 10 for animation delay and sending ACK, setting to 'Chain Ready'
+00:01:59Received 0x05C. Current Status: Chain Ready   Showing all non 0 byte packets:
+00:01:59Byte 1: 92
+00:01:59Byte 2: 18
+00:01:59Byte 3: 153
+00:01:59Byte 4: 51
+00:01:59Byte 5: 5
+00:01:59Byte 9: 78
+00:01:59Byte 10: 103
+00:01:59Byte 21: 99
+00:02:00Finished synth. Setting Status back to Initial
+00:02:00Received 0x05C. Current Status: Initial   Showing all non 0 byte packets:
+00:02:00Byte 1: 92
+00:02:00Byte 2: 18
+00:02:00Byte 3: 156
+00:02:00Byte 4: 51
+00:02:00Byte 5: 122
+00:02:00Byte 6: 130
+00:02:00Byte 7: 149
+00:02:00Byte 8: 156
+00:02:00Byte 9: 147
+00:02:00Byte 10: 99
+00:02:00Byte 11: 146
+00:02:00Byte 12: 128
+00:02:00Byte 13: 170
+00:02:00Byte 14: 166
+00:02:00Byte 16: 195
+00:02:00Byte 17: 178
+00:02:00Byte 18: 206
+00:02:00Byte 19: 157
+00:02:00Byte 20: 89
+00:02:00Byte 21: 9
+00:02:00Byte 22: 168
+00:02:00Byte 23: 81
+00:02:01Byte 24: 99
+00:02:01Byte 25: 9
+00:02:01Byte 26: 6
+00:02:01Byte 27: 28
+00:02:01Byte 28: 116
+00:02:01Byte 29: 137
+00:02:01Looking up Chain..Scission
+00:02:01Scission: Found Crystal: Earth Crystal
+00:02:03Sending Synthchain: 17409.  Setting info.status to Spirit Update
+00:02:03Received 0x05C. Current Status: Spirit Update   Showing all non 0 byte packets:
+00:02:03Byte 1: 92
+00:02:03Byte 2: 18
+00:02:03Byte 3: 162
+00:02:03Byte 4: 51
+00:02:03Byte 5: 1
+00:02:03Byte 9: 10
+00:02:03Byte 17: 3
+00:02:03Byte 21: 134
+00:02:03Byte 22: 1
+00:02:03Byte 25: 5
+00:02:03Byte 33: 122
+00:02:03Byte 34: 63
+00:02:03Synth Success! Chain Performed:Distortion Spirit Gained:5 Current Spirit:16250
+00:02:03Moving to next step. 4 Current Spirit:16250
+00:02:03Sleeping 10 for animation delay and sending ACK, setting to 'Chain Ready'
+00:02:13Received 0x05C. Current Status: Chain Ready   Showing all non 0 byte packets:
+00:02:13Byte 1: 92
+00:02:13Byte 2: 18
+00:02:13Byte 3: 186
+00:02:13Byte 4: 51
+00:02:13Byte 5: 5
+00:02:13Byte 9: 78
+00:02:13Byte 10: 103
+00:02:13Byte 21: 99
+00:02:14Finished synth. Setting Status back to Initial
+00:02:15Received 0x05C. Current Status: Initial   Showing all non 0 byte packets:
+00:02:15Byte 1: 92
+00:02:15Byte 2: 18
+00:02:15Byte 3: 189
+00:02:15Byte 4: 51
+00:02:15Byte 5: 122
+00:02:15Byte 6: 130
+00:02:15Byte 7: 149
+00:02:15Byte 8: 155
+00:02:15Byte 9: 147
+00:02:15Byte 10: 99
+00:02:15Byte 11: 146
+00:02:15Byte 12: 128
+00:02:15Byte 13: 169
+00:02:15Byte 14: 166
+00:02:15Byte 16: 195
+00:02:15Byte 17: 178
+00:02:15Byte 18: 206
+00:02:15Byte 19: 156
+00:02:15Byte 20: 89
+00:02:15Byte 21: 9
+00:02:15Byte 22: 168
+00:02:15Byte 23: 81
+00:02:15Byte 24: 99
+00:02:15Byte 25: 9
+00:02:15Byte 26: 6
+00:02:15Byte 27: 28
+00:02:15Byte 28: 116
+00:02:15Byte 29: 137
+00:02:15Looking up Chain..Gravitation
+00:02:15Gravitation: Found Crystal: Dark Crystal
+00:02:17Sending Synthchain: 51201.  Setting info.status to Spirit Update
+00:02:17Received 0x05C. Current Status: Spirit Update   Showing all non 0 byte packets:
+00:02:17Byte 1: 92
+00:02:17Byte 2: 18
+00:02:17Byte 3: 195
+00:02:17Byte 4: 51
+00:02:17Byte 5: 1
+00:02:17Byte 9: 14
+00:02:17Byte 17: 7
+00:02:17Byte 21: 134
+00:02:17Byte 22: 1
+00:02:17Byte 25: 15
+00:02:17Byte 33: 137
+00:02:17Byte 34: 63
+00:02:17Synth Success! Chain Performed:Darkness Spirit Gained:15 Current Spirit:16265
+00:02:17Hit end of chain - resetting. Current Spirit:16265
+00:02:17Sleeping 10 for animation delay and sending ACK, setting to 'Chain Ready'
+00:02:28Received 0x05C. Current Status: Chain Ready   Showing all non 0 byte packets:
+00:02:28Byte 1: 92
+00:02:28Byte 2: 18
+00:02:28Byte 3: 219
+00:02:28Byte 4: 51
+00:02:28Byte 5: 5
+00:02:28Byte 9: 78
+00:02:28Byte 10: 103
+00:02:28Byte 21: 99
+00:02:29Finished synth. Setting Status back to Initial
+00:02:29Received 0x05C. Current Status: Initial   Showing all non 0 byte packets:
+00:02:29Byte 1: 92
+00:02:29Byte 2: 18
+00:02:29Byte 3: 222
+00:02:29Byte 4: 51
+00:02:29Byte 5: 122
+00:02:29Byte 6: 130
+00:02:29Byte 7: 149
+00:02:29Byte 8: 155
+00:02:29Byte 9: 147
+00:02:29Byte 10: 99
+00:02:29Byte 11: 146
+00:02:29Byte 12: 127
+00:02:29Byte 13: 169
+00:02:29Byte 14: 165
+00:02:29Byte 16: 195
+00:02:29Byte 17: 178
+00:02:29Byte 18: 206
+00:02:29Byte 19: 156
+00:02:29Byte 20: 89
+00:02:29Byte 21: 9
+00:02:29Byte 22: 168
+00:02:29Byte 23: 81
+00:02:29Byte 24: 99
+00:02:29Byte 25: 9
+00:02:29Byte 26: 6
+00:02:29Byte 27: 27
+00:02:29Byte 28: 116
+00:02:29Byte 29: 137
+00:02:29Looking up Chain..Compression
+00:02:29Compression: Found Crystal: Dark Crystal
+00:02:31Sending Synthchain: 34817.  Setting info.status to Spirit Update
+00:02:32Received 0x05C. Current Status: Spirit Update   Showing all non 0 byte packets:
+00:02:32Byte 1: 92
+00:02:32Byte 2: 18
+00:02:32Byte 3: 228
+00:02:32Byte 4: 51
+00:02:32Byte 5: 1
+00:02:32Byte 17: 7
+00:02:32Byte 21: 134
+00:02:32Byte 22: 1
+00:02:32Byte 25: 1
+00:02:32Byte 29: 1
+00:02:32Byte 33: 138
+00:02:32Byte 34: 63
+00:02:32Synth Success! Chain Performed:None Spirit Gained:1 Current Spirit:16266
+00:02:32Moving to next step. 2 Current Spirit:16266
+00:02:32Sleeping 10 for animation delay and sending ACK, setting to 'Chain Ready'
+00:02:42Received 0x05C. Current Status: Chain Ready   Showing all non 0 byte packets:
+00:02:42Byte 1: 92
+00:02:42Byte 2: 18
+00:02:42Byte 3: 252
+00:02:42Byte 4: 51
+00:02:42Byte 5: 5
+00:02:42Byte 9: 78
+00:02:42Byte 10: 103
+00:02:42Byte 21: 99
+00:02:43Finished synth. Setting Status back to Initial
+00:02:43Received 0x05C. Current Status: Initial   Showing all non 0 byte packets:
+00:02:43Byte 1: 92
+00:02:43Byte 2: 18
+00:02:43Byte 3: 255
+00:02:43Byte 4: 51
+00:02:43Byte 5: 122
+00:02:43Byte 6: 130
+00:02:43Byte 7: 149
+00:02:43Byte 8: 155
+00:02:43Byte 9: 147
+00:02:43Byte 10: 99
+00:02:43Byte 11: 146
+00:02:43Byte 12: 126
+00:02:43Byte 13: 168
+00:02:43Byte 14: 165
+00:02:43Byte 16: 195
+00:02:43Byte 17: 178
+00:02:43Byte 18: 206
+00:02:43Byte 19: 156
+00:02:43Byte 20: 89
+00:02:43Byte 21: 9
+00:02:43Byte 22: 168
+00:02:43Byte 23: 80
+00:02:43Byte 24: 99
+00:02:43Byte 25: 9
+00:02:43Byte 26: 6
+00:02:43Byte 27: 27
+00:02:43Byte 28: 116
+00:02:43Byte 29: 137
+00:02:43Looking up Chain..Transfixion
+00:02:43Transfixion: Found Crystal: Light Crystal
+00:02:45Sending Synthchain: 30465.  Setting info.status to Spirit Update
+00:02:46Received 0x05C. Current Status: Spirit Update   Showing all non 0 byte packets:
+00:02:46Byte 1: 92
+00:02:46Byte 2: 18
+00:02:46Byte 3: 5
+00:02:46Byte 4: 52
+00:02:46Byte 5: 1
+00:02:46Byte 9: 7
+00:02:46Byte 17: 6
+00:02:46Byte 21: 134
+00:02:46Byte 22: 1
+00:02:46Byte 25: 2
+00:02:46Byte 29: 1
+00:02:46Byte 33: 140
+00:02:46Byte 34: 63
+00:02:46Synth Success! Chain Performed:Transfixion Spirit Gained:2 Current Spirit:16268
+00:02:46Moving to next step. 3 Current Spirit:16268
+00:02:46Sleeping 10 for animation delay and sending ACK, setting to 'Chain Ready'
+00:02:57Received 0x05C. Current Status: Chain Ready   Showing all non 0 byte packets:
+00:02:57Byte 1: 92
+00:02:57Byte 2: 18
+00:02:57Byte 3: 30
+00:02:57Byte 4: 52
+00:02:57Byte 5: 5
+00:02:57Byte 9: 78
+00:02:57Byte 10: 103
+00:02:57Byte 21: 99
+00:02:58Finished synth. Setting Status back to Initial
+00:02:58Received 0x05C. Current Status: Initial   Showing all non 0 byte packets:
+00:02:58Byte 1: 92
+00:02:58Byte 2: 18
+00:02:58Byte 3: 33
+00:02:58Byte 4: 52
+00:02:58Byte 5: 122
+00:02:58Byte 6: 130
+00:02:58Byte 7: 149
+00:02:58Byte 8: 155
+00:02:58Byte 9: 147
+00:02:58Byte 10: 99
+00:02:58Byte 11: 145
+00:02:58Byte 12: 126
+00:02:58Byte 13: 167
+00:02:58Byte 14: 165
+00:02:58Byte 16: 195
+00:02:58Byte 17: 178
+00:02:58Byte 18: 206
+00:02:58Byte 19: 156
+00:02:58Byte 20: 89
+00:02:58Byte 21: 9
+00:02:58Byte 22: 167
+00:02:58Byte 23: 80
+00:02:58Byte 24: 99
+00:02:58Byte 25: 9
+00:02:58Byte 26: 6
+00:02:58Byte 27: 27
+00:02:58Byte 28: 116
+00:02:58Byte 29: 137
+00:02:58Looking up Chain..Scission
+00:02:58Scission: Found Crystal: Earth Crystal
+00:03:00Sending Synthchain: 17409.  Setting info.status to Spirit Update
+00:03:00Received 0x05C. Current Status: Spirit Update   Showing all non 0 byte packets:
+00:03:00Byte 1: 92
+00:03:00Byte 2: 18
+00:03:00Byte 3: 39
+00:03:00Byte 4: 52
+00:03:00Byte 5: 1
+00:03:00Byte 9: 10
+00:03:00Byte 17: 3
+00:03:00Byte 21: 134
+00:03:00Byte 22: 1
+00:03:00Byte 25: 5
+00:03:00Byte 33: 145
+00:03:00Byte 34: 63
+00:03:00Synth Success! Chain Performed:Distortion Spirit Gained:5 Current Spirit:16273
+00:03:00Moving to next step. 4 Current Spirit:16273
+00:03:00Sleeping 10 for animation delay and sending ACK, setting to 'Chain Ready'
+00:03:11Received 0x05C. Current Status: Chain Ready   Showing all non 0 byte packets:
+00:03:11Byte 1: 92
+00:03:11Byte 2: 18
+00:03:11Byte 3: 63
+00:03:11Byte 4: 52
+00:03:11Byte 5: 5
+00:03:11Byte 9: 78
+00:03:11Byte 10: 103
+00:03:11Byte 21: 99
+00:03:12Finished synth. Setting Status back to Initial
+00:03:13Received 0x05C. Current Status: Initial   Showing all non 0 byte packets:
+00:03:13Byte 1: 92
+00:03:13Byte 2: 18
+00:03:13Byte 3: 67
+00:03:13Byte 4: 52
+00:03:13Byte 5: 122
+00:03:13Byte 6: 130
+00:03:13Byte 7: 149
+00:03:13Byte 8: 154
+00:03:13Byte 9: 147
+00:03:13Byte 10: 99
+00:03:13Byte 11: 145
+00:03:13Byte 12: 126
+00:03:13Byte 13: 166
+00:03:13Byte 14: 165
+00:03:13Byte 16: 195
+00:03:13Byte 17: 178
+00:03:13Byte 18: 206
+00:03:13Byte 19: 155
+00:03:13Byte 20: 89
+00:03:13Byte 21: 9
+00:03:13Byte 22: 167
+00:03:13Byte 23: 80
+00:03:13Byte 24: 99
+00:03:13Byte 25: 9
+00:03:13Byte 26: 6
+00:03:13Byte 27: 27
+00:03:13Byte 28: 116
+00:03:13Byte 29: 137
+00:03:13Looking up Chain..Gravitation
+00:03:13Gravitation: Found Crystal: Dark Crystal
+00:03:15Sending Synthchain: 51201.  Setting info.status to Spirit Update
+00:03:15Received 0x05C. Current Status: Spirit Update   Showing all non 0 byte packets:
+00:03:15Byte 1: 92
+00:03:15Byte 2: 18
+00:03:15Byte 3: 73
+00:03:15Byte 4: 52
+00:03:15Byte 5: 1
+00:03:15Byte 9: 14
+00:03:15Byte 17: 7
+00:03:15Byte 21: 134
+00:03:15Byte 22: 1
+00:03:15Byte 25: 15
+00:03:15Byte 33: 160
+00:03:15Byte 34: 63
+00:03:15Synth Success! Chain Performed:Darkness Spirit Gained:15 Current Spirit:16288
+00:03:15Hit end of chain - resetting. Current Spirit:16288
+00:03:15Sleeping 10 for animation delay and sending ACK, setting to 'Chain Ready'
+00:03:26Received 0x05C. Current Status: Chain Ready   Showing all non 0 byte packets:
+00:03:26Byte 1: 92
+00:03:26Byte 2: 18
+00:03:26Byte 3: 98
+00:03:26Byte 4: 52
+00:03:26Byte 5: 5
+00:03:26Byte 9: 78
+00:03:26Byte 10: 103
+00:03:26Byte 21: 99
+00:03:27Finished synth. Setting Status back to Initial
+00:03:27Received 0x05C. Current Status: Initial   Showing all non 0 byte packets:
+00:03:27Byte 1: 92
+00:03:27Byte 2: 18
+00:03:27Byte 3: 101
+00:03:27Byte 4: 52
+00:03:27Byte 5: 122
+00:03:27Byte 6: 130
+00:03:27Byte 7: 149
+00:03:27Byte 8: 154
+00:03:27Byte 9: 147
+00:03:27Byte 10: 99
+00:03:27Byte 11: 145
+00:03:27Byte 12: 125
+00:03:27Byte 13: 166
+00:03:27Byte 14: 164
+00:03:27Byte 16: 195
+00:03:27Byte 17: 178
+00:03:27Byte 18: 206
+00:03:27Byte 19: 155
+00:03:27Byte 20: 89
+00:03:27Byte 21: 9
+00:03:27Byte 22: 167
+00:03:27Byte 23: 80
+00:03:27Byte 24: 99
+00:03:27Byte 25: 9
+00:03:27Byte 26: 6
+00:03:27Byte 27: 26
+00:03:27Byte 28: 116
+00:03:27Byte 29: 137
+00:03:27Looking up Chain..Compression
+00:03:27Compression: Found Crystal: Dark Crystal
+00:03:29Sending Synthchain: 34817.  Setting info.status to Spirit Update
+00:03:30Received 0x05C. Current Status: Spirit Update   Showing all non 0 byte packets:
+00:03:30Byte 1: 92
+00:03:30Byte 2: 18
+00:03:30Byte 3: 107
+00:03:30Byte 4: 52
+00:03:30Byte 5: 1
+00:03:30Byte 17: 7
+00:03:30Byte 21: 134
+00:03:30Byte 22: 1
+00:03:30Byte 25: 1
+00:03:30Byte 29: 1
+00:03:30Byte 33: 161
+00:03:30Byte 34: 63
+00:03:30Synth Success! Chain Performed:None Spirit Gained:1 Current Spirit:16289
+00:03:30Moving to next step. 2 Current Spirit:16289
+00:03:30Sleeping 10 for animation delay and sending ACK, setting to 'Chain Ready'
+00:03:40Received 0x05C. Current Status: Chain Ready   Showing all non 0 byte packets:
+00:03:40Byte 1: 92
+00:03:40Byte 2: 18
+00:03:40Byte 3: 130
+00:03:40Byte 4: 52
+00:03:40Byte 5: 5
+00:03:40Byte 9: 78
+00:03:40Byte 10: 103
+00:03:40Byte 21: 99
+00:03:41Finished synth. Setting Status back to Initial
+00:03:41Received 0x05C. Current Status: Initial   Showing all non 0 byte packets:
+00:03:41Byte 1: 92
+00:03:41Byte 2: 18
+00:03:41Byte 3: 133
+00:03:41Byte 4: 52
+00:03:41Byte 5: 122
+00:03:41Byte 6: 130
+00:03:41Byte 7: 149
+00:03:41Byte 8: 154
+00:03:41Byte 9: 147
+00:03:41Byte 10: 99
+00:03:41Byte 11: 145
+00:03:41Byte 12: 124
+00:03:41Byte 13: 165
+00:03:41Byte 14: 164
+00:03:41Byte 16: 195
+00:03:41Byte 17: 178
+00:03:41Byte 18: 206
+00:03:41Byte 19: 155
+00:03:41Byte 20: 89
+00:03:41Byte 21: 9
+00:03:41Byte 22: 167
+00:03:41Byte 23: 79
+00:03:41Byte 24: 99
+00:03:41Byte 25: 9
+00:03:41Byte 26: 6
+00:03:41Byte 27: 26
+00:03:41Byte 28: 116
+00:03:41Byte 29: 137
+00:03:41Looking up Chain..Transfixion
+00:03:41Transfixion: Found Crystal: Light Crystal
+00:03:43Sending Synthchain: 30465.  Setting info.status to Spirit Update
+00:03:44Received 0x05C. Current Status: Spirit Update   Showing all non 0 byte packets:
+00:03:44Byte 1: 92
+00:03:44Byte 2: 18
+00:03:44Byte 3: 139
+00:03:44Byte 4: 52
+00:03:44Byte 5: 2
+00:03:44Byte 9: 7
+00:03:44Byte 17: 6
+00:03:44Byte 21: 134
+00:03:44Byte 22: 1
+00:03:44Byte 25: 3
+00:03:44Byte 29: 1
+00:03:44Byte 33: 164
+00:03:44Byte 34: 63
+00:03:44HQ Synth Success! Chain Performed:Transfixion Spirit Gained:3 Current Spirit:16292
+00:03:44Moving to next step. 3 Current Spirit:16292
+00:03:44Sleeping 10 for animation delay and sending ACK, setting to 'Chain Ready'
+00:03:54Received 0x05C. Current Status: Chain Ready   Showing all non 0 byte packets:
+00:03:54Byte 1: 92
+00:03:54Byte 2: 18
+00:03:54Byte 3: 163
+00:03:54Byte 4: 52
+00:03:54Byte 5: 5
+00:03:54Byte 9: 78
+00:03:54Byte 10: 103
+00:03:54Byte 21: 99
+00:03:55Finished synth. Setting Status back to Initial
+00:03:55Received 0x05C. Current Status: Initial   Showing all non 0 byte packets:
+00:03:55Byte 1: 92
+00:03:55Byte 2: 18
+00:03:55Byte 3: 166
+00:03:55Byte 4: 52
+00:03:55Byte 5: 122
+00:03:55Byte 6: 130
+00:03:55Byte 7: 149
+00:03:55Byte 8: 154
+00:03:55Byte 9: 147
+00:03:55Byte 10: 99
+00:03:55Byte 11: 144
+00:03:55Byte 12: 124
+00:03:55Byte 13: 164
+00:03:55Byte 14: 164
+00:03:55Byte 16: 195
+00:03:55Byte 17: 178
+00:03:55Byte 18: 206
+00:03:55Byte 19: 155
+00:03:55Byte 20: 89
+00:03:55Byte 21: 9
+00:03:55Byte 22: 166
+00:03:55Byte 23: 79
+00:03:55Byte 24: 99
+00:03:55Byte 25: 9
+00:03:55Byte 26: 6
+00:03:55Byte 27: 26
+00:03:55Byte 28: 116
+00:03:55Byte 29: 137
+00:03:55Looking up Chain..Scission
+00:03:55Scission: Found Crystal: Earth Crystal
+00:03:57Sending Synthchain: 17409.  Setting info.status to Spirit Update
+00:03:58Received 0x05C. Current Status: Spirit Update   Showing all non 0 byte packets:
+00:03:58Byte 1: 92
+00:03:58Byte 2: 18
+00:03:58Byte 3: 172
+00:03:58Byte 4: 52
+00:03:58Byte 5: 1
+00:03:58Byte 9: 10
+00:03:58Byte 17: 3
+00:03:58Byte 21: 134
+00:03:58Byte 22: 1
+00:03:58Byte 25: 5
+00:03:58Byte 33: 169
+00:03:58Byte 34: 63
+00:03:58Synth Success! Chain Performed:Distortion Spirit Gained:5 Current Spirit:16297
+00:03:58Moving to next step. 4 Current Spirit:16297
+00:03:58Sleeping 10 for animation delay and sending ACK, setting to 'Chain Ready'
+00:04:09Received 0x05C. Current Status: Chain Ready   Showing all non 0 byte packets:
+00:04:09Byte 1: 92
+00:04:09Byte 2: 18
+00:04:09Byte 3: 196
+00:04:09Byte 4: 52
+00:04:09Byte 5: 5
+00:04:09Byte 9: 78
+00:04:09Byte 10: 103
+00:04:09Byte 21: 99
+00:04:10Finished synth. Setting Status back to Initial
+00:04:10Received 0x05C. Current Status: Initial   Showing all non 0 byte packets:
+00:04:10Byte 1: 92
+00:04:10Byte 2: 18
+00:04:10Byte 3: 199
+00:04:10Byte 4: 52
+00:04:10Byte 5: 122
+00:04:10Byte 6: 130
+00:04:10Byte 7: 149
+00:04:10Byte 8: 153
+00:04:10Byte 9: 147
+00:04:10Byte 10: 99
+00:04:10Byte 11: 144
+00:04:10Byte 12: 124
+00:04:10Byte 13: 163
+00:04:10Byte 14: 164
+00:04:10Byte 16: 195
+00:04:10Byte 17: 178
+00:04:10Byte 18: 206
+00:04:10Byte 19: 154
+00:04:10Byte 20: 89
+00:04:10Byte 21: 9
+00:04:10Byte 22: 166
+00:04:10Byte 23: 79
+00:04:10Byte 24: 99
+00:04:10Byte 25: 9
+00:04:10Byte 26: 6
+00:04:10Byte 27: 26
+00:04:10Byte 28: 116
+00:04:10Byte 29: 137
+00:04:10Looking up Chain..Gravitation
+00:04:10Gravitation: Found Crystal: Dark Crystal
+00:04:12Sending Synthchain: 51201.  Setting info.status to Spirit Update
+00:04:12Received 0x05C. Current Status: Spirit Update   Showing all non 0 byte packets:
+00:04:12Byte 1: 92
+00:04:12Byte 2: 18
+00:04:12Byte 3: 205
+00:04:12Byte 4: 52
+00:04:12Byte 5: 1
+00:04:12Byte 9: 14
+00:04:12Byte 17: 7
+00:04:12Byte 21: 134
+00:04:12Byte 22: 1
+00:04:12Byte 25: 15
+00:04:12Byte 33: 184
+00:04:12Byte 34: 63
+00:04:12Synth Success! Chain Performed:Darkness Spirit Gained:15 Current Spirit:16312
+00:04:12Hit end of chain - resetting. Current Spirit:16312
+00:04:12Sleeping 10 for animation delay and sending ACK, setting to 'Chain Ready'
+00:04:13Received 0x05C. Current Status: Spirit Update   Showing all non 0 byte packets:
+00:04:13Byte 1: 92
+00:04:13Byte 2: 18
+00:04:13Byte 3: 205
+00:04:13Byte 4: 52
+00:04:13Byte 5: 1
+00:04:13Byte 9: 14
+00:04:13Byte 17: 7
+00:04:13Byte 21: 134
+00:04:13Byte 22: 1
+00:04:13Byte 25: 15
+00:04:13Byte 33: 184
+00:04:13Byte 34: 63
+00:04:13Dupe packet detected - Ignoring
+00:04:23Received 0x05C. Current Status: Chain Ready   Showing all non 0 byte packets:
+00:04:23Byte 1: 92
+00:04:23Byte 2: 18
+00:04:23Byte 3: 230
+00:04:23Byte 4: 52
+00:04:23Byte 5: 5
+00:04:23Byte 9: 78
+00:04:23Byte 10: 103
+00:04:23Byte 21: 99
+00:04:24Finished synth. Setting Status back to Initial
+00:04:25Received 0x05C. Current Status: Initial   Showing all non 0 byte packets:
+00:04:25Byte 1: 92
+00:04:25Byte 2: 18
+00:04:25Byte 3: 234
+00:04:25Byte 4: 52
+00:04:25Byte 5: 122
+00:04:25Byte 6: 130
+00:04:25Byte 7: 149
+00:04:25Byte 8: 153
+00:04:25Byte 9: 147
+00:04:25Byte 10: 99
+00:04:25Byte 11: 144
+00:04:25Byte 12: 123
+00:04:25Byte 13: 163
+00:04:25Byte 14: 163
+00:04:25Byte 16: 195
+00:04:25Byte 17: 178
+00:04:25Byte 18: 206
+00:04:25Byte 19: 154
+00:04:25Byte 20: 89
+00:04:25Byte 21: 9
+00:04:25Byte 22: 166
+00:04:25Byte 23: 79
+00:04:25Byte 24: 99
+00:04:25Byte 25: 9
+00:04:25Byte 26: 6
+00:04:25Byte 27: 25
+00:04:25Byte 28: 116
+00:04:25Byte 29: 137
+00:04:25Looking up Chain..Compression
+00:04:25Compression: Found Crystal: Dark Crystal
+00:04:27Sending Synthchain: 34817.  Setting info.status to Spirit Update
+00:04:27Received 0x05C. Current Status: Spirit Update   Showing all non 0 byte packets:
+00:04:27Byte 1: 92
+00:04:27Byte 2: 18
+00:04:27Byte 3: 240
+00:04:27Byte 4: 52
+00:04:27Byte 5: 1
+00:04:27Byte 17: 7
+00:04:27Byte 21: 134
+00:04:27Byte 22: 1
+00:04:27Byte 25: 1
+00:04:27Byte 29: 1
+00:04:27Byte 33: 185
+00:04:27Byte 34: 63
+00:04:27Synth Success! Chain Performed:None Spirit Gained:1 Current Spirit:16313
+00:04:27Moving to next step. 2 Current Spirit:16313
+00:04:27Sleeping 10 for animation delay and sending ACK, setting to 'Chain Ready'
+00:04:38Received 0x05C. Current Status: Chain Ready   Showing all non 0 byte packets:
+00:04:38Byte 1: 92
+00:04:38Byte 2: 18
+00:04:38Byte 3: 8
+00:04:38Byte 4: 53
+00:04:38Byte 5: 5
+00:04:38Byte 9: 78
+00:04:38Byte 10: 103
+00:04:38Byte 21: 99
+00:04:39Finished synth. Setting Status back to Initial
+00:04:39Received 0x05C. Current Status: Initial   Showing all non 0 byte packets:
+00:04:39Byte 1: 92
+00:04:39Byte 2: 18
+00:04:39Byte 3: 11
+00:04:39Byte 4: 53
+00:04:39Byte 5: 122
+00:04:39Byte 6: 130
+00:04:39Byte 7: 149
+00:04:39Byte 8: 153
+00:04:39Byte 9: 147
+00:04:39Byte 10: 99
+00:04:39Byte 11: 144
+00:04:39Byte 12: 122
+00:04:39Byte 13: 162
+00:04:39Byte 14: 163
+00:04:39Byte 16: 195
+00:04:39Byte 17: 178
+00:04:39Byte 18: 206
+00:04:39Byte 19: 154
+00:04:39Byte 20: 89
+00:04:39Byte 21: 9
+00:04:39Byte 22: 166
+00:04:39Byte 23: 78
+00:04:39Byte 24: 99
+00:04:39Byte 25: 9
+00:04:39Byte 26: 6
+00:04:39Byte 27: 25
+00:04:39Byte 28: 116
+00:04:39Byte 29: 137
+00:04:39Looking up Chain..Transfixion
+00:04:39Transfixion: Found Crystal: Light Crystal
+00:04:41Sending Synthchain: 30465.  Setting info.status to Spirit Update
+00:04:42Received 0x05C. Current Status: Spirit Update   Showing all non 0 byte packets:
+00:04:42Byte 1: 92
+00:04:42Byte 2: 18
+00:04:42Byte 3: 17
+00:04:42Byte 4: 53
+00:04:42Byte 5: 1
+00:04:42Byte 9: 7
+00:04:42Byte 17: 6
+00:04:42Byte 21: 134
+00:04:42Byte 22: 1
+00:04:42Byte 25: 2
+00:04:42Byte 29: 1
+00:04:42Byte 33: 187
+00:04:42Byte 34: 63
+00:04:42Synth Success! Chain Performed:Transfixion Spirit Gained:2 Current Spirit:16315
+00:04:42Moving to next step. 3 Current Spirit:16315
+00:04:42Sleeping 10 for animation delay and sending ACK, setting to 'Chain Ready'
+00:04:53Received 0x05C. Current Status: Chain Ready   Showing all non 0 byte packets:
+00:04:53Byte 1: 92
+00:04:53Byte 2: 18
+00:04:53Byte 3: 41
+00:04:53Byte 4: 53
+00:04:53Byte 5: 5
+00:04:53Byte 9: 78
+00:04:53Byte 10: 103
+00:04:53Byte 21: 99
+00:04:54Finished synth. Setting Status back to Initial
+00:04:54Received 0x05C. Current Status: Initial   Showing all non 0 byte packets:
+00:04:54Byte 1: 92
+00:04:54Byte 2: 18
+00:04:54Byte 3: 44
+00:04:54Byte 4: 53
+00:04:54Byte 5: 122
+00:04:54Byte 6: 130
+00:04:54Byte 7: 149
+00:04:54Byte 8: 153
+00:04:54Byte 9: 147
+00:04:54Byte 10: 99
+00:04:54Byte 11: 143
+00:04:54Byte 12: 122
+00:04:54Byte 13: 161
+00:04:54Byte 14: 163
+00:04:54Byte 16: 195
+00:04:54Byte 17: 178
+00:04:54Byte 18: 206
+00:04:54Byte 19: 154
+00:04:54Byte 20: 89
+00:04:54Byte 21: 9
+00:04:54Byte 22: 165
+00:04:54Byte 23: 78
+00:04:54Byte 24: 99
+00:04:54Byte 25: 9
+00:04:54Byte 26: 6
+00:04:54Byte 27: 25
+00:04:54Byte 28: 116
+00:04:54Byte 29: 137
+00:04:54Looking up Chain..Scission
+00:04:54Scission: Found Crystal: Earth Crystal
+00:04:56Sending Synthchain: 17409.  Setting info.status to Spirit Update
+00:04:57Received 0x05C. Current Status: Spirit Update   Showing all non 0 byte packets:
+00:04:57Byte 1: 92
+00:04:57Byte 2: 18
+00:04:57Byte 3: 50
+00:04:57Byte 4: 53
+00:04:57Byte 5: 1
+00:04:57Byte 9: 10
+00:04:57Byte 17: 3
+00:04:57Byte 21: 134
+00:04:57Byte 22: 1
+00:04:57Byte 25: 5
+00:04:57Byte 33: 192
+00:04:57Byte 34: 63
+00:04:57Synth Success! Chain Performed:Distortion Spirit Gained:5 Current Spirit:16320
+00:04:57Moving to next step. 4 Current Spirit:16320
+00:04:57Sleeping 10 for animation delay and sending ACK, setting to 'Chain Ready'
+00:05:07Received 0x05C. Current Status: Chain Ready   Showing all non 0 byte packets:
+00:05:07Byte 1: 92
+00:05:07Byte 2: 18
+00:05:07Byte 3: 75
+00:05:07Byte 4: 53
+00:05:07Byte 5: 5
+00:05:07Byte 9: 78
+00:05:07Byte 10: 103
+00:05:07Byte 21: 99
+00:05:08Finished synth. Setting Status back to Initial
+00:05:08Received 0x05C. Current Status: Initial   Showing all non 0 byte packets:
+00:05:08Byte 1: 92
+00:05:08Byte 2: 18
+00:05:08Byte 3: 78
+00:05:09Byte 4: 53
+00:05:09Byte 5: 122
+00:05:09Byte 6: 130
+00:05:09Byte 7: 149
+00:05:09Byte 8: 152
+00:05:09Byte 9: 147
+00:05:09Byte 10: 99
+00:05:09Byte 11: 143
+00:05:09Byte 12: 122
+00:05:09Byte 13: 160
+00:05:09Byte 14: 163
+00:05:09Byte 16: 195
+00:05:09Byte 17: 178
+00:05:09Byte 18: 206
+00:05:09Byte 19: 153
+00:05:09Byte 20: 89
+00:05:09Byte 21: 9
+00:05:09Byte 22: 165
+00:05:09Byte 23: 78
+00:05:09Byte 24: 99
+00:05:09Byte 25: 9
+00:05:09Byte 26: 6
+00:05:09Byte 27: 25
+00:05:09Byte 28: 116
+00:05:09Byte 29: 137
+00:05:09Looking up Chain..Gravitation
+00:05:09Gravitation: Found Crystal: Dark Crystal
+00:05:11Sending Synthchain: 51201.  Setting info.status to Spirit Update
+00:05:11Received 0x05C. Current Status: Spirit Update   Showing all non 0 byte packets:
+00:05:11Byte 1: 92
+00:05:11Byte 2: 18
+00:05:11Byte 3: 84
+00:05:11Byte 4: 53
+00:05:11Byte 5: 1
+00:05:11Byte 9: 14
+00:05:11Byte 17: 7
+00:05:11Byte 21: 134
+00:05:11Byte 22: 1
+00:05:11Byte 25: 15
+00:05:11Byte 33: 207
+00:05:11Byte 34: 63
+00:05:11Synth Success! Chain Performed:Darkness Spirit Gained:15 Current Spirit:16335
+00:05:11Hit end of chain - resetting. Current Spirit:16335
+00:05:11Sleeping 10 for animation delay and sending ACK, setting to 'Chain Ready'
+00:05:21Received 0x05C. Current Status: Chain Ready   Showing all non 0 byte packets:
+00:05:21Byte 1: 92
+00:05:21Byte 2: 18
+00:05:21Byte 3: 108
+00:05:21Byte 4: 53
+00:05:21Byte 5: 5
+00:05:21Byte 9: 78
+00:05:21Byte 10: 103
+00:05:21Byte 21: 99
+00:05:22Finished synth. Setting Status back to Initial
+00:05:23Received 0x05C. Current Status: Initial   Showing all non 0 byte packets:
+00:05:23Byte 1: 92
+00:05:23Byte 2: 18
+00:05:23Byte 3: 111
+00:05:23Byte 4: 53
+00:05:23Byte 5: 122
+00:05:23Byte 6: 130
+00:05:23Byte 7: 149
+00:05:23Byte 8: 152
+00:05:23Byte 9: 147
+00:05:23Byte 10: 99
+00:05:23Byte 11: 143
+00:05:23Byte 12: 121
+00:05:23Byte 13: 160
+00:05:23Byte 14: 162
+00:05:23Byte 16: 195
+00:05:23Byte 17: 178
+00:05:23Byte 18: 206
+00:05:23Byte 19: 153
+00:05:23Byte 20: 89
+00:05:23Byte 21: 9
+00:05:23Byte 22: 165
+00:05:23Byte 23: 78
+00:05:23Byte 24: 99
+00:05:23Byte 25: 9
+00:05:23Byte 26: 6
+00:05:23Byte 27: 24
+00:05:23Byte 28: 116
+00:05:23Byte 29: 137
+00:05:23Looking up Chain..Compression
+00:05:23Compression: Found Crystal: Dark Crystal
+00:05:25Sending Synthchain: 34817.  Setting info.status to Spirit Update
+00:05:25Received 0x05C. Current Status: Spirit Update   Showing all non 0 byte packets:
+00:05:25Byte 1: 92
+00:05:25Byte 2: 18
+00:05:25Byte 3: 117
+00:05:25Byte 4: 53
+00:05:25Byte 5: 1
+00:05:25Byte 17: 7
+00:05:25Byte 21: 134
+00:05:25Byte 22: 1
+00:05:25Byte 25: 1
+00:05:25Byte 29: 1
+00:05:25Byte 33: 208
+00:05:25Byte 34: 63
+00:05:25Synth Success! Chain Performed:None Spirit Gained:1 Current Spirit:16336
+00:05:25Moving to next step. 2 Current Spirit:16336
+00:05:25Sleeping 10 for animation delay and sending ACK, setting to 'Chain Ready'
+00:05:36Received 0x05C. Current Status: Chain Ready   Showing all non 0 byte packets:
+00:05:36Byte 1: 92
+00:05:36Byte 2: 18
+00:05:36Byte 3: 142
+00:05:36Byte 4: 53
+00:05:36Byte 5: 5
+00:05:36Byte 9: 78
+00:05:36Byte 10: 103
+00:05:36Byte 21: 99
+00:05:37Finished synth. Setting Status back to Initial
+00:05:37Received 0x05C. Current Status: Initial   Showing all non 0 byte packets:
+00:05:37Byte 1: 92
+00:05:37Byte 2: 18
+00:05:37Byte 3: 146
+00:05:37Byte 4: 53
+00:05:37Byte 5: 122
+00:05:37Byte 6: 130
+00:05:37Byte 7: 149
+00:05:37Byte 8: 152
+00:05:37Byte 9: 147
+00:05:37Byte 10: 99
+00:05:37Byte 11: 143
+00:05:37Byte 12: 120
+00:05:37Byte 13: 159
+00:05:37Byte 14: 162
+00:05:37Byte 16: 195
+00:05:37Byte 17: 178
+00:05:37Byte 18: 206
+00:05:37Byte 19: 153
+00:05:37Byte 20: 89
+00:05:37Byte 21: 9
+00:05:37Byte 22: 165
+00:05:37Byte 23: 77
+00:05:37Byte 24: 99
+00:05:37Byte 25: 9
+00:05:37Byte 26: 6
+00:05:37Byte 27: 24
+00:05:37Byte 28: 116
+00:05:37Byte 29: 137
+00:05:37Looking up Chain..Transfixion
+00:05:37Transfixion: Found Crystal: Light Crystal
+00:05:39Sending Synthchain: 30465.  Setting info.status to Spirit Update
+00:05:40Received 0x05C. Current Status: Spirit Update   Showing all non 0 byte packets:
+00:05:40Byte 1: 92
+00:05:40Byte 2: 18
+00:05:40Byte 3: 152
+00:05:40Byte 4: 53
+00:05:40Byte 5: 1
+00:05:40Byte 9: 7
+00:05:40Byte 17: 6
+00:05:40Byte 21: 134
+00:05:40Byte 22: 1
+00:05:40Byte 25: 2
+00:05:40Byte 29: 1
+00:05:40Byte 33: 210
+00:05:40Byte 34: 63
+00:05:40Synth Success! Chain Performed:Transfixion Spirit Gained:2 Current Spirit:16338
+00:05:40Moving to next step. 3 Current Spirit:16338
+00:05:40Sleeping 10 for animation delay and sending ACK, setting to 'Chain Ready'
+00:05:50Received 0x05C. Current Status: Chain Ready   Showing all non 0 byte packets:
+00:05:50Byte 1: 92
+00:05:50Byte 2: 18
+00:05:50Byte 3: 177
+00:05:50Byte 4: 53
+00:05:50Byte 5: 5
+00:05:50Byte 9: 78
+00:05:50Byte 10: 103
+00:05:50Byte 21: 99
+00:05:51Finished synth. Setting Status back to Initial
+00:05:52Received 0x05C. Current Status: Initial   Showing all non 0 byte packets:
+00:05:52Byte 1: 92
+00:05:52Byte 2: 18
+00:05:52Byte 3: 181
+00:05:52Byte 4: 53
+00:05:52Byte 5: 122
+00:05:52Byte 6: 130
+00:05:52Byte 7: 149
+00:05:52Byte 8: 152
+00:05:52Byte 9: 147
+00:05:52Byte 10: 99
+00:05:52Byte 11: 142
+00:05:52Byte 12: 120
+00:05:52Byte 13: 158
+00:05:52Byte 14: 162
+00:05:52Byte 16: 195
+00:05:52Byte 17: 178
+00:05:52Byte 18: 206
+00:05:52Byte 19: 153
+00:05:52Byte 20: 89
+00:05:52Byte 21: 9
+00:05:52Byte 22: 164
+00:05:52Byte 23: 77
+00:05:52Byte 24: 99
+00:05:52Byte 25: 9
+00:05:52Byte 26: 6
+00:05:52Byte 27: 24
+00:05:52Byte 28: 116
+00:05:52Byte 29: 137
+00:05:52Looking up Chain..Scission
+00:05:52Scission: Found Crystal: Earth Crystal
+00:05:54Sending Synthchain: 17409.  Setting info.status to Spirit Update
+00:05:54Received 0x05C. Current Status: Spirit Update   Showing all non 0 byte packets:
+00:05:54Byte 1: 92
+00:05:54Byte 2: 18
+00:05:54Byte 3: 187
+00:05:54Byte 4: 53
+00:05:54Byte 5: 1
+00:05:54Byte 9: 10
+00:05:54Byte 17: 3
+00:05:54Byte 21: 134
+00:05:54Byte 22: 1
+00:05:54Byte 25: 5
+00:05:54Byte 33: 215
+00:05:54Byte 34: 63
+00:05:54Synth Success! Chain Performed:Distortion Spirit Gained:5 Current Spirit:16343
+00:05:54Moving to next step. 4 Current Spirit:16343
+00:05:54Sleeping 10 for animation delay and sending ACK, setting to 'Chain Ready'
+00:06:05Received 0x05C. Current Status: Chain Ready   Showing all non 0 byte packets:
+00:06:05Byte 1: 92
+00:06:05Byte 2: 18
+00:06:05Byte 3: 212
+00:06:05Byte 4: 53
+00:06:05Byte 5: 5
+00:06:05Byte 9: 78
+00:06:05Byte 10: 103
+00:06:05Byte 21: 99
+00:06:06Finished synth. Setting Status back to Initial
+00:06:06Received 0x05C. Current Status: Initial   Showing all non 0 byte packets:
+00:06:06Byte 1: 92
+00:06:06Byte 2: 18
+00:06:06Byte 3: 215
+00:06:06Byte 4: 53
+00:06:06Byte 5: 122
+00:06:06Byte 6: 130
+00:06:06Byte 7: 149
+00:06:06Byte 8: 151
+00:06:06Byte 9: 147
+00:06:06Byte 10: 99
+00:06:06Byte 11: 142
+00:06:06Byte 12: 120
+00:06:06Byte 13: 157
+00:06:06Byte 14: 162
+00:06:06Byte 16: 195
+00:06:06Byte 17: 178
+00:06:06Byte 18: 206
+00:06:06Byte 19: 152
+00:06:06Byte 20: 89
+00:06:06Byte 21: 9
+00:06:06Byte 22: 164
+00:06:06Byte 23: 77
+00:06:06Byte 24: 99
+00:06:06Byte 25: 9
+00:06:06Byte 26: 6
+00:06:06Byte 27: 24
+00:06:06Byte 28: 116
+00:06:06Byte 29: 137
+00:06:06Looking up Chain..Gravitation
+00:06:06Gravitation: Found Crystal: Dark Crystal
+00:06:08Sending Synthchain: 51201.  Setting info.status to Spirit Update
+00:06:08Received 0x05C. Current Status: Spirit Update   Showing all non 0 byte packets:
+00:06:08Byte 1: 92
+00:06:08Byte 2: 18
+00:06:08Byte 3: 221
+00:06:08Byte 4: 53
+00:06:08Byte 5: 2
+00:06:08Byte 9: 14
+00:06:08Byte 17: 7
+00:06:08Byte 21: 134
+00:06:08Byte 22: 1
+00:06:08Byte 25: 23
+00:06:08Byte 33: 238
+00:06:08Byte 34: 63
+00:06:08HQ Synth Success! Chain Performed:Darkness Spirit Gained:23 Current Spirit:16366
+00:06:08Hit end of chain - resetting. Current Spirit:16366
+00:06:08Sleeping 10 for animation delay and sending ACK, setting to 'Chain Ready'
+00:06:19Received 0x05C. Current Status: Chain Ready   Showing all non 0 byte packets:
+00:06:19Byte 1: 92
+00:06:19Byte 2: 18
+00:06:19Byte 3: 246
+00:06:19Byte 4: 53
+00:06:19Byte 5: 5
+00:06:19Byte 9: 78
+00:06:19Byte 10: 103
+00:06:19Byte 21: 99
+00:06:20Finished synth. Setting Status back to Initial
+00:06:20Received 0x05C. Current Status: Initial   Showing all non 0 byte packets:
+00:06:20Byte 1: 92
+00:06:20Byte 2: 18
+00:06:20Byte 3: 249
+00:06:20Byte 4: 53
+00:06:20Byte 5: 122
+00:06:20Byte 6: 130
+00:06:20Byte 7: 149
+00:06:20Byte 8: 151
+00:06:20Byte 9: 147
+00:06:20Byte 10: 99
+00:06:20Byte 11: 142
+00:06:20Byte 12: 119
+00:06:20Byte 13: 157
+00:06:20Byte 14: 161
+00:06:20Byte 16: 195
+00:06:20Byte 17: 178
+00:06:20Byte 18: 206
+00:06:20Byte 19: 152
+00:06:20Byte 20: 89
+00:06:20Byte 21: 9
+00:06:20Byte 22: 164
+00:06:20Byte 23: 77
+00:06:20Byte 24: 99
+00:06:20Byte 25: 9
+00:06:20Byte 26: 6
+00:06:20Byte 27: 23
+00:06:20Byte 28: 116
+00:06:20Byte 29: 137
+00:06:20Looking up Chain..Compression
+00:06:20Compression: Found Crystal: Dark Crystal
+00:06:22Sending Synthchain: 34817.  Setting info.status to Spirit Update
+00:06:23Received 0x05C. Current Status: Spirit Update   Showing all non 0 byte packets:
+00:06:23Byte 1: 92
+00:06:23Byte 2: 18
+00:06:23Byte 3: 255
+00:06:23Byte 4: 53
+00:06:23Byte 5: 1
+00:06:23Byte 17: 7
+00:06:23Byte 21: 134
+00:06:23Byte 22: 1
+00:06:23Byte 25: 1
+00:06:23Byte 29: 1
+00:06:23Byte 33: 239
+00:06:23Byte 34: 63
+00:06:23Synth Success! Chain Performed:None Spirit Gained:1 Current Spirit:16367
+00:06:23Moving to next step. 2 Current Spirit:16367
+00:06:23Sleeping 10 for animation delay and sending ACK, setting to 'Chain Ready'
+00:06:33Received 0x05C. Current Status: Chain Ready   Showing all non 0 byte packets:
+00:06:33Byte 1: 92
+00:06:33Byte 2: 18
+00:06:33Byte 3: 25
+00:06:33Byte 4: 54
+00:06:33Byte 5: 5
+00:06:33Byte 9: 78
+00:06:33Byte 10: 103
+00:06:33Byte 21: 99
+00:06:34Finished synth. Setting Status back to Initial
+00:06:35Received 0x05C. Current Status: Initial   Showing all non 0 byte packets:
+00:06:35Byte 1: 92
+00:06:35Byte 2: 18
+00:06:35Byte 3: 29
+00:06:35Byte 4: 54
+00:06:35Byte 5: 122
+00:06:35Byte 6: 130
+00:06:35Byte 7: 149
+00:06:35Byte 8: 151
+00:06:35Byte 9: 147
+00:06:35Byte 10: 99
+00:06:35Byte 11: 142
+00:06:35Byte 12: 118
+00:06:35Byte 13: 156
+00:06:35Byte 14: 161
+00:06:35Byte 16: 195
+00:06:35Byte 17: 178
+00:06:35Byte 18: 206
+00:06:35Byte 19: 152
+00:06:35Byte 20: 89
+00:06:35Byte 21: 9
+00:06:35Byte 22: 164
+00:06:35Byte 23: 76
+00:06:35Byte 24: 99
+00:06:35Byte 25: 9
+00:06:35Byte 26: 6
+00:06:35Byte 27: 23
+00:06:35Byte 28: 116
+00:06:35Byte 29: 137
+00:06:35Looking up Chain..Transfixion
+00:06:35Transfixion: Found Crystal: Light Crystal
+00:06:37Sending Synthchain: 30465.  Setting info.status to Spirit Update
+00:06:37Received 0x05C. Current Status: Spirit Update   Showing all non 0 byte packets:
+00:06:37Byte 1: 92
+00:06:37Byte 2: 18
+00:06:37Byte 3: 35
+00:06:37Byte 4: 54
+00:06:37Byte 5: 1
+00:06:37Byte 9: 7
+00:06:37Byte 17: 6
+00:06:37Byte 21: 134
+00:06:37Byte 22: 1
+00:06:37Byte 25: 2
+00:06:37Byte 29: 1
+00:06:37Byte 33: 241
+00:06:37Byte 34: 63
+00:06:37Synth Success! Chain Performed:Transfixion Spirit Gained:2 Current Spirit:16369
+00:06:37Moving to next step. 3 Current Spirit:16369
+00:06:37Sleeping 10 for animation delay and sending ACK, setting to 'Chain Ready'
+00:06:48Received 0x05C. Current Status: Chain Ready   Showing all non 0 byte packets:
+00:06:48Byte 1: 92
+00:06:48Byte 2: 18
+00:06:48Byte 3: 60
+00:06:48Byte 4: 54
+00:06:48Byte 5: 5
+00:06:48Byte 9: 78
+00:06:48Byte 10: 103
+00:06:48Byte 21: 99
+00:06:49Finished synth. Setting Status back to Initial
+00:06:49Received 0x05C. Current Status: Initial   Showing all non 0 byte packets:
+00:06:49Byte 1: 92
+00:06:49Byte 2: 18
+00:06:49Byte 3: 63
+00:06:49Byte 4: 54
+00:06:49Byte 5: 122
+00:06:49Byte 6: 130
+00:06:49Byte 7: 149
+00:06:49Byte 8: 151
+00:06:49Byte 9: 147
+00:06:49Byte 10: 99
+00:06:49Byte 11: 141
+00:06:49Byte 12: 118
+00:06:49Byte 13: 155
+00:06:49Byte 14: 161
+00:06:49Byte 16: 195
+00:06:49Byte 17: 178
+00:06:49Byte 18: 206
+00:06:49Byte 19: 152
+00:06:49Byte 20: 89
+00:06:49Byte 21: 9
+00:06:49Byte 22: 163
+00:06:49Byte 23: 76
+00:06:49Byte 24: 99
+00:06:49Byte 25: 9
+00:06:49Byte 26: 6
+00:06:49Byte 27: 23
+00:06:49Byte 28: 116
+00:06:49Byte 29: 137
+00:06:49Looking up Chain..Scission
+00:06:49Scission: Found Crystal: Earth Crystal
+00:06:51Sending Synthchain: 17409.  Setting info.status to Spirit Update
+00:06:51Received 0x05C. Current Status: Spirit Update   Showing all non 0 byte packets:
+00:06:51Byte 1: 92
+00:06:51Byte 2: 18
+00:06:51Byte 3: 69
+00:06:51Byte 4: 54
+00:06:51Byte 5: 1
+00:06:51Byte 9: 10
+00:06:51Byte 17: 3
+00:06:51Byte 21: 134
+00:06:51Byte 22: 1
+00:06:51Byte 25: 5
+00:06:51Byte 33: 246
+00:06:51Byte 34: 63
+00:06:51Synth Success! Chain Performed:Distortion Spirit Gained:5 Current Spirit:16374
+00:06:51Moving to next step. 4 Current Spirit:16374
+00:06:51Sleeping 10 for animation delay and sending ACK, setting to 'Chain Ready'
+00:07:02Received 0x05C. Current Status: Chain Ready   Showing all non 0 byte packets:
+00:07:02Byte 1: 92
+00:07:02Byte 2: 18
+00:07:02Byte 3: 94
+00:07:02Byte 4: 54
+00:07:02Byte 5: 5
+00:07:02Byte 9: 78
+00:07:02Byte 10: 103
+00:07:02Byte 21: 99
+00:07:03Finished synth. Setting Status back to Initial
+00:07:03Received 0x05C. Current Status: Initial   Showing all non 0 byte packets:
+00:07:03Byte 1: 92
+00:07:03Byte 2: 18
+00:07:03Byte 3: 98
+00:07:03Byte 4: 54
+00:07:03Byte 5: 122
+00:07:03Byte 6: 130
+00:07:03Byte 7: 149
+00:07:03Byte 8: 150
+00:07:03Byte 9: 147
+00:07:03Byte 10: 99
+00:07:03Byte 11: 141
+00:07:03Byte 12: 118
+00:07:03Byte 13: 154
+00:07:03Byte 14: 161
+00:07:03Byte 16: 195
+00:07:03Byte 17: 178
+00:07:03Byte 18: 206
+00:07:03Byte 19: 151
+00:07:03Byte 20: 89
+00:07:03Byte 21: 9
+00:07:03Byte 22: 163
+00:07:03Byte 23: 76
+00:07:03Byte 24: 99
+00:07:03Byte 25: 9
+00:07:03Byte 26: 6
+00:07:03Byte 27: 23
+00:07:03Byte 28: 116
+00:07:03Byte 29: 137
+00:07:03Looking up Chain..Gravitation
+00:07:03Gravitation: Found Crystal: Dark Crystal
+00:07:05Sending Synthchain: 51201.  Setting info.status to Spirit Update
+00:07:06Received 0x05C. Current Status: Spirit Update   Showing all non 0 byte packets:
+00:07:06Byte 1: 92
+00:07:06Byte 2: 18
+00:07:06Byte 3: 104
+00:07:06Byte 4: 54
+00:07:06Byte 17: 7
+00:07:06Byte 21: 134
+00:07:06Byte 22: 1
+00:07:06Byte 29: 1
+00:07:06Byte 33: 246
+00:07:06Byte 34: 63
+00:07:06ERROR: Synth Fail. Resetting Chain. Current Spirit:16374
+00:07:06Sleeping 10 for animation delay and sending ACK, setting to 'Chain Ready'
+00:07:16Received 0x05C. Current Status: Chain Ready   Showing all non 0 byte packets:
+00:07:16Byte 1: 92
+00:07:16Byte 2: 18
+00:07:16Byte 3: 129
+00:07:16Byte 4: 54
+00:07:16Byte 5: 5
+00:07:16Byte 9: 78
+00:07:16Byte 10: 103
+00:07:16Byte 21: 99
+00:07:17Finished synth. Setting Status back to Initial
+00:07:18Received 0x05C. Current Status: Initial   Showing all non 0 byte packets:
+00:07:18Byte 1: 92
+00:07:18Byte 2: 18
+00:07:18Byte 3: 133
+00:07:18Byte 4: 54
+00:07:18Byte 5: 122
+00:07:18Byte 6: 130
+00:07:18Byte 7: 149
+00:07:18Byte 8: 150
+00:07:18Byte 9: 147
+00:07:18Byte 10: 99
+00:07:18Byte 11: 141
+00:07:18Byte 12: 117
+00:07:18Byte 13: 154
+00:07:18Byte 14: 160
+00:07:18Byte 16: 195
+00:07:18Byte 17: 178
+00:07:18Byte 18: 206
+00:07:18Byte 19: 151
+00:07:18Byte 20: 89
+00:07:18Byte 21: 9
+00:07:18Byte 22: 163
+00:07:18Byte 23: 76
+00:07:18Byte 24: 99
+00:07:18Byte 25: 9
+00:07:18Byte 26: 6
+00:07:18Byte 27: 22
+00:07:18Byte 28: 116
+00:07:18Byte 29: 137
+00:07:18Looking up Chain..Compression
+00:07:18Compression: Found Crystal: Dark Crystal
+00:07:20Sending Synthchain: 34817.  Setting info.status to Spirit Update
+00:07:20Received 0x05C. Current Status: Spirit Update   Showing all non 0 byte packets:
+00:07:20Byte 1: 92
+00:07:20Byte 2: 18
+00:07:20Byte 3: 139
+00:07:20Byte 4: 54
+00:07:20Byte 5: 1
+00:07:20Byte 17: 7
+00:07:20Byte 21: 134
+00:07:20Byte 22: 1
+00:07:20Byte 25: 1
+00:07:20Byte 29: 2
+00:07:20Byte 33: 247
+00:07:20Byte 34: 63
+00:07:20Synth Success! Chain Performed:None Spirit Gained:1 Current Spirit:16375
+00:07:20Moving to next step. 2 Current Spirit:16375
+00:07:20Sleeping 10 for animation delay and sending ACK, setting to 'Chain Ready'
+00:07:31Received 0x05C. Current Status: Chain Ready   Showing all non 0 byte packets:
+00:07:31Byte 1: 92
+00:07:31Byte 2: 18
+00:07:31Byte 3: 164
+00:07:31Byte 4: 54
+00:07:31Byte 5: 5
+00:07:31Byte 9: 78
+00:07:31Byte 10: 103
+00:07:31Byte 21: 99
+00:07:32Finished synth. Setting Status back to Initial
+00:07:32Received 0x05C. Current Status: Initial   Showing all non 0 byte packets:
+00:07:32Byte 1: 92
+00:07:32Byte 2: 18
+00:07:32Byte 3: 168
+00:07:32Byte 4: 54
+00:07:32Byte 5: 122
+00:07:32Byte 6: 130
+00:07:32Byte 7: 149
+00:07:32Byte 8: 150
+00:07:32Byte 9: 147
+00:07:32Byte 10: 99
+00:07:32Byte 11: 141
+00:07:32Byte 12: 116
+00:07:32Byte 13: 153
+00:07:32Byte 14: 160
+00:07:32Byte 16: 195
+00:07:32Byte 17: 178
+00:07:32Byte 18: 206
+00:07:32Byte 19: 151
+00:07:32Byte 20: 89
+00:07:32Byte 21: 9
+00:07:32Byte 22: 163
+00:07:32Byte 23: 75
+00:07:32Byte 24: 99
+00:07:32Byte 25: 9
+00:07:32Byte 26: 6
+00:07:32Byte 27: 22
+00:07:32Byte 28: 116
+00:07:32Byte 29: 137
+00:07:32Looking up Chain..Transfixion
+00:07:32Transfixion: Found Crystal: Light Crystal
+00:07:34Sending Synthchain: 30465.  Setting info.status to Spirit Update
+00:07:35Received 0x05C. Current Status: Spirit Update   Showing all non 0 byte packets:
+00:07:35Byte 1: 92
+00:07:35Byte 2: 18
+00:07:35Byte 3: 174
+00:07:35Byte 4: 54
+00:07:35Byte 5: 1
+00:07:35Byte 9: 7
+00:07:35Byte 17: 6
+00:07:35Byte 21: 134
+00:07:35Byte 22: 1
+00:07:35Byte 25: 2
+00:07:35Byte 29: 2
+00:07:35Byte 33: 249
+00:07:35Byte 34: 63
+00:07:35Synth Success! Chain Performed:Transfixion Spirit Gained:2 Current Spirit:16377
+00:07:35Moving to next step. 3 Current Spirit:16377
+00:07:35Sleeping 10 for animation delay and sending ACK, setting to 'Chain Ready'
+00:07:45Received 0x05C. Current Status: Chain Ready   Showing all non 0 byte packets:
+00:07:45Byte 1: 92
+00:07:45Byte 2: 18
+00:07:45Byte 3: 200
+00:07:45Byte 4: 54
+00:07:45Byte 5: 5
+00:07:45Byte 9: 78
+00:07:45Byte 10: 103
+00:07:45Byte 21: 99
+00:07:46Finished synth. Setting Status back to Initial
+00:07:46Received 0x05C. Current Status: Initial   Showing all non 0 byte packets:
+00:07:46Byte 1: 92
+00:07:46Byte 2: 18
+00:07:46Byte 3: 203
+00:07:46Byte 4: 54
+00:07:46Byte 5: 122
+00:07:46Byte 6: 130
+00:07:46Byte 7: 149
+00:07:46Byte 8: 150
+00:07:46Byte 9: 147
+00:07:46Byte 10: 99
+00:07:46Byte 11: 140
+00:07:46Byte 12: 116
+00:07:46Byte 13: 152
+00:07:46Byte 14: 160
+00:07:46Byte 16: 195
+00:07:46Byte 17: 178
+00:07:46Byte 18: 206
+00:07:46Byte 19: 151
+00:07:46Byte 20: 89
+00:07:46Byte 21: 9
+00:07:46Byte 22: 162
+00:07:46Byte 23: 75
+00:07:46Byte 24: 99
+00:07:46Byte 25: 9
+00:07:46Byte 26: 6
+00:07:46Byte 27: 22
+00:07:46Byte 28: 116
+00:07:46Byte 29: 137
+00:07:46Looking up Chain..Scission
+00:07:46Scission: Found Crystal: Earth Crystal
+00:07:48Sending Synthchain: 17409.  Setting info.status to Spirit Update
+00:07:49Received 0x05C. Current Status: Spirit Update   Showing all non 0 byte packets:
+00:07:49Byte 1: 92
+00:07:49Byte 2: 18
+00:07:49Byte 3: 209
+00:07:49Byte 4: 54
+00:07:49Byte 5: 1
+00:07:49Byte 9: 10
+00:07:49Byte 17: 3
+00:07:49Byte 21: 134
+00:07:49Byte 22: 1
+00:07:49Byte 25: 5
+00:07:49Byte 33: 254
+00:07:49Byte 34: 63
+00:07:49Synth Success! Chain Performed:Distortion Spirit Gained:5 Current Spirit:16382
+00:07:49Moving to next step. 4 Current Spirit:16382
+00:07:49Sleeping 10 for animation delay and sending ACK, setting to 'Chain Ready'
+00:07:59Received 0x05C. Current Status: Chain Ready   Showing all non 0 byte packets:
+00:07:59Byte 1: 92
+00:07:59Byte 2: 18
+00:07:59Byte 3: 234
+00:07:59Byte 4: 54
+00:07:59Byte 5: 5
+00:07:59Byte 9: 78
+00:07:59Byte 10: 103
+00:07:59Byte 21: 99
+00:08:00Finished synth. Setting Status back to Initial
+00:08:00Received 0x05C. Current Status: Initial   Showing all non 0 byte packets:
+00:08:00Byte 1: 92
+00:08:00Byte 2: 18
+00:08:00Byte 3: 237
+00:08:00Byte 4: 54
+00:08:00Byte 5: 122
+00:08:00Byte 6: 130
+00:08:00Byte 7: 149
+00:08:00Byte 8: 149
+00:08:00Byte 9: 147
+00:08:00Byte 10: 99
+00:08:00Byte 11: 140
+00:08:00Byte 12: 116
+00:08:00Byte 13: 151
+00:08:00Byte 14: 160
+00:08:00Byte 16: 195
+00:08:00Byte 17: 178
+00:08:00Byte 18: 206
+00:08:00Byte 19: 150
+00:08:00Byte 20: 89
+00:08:00Byte 21: 9
+00:08:00Byte 22: 162
+00:08:00Byte 23: 75
+00:08:00Byte 24: 99
+00:08:00Byte 25: 9
+00:08:00Byte 26: 6
+00:08:00Byte 27: 22
+00:08:00Byte 28: 116
+00:08:00Byte 29: 137
+00:08:00Looking up Chain..Gravitation
+00:08:00Gravitation: Found Crystal: Dark Crystal
+00:08:02Sending Synthchain: 51201.  Setting info.status to Spirit Update
+00:08:03Received 0x05C. Current Status: Spirit Update   Showing all non 0 byte packets:
+00:08:03Byte 1: 92
+00:08:03Byte 2: 18
+00:08:03Byte 3: 243
+00:08:03Byte 4: 54
+00:08:03Byte 5: 1
+00:08:03Byte 9: 14
+00:08:03Byte 17: 7
+00:08:03Byte 21: 134
+00:08:03Byte 22: 1
+00:08:03Byte 25: 15
+00:08:03Byte 33: 13
+00:08:03Byte 34: 64
+00:08:03Synth Success! Chain Performed:Darkness Spirit Gained:15 Current Spirit:16397
+00:08:03Hit end of chain - resetting. Current Spirit:16397
+00:08:03Sleeping 10 for animation delay and sending ACK, setting to 'Chain Ready'
+00:08:13Received 0x05C. Current Status: Chain Ready   Showing all non 0 byte packets:
+00:08:13Byte 1: 92
+00:08:13Byte 2: 18
+00:08:13Byte 3: 12
+00:08:13Byte 4: 55
+00:08:13Byte 5: 5
+00:08:13Byte 9: 78
+00:08:13Byte 10: 103
+00:08:13Byte 21: 99
+00:08:14Finished synth. Setting Status back to Initial
+00:08:15Received 0x05C. Current Status: Initial   Showing all non 0 byte packets:
+00:08:15Byte 1: 92
+00:08:15Byte 2: 18
+00:08:15Byte 3: 16
+00:08:15Byte 4: 55
+00:08:15Byte 5: 122
+00:08:15Byte 6: 130
+00:08:15Byte 7: 149
+00:08:15Byte 8: 149
+00:08:15Byte 9: 147
+00:08:15Byte 10: 99
+00:08:15Byte 11: 140
+00:08:15Byte 12: 115
+00:08:15Byte 13: 151
+00:08:15Byte 14: 159
+00:08:15Byte 16: 195
+00:08:15Byte 17: 178
+00:08:15Byte 18: 206
+00:08:15Byte 19: 150
+00:08:15Byte 20: 89
+00:08:15Byte 21: 9
+00:08:15Byte 22: 162
+00:08:15Byte 23: 75
+00:08:15Byte 24: 99
+00:08:15Byte 25: 9
+00:08:15Byte 26: 6
+00:08:15Byte 27: 21
+00:08:15Byte 28: 116
+00:08:15Byte 29: 137
+00:08:15Looking up Chain..Compression
+00:08:15Compression: Found Crystal: Dark Crystal
+00:08:17Sending Synthchain: 34817.  Setting info.status to Spirit Update
+00:08:18Received 0x05C. Current Status: Spirit Update   Showing all non 0 byte packets:
+00:08:18Byte 1: 92
+00:08:18Byte 2: 18
+00:08:18Byte 3: 22
+00:08:18Byte 4: 55
+00:08:18Byte 5: 1
+00:08:18Byte 17: 7
+00:08:18Byte 21: 134
+00:08:18Byte 22: 1
+00:08:18Byte 25: 1
+00:08:18Byte 29: 1
+00:08:18Byte 33: 14
+00:08:18Byte 34: 64
+00:08:18Synth Success! Chain Performed:None Spirit Gained:1 Current Spirit:16398
+00:08:18Moving to next step. 2 Current Spirit:16398
+00:08:18Sleeping 10 for animation delay and sending ACK, setting to 'Chain Ready'
+00:08:28Received 0x05C. Current Status: Chain Ready   Showing all non 0 byte packets:
+00:08:28Byte 1: 92
+00:08:28Byte 2: 18
+00:08:28Byte 3: 48
+00:08:28Byte 4: 55
+00:08:28Byte 5: 5
+00:08:28Byte 9: 78
+00:08:28Byte 10: 103
+00:08:28Byte 21: 99
+00:08:29Finished synth. Setting Status back to Initial
+00:08:30Received 0x05C. Current Status: Initial   Showing all non 0 byte packets:
+00:08:30Byte 1: 92
+00:08:30Byte 2: 18
+00:08:30Byte 3: 52
+00:08:30Byte 4: 55
+00:08:30Byte 5: 122
+00:08:30Byte 6: 130
+00:08:30Byte 7: 149
+00:08:30Byte 8: 149
+00:08:30Byte 9: 147
+00:08:30Byte 10: 99
+00:08:30Byte 11: 140
+00:08:30Byte 12: 114
+00:08:30Byte 13: 150
+00:08:30Byte 14: 159
+00:08:30Byte 16: 195
+00:08:30Byte 17: 178
+00:08:30Byte 18: 206
+00:08:30Byte 19: 150
+00:08:30Byte 20: 89
+00:08:30Byte 21: 9
+00:08:30Byte 22: 162
+00:08:30Byte 23: 74
+00:08:30Byte 24: 99
+00:08:30Byte 25: 9
+00:08:30Byte 26: 6
+00:08:30Byte 27: 21
+00:08:30Byte 28: 116
+00:08:30Byte 29: 137
+00:08:30Looking up Chain..Transfixion
+00:08:30Transfixion: Found Crystal: Light Crystal
+00:08:32Sending Synthchain: 30465.  Setting info.status to Spirit Update
+00:08:32Received 0x05C. Current Status: Spirit Update   Showing all non 0 byte packets:
+00:08:32Byte 1: 92
+00:08:32Byte 2: 18
+00:08:32Byte 3: 58
+00:08:32Byte 4: 55
+00:08:32Byte 5: 1
+00:08:32Byte 9: 7
+00:08:32Byte 17: 6
+00:08:32Byte 21: 134
+00:08:32Byte 22: 1
+00:08:32Byte 25: 2
+00:08:32Byte 29: 1
+00:08:32Byte 33: 16
+00:08:32Byte 34: 64
+00:08:32Synth Success! Chain Performed:Transfixion Spirit Gained:2 Current Spirit:16400
+00:08:32Moving to next step. 3 Current Spirit:16400
+00:08:32Sleeping 10 for animation delay and sending ACK, setting to 'Chain Ready'
+00:08:43Received 0x05C. Current Status: Chain Ready   Showing all non 0 byte packets:
+00:08:43Byte 1: 92
+00:08:43Byte 2: 18
+00:08:43Byte 3: 82
+00:08:43Byte 4: 55
+00:08:43Byte 5: 5
+00:08:43Byte 9: 78
+00:08:43Byte 10: 103
+00:08:43Byte 21: 99
+00:08:44Finished synth. Setting Status back to Initial
+00:08:44Received 0x05C. Current Status: Initial   Showing all non 0 byte packets:
+00:08:44Byte 1: 92
+00:08:44Byte 2: 18
+00:08:44Byte 3: 85
+00:08:44Byte 4: 55
+00:08:44Byte 5: 122
+00:08:44Byte 6: 130
+00:08:44Byte 7: 149
+00:08:44Byte 8: 149
+00:08:44Byte 9: 147
+00:08:44Byte 10: 99
+00:08:44Byte 11: 139
+00:08:44Byte 12: 114
+00:08:44Byte 13: 149
+00:08:44Byte 14: 159
+00:08:44Byte 16: 195
+00:08:44Byte 17: 178
+00:08:44Byte 18: 206
+00:08:44Byte 19: 150
+00:08:44Byte 20: 89
+00:08:44Byte 21: 9
+00:08:44Byte 22: 161
+00:08:44Byte 23: 74
+00:08:44Byte 24: 99
+00:08:44Byte 25: 9
+00:08:44Byte 26: 6
+00:08:44Byte 27: 21
+00:08:44Byte 28: 116
+00:08:44Byte 29: 137
+00:08:44Looking up Chain..Scission
+00:08:44Scission: Found Crystal: Earth Crystal
+00:08:46Sending Synthchain: 17409.  Setting info.status to Spirit Update
+00:08:47Received 0x05C. Current Status: Spirit Update   Showing all non 0 byte packets:
+00:08:47Byte 1: 92
+00:08:47Byte 2: 18
+00:08:47Byte 3: 91
+00:08:47Byte 4: 55
+00:08:47Byte 5: 3
+00:08:47Byte 9: 10
+00:08:47Byte 17: 3
+00:08:47Byte 21: 134
+00:08:47Byte 22: 1
+00:08:47Byte 25: 10
+00:08:47Byte 33: 26
+00:08:47Byte 34: 64
+00:08:47Moving to next step. 4 Current Spirit:16410
+00:08:47Sleeping 10 for animation delay and sending ACK, setting to 'Chain Ready'
+00:08:57Received 0x05C. Current Status: Chain Ready   Showing all non 0 byte packets:
+00:08:57Byte 1: 92
+00:08:57Byte 2: 18
+00:08:57Byte 3: 116
+00:08:57Byte 4: 55
+00:08:57Byte 5: 5
+00:08:57Byte 9: 78
+00:08:57Byte 10: 103
+00:08:57Byte 21: 99
+00:08:58Finished synth. Setting Status back to Initial
+00:08:58Received 0x05C. Current Status: Initial   Showing all non 0 byte packets:
+00:08:58Byte 1: 92
+00:08:58Byte 2: 18
+00:08:58Byte 3: 119
+00:08:58Byte 4: 55
+00:08:58Byte 5: 122
+00:08:58Byte 6: 130
+00:08:58Byte 7: 149
+00:08:58Byte 8: 148
+00:08:58Byte 9: 147
+00:08:58Byte 10: 99
+00:08:58Byte 11: 139
+00:08:58Byte 12: 114
+00:08:58Byte 13: 148
+00:08:58Byte 14: 159
+00:08:58Byte 16: 195
+00:08:58Byte 17: 178
+00:08:58Byte 18: 206
+00:08:58Byte 19: 149
+00:08:58Byte 20: 89
+00:08:58Byte 21: 9
+00:08:58Byte 22: 161
+00:08:58Byte 23: 74
+00:08:58Byte 24: 99
+00:08:58Byte 25: 9
+00:08:58Byte 26: 6
+00:08:58Byte 27: 21
+00:08:58Byte 28: 116
+00:08:58Byte 29: 137
+00:08:58Looking up Chain..Gravitation
+00:08:58Gravitation: Found Crystal: Dark Crystal
+00:09:00Sending Synthchain: 51201.  Setting info.status to Spirit Update
+00:09:01Received 0x05C. Current Status: Spirit Update   Showing all non 0 byte packets:
+00:09:01Byte 1: 92
+00:09:01Byte 2: 18
+00:09:01Byte 3: 125
+00:09:01Byte 4: 55
+00:09:01Byte 5: 1
+00:09:01Byte 9: 14
+00:09:01Byte 17: 7
+00:09:01Byte 21: 134
+00:09:01Byte 22: 1
+00:09:01Byte 25: 15
+00:09:01Byte 33: 41
+00:09:01Byte 34: 64
+00:09:01Synth Success! Chain Performed:Darkness Spirit Gained:15 Current Spirit:16425
+00:09:01Hit end of chain - resetting. Current Spirit:16425
+00:09:01Sleeping 10 for animation delay and sending ACK, setting to 'Chain Ready'
+00:09:11Received 0x05C. Current Status: Chain Ready   Showing all non 0 byte packets:
+00:09:11Byte 1: 92
+00:09:11Byte 2: 18
+00:09:11Byte 3: 149
+00:09:11Byte 4: 55
+00:09:11Byte 5: 5
+00:09:11Byte 9: 78
+00:09:11Byte 10: 103
+00:09:11Byte 21: 99
+00:09:12Finished synth. Setting Status back to Initial
+00:09:12Received 0x05C. Current Status: Initial   Showing all non 0 byte packets:
+00:09:12Byte 1: 92
+00:09:12Byte 2: 18
+00:09:12Byte 3: 152
+00:09:12Byte 4: 55
+00:09:12Byte 5: 122
+00:09:12Byte 6: 130
+00:09:12Byte 7: 149
+00:09:12Byte 8: 148
+00:09:12Byte 9: 147
+00:09:12Byte 10: 99
+00:09:12Byte 11: 139
+00:09:12Byte 12: 113
+00:09:12Byte 13: 148
+00:09:12Byte 14: 158
+00:09:12Byte 16: 195
+00:09:12Byte 17: 178
+00:09:12Byte 18: 206
+00:09:12Byte 19: 149
+00:09:12Byte 20: 89
+00:09:12Byte 21: 9
+00:09:12Byte 22: 161
+00:09:12Byte 23: 74
+00:09:12Byte 24: 99
+00:09:12Byte 25: 9
+00:09:12Byte 26: 6
+00:09:12Byte 27: 20
+00:09:12Byte 28: 116
+00:09:12Byte 29: 137
+00:09:12Looking up Chain..Compression
+00:09:12Compression: Found Crystal: Dark Crystal
+00:09:14Sending Synthchain: 34817.  Setting info.status to Spirit Update
+00:09:15Received 0x05C. Current Status: Spirit Update   Showing all non 0 byte packets:
+00:09:15Byte 1: 92
+00:09:15Byte 2: 18
+00:09:15Byte 3: 158
+00:09:15Byte 4: 55
+00:09:15Byte 17: 7
+00:09:15Byte 21: 134
+00:09:15Byte 22: 1
+00:09:15Byte 29: 2
+00:09:15Byte 33: 41
+00:09:15Byte 34: 64
+00:09:15ERROR: Synth Fail. Resetting Chain. Current Spirit:16425
+00:09:15Sleeping 10 for animation delay and sending ACK, setting to 'Chain Ready'
+00:09:25Received 0x05C. Current Status: Chain Ready   Showing all non 0 byte packets:
+00:09:25Byte 1: 92
+00:09:25Byte 2: 18
+00:09:25Byte 3: 182
+00:09:25Byte 4: 55
+00:09:25Byte 5: 5
+00:09:25Byte 9: 78
+00:09:25Byte 10: 103
+00:09:25Byte 21: 99
+00:09:26Finished synth. Setting Status back to Initial
+00:09:27Received 0x05C. Current Status: Initial   Showing all non 0 byte packets:
+00:09:27Byte 1: 92
+00:09:27Byte 2: 18
+00:09:27Byte 3: 185
+00:09:27Byte 4: 55
+00:09:27Byte 5: 122
+00:09:27Byte 6: 130
+00:09:27Byte 7: 149
+00:09:27Byte 8: 148
+00:09:27Byte 9: 147
+00:09:27Byte 10: 99
+00:09:27Byte 11: 139
+00:09:27Byte 12: 112
+00:09:27Byte 13: 147
+00:09:27Byte 14: 158
+00:09:27Byte 16: 195
+00:09:27Byte 17: 178
+00:09:27Byte 18: 206
+00:09:27Byte 19: 149
+00:09:27Byte 20: 89
+00:09:27Byte 21: 9
+00:09:27Byte 22: 161
+00:09:27Byte 23: 73
+00:09:27Byte 24: 99
+00:09:27Byte 25: 9
+00:09:27Byte 26: 6
+00:09:27Byte 27: 20
+00:09:27Byte 28: 116
+00:09:27Byte 29: 137
+00:09:27Looking up Chain..Compression
+00:09:27Compression: Found Crystal: Dark Crystal
+00:09:29Sending Synthchain: 34817.  Setting info.status to Spirit Update
+00:09:29Received 0x05C. Current Status: Spirit Update   Showing all non 0 byte packets:
+00:09:29Byte 1: 92
+00:09:29Byte 2: 18
+00:09:29Byte 3: 191
+00:09:29Byte 4: 55
+00:09:29Byte 5: 1
+00:09:29Byte 17: 7
+00:09:29Byte 21: 134
+00:09:29Byte 22: 1
+00:09:29Byte 25: 1
+00:09:29Byte 29: 4
+00:09:29Byte 33: 42
+00:09:29Byte 34: 64
+00:09:29Synth Success! Chain Performed:None Spirit Gained:1 Current Spirit:16426
+00:09:29Moving to next step. 2 Current Spirit:16426
+00:09:29Sleeping 10 for animation delay and sending ACK, setting to 'Chain Ready'
+00:09:39Received 0x05C. Current Status: Chain Ready   Showing all non 0 byte packets:
+00:09:39Byte 1: 92
+00:09:39Byte 2: 18
+00:09:39Byte 3: 215
+00:09:39Byte 4: 55
+00:09:39Byte 5: 5
+00:09:39Byte 9: 78
+00:09:39Byte 10: 103
+00:09:39Byte 21: 99
+00:09:40Finished synth. Setting Status back to Initial
+00:09:41Received 0x05C. Current Status: Initial   Showing all non 0 byte packets:
+00:09:41Byte 1: 92
+00:09:41Byte 2: 18
+00:09:41Byte 3: 218
+00:09:41Byte 4: 55
+00:09:41Byte 5: 122
+00:09:41Byte 6: 130
+00:09:41Byte 7: 149
+00:09:41Byte 8: 148
+00:09:41Byte 9: 147
+00:09:41Byte 10: 99
+00:09:41Byte 11: 139
+00:09:41Byte 12: 111
+00:09:41Byte 13: 146
+00:09:41Byte 14: 158
+00:09:41Byte 16: 195
+00:09:41Byte 17: 178
+00:09:41Byte 18: 206
+00:09:41Byte 19: 149
+00:09:41Byte 20: 89
+00:09:41Byte 21: 9
+00:09:41Byte 22: 161
+00:09:41Byte 23: 72
+00:09:41Byte 24: 99
+00:09:41Byte 25: 9
+00:09:41Byte 26: 6
+00:09:41Byte 27: 20
+00:09:41Byte 28: 116
+00:09:41Byte 29: 137
+00:09:41Looking up Chain..Transfixion
+00:09:41Transfixion: Found Crystal: Light Crystal
+00:09:43Sending Synthchain: 30465.  Setting info.status to Spirit Update
+00:09:43Received 0x05C. Current Status: Spirit Update   Showing all non 0 byte packets:
+00:09:43Byte 1: 92
+00:09:43Byte 2: 18
+00:09:43Byte 3: 224
+00:09:43Byte 4: 55
+00:09:43Byte 5: 1
+00:09:43Byte 9: 7
+00:09:43Byte 17: 6
+00:09:43Byte 21: 134
+00:09:43Byte 22: 1
+00:09:43Byte 25: 2
+00:09:43Byte 29: 4
+00:09:43Byte 33: 44
+00:09:43Byte 34: 64
+00:09:43Synth Success! Chain Performed:Transfixion Spirit Gained:2 Current Spirit:16428
+00:09:43Moving to next step. 3 Current Spirit:16428
+00:09:43Sleeping 10 for animation delay and sending ACK, setting to 'Chain Ready'
+00:09:54Received 0x05C. Current Status: Chain Ready   Showing all non 0 byte packets:
+00:09:54Byte 1: 92
+00:09:54Byte 2: 18
+00:09:54Byte 3: 249
+00:09:54Byte 4: 55
+00:09:54Byte 5: 5
+00:09:54Byte 9: 78
+00:09:54Byte 10: 103
+00:09:54Byte 21: 99
+00:09:55Finished synth. Setting Status back to Initial
+00:09:55Received 0x05C. Current Status: Initial   Showing all non 0 byte packets:
+00:09:55Byte 1: 92
+00:09:55Byte 2: 18
+00:09:55Byte 3: 252
+00:09:55Byte 4: 55
+00:09:55Byte 5: 122
+00:09:55Byte 6: 130
+00:09:55Byte 7: 149
+00:09:55Byte 8: 148
+00:09:55Byte 9: 147
+00:09:55Byte 10: 99
+00:09:55Byte 11: 138
+00:09:55Byte 12: 111
+00:09:55Byte 13: 145
+00:09:55Byte 14: 158
+00:09:55Byte 16: 195
+00:09:55Byte 17: 178
+00:09:55Byte 18: 206
+00:09:55Byte 19: 149
+00:09:55Byte 20: 89
+00:09:55Byte 21: 9
+00:09:55Byte 22: 160
+00:09:55Byte 23: 72
+00:09:55Byte 24: 99
+00:09:55Byte 25: 9
+00:09:55Byte 26: 6
+00:09:55Byte 27: 20
+00:09:55Byte 28: 116
+00:09:55Byte 29: 137
+00:09:55Looking up Chain..Scission
+00:09:55Scission: Found Crystal: Earth Crystal
+00:09:57Sending Synthchain: 17409.  Setting info.status to Spirit Update
+00:09:58Received 0x05C. Current Status: Spirit Update   Showing all non 0 byte packets:
+00:09:58Byte 1: 92
+00:09:58Byte 2: 18
+00:09:58Byte 3: 2
+00:09:58Byte 4: 56
+00:09:58Byte 5: 1
+00:09:58Byte 9: 10
+00:09:58Byte 17: 3
+00:09:58Byte 21: 134
+00:09:58Byte 22: 1
+00:09:58Byte 25: 5
+00:09:58Byte 29: 2
+00:09:58Byte 33: 49
+00:09:58Byte 34: 64
+00:09:58Synth Success! Chain Performed:Distortion Spirit Gained:5 Current Spirit:16433
+00:09:58Moving to next step. 4 Current Spirit:16433
+00:09:58Sleeping 10 for animation delay and sending ACK, setting to 'Chain Ready'
+00:10:08Received 0x05C. Current Status: Chain Ready   Showing all non 0 byte packets:
+00:10:08Byte 1: 92
+00:10:08Byte 2: 18
+00:10:08Byte 3: 27
+00:10:08Byte 4: 56
+00:10:08Byte 5: 5
+00:10:08Byte 9: 78
+00:10:08Byte 10: 103
+00:10:08Byte 21: 99
+00:10:09Finished synth. Setting Status back to Initial
+00:10:10Received 0x05C. Current Status: Initial   Showing all non 0 byte packets:
+00:10:10Byte 1: 92
+00:10:10Byte 2: 18
+00:10:10Byte 3: 30
+00:10:10Byte 4: 56
+00:10:10Byte 5: 122
+00:10:10Byte 6: 130
+00:10:10Byte 7: 149
+00:10:10Byte 8: 147
+00:10:10Byte 9: 147
+00:10:10Byte 10: 99
+00:10:10Byte 11: 138
+00:10:10Byte 12: 111
+00:10:10Byte 13: 144
+00:10:10Byte 14: 158
+00:10:10Byte 16: 195
+00:10:10Byte 17: 178
+00:10:10Byte 18: 206
+00:10:10Byte 19: 148
+00:10:10Byte 20: 89
+00:10:10Byte 21: 9
+00:10:10Byte 22: 160
+00:10:10Byte 23: 72
+00:10:10Byte 24: 99
+00:10:10Byte 25: 9
+00:10:10Byte 26: 6
+00:10:10Byte 27: 20
+00:10:10Byte 28: 116
+00:10:10Byte 29: 137
+00:10:10Looking up Chain..Gravitation
+00:10:10Gravitation: Found Crystal: Dark Crystal
+00:10:12Sending Synthchain: 51201.  Setting info.status to Spirit Update
+00:10:12Received 0x05C. Current Status: Spirit Update   Showing all non 0 byte packets:
+00:10:12Byte 1: 92
+00:10:12Byte 2: 18
+00:10:12Byte 3: 36
+00:10:12Byte 4: 56
+00:10:12Byte 5: 1
+00:10:12Byte 9: 14
+00:10:12Byte 17: 7
+00:10:12Byte 21: 134
+00:10:12Byte 22: 1
+00:10:12Byte 25: 15
+00:10:12Byte 33: 64
+00:10:12Byte 34: 64
+00:10:12Synth Success! Chain Performed:Darkness Spirit Gained:15 Current Spirit:16448
+00:10:12Hit end of chain - resetting. Current Spirit:16448
+00:10:12Sleeping 10 for animation delay and sending ACK, setting to 'Chain Ready'
+00:10:23Received 0x05C. Current Status: Chain Ready   Showing all non 0 byte packets:
+00:10:23Byte 1: 92
+00:10:23Byte 2: 18
+00:10:23Byte 3: 60
+00:10:23Byte 4: 56
+00:10:23Byte 5: 5
+00:10:23Byte 9: 78
+00:10:23Byte 10: 103
+00:10:23Byte 21: 99
+00:10:24Finished synth. Setting Status back to Initial
+00:10:24Received 0x05C. Current Status: Initial   Showing all non 0 byte packets:
+00:10:24Byte 1: 92
+00:10:24Byte 2: 18
+00:10:24Byte 3: 63
+00:10:24Byte 4: 56
+00:10:24Byte 5: 122
+00:10:24Byte 6: 130
+00:10:24Byte 7: 149
+00:10:24Byte 8: 147
+00:10:24Byte 9: 147
+00:10:24Byte 10: 99
+00:10:24Byte 11: 138
+00:10:24Byte 12: 110
+00:10:24Byte 13: 144
+00:10:24Byte 14: 157
+00:10:24Byte 16: 195
+00:10:24Byte 17: 178
+00:10:24Byte 18: 206
+00:10:24Byte 19: 148
+00:10:24Byte 20: 89
+00:10:24Byte 21: 9
+00:10:24Byte 22: 160
+00:10:24Byte 23: 72
+00:10:24Byte 24: 99
+00:10:24Byte 25: 9
+00:10:24Byte 26: 6
+00:10:24Byte 27: 19
+00:10:24Byte 28: 116
+00:10:24Byte 29: 137
+00:10:24Looking up Chain..Compression
+00:10:24Compression: Found Crystal: Dark Crystal
+00:10:26Sending Synthchain: 34817.  Setting info.status to Spirit Update
+00:10:26Received 0x05C. Current Status: Spirit Update   Showing all non 0 byte packets:
+00:10:26Byte 1: 92
+00:10:26Byte 2: 18
+00:10:26Byte 3: 69
+00:10:26Byte 4: 56
+00:10:26Byte 5: 1
+00:10:26Byte 17: 7
+00:10:26Byte 21: 134
+00:10:26Byte 22: 1
+00:10:26Byte 25: 1
+00:10:26Byte 29: 1
+00:10:26Byte 33: 65
+00:10:26Byte 34: 64
+00:10:26Synth Success! Chain Performed:None Spirit Gained:1 Current Spirit:16449
+00:10:26Moving to next step. 2 Current Spirit:16449
+00:10:26Sleeping 10 for animation delay and sending ACK, setting to 'Chain Ready'
+00:10:37Received 0x05C. Current Status: Chain Ready   Showing all non 0 byte packets:
+00:10:37Byte 1: 92
+00:10:37Byte 2: 18
+00:10:37Byte 3: 93
+00:10:37Byte 4: 56
+00:10:37Byte 5: 5
+00:10:37Byte 9: 78
+00:10:37Byte 10: 103
+00:10:37Byte 21: 99
+00:10:38Finished synth. Setting Status back to Initial
+00:10:38Received 0x05C. Current Status: Initial   Showing all non 0 byte packets:
+00:10:38Byte 1: 92
+00:10:38Byte 2: 18
+00:10:38Byte 3: 96
+00:10:38Byte 4: 56
+00:10:38Byte 5: 122
+00:10:38Byte 6: 130
+00:10:38Byte 7: 149
+00:10:38Byte 8: 147
+00:10:38Byte 9: 147
+00:10:38Byte 10: 99
+00:10:38Byte 11: 138
+00:10:38Byte 12: 109
+00:10:38Byte 13: 143
+00:10:38Byte 14: 157
+00:10:38Byte 16: 195
+00:10:38Byte 17: 178
+00:10:38Byte 18: 206
+00:10:38Byte 19: 148
+00:10:38Byte 20: 89
+00:10:38Byte 21: 9
+00:10:38Byte 22: 160
+00:10:38Byte 23: 71
+00:10:38Byte 24: 99
+00:10:38Byte 25: 9
+00:10:38Byte 26: 6
+00:10:38Byte 27: 19
+00:10:38Byte 28: 116
+00:10:38Byte 29: 137
+00:10:38Looking up Chain..Transfixion
+00:10:38Transfixion: Found Crystal: Light Crystal
+00:10:40Sending Synthchain: 30465.  Setting info.status to Spirit Update
+00:10:40Received 0x05C. Current Status: Spirit Update   Showing all non 0 byte packets:
+00:10:40Byte 1: 92
+00:10:40Byte 2: 18
+00:10:40Byte 3: 102
+00:10:40Byte 4: 56
+00:10:40Byte 5: 3
+00:10:40Byte 9: 7
+00:10:40Byte 17: 6
+00:10:40Byte 21: 134
+00:10:40Byte 22: 1
+00:10:40Byte 25: 4
+00:10:40Byte 29: 1
+00:10:40Byte 33: 69
+00:10:40Byte 34: 64
+00:10:40Moving to next step. 3 Current Spirit:16453
+00:10:40Sleeping 10 for animation delay and sending ACK, setting to 'Chain Ready'
+00:10:51Received 0x05C. Current Status: Chain Ready   Showing all non 0 byte packets:
+00:10:51Byte 1: 92
+00:10:51Byte 2: 18
+00:10:51Byte 3: 128
+00:10:51Byte 4: 56
+00:10:51Byte 5: 5
+00:10:51Byte 9: 78
+00:10:51Byte 10: 103
+00:10:51Byte 21: 99
+00:10:52Finished synth. Setting Status back to Initial
+00:10:52Received 0x05C. Current Status: Initial   Showing all non 0 byte packets:
+00:10:52Byte 1: 92
+00:10:52Byte 2: 18
+00:10:52Byte 3: 131
+00:10:52Byte 4: 56
+00:10:52Byte 5: 122
+00:10:52Byte 6: 130
+00:10:52Byte 7: 149
+00:10:52Byte 8: 147
+00:10:52Byte 9: 147
+00:10:52Byte 10: 99
+00:10:52Byte 11: 137
+00:10:52Byte 12: 109
+00:10:52Byte 13: 142
+00:10:52Byte 14: 157
+00:10:52Byte 16: 195
+00:10:52Byte 17: 178
+00:10:52Byte 18: 206
+00:10:52Byte 19: 148
+00:10:52Byte 20: 89
+00:10:52Byte 21: 9
+00:10:52Byte 22: 159
+00:10:52Byte 23: 71
+00:10:52Byte 24: 99
+00:10:52Byte 25: 9
+00:10:52Byte 26: 6
+00:10:52Byte 27: 19
+00:10:52Byte 28: 116
+00:10:52Byte 29: 137
+00:10:52Looking up Chain..Scission
+00:10:52Scission: Found Crystal: Earth Crystal
+00:10:54Sending Synthchain: 17409.  Setting info.status to Spirit Update
+00:10:55Received 0x05C. Current Status: Spirit Update   Showing all non 0 byte packets:
+00:10:55Byte 1: 92
+00:10:55Byte 2: 18
+00:10:55Byte 3: 137
+00:10:55Byte 4: 56
+00:10:55Byte 5: 1
+00:10:55Byte 9: 10
+00:10:55Byte 17: 3
+00:10:55Byte 21: 134
+00:10:55Byte 22: 1
+00:10:55Byte 25: 5
+00:10:55Byte 33: 74
+00:10:55Byte 34: 64
+00:10:55Synth Success! Chain Performed:Distortion Spirit Gained:5 Current Spirit:16458
+00:10:55Moving to next step. 4 Current Spirit:16458
+00:10:55Sleeping 10 for animation delay and sending ACK, setting to 'Chain Ready'
+00:11:05Received 0x05C. Current Status: Chain Ready   Showing all non 0 byte packets:
+00:11:05Byte 1: 92
+00:11:05Byte 2: 18
+00:11:05Byte 3: 161
+00:11:05Byte 4: 56
+00:11:05Byte 5: 5
+00:11:05Byte 9: 78
+00:11:05Byte 10: 103
+00:11:05Byte 21: 99
+00:11:06Finished synth. Setting Status back to Initial
+00:11:07Received 0x05C. Current Status: Initial   Showing all non 0 byte packets:
+00:11:07Byte 1: 92
+00:11:07Byte 2: 18
+00:11:07Byte 3: 165
+00:11:07Byte 4: 56
+00:11:07Byte 5: 122
+00:11:07Byte 6: 130
+00:11:07Byte 7: 149
+00:11:07Byte 8: 146
+00:11:07Byte 9: 147
+00:11:07Byte 10: 99
+00:11:07Byte 11: 137
+00:11:07Byte 12: 109
+00:11:07Byte 13: 141
+00:11:07Byte 14: 157
+00:11:07Byte 16: 195
+00:11:07Byte 17: 178
+00:11:07Byte 18: 206
+00:11:07Byte 19: 147
+00:11:07Byte 20: 89
+00:11:07Byte 21: 9
+00:11:07Byte 22: 159
+00:11:07Byte 23: 71
+00:11:07Byte 24: 99
+00:11:07Byte 25: 9
+00:11:07Byte 26: 6
+00:11:07Byte 27: 19
+00:11:07Byte 28: 116
+00:11:07Byte 29: 137
+00:11:07Looking up Chain..Gravitation
+00:11:07Gravitation: Found Crystal: Dark Crystal
+00:11:09Sending Synthchain: 51201.  Setting info.status to Spirit Update
+00:11:09Received 0x05C. Current Status: Spirit Update   Showing all non 0 byte packets:
+00:11:09Byte 1: 92
+00:11:09Byte 2: 18
+00:11:09Byte 3: 171
+00:11:09Byte 4: 56
+00:11:09Byte 5: 1
+00:11:09Byte 9: 14
+00:11:09Byte 17: 7
+00:11:09Byte 21: 134
+00:11:09Byte 22: 1
+00:11:09Byte 25: 15
+00:11:09Byte 33: 89
+00:11:09Byte 34: 64
+00:11:09Synth Success! Chain Performed:Darkness Spirit Gained:15 Current Spirit:16473
+00:11:09Hit end of chain - resetting. Current Spirit:16473
+00:11:09Sleeping 10 for animation delay and sending ACK, setting to 'Chain Ready'
+00:11:20Received 0x05C. Current Status: Chain Ready   Showing all non 0 byte packets:
+00:11:20Byte 1: 92
+00:11:20Byte 2: 18
+00:11:20Byte 3: 195
+00:11:20Byte 4: 56
+00:11:20Byte 5: 5
+00:11:20Byte 9: 78
+00:11:20Byte 10: 103
+00:11:20Byte 21: 99
+00:11:21Finished synth. Setting Status back to Initial
+00:11:21Received 0x05C. Current Status: Initial   Showing all non 0 byte packets:
+00:11:21Byte 1: 92
+00:11:21Byte 2: 18
+00:11:21Byte 3: 198
+00:11:21Byte 4: 56
+00:11:21Byte 5: 122
+00:11:21Byte 6: 130
+00:11:21Byte 7: 149
+00:11:21Byte 8: 146
+00:11:21Byte 9: 147
+00:11:21Byte 10: 99
+00:11:21Byte 11: 137
+00:11:21Byte 12: 108
+00:11:21Byte 13: 141
+00:11:21Byte 14: 156
+00:11:21Byte 16: 195
+00:11:21Byte 17: 178
+00:11:21Byte 18: 206
+00:11:21Byte 19: 147
+00:11:21Byte 20: 89
+00:11:21Byte 21: 9
+00:11:21Byte 22: 159
+00:11:21Byte 23: 71
+00:11:21Byte 24: 99
+00:11:21Byte 25: 9
+00:11:21Byte 26: 6
+00:11:21Byte 27: 18
+00:11:21Byte 28: 116
+00:11:21Byte 29: 137
+00:11:21Looking up Chain..Compression
+00:11:21Compression: Found Crystal: Dark Crystal
+00:11:23Sending Synthchain: 34817.  Setting info.status to Spirit Update
+00:11:23Received 0x05C. Current Status: Spirit Update   Showing all non 0 byte packets:
+00:11:23Byte 1: 92
+00:11:23Byte 2: 18
+00:11:23Byte 3: 204
+00:11:23Byte 4: 56
+00:11:23Byte 5: 1
+00:11:23Byte 17: 7
+00:11:23Byte 21: 134
+00:11:23Byte 22: 1
+00:11:23Byte 25: 1
+00:11:23Byte 29: 1
+00:11:23Byte 33: 90
+00:11:23Byte 34: 64
+00:11:23Synth Success! Chain Performed:None Spirit Gained:1 Current Spirit:16474
+00:11:23Moving to next step. 2 Current Spirit:16474
+00:11:23Sleeping 10 for animation delay and sending ACK, setting to 'Chain Ready'
+00:11:34Received 0x05C. Current Status: Chain Ready   Showing all non 0 byte packets:
+00:11:34Byte 1: 92
+00:11:34Byte 2: 18
+00:11:34Byte 3: 228
+00:11:34Byte 4: 56
+00:11:34Byte 5: 5
+00:11:34Byte 9: 78
+00:11:34Byte 10: 103
+00:11:34Byte 21: 99
+00:11:35Finished synth. Setting Status back to Initial
+00:11:35Received 0x05C. Current Status: Initial   Showing all non 0 byte packets:
+00:11:35Byte 1: 92
+00:11:35Byte 2: 18
+00:11:35Byte 3: 231
+00:11:35Byte 4: 56
+00:11:35Byte 5: 122
+00:11:35Byte 6: 130
+00:11:35Byte 7: 149
+00:11:35Byte 8: 146
+00:11:35Byte 9: 147
+00:11:35Byte 10: 99
+00:11:35Byte 11: 137
+00:11:35Byte 12: 107
+00:11:35Byte 13: 140
+00:11:35Byte 14: 156
+00:11:35Byte 16: 195
+00:11:35Byte 17: 178
+00:11:35Byte 18: 206
+00:11:35Byte 19: 147
+00:11:35Byte 20: 89
+00:11:35Byte 21: 9
+00:11:35Byte 22: 159
+00:11:35Byte 23: 70
+00:11:35Byte 24: 99
+00:11:35Byte 25: 9
+00:11:35Byte 26: 6
+00:11:35Byte 27: 18
+00:11:35Byte 28: 116
+00:11:35Byte 29: 137
+00:11:35Looking up Chain..Transfixion
+00:11:35Transfixion: Found Crystal: Light Crystal
+00:11:37Sending Synthchain: 30465.  Setting info.status to Spirit Update
+00:11:37Received 0x05C. Current Status: Spirit Update   Showing all non 0 byte packets:
+00:11:37Byte 1: 92
+00:11:37Byte 2: 18
+00:11:37Byte 3: 237
+00:11:37Byte 4: 56
+00:11:37Byte 5: 1
+00:11:37Byte 9: 7
+00:11:37Byte 17: 6
+00:11:37Byte 21: 134
+00:11:37Byte 22: 1
+00:11:37Byte 25: 2
+00:11:37Byte 29: 1
+00:11:37Byte 33: 92
+00:11:37Byte 34: 64
+00:11:37Synth Success! Chain Performed:Transfixion Spirit Gained:2 Current Spirit:16476
+00:11:37Moving to next step. 3 Current Spirit:16476
+00:11:37Sleeping 10 for animation delay and sending ACK, setting to 'Chain Ready'
+00:11:48Received 0x05C. Current Status: Chain Ready   Showing all non 0 byte packets:
+00:11:48Byte 1: 92
+00:11:48Byte 2: 18
+00:11:48Byte 3: 6
+00:11:48Byte 4: 57
+00:11:48Byte 5: 5
+00:11:48Byte 9: 78
+00:11:48Byte 10: 103
+00:11:48Byte 21: 99
+00:11:49Finished synth. Setting Status back to Initial
+00:11:49Received 0x05C. Current Status: Initial   Showing all non 0 byte packets:
+00:11:49Byte 1: 92
+00:11:49Byte 2: 18
+00:11:49Byte 3: 9
+00:11:49Byte 4: 57
+00:11:49Byte 5: 122
+00:11:49Byte 6: 130
+00:11:49Byte 7: 149
+00:11:49Byte 8: 146
+00:11:49Byte 9: 147
+00:11:49Byte 10: 99
+00:11:49Byte 11: 136
+00:11:49Byte 12: 107
+00:11:49Byte 13: 139
+00:11:49Byte 14: 156
+00:11:49Byte 16: 195
+00:11:49Byte 17: 178
+00:11:49Byte 18: 206
+00:11:49Byte 19: 147
+00:11:49Byte 20: 89
+00:11:49Byte 21: 9
+00:11:49Byte 22: 158
+00:11:49Byte 23: 70
+00:11:49Byte 24: 99
+00:11:49Byte 25: 9
+00:11:49Byte 26: 6
+00:11:49Byte 27: 18
+00:11:49Byte 28: 116
+00:11:49Byte 29: 137
+00:11:49Looking up Chain..Scission
+00:11:49Scission: Found Crystal: Earth Crystal
+00:11:51Sending Synthchain: 17409.  Setting info.status to Spirit Update
+00:11:51Received 0x05C. Current Status: Spirit Update   Showing all non 0 byte packets:
+00:11:51Byte 1: 92
+00:11:51Byte 2: 18
+00:11:51Byte 3: 14
+00:11:51Byte 4: 57
+00:11:51Byte 5: 1
+00:11:51Byte 9: 10
+00:11:51Byte 17: 3
+00:11:51Byte 21: 134
+00:11:51Byte 22: 1
+00:11:51Byte 25: 5
+00:11:51Byte 33: 97
+00:11:51Byte 34: 64
+00:11:51Synth Success! Chain Performed:Distortion Spirit Gained:5 Current Spirit:16481
+00:11:51Moving to next step. 4 Current Spirit:16481
+00:11:51Sleeping 10 for animation delay and sending ACK, setting to 'Chain Ready'
+00:12:02Received 0x05C. Current Status: Chain Ready   Showing all non 0 byte packets:
+00:12:02Byte 1: 92
+00:12:02Byte 2: 18
+00:12:02Byte 3: 38
+00:12:02Byte 4: 57
+00:12:02Byte 5: 5
+00:12:02Byte 9: 78
+00:12:02Byte 10: 103
+00:12:02Byte 21: 99
+00:12:03Finished synth. Setting Status back to Initial
+00:12:03Received 0x05C. Current Status: Initial   Showing all non 0 byte packets:
+00:12:03Byte 1: 92
+00:12:03Byte 2: 18
+00:12:03Byte 3: 41
+00:12:03Byte 4: 57
+00:12:03Byte 5: 122
+00:12:03Byte 6: 130
+00:12:03Byte 7: 149
+00:12:03Byte 8: 145
+00:12:03Byte 9: 147
+00:12:03Byte 10: 99
+00:12:03Byte 11: 136
+00:12:03Byte 12: 107
+00:12:03Byte 13: 138
+00:12:03Byte 14: 156
+00:12:03Byte 16: 195
+00:12:03Byte 17: 178
+00:12:03Byte 18: 206
+00:12:03Byte 19: 146
+00:12:03Byte 20: 89
+00:12:03Byte 21: 9
+00:12:03Byte 22: 158
+00:12:03Byte 23: 70
+00:12:03Byte 24: 99
+00:12:03Byte 25: 9
+00:12:03Byte 26: 6
+00:12:03Byte 27: 18
+00:12:03Byte 28: 116
+00:12:03Byte 29: 137
+00:12:03Looking up Chain..Gravitation
+00:12:03Gravitation: Found Crystal: Dark Crystal
+00:12:05Sending Synthchain: 51201.  Setting info.status to Spirit Update
+00:12:06Received 0x05C. Current Status: Spirit Update   Showing all non 0 byte packets:
+00:12:06Byte 1: 92
+00:12:06Byte 2: 18
+00:12:06Byte 3: 48
+00:12:06Byte 4: 57
+00:12:06Byte 5: 1
+00:12:06Byte 9: 14
+00:12:06Byte 17: 7
+00:12:06Byte 21: 134
+00:12:06Byte 22: 1
+00:12:06Byte 25: 15
+00:12:06Byte 33: 112
+00:12:06Byte 34: 64
+00:12:06Synth Success! Chain Performed:Darkness Spirit Gained:15 Current Spirit:16496
+00:12:06Hit end of chain - resetting. Current Spirit:16496
+00:12:06Sleeping 10 for animation delay and sending ACK, setting to 'Chain Ready'
+00:12:16Received 0x05C. Current Status: Chain Ready   Showing all non 0 byte packets:
+00:12:16Byte 1: 92
+00:12:16Byte 2: 18
+00:12:16Byte 3: 72
+00:12:16Byte 4: 57
+00:12:16Byte 5: 5
+00:12:16Byte 9: 78
+00:12:16Byte 10: 103
+00:12:16Byte 21: 99
+00:12:17Finished synth. Setting Status back to Initial
+00:12:18Received 0x05C. Current Status: Initial   Showing all non 0 byte packets:
+00:12:18Byte 1: 92
+00:12:18Byte 2: 18
+00:12:18Byte 3: 75
+00:12:18Byte 4: 57
+00:12:18Byte 5: 122
+00:12:18Byte 6: 130
+00:12:18Byte 7: 149
+00:12:18Byte 8: 145
+00:12:18Byte 9: 147
+00:12:18Byte 10: 99
+00:12:18Byte 11: 136
+00:12:18Byte 12: 106
+00:12:18Byte 13: 138
+00:12:18Byte 14: 155
+00:12:18Byte 16: 195
+00:12:18Byte 17: 178
+00:12:18Byte 18: 206
+00:12:18Byte 19: 146
+00:12:18Byte 20: 89
+00:12:18Byte 21: 9
+00:12:18Byte 22: 158
+00:12:18Byte 23: 70
+00:12:18Byte 24: 99
+00:12:18Byte 25: 9
+00:12:18Byte 26: 6
+00:12:18Byte 27: 17
+00:12:18Byte 28: 116
+00:12:18Byte 29: 137
+00:12:18Looking up Chain..Compression
+00:12:18Compression: Found Crystal: Dark Crystal
+00:12:20Sending Synthchain: 34817.  Setting info.status to Spirit Update
+00:12:20Received 0x05C. Current Status: Spirit Update   Showing all non 0 byte packets:
+00:12:20Byte 1: 92
+00:12:20Byte 2: 18
+00:12:20Byte 3: 81
+00:12:20Byte 4: 57
+00:12:20Byte 5: 1
+00:12:20Byte 17: 7
+00:12:20Byte 21: 134
+00:12:20Byte 22: 1
+00:12:20Byte 25: 1
+00:12:20Byte 29: 1
+00:12:20Byte 33: 113
+00:12:20Byte 34: 64
+00:12:20Synth Success! Chain Performed:None Spirit Gained:1 Current Spirit:16497
+00:12:20Moving to next step. 2 Current Spirit:16497
+00:12:20Sleeping 10 for animation delay and sending ACK, setting to 'Chain Ready'
+00:12:31Received 0x05C. Current Status: Chain Ready   Showing all non 0 byte packets:
+00:12:31Byte 1: 92
+00:12:31Byte 2: 18
+00:12:31Byte 3: 105
+00:12:31Byte 4: 57
+00:12:31Byte 5: 5
+00:12:31Byte 9: 78
+00:12:31Byte 10: 103
+00:12:31Byte 21: 99
+00:12:32Finished synth. Setting Status back to Initial
+00:12:32Received 0x05C. Current Status: Initial   Showing all non 0 byte packets:
+00:12:32Byte 1: 92
+00:12:32Byte 2: 18
+00:12:32Byte 3: 108
+00:12:32Byte 4: 57
+00:12:32Byte 5: 122
+00:12:32Byte 6: 130
+00:12:32Byte 7: 149
+00:12:32Byte 8: 145
+00:12:32Byte 9: 147
+00:12:32Byte 10: 99
+00:12:32Byte 11: 136
+00:12:32Byte 12: 105
+00:12:32Byte 13: 137
+00:12:32Byte 14: 155
+00:12:32Byte 16: 195
+00:12:32Byte 17: 178
+00:12:32Byte 18: 206
+00:12:32Byte 19: 146
+00:12:32Byte 20: 89
+00:12:32Byte 21: 9
+00:12:32Byte 22: 158
+00:12:32Byte 23: 69
+00:12:32Byte 24: 99
+00:12:32Byte 25: 9
+00:12:32Byte 26: 6
+00:12:32Byte 27: 17
+00:12:32Byte 28: 116
+00:12:32Byte 29: 137
+00:12:32Looking up Chain..Transfixion
+00:12:32Transfixion: Found Crystal: Light Crystal
+00:12:34Sending Synthchain: 30465.  Setting info.status to Spirit Update
+00:12:34Received 0x05C. Current Status: Spirit Update   Showing all non 0 byte packets:
+00:12:34Byte 1: 92
+00:12:34Byte 2: 18
+00:12:34Byte 3: 114
+00:12:34Byte 4: 57
+00:12:34Byte 5: 1
+00:12:34Byte 9: 7
+00:12:34Byte 17: 6
+00:12:34Byte 21: 134
+00:12:34Byte 22: 1
+00:12:34Byte 25: 2
+00:12:34Byte 29: 1
+00:12:34Byte 33: 115
+00:12:34Byte 34: 64
+00:12:34Synth Success! Chain Performed:Transfixion Spirit Gained:2 Current Spirit:16499
+00:12:34Moving to next step. 3 Current Spirit:16499
+00:12:34Sleeping 10 for animation delay and sending ACK, setting to 'Chain Ready'
+00:12:45Received 0x05C. Current Status: Chain Ready   Showing all non 0 byte packets:
+00:12:45Byte 1: 92
+00:12:45Byte 2: 18
+00:12:45Byte 3: 139
+00:12:45Byte 4: 57
+00:12:45Byte 5: 5
+00:12:45Byte 9: 78
+00:12:45Byte 10: 103
+00:12:45Byte 21: 99
+00:12:46Finished synth. Setting Status back to Initial
+00:12:46Received 0x05C. Current Status: Initial   Showing all non 0 byte packets:
+00:12:46Byte 1: 92
+00:12:46Byte 2: 18
+00:12:46Byte 3: 142
+00:12:46Byte 4: 57
+00:12:46Byte 5: 122
+00:12:46Byte 6: 130
+00:12:46Byte 7: 149
+00:12:46Byte 8: 145
+00:12:46Byte 9: 147
+00:12:46Byte 10: 99
+00:12:46Byte 11: 135
+00:12:46Byte 12: 105
+00:12:46Byte 13: 136
+00:12:46Byte 14: 155
+00:12:46Byte 16: 195
+00:12:46Byte 17: 178
+00:12:46Byte 18: 206
+00:12:46Byte 19: 146
+00:12:46Byte 20: 89
+00:12:46Byte 21: 9
+00:12:46Byte 22: 157
+00:12:46Byte 23: 69
+00:12:46Byte 24: 99
+00:12:46Byte 25: 9
+00:12:46Byte 26: 6
+00:12:46Byte 27: 17
+00:12:46Byte 28: 116
+00:12:46Byte 29: 137
+00:12:46Looking up Chain..Scission
+00:12:46Scission: Found Crystal: Earth Crystal
+00:12:48Sending Synthchain: 17409.  Setting info.status to Spirit Update
+00:12:49Received 0x05C. Current Status: Spirit Update   Showing all non 0 byte packets:
+00:12:49Byte 1: 92
+00:12:49Byte 2: 18
+00:12:49Byte 3: 148
+00:12:49Byte 4: 57
+00:12:49Byte 5: 1
+00:12:49Byte 9: 10
+00:12:49Byte 17: 3
+00:12:49Byte 21: 134
+00:12:49Byte 22: 1
+00:12:49Byte 25: 5
+00:12:49Byte 33: 120
+00:12:49Byte 34: 64
+00:12:49Synth Success! Chain Performed:Distortion Spirit Gained:5 Current Spirit:16504
+00:12:49Moving to next step. 4 Current Spirit:16504
+00:12:49Sleeping 10 for animation delay and sending ACK, setting to 'Chain Ready'
+00:12:59Received 0x05C. Current Status: Chain Ready   Showing all non 0 byte packets:
+00:12:59Byte 1: 92
+00:12:59Byte 2: 18
+00:12:59Byte 3: 173
+00:12:59Byte 4: 57
+00:12:59Byte 5: 5
+00:12:59Byte 9: 78
+00:12:59Byte 10: 103
+00:12:59Byte 21: 99
+00:13:00Finished synth. Setting Status back to Initial
+00:13:01Received 0x05C. Current Status: Initial   Showing all non 0 byte packets:
+00:13:01Byte 1: 92
+00:13:01Byte 2: 18
+00:13:01Byte 3: 176
+00:13:01Byte 4: 57
+00:13:01Byte 5: 122
+00:13:01Byte 6: 130
+00:13:01Byte 7: 149
+00:13:01Byte 8: 144
+00:13:01Byte 9: 147
+00:13:01Byte 10: 99
+00:13:01Byte 11: 135
+00:13:01Byte 12: 105
+00:13:01Byte 13: 135
+00:13:01Byte 14: 155
+00:13:01Byte 16: 195
+00:13:01Byte 17: 178
+00:13:01Byte 18: 206
+00:13:01Byte 19: 145
+00:13:01Byte 20: 89
+00:13:01Byte 21: 9
+00:13:01Byte 22: 157
+00:13:01Byte 23: 69
+00:13:01Byte 24: 99
+00:13:01Byte 25: 9
+00:13:01Byte 26: 6
+00:13:01Byte 27: 17
+00:13:01Byte 28: 116
+00:13:01Byte 29: 137
+00:13:01Looking up Chain..Gravitation
+00:13:01Gravitation: Found Crystal: Dark Crystal
+00:13:03Sending Synthchain: 51201.  Setting info.status to Spirit Update
+00:13:03Received 0x05C. Current Status: Spirit Update   Showing all non 0 byte packets:
+00:13:03Byte 1: 92
+00:13:03Byte 2: 18
+00:13:03Byte 3: 182
+00:13:03Byte 4: 57
+00:13:03Byte 5: 1
+00:13:03Byte 9: 14
+00:13:03Byte 17: 7
+00:13:03Byte 21: 134
+00:13:03Byte 22: 1
+00:13:03Byte 25: 15
+00:13:03Byte 33: 135
+00:13:03Byte 34: 64
+00:13:03Synth Success! Chain Performed:Darkness Spirit Gained:15 Current Spirit:16519
+00:13:03Hit end of chain - resetting. Current Spirit:16519
+00:13:03Sleeping 10 for animation delay and sending ACK, setting to 'Chain Ready'
+00:13:14Received 0x05C. Current Status: Chain Ready   Showing all non 0 byte packets:
+00:13:14Byte 1: 92
+00:13:14Byte 2: 18
+00:13:14Byte 3: 206
+00:13:14Byte 4: 57
+00:13:14Byte 5: 5
+00:13:14Byte 9: 78
+00:13:14Byte 10: 103
+00:13:14Byte 21: 99
+00:13:15Finished synth. Setting Status back to Initial
+00:13:15Received 0x05C. Current Status: Initial   Showing all non 0 byte packets:
+00:13:15Byte 1: 92
+00:13:15Byte 2: 18
+00:13:15Byte 3: 210
+00:13:15Byte 4: 57
+00:13:15Byte 5: 122
+00:13:15Byte 6: 130
+00:13:15Byte 7: 149
+00:13:15Byte 8: 144
+00:13:15Byte 9: 147
+00:13:15Byte 10: 99
+00:13:15Byte 11: 135
+00:13:15Byte 12: 104
+00:13:15Byte 13: 135
+00:13:15Byte 14: 154
+00:13:15Byte 16: 195
+00:13:15Byte 17: 178
+00:13:15Byte 18: 206
+00:13:16Byte 19: 145
+00:13:16Byte 20: 89
+00:13:16Byte 21: 9
+00:13:16Byte 22: 157
+00:13:16Byte 23: 69
+00:13:16Byte 24: 99
+00:13:16Byte 25: 9
+00:13:16Byte 26: 6
+00:13:16Byte 27: 16
+00:13:16Byte 28: 116
+00:13:16Byte 29: 137
+00:13:16Looking up Chain..Compression
+00:13:16Compression: Found Crystal: Dark Crystal
+00:13:18Sending Synthchain: 34817.  Setting info.status to Spirit Update
+00:13:18Received 0x05C. Current Status: Spirit Update   Showing all non 0 byte packets:
+00:13:18Byte 1: 92
+00:13:18Byte 2: 18
+00:13:18Byte 3: 216
+00:13:18Byte 4: 57
+00:13:18Byte 17: 7
+00:13:18Byte 21: 134
+00:13:18Byte 22: 1
+00:13:18Byte 29: 2
+00:13:18Byte 33: 135
+00:13:18Byte 34: 64
+00:13:18ERROR: Synth Fail. Resetting Chain. Current Spirit:16519
+00:13:18Sleeping 10 for animation delay and sending ACK, setting to 'Chain Ready'
+00:13:28Received 0x05C. Current Status: Chain Ready   Showing all non 0 byte packets:
+00:13:28Byte 1: 92
+00:13:28Byte 2: 18
+00:13:28Byte 3: 241
+00:13:28Byte 4: 57
+00:13:28Byte 5: 5
+00:13:28Byte 9: 78
+00:13:28Byte 10: 103
+00:13:28Byte 21: 99
+00:13:29Finished synth. Setting Status back to Initial
+00:13:30Received 0x05C. Current Status: Initial   Showing all non 0 byte packets:
+00:13:30Byte 1: 92
+00:13:30Byte 2: 18
+00:13:30Byte 3: 245
+00:13:30Byte 4: 57
+00:13:30Byte 5: 122
+00:13:30Byte 6: 130
+00:13:30Byte 7: 149
+00:13:30Byte 8: 144
+00:13:30Byte 9: 147
+00:13:30Byte 10: 99
+00:13:30Byte 11: 135
+00:13:30Byte 12: 103
+00:13:30Byte 13: 134
+00:13:30Byte 14: 154
+00:13:30Byte 16: 195
+00:13:30Byte 17: 178
+00:13:30Byte 18: 206
+00:13:30Byte 19: 145
+00:13:30Byte 20: 89
+00:13:30Byte 21: 9
+00:13:30Byte 22: 157
+00:13:30Byte 23: 68
+00:13:30Byte 24: 99
+00:13:30Byte 25: 9
+00:13:30Byte 26: 6
+00:13:30Byte 27: 16
+00:13:30Byte 28: 116
+00:13:30Byte 29: 137
+00:13:30Looking up Chain..Compression
+00:13:30Compression: Found Crystal: Dark Crystal
+00:13:32Sending Synthchain: 34817.  Setting info.status to Spirit Update
+00:13:32Received 0x05C. Current Status: Spirit Update   Showing all non 0 byte packets:
+00:13:32Byte 1: 92
+00:13:32Byte 2: 18
+00:13:32Byte 3: 251
+00:13:32Byte 4: 57
+00:13:32Byte 5: 1
+00:13:32Byte 17: 7
+00:13:33Byte 21: 134
+00:13:33Byte 22: 1
+00:13:33Byte 25: 1
+00:13:33Byte 29: 4
+00:13:33Byte 33: 136
+00:13:33Byte 34: 64
+00:13:33Synth Success! Chain Performed:None Spirit Gained:1 Current Spirit:16520
+00:13:33Moving to next step. 2 Current Spirit:16520
+00:13:33Sleeping 10 for animation delay and sending ACK, setting to 'Chain Ready'
+00:13:43Received 0x05C. Current Status: Chain Ready   Showing all non 0 byte packets:
+00:13:43Byte 1: 92
+00:13:43Byte 2: 18
+00:13:43Byte 3: 19
+00:13:43Byte 4: 58
+00:13:43Byte 5: 5
+00:13:43Byte 9: 78
+00:13:43Byte 10: 103
+00:13:43Byte 21: 99
+00:13:44Finished synth. Setting Status back to Initial
+00:13:44Received 0x05C. Current Status: Initial   Showing all non 0 byte packets:
+00:13:44Byte 1: 92
+00:13:44Byte 2: 18
+00:13:44Byte 3: 22
+00:13:44Byte 4: 58
+00:13:44Byte 5: 122
+00:13:44Byte 6: 130
+00:13:44Byte 7: 149
+00:13:44Byte 8: 144
+00:13:44Byte 9: 147
+00:13:44Byte 10: 99
+00:13:44Byte 11: 135
+00:13:44Byte 12: 102
+00:13:44Byte 13: 133
+00:13:44Byte 14: 154
+00:13:44Byte 16: 195
+00:13:44Byte 17: 178
+00:13:44Byte 18: 206
+00:13:44Byte 19: 145
+00:13:44Byte 20: 89
+00:13:44Byte 21: 9
+00:13:44Byte 22: 157
+00:13:44Byte 23: 67
+00:13:44Byte 24: 99
+00:13:44Byte 25: 9
+00:13:44Byte 26: 6
+00:13:44Byte 27: 16
+00:13:44Byte 28: 116
+00:13:44Byte 29: 137
+00:13:44Looking up Chain..Transfixion
+00:13:44Transfixion: Found Crystal: Light Crystal
+00:13:46Sending Synthchain: 30465.  Setting info.status to Spirit Update
+00:13:47Received 0x05C. Current Status: Spirit Update   Showing all non 0 byte packets:
+00:13:47Byte 1: 92
+00:13:47Byte 2: 18
+00:13:47Byte 3: 28
+00:13:47Byte 4: 58
+00:13:47Byte 5: 1
+00:13:47Byte 9: 7
+00:13:47Byte 17: 6
+00:13:47Byte 21: 134
+00:13:47Byte 22: 1
+00:13:47Byte 25: 2
+00:13:47Byte 29: 4
+00:13:47Byte 33: 138
+00:13:47Byte 34: 64
+00:13:47Synth Success! Chain Performed:Transfixion Spirit Gained:2 Current Spirit:16522
+00:13:47Moving to next step. 3 Current Spirit:16522
+00:13:47Sleeping 10 for animation delay and sending ACK, setting to 'Chain Ready'
+00:13:57Received 0x05C. Current Status: Chain Ready   Showing all non 0 byte packets:
+00:13:57Byte 1: 92
+00:13:57Byte 2: 18
+00:13:57Byte 3: 53
+00:13:57Byte 4: 58
+00:13:57Byte 5: 5
+00:13:57Byte 9: 78
+00:13:57Byte 10: 103
+00:13:57Byte 21: 99
+00:13:58Finished synth. Setting Status back to Initial
+00:13:59Received 0x05C. Current Status: Initial   Showing all non 0 byte packets:
+00:13:59Byte 1: 92
+00:13:59Byte 2: 18
+00:13:59Byte 3: 56
+00:13:59Byte 4: 58
+00:13:59Byte 5: 122
+00:13:59Byte 6: 130
+00:13:59Byte 7: 149
+00:13:59Byte 8: 144
+00:13:59Byte 9: 147
+00:13:59Byte 10: 99
+00:13:59Byte 11: 134
+00:13:59Byte 12: 102
+00:13:59Byte 13: 132
+00:13:59Byte 14: 154
+00:13:59Byte 16: 195
+00:13:59Byte 17: 178
+00:13:59Byte 18: 206
+00:13:59Byte 19: 145
+00:13:59Byte 20: 89
+00:13:59Byte 21: 9
+00:13:59Byte 22: 156
+00:13:59Byte 23: 67
+00:13:59Byte 24: 99
+00:13:59Byte 25: 9
+00:13:59Byte 26: 6
+00:13:59Byte 27: 16
+00:13:59Byte 28: 116
+00:13:59Byte 29: 137
+00:13:59Looking up Chain..Scission
+00:13:59Scission: Found Crystal: Earth Crystal
+00:14:01Sending Synthchain: 17409.  Setting info.status to Spirit Update
+00:14:01Received 0x05C. Current Status: Spirit Update   Showing all non 0 byte packets:
+00:14:01Byte 1: 92
+00:14:01Byte 2: 18
+00:14:01Byte 3: 62
+00:14:01Byte 4: 58
+00:14:01Byte 5: 1
+00:14:01Byte 9: 10
+00:14:01Byte 17: 3
+00:14:01Byte 21: 134
+00:14:01Byte 22: 1
+00:14:01Byte 25: 5
+00:14:01Byte 29: 2
+00:14:01Byte 33: 143
+00:14:01Byte 34: 64
+00:14:01Synth Success! Chain Performed:Distortion Spirit Gained:5 Current Spirit:16527
+00:14:01Moving to next step. 4 Current Spirit:16527
+00:14:01Sleeping 10 for animation delay and sending ACK, setting to 'Chain Ready'
+00:14:11Received 0x05C. Current Status: Chain Ready   Showing all non 0 byte packets:
+00:14:11Byte 1: 92
+00:14:11Byte 2: 18
+00:14:11Byte 3: 88
+00:14:11Byte 4: 58
+00:14:11Byte 5: 5
+00:14:11Byte 9: 78
+00:14:11Byte 10: 103
+00:14:11Byte 21: 99
+00:14:12Finished synth. Setting Status back to Initial
+00:14:13Received 0x05C. Current Status: Initial   Showing all non 0 byte packets:
+00:14:13Byte 1: 92
+00:14:13Byte 2: 18
+00:14:13Byte 3: 92
+00:14:13Byte 4: 58
+00:14:13Byte 5: 122
+00:14:13Byte 6: 130
+00:14:13Byte 7: 149
+00:14:13Byte 8: 143
+00:14:13Byte 9: 147
+00:14:13Byte 10: 99
+00:14:13Byte 11: 134
+00:14:13Byte 12: 102
+00:14:13Byte 13: 131
+00:14:13Byte 14: 154
+00:14:13Byte 16: 195
+00:14:13Byte 17: 178
+00:14:13Byte 18: 206
+00:14:13Byte 19: 144
+00:14:13Byte 20: 89
+00:14:13Byte 21: 9
+00:14:13Byte 22: 156
+00:14:13Byte 23: 67
+00:14:13Byte 24: 99
+00:14:13Byte 25: 9
+00:14:13Byte 26: 6
+00:14:13Byte 27: 16
+00:14:13Byte 28: 116
+00:14:13Byte 29: 137
+00:14:13Looking up Chain..Gravitation
+00:14:13Gravitation: Found Crystal: Dark Crystal
+00:14:15Sending Synthchain: 51201.  Setting info.status to Spirit Update
+00:14:16Received 0x05C. Current Status: Spirit Update   Showing all non 0 byte packets:
+00:14:16Byte 1: 92
+00:14:16Byte 2: 18
+00:14:16Byte 3: 98
+00:14:16Byte 4: 58
+00:14:16Byte 5: 2
+00:14:16Byte 9: 14
+00:14:16Byte 17: 7
+00:14:16Byte 21: 134
+00:14:16Byte 22: 1
+00:14:16Byte 25: 23
+00:14:16Byte 33: 166
+00:14:16Byte 34: 64
+00:14:16HQ Synth Success! Chain Performed:Darkness Spirit Gained:23 Current Spirit:16550
+00:14:16Hit end of chain - resetting. Current Spirit:16550
+00:14:16Sleeping 10 for animation delay and sending ACK, setting to 'Chain Ready'
+00:14:26Received 0x05C. Current Status: Chain Ready   Showing all non 0 byte packets:
+00:14:26Byte 1: 92
+00:14:26Byte 2: 18
+00:14:26Byte 3: 123
+00:14:26Byte 4: 58
+00:14:26Byte 5: 5
+00:14:26Byte 9: 78
+00:14:26Byte 10: 103
+00:14:26Byte 21: 99
+00:14:27Finished synth. Setting Status back to Initial
+00:14:27Received 0x05C. Current Status: Initial   Showing all non 0 byte packets:
+00:14:27Byte 1: 92
+00:14:27Byte 2: 18
+00:14:27Byte 3: 126
+00:14:27Byte 4: 58
+00:14:27Byte 5: 122
+00:14:27Byte 6: 130
+00:14:27Byte 7: 149
+00:14:27Byte 8: 143
+00:14:27Byte 9: 147
+00:14:27Byte 10: 99
+00:14:27Byte 11: 134
+00:14:27Byte 12: 101
+00:14:27Byte 13: 131
+00:14:27Byte 14: 153
+00:14:27Byte 16: 195
+00:14:27Byte 17: 178
+00:14:27Byte 18: 206
+00:14:27Byte 19: 144
+00:14:27Byte 20: 89
+00:14:27Byte 21: 9
+00:14:27Byte 22: 156
+00:14:27Byte 23: 67
+00:14:27Byte 24: 99
+00:14:27Byte 25: 9
+00:14:27Byte 26: 6
+00:14:27Byte 27: 15
+00:14:27Byte 28: 116
+00:14:27Byte 29: 137
+00:14:27Looking up Chain..Compression
+00:14:27Compression: Found Crystal: Dark Crystal
+00:14:29Sending Synthchain: 34817.  Setting info.status to Spirit Update
+00:14:30Received 0x05C. Current Status: Spirit Update   Showing all non 0 byte packets:
+00:14:30Byte 1: 92
+00:14:30Byte 2: 18
+00:14:30Byte 3: 132
+00:14:30Byte 4: 58
+00:14:30Byte 5: 1
+00:14:30Byte 17: 7
+00:14:30Byte 21: 134
+00:14:30Byte 22: 1
+00:14:30Byte 25: 1
+00:14:30Byte 29: 1
+00:14:30Byte 33: 167
+00:14:30Byte 34: 64
+00:14:30Synth Success! Chain Performed:None Spirit Gained:1 Current Spirit:16551
+00:14:30Moving to next step. 2 Current Spirit:16551
+00:14:30Sleeping 10 for animation delay and sending ACK, setting to 'Chain Ready'
+00:14:40Received 0x05C. Current Status: Chain Ready   Showing all non 0 byte packets:
+00:14:40Byte 1: 92
+00:14:40Byte 2: 18
+00:14:40Byte 3: 158
+00:14:40Byte 4: 58
+00:14:40Byte 5: 5
+00:14:40Byte 9: 78
+00:14:40Byte 10: 103
+00:14:40Byte 21: 99
+00:14:41Finished synth. Setting Status back to Initial
+00:14:42Received 0x05C. Current Status: Initial   Showing all non 0 byte packets:
+00:14:42Byte 1: 92
+00:14:42Byte 2: 18
+00:14:42Byte 3: 162
+00:14:42Byte 4: 58
+00:14:42Byte 5: 122
+00:14:42Byte 6: 130
+00:14:42Byte 7: 149
+00:14:42Byte 8: 143
+00:14:42Byte 9: 147
+00:14:42Byte 10: 99
+00:14:42Byte 11: 134
+00:14:42Byte 12: 100
+00:14:42Byte 13: 130
+00:14:42Byte 14: 153
+00:14:42Byte 16: 195
+00:14:42Byte 17: 178
+00:14:42Byte 18: 206
+00:14:42Byte 19: 144
+00:14:42Byte 20: 89
+00:14:42Byte 21: 9
+00:14:42Byte 22: 156
+00:14:42Byte 23: 66
+00:14:42Byte 24: 99
+00:14:42Byte 25: 9
+00:14:42Byte 26: 6
+00:14:42Byte 27: 15
+00:14:42Byte 28: 116
+00:14:42Byte 29: 137
+00:14:42Looking up Chain..Transfixion
+00:14:42Transfixion: Found Crystal: Light Crystal
+00:14:44Sending Synthchain: 30465.  Setting info.status to Spirit Update
+00:14:44Received 0x05C. Current Status: Spirit Update   Showing all non 0 byte packets:
+00:14:44Byte 1: 92
+00:14:44Byte 2: 18
+00:14:44Byte 3: 168
+00:14:44Byte 4: 58
+00:14:44Byte 5: 1
+00:14:44Byte 9: 7
+00:14:44Byte 17: 6
+00:14:44Byte 21: 134
+00:14:44Byte 22: 1
+00:14:44Byte 25: 2
+00:14:44Byte 29: 1
+00:14:44Byte 33: 169
+00:14:44Byte 34: 64
+00:14:44Synth Success! Chain Performed:Transfixion Spirit Gained:2 Current Spirit:16553
+00:14:44Moving to next step. 3 Current Spirit:16553
+00:14:44Sleeping 10 for animation delay and sending ACK, setting to 'Chain Ready'
+00:14:55Received 0x05C. Current Status: Chain Ready   Showing all non 0 byte packets:
+00:14:55Byte 1: 92
+00:14:55Byte 2: 18
+00:14:55Byte 3: 193
+00:14:55Byte 4: 58
+00:14:55Byte 5: 5
+00:14:55Byte 9: 78
+00:14:55Byte 10: 103
+00:14:55Byte 21: 99
+00:14:56Finished synth. Setting Status back to Initial
+00:14:56Received 0x05C. Current Status: Initial   Showing all non 0 byte packets:
+00:14:56Byte 1: 92
+00:14:56Byte 2: 18
+00:14:56Byte 3: 197
+00:14:56Byte 4: 58
+00:14:56Byte 5: 122
+00:14:56Byte 6: 130
+00:14:56Byte 7: 149
+00:14:56Byte 8: 143
+00:14:56Byte 9: 147
+00:14:56Byte 10: 99
+00:14:56Byte 11: 133
+00:14:56Byte 12: 100
+00:14:56Byte 13: 129
+00:14:56Byte 14: 153
+00:14:56Byte 16: 195
+00:14:56Byte 17: 178
+00:14:56Byte 18: 206
+00:14:56Byte 19: 144
+00:14:56Byte 20: 89
+00:14:56Byte 21: 9
+00:14:56Byte 22: 155
+00:14:56Byte 23: 66
+00:14:56Byte 24: 99
+00:14:56Byte 25: 9
+00:14:56Byte 26: 6
+00:14:56Byte 27: 15
+00:14:56Byte 28: 116
+00:14:56Byte 29: 137
+00:14:56Looking up Chain..Scission
+00:14:56Scission: Found Crystal: Earth Crystal
+00:14:58Sending Synthchain: 17409.  Setting info.status to Spirit Update
+00:14:59Received 0x05C. Current Status: Spirit Update   Showing all non 0 byte packets:
+00:14:59Byte 1: 92
+00:14:59Byte 2: 18
+00:14:59Byte 3: 203
+00:14:59Byte 4: 58
+00:14:59Byte 5: 1
+00:14:59Byte 9: 10
+00:14:59Byte 17: 3
+00:14:59Byte 21: 134
+00:14:59Byte 22: 1
+00:14:59Byte 25: 5
+00:14:59Byte 33: 174
+00:14:59Byte 34: 64
+00:14:59Synth Success! Chain Performed:Distortion Spirit Gained:5 Current Spirit:16558
+00:14:59Moving to next step. 4 Current Spirit:16558
+00:14:59Sleeping 10 for animation delay and sending ACK, setting to 'Chain Ready'
+00:15:09Received 0x05C. Current Status: Chain Ready   Showing all non 0 byte packets:
+00:15:09Byte 1: 92
+00:15:09Byte 2: 18
+00:15:09Byte 3: 229
+00:15:09Byte 4: 58
+00:15:09Byte 5: 5
+00:15:09Byte 9: 78
+00:15:09Byte 10: 103
+00:15:09Byte 21: 99
+00:15:10Finished synth. Setting Status back to Initial
+00:15:11Received 0x05C. Current Status: Initial   Showing all non 0 byte packets:
+00:15:11Byte 1: 92
+00:15:11Byte 2: 18
+00:15:11Byte 3: 233
+00:15:11Byte 4: 58
+00:15:11Byte 5: 122
+00:15:11Byte 6: 130
+00:15:11Byte 7: 149
+00:15:11Byte 8: 142
+00:15:11Byte 9: 147
+00:15:11Byte 10: 99
+00:15:11Byte 11: 133
+00:15:11Byte 12: 100
+00:15:11Byte 13: 128
+00:15:11Byte 14: 153
+00:15:11Byte 16: 195
+00:15:11Byte 17: 178
+00:15:11Byte 18: 206
+00:15:11Byte 19: 143
+00:15:11Byte 20: 89
+00:15:11Byte 21: 9
+00:15:11Byte 22: 155
+00:15:11Byte 23: 66
+00:15:11Byte 24: 99
+00:15:11Byte 25: 9
+00:15:11Byte 26: 6
+00:15:11Byte 27: 15
+00:15:11Byte 28: 116
+00:15:11Byte 29: 137
+00:15:11Looking up Chain..Gravitation
+00:15:11Gravitation: Found Crystal: Dark Crystal
+00:15:13Sending Synthchain: 51201.  Setting info.status to Spirit Update
+00:15:14Received 0x05C. Current Status: Spirit Update   Showing all non 0 byte packets:
+00:15:14Byte 1: 92
+00:15:14Byte 2: 18
+00:15:14Byte 3: 239
+00:15:14Byte 4: 58
+00:15:14Byte 5: 1
+00:15:14Byte 9: 14
+00:15:14Byte 17: 7
+00:15:14Byte 21: 134
+00:15:14Byte 22: 1
+00:15:14Byte 25: 15
+00:15:14Byte 33: 189
+00:15:14Byte 34: 64
+00:15:14Synth Success! Chain Performed:Darkness Spirit Gained:15 Current Spirit:16573
+00:15:14Hit end of chain - resetting. Current Spirit:16573
+00:15:14Sleeping 10 for animation delay and sending ACK, setting to 'Chain Ready'
+00:15:24Received 0x05C. Current Status: Chain Ready   Showing all non 0 byte packets:
+00:15:24Byte 1: 92
+00:15:24Byte 2: 18
+00:15:24Byte 3: 8
+00:15:24Byte 4: 59
+00:15:24Byte 5: 5
+00:15:24Byte 9: 78
+00:15:24Byte 10: 103
+00:15:24Byte 21: 99
+00:15:25Finished synth. Setting Status back to Initial
+00:15:26Received 0x05C. Current Status: Initial   Showing all non 0 byte packets:
+00:15:26Byte 1: 92
+00:15:26Byte 2: 18
+00:15:26Byte 3: 12
+00:15:26Byte 4: 59
+00:15:26Byte 5: 122
+00:15:26Byte 6: 130
+00:15:26Byte 7: 149
+00:15:26Byte 8: 142
+00:15:26Byte 9: 147
+00:15:26Byte 10: 99
+00:15:26Byte 11: 133
+00:15:26Byte 12: 99
+00:15:26Byte 13: 128
+00:15:26Byte 14: 152
+00:15:26Byte 16: 195
+00:15:26Byte 17: 178
+00:15:26Byte 18: 206
+00:15:26Byte 19: 143
+00:15:26Byte 20: 89
+00:15:26Byte 21: 9
+00:15:26Byte 22: 155
+00:15:26Byte 23: 66
+00:15:26Byte 24: 99
+00:15:26Byte 25: 9
+00:15:26Byte 26: 6
+00:15:26Byte 27: 14
+00:15:26Byte 28: 116
+00:15:26Byte 29: 137
+00:15:26Looking up Chain..Compression
+00:15:26Compression: Found Crystal: Dark Crystal
+00:15:28Sending Synthchain: 34817.  Setting info.status to Spirit Update
+00:15:28Received 0x05C. Current Status: Spirit Update   Showing all non 0 byte packets:
+00:15:28Byte 1: 92
+00:15:28Byte 2: 18
+00:15:28Byte 3: 18
+00:15:28Byte 4: 59
+00:15:28Byte 5: 1
+00:15:28Byte 17: 7
+00:15:28Byte 21: 134
+00:15:28Byte 22: 1
+00:15:28Byte 25: 1
+00:15:28Byte 29: 1
+00:15:28Byte 33: 190
+00:15:28Byte 34: 64
+00:15:28Synth Success! Chain Performed:None Spirit Gained:1 Current Spirit:16574
+00:15:28Moving to next step. 2 Current Spirit:16574
+00:15:28Sleeping 10 for animation delay and sending ACK, setting to 'Chain Ready'
+00:15:39Received 0x05C. Current Status: Chain Ready   Showing all non 0 byte packets:
+00:15:39Byte 1: 92
+00:15:39Byte 2: 18
+00:15:39Byte 3: 43
+00:15:39Byte 4: 59
+00:15:39Byte 5: 5
+00:15:39Byte 9: 78
+00:15:39Byte 10: 103
+00:15:39Byte 21: 99
+00:15:40Finished synth. Setting Status back to Initial
+00:15:40Received 0x05C. Current Status: Initial   Showing all non 0 byte packets:
+00:15:40Byte 1: 92
+00:15:40Byte 2: 18
+00:15:40Byte 3: 46
+00:15:40Byte 4: 59
+00:15:40Byte 5: 122
+00:15:40Byte 6: 130
+00:15:40Byte 7: 149
+00:15:40Byte 8: 142
+00:15:40Byte 9: 147
+00:15:40Byte 10: 99
+00:15:40Byte 11: 133
+00:15:40Byte 12: 98
+00:15:40Byte 13: 127
+00:15:40Byte 14: 152
+00:15:40Byte 16: 195
+00:15:40Byte 17: 178
+00:15:40Byte 18: 206
+00:15:40Byte 19: 143
+00:15:40Byte 20: 89
+00:15:40Byte 21: 9
+00:15:40Byte 22: 155
+00:15:40Byte 23: 65
+00:15:40Byte 24: 99
+00:15:40Byte 25: 9
+00:15:40Byte 26: 6
+00:15:40Byte 27: 14
+00:15:40Byte 28: 116
+00:15:40Byte 29: 137
+00:15:40Looking up Chain..Transfixion
+00:15:40Transfixion: Found Crystal: Light Crystal
+00:15:42Sending Synthchain: 30465.  Setting info.status to Spirit Update
+00:15:43Received 0x05C. Current Status: Spirit Update   Showing all non 0 byte packets:
+00:15:43Byte 1: 92
+00:15:43Byte 2: 18
+00:15:43Byte 3: 52
+00:15:43Byte 4: 59
+00:15:43Byte 5: 1
+00:15:43Byte 9: 7
+00:15:43Byte 17: 6
+00:15:43Byte 21: 134
+00:15:43Byte 22: 1
+00:15:43Byte 25: 2
+00:15:43Byte 29: 1
+00:15:43Byte 33: 192
+00:15:43Byte 34: 64
+00:15:43Synth Success! Chain Performed:Transfixion Spirit Gained:2 Current Spirit:16576
+00:15:43Moving to next step. 3 Current Spirit:16576
+00:15:43Sleeping 10 for animation delay and sending ACK, setting to 'Chain Ready'
+00:15:53Received 0x05C. Current Status: Chain Ready   Showing all non 0 byte packets:
+00:15:53Byte 1: 92
+00:15:53Byte 2: 18
+00:15:53Byte 3: 77
+00:15:53Byte 4: 59
+00:15:53Byte 5: 5
+00:15:53Byte 9: 78
+00:15:53Byte 10: 103
+00:15:53Byte 21: 99
+00:15:54Finished synth. Setting Status back to Initial
+00:15:55Received 0x05C. Current Status: Initial   Showing all non 0 byte packets:
+00:15:55Byte 1: 92
+00:15:55Byte 2: 18
+00:15:55Byte 3: 81
+00:15:55Byte 4: 59
+00:15:55Byte 5: 122
+00:15:55Byte 6: 130
+00:15:55Byte 7: 149
+00:15:55Byte 8: 142
+00:15:55Byte 9: 147
+00:15:55Byte 10: 99
+00:15:55Byte 11: 132
+00:15:55Byte 12: 98
+00:15:55Byte 13: 126
+00:15:55Byte 14: 152
+00:15:55Byte 16: 195
+00:15:55Byte 17: 178
+00:15:55Byte 18: 206
+00:15:55Byte 19: 143
+00:15:55Byte 20: 89
+00:15:55Byte 21: 9
+00:15:55Byte 22: 154
+00:15:55Byte 23: 65
+00:15:55Byte 24: 99
+00:15:55Byte 25: 9
+00:15:55Byte 26: 6
+00:15:55Byte 27: 14
+00:15:55Byte 28: 116
+00:15:55Byte 29: 137
+00:15:55Looking up Chain..Scission
+00:15:55Scission: Found Crystal: Earth Crystal
+00:15:57Sending Synthchain: 17409.  Setting info.status to Spirit Update
+00:15:57Received 0x05C. Current Status: Spirit Update   Showing all non 0 byte packets:
+00:15:57Byte 1: 92
+00:15:57Byte 2: 18
+00:15:57Byte 3: 87
+00:15:57Byte 4: 59
+00:15:57Byte 5: 1
+00:15:57Byte 9: 10
+00:15:57Byte 17: 3
+00:15:57Byte 21: 134
+00:15:57Byte 22: 1
+00:15:57Byte 25: 5
+00:15:57Byte 33: 197
+00:15:57Byte 34: 64
+00:15:57Synth Success! Chain Performed:Distortion Spirit Gained:5 Current Spirit:16581
+00:15:57Moving to next step. 4 Current Spirit:16581
+00:15:57Sleeping 10 for animation delay and sending ACK, setting to 'Chain Ready'
+00:16:07Received 0x05C. Current Status: Chain Ready   Showing all non 0 byte packets:
+00:16:07Byte 1: 92
+00:16:07Byte 2: 18
+00:16:07Byte 3: 112
+00:16:07Byte 4: 59
+00:16:07Byte 5: 5
+00:16:07Byte 9: 78
+00:16:07Byte 10: 103
+00:16:07Byte 21: 99
+00:16:08Finished synth. Setting Status back to Initial
+00:16:09Received 0x05C. Current Status: Initial   Showing all non 0 byte packets:
+00:16:09Byte 1: 92
+00:16:09Byte 2: 18
+00:16:09Byte 3: 115
+00:16:09Byte 4: 59
+00:16:09Byte 5: 122
+00:16:09Byte 6: 130
+00:16:09Byte 7: 149
+00:16:09Byte 8: 141
+00:16:09Byte 9: 147
+00:16:09Byte 10: 99
+00:16:09Byte 11: 132
+00:16:09Byte 12: 98
+00:16:09Byte 13: 125
+00:16:09Byte 14: 152
+00:16:09Byte 16: 195
+00:16:09Byte 17: 178
+00:16:09Byte 18: 206
+00:16:09Byte 19: 142
+00:16:09Byte 20: 89
+00:16:09Byte 21: 9
+00:16:09Byte 22: 154
+00:16:09Byte 23: 65
+00:16:09Byte 24: 99
+00:16:09Byte 25: 9
+00:16:09Byte 26: 6
+00:16:09Byte 27: 14
+00:16:09Byte 28: 116
+00:16:09Byte 29: 137
+00:16:09Looking up Chain..Gravitation
+00:16:09Gravitation: Found Crystal: Dark Crystal
+00:16:11Sending Synthchain: 51201.  Setting info.status to Spirit Update
+00:16:11Received 0x05C. Current Status: Spirit Update   Showing all non 0 byte packets:
+00:16:11Byte 1: 92
+00:16:11Byte 2: 18
+00:16:11Byte 3: 121
+00:16:11Byte 4: 59
+00:16:11Byte 5: 1
+00:16:11Byte 9: 14
+00:16:11Byte 17: 7
+00:16:11Byte 21: 134
+00:16:11Byte 22: 1
+00:16:11Byte 25: 15
+00:16:11Byte 33: 212
+00:16:11Byte 34: 64
+00:16:11Synth Success! Chain Performed:Darkness Spirit Gained:15 Current Spirit:16596
+00:16:11Hit end of chain - resetting. Current Spirit:16596
+00:16:11Sleeping 10 for animation delay and sending ACK, setting to 'Chain Ready'
+00:16:21Received 0x05C. Current Status: Chain Ready   Showing all non 0 byte packets:
+00:16:21Byte 1: 92
+00:16:21Byte 2: 18
+00:16:21Byte 3: 146
+00:16:21Byte 4: 59
+00:16:21Byte 5: 5
+00:16:21Byte 9: 78
+00:16:21Byte 10: 103
+00:16:21Byte 21: 99
+00:16:22Finished synth. Setting Status back to Initial
+00:16:23Received 0x05C. Current Status: Initial   Showing all non 0 byte packets:
+00:16:23Byte 1: 92
+00:16:23Byte 2: 18
+00:16:23Byte 3: 149
+00:16:23Byte 4: 59
+00:16:23Byte 5: 122
+00:16:23Byte 6: 130
+00:16:23Byte 7: 149
+00:16:23Byte 8: 141
+00:16:23Byte 9: 147
+00:16:23Byte 10: 99
+00:16:23Byte 11: 132
+00:16:23Byte 12: 97
+00:16:23Byte 13: 125
+00:16:23Byte 14: 151
+00:16:23Byte 16: 195
+00:16:23Byte 17: 178
+00:16:23Byte 18: 206
+00:16:23Byte 19: 142
+00:16:23Byte 20: 89
+00:16:23Byte 21: 9
+00:16:23Byte 22: 154
+00:16:23Byte 23: 65
+00:16:23Byte 24: 99
+00:16:23Byte 25: 9
+00:16:23Byte 26: 6
+00:16:23Byte 27: 13
+00:16:23Byte 28: 116
+00:16:23Byte 29: 137
+00:16:23Looking up Chain..Compression
+00:16:23Compression: Found Crystal: Dark Crystal
+00:16:25Sending Synthchain: 34817.  Setting info.status to Spirit Update
+00:16:25Received 0x05C. Current Status: Spirit Update   Showing all non 0 byte packets:
+00:16:25Byte 1: 92
+00:16:25Byte 2: 18
+00:16:25Byte 3: 155
+00:16:25Byte 4: 59
+00:16:25Byte 5: 1
+00:16:25Byte 17: 7
+00:16:25Byte 21: 134
+00:16:25Byte 22: 1
+00:16:25Byte 25: 1
+00:16:25Byte 29: 1
+00:16:25Byte 33: 213
+00:16:25Byte 34: 64
+00:16:25Synth Success! Chain Performed:None Spirit Gained:1 Current Spirit:16597
+00:16:25Moving to next step. 2 Current Spirit:16597
+00:16:25Sleeping 10 for animation delay and sending ACK, setting to 'Chain Ready'
+00:16:36Received 0x05C. Current Status: Chain Ready   Showing all non 0 byte packets:
+00:16:36Byte 1: 92
+00:16:36Byte 2: 18
+00:16:36Byte 3: 180
+00:16:36Byte 4: 59
+00:16:36Byte 5: 5
+00:16:36Byte 9: 78
+00:16:36Byte 10: 103
+00:16:36Byte 21: 99
+00:16:37Finished synth. Setting Status back to Initial
+00:16:37Received 0x05C. Current Status: Initial   Showing all non 0 byte packets:
+00:16:37Byte 1: 92
+00:16:37Byte 2: 18
+00:16:37Byte 3: 183
+00:16:37Byte 4: 59
+00:16:37Byte 5: 122
+00:16:37Byte 6: 130
+00:16:37Byte 7: 149
+00:16:37Byte 8: 141
+00:16:37Byte 9: 147
+00:16:37Byte 10: 99
+00:16:37Byte 11: 132
+00:16:37Byte 12: 96
+00:16:37Byte 13: 124
+00:16:37Byte 14: 151
+00:16:37Byte 16: 195
+00:16:37Byte 17: 178
+00:16:37Byte 18: 206
+00:16:37Byte 19: 142
+00:16:37Byte 20: 89
+00:16:37Byte 21: 9
+00:16:37Byte 22: 154
+00:16:37Byte 23: 64
+00:16:37Byte 24: 99
+00:16:37Byte 25: 9
+00:16:37Byte 26: 6
+00:16:37Byte 27: 13
+00:16:37Byte 28: 116
+00:16:37Byte 29: 137
+00:16:37Looking up Chain..Transfixion
+00:16:37Transfixion: Found Crystal: Light Crystal
+00:16:39Sending Synthchain: 30465.  Setting info.status to Spirit Update
+00:16:39Received 0x05C. Current Status: Spirit Update   Showing all non 0 byte packets:
+00:16:39Byte 1: 92
+00:16:39Byte 2: 18
+00:16:39Byte 3: 189
+00:16:39Byte 4: 59
+00:16:39Byte 5: 1
+00:16:39Byte 9: 7
+00:16:39Byte 17: 6
+00:16:39Byte 21: 134
+00:16:39Byte 22: 1
+00:16:39Byte 25: 2
+00:16:39Byte 29: 1
+00:16:39Byte 33: 215
+00:16:39Byte 34: 64
+00:16:39Synth Success! Chain Performed:Transfixion Spirit Gained:2 Current Spirit:16599
+00:16:39Moving to next step. 3 Current Spirit:16599
+00:16:39Sleeping 10 for animation delay and sending ACK, setting to 'Chain Ready'
+00:16:50Received 0x05C. Current Status: Chain Ready   Showing all non 0 byte packets:
+00:16:50Byte 1: 92
+00:16:50Byte 2: 18
+00:16:50Byte 3: 214
+00:16:50Byte 4: 59
+00:16:50Byte 5: 5
+00:16:50Byte 9: 78
+00:16:50Byte 10: 103
+00:16:50Byte 21: 99
+00:16:51Finished synth. Setting Status back to Initial
+00:16:51Received 0x05C. Current Status: Initial   Showing all non 0 byte packets:
+00:16:51Byte 1: 92
+00:16:51Byte 2: 18
+00:16:51Byte 3: 218
+00:16:51Byte 4: 59
+00:16:51Byte 5: 122
+00:16:51Byte 6: 130
+00:16:51Byte 7: 149
+00:16:51Byte 8: 141
+00:16:51Byte 9: 147
+00:16:51Byte 10: 99
+00:16:51Byte 11: 131
+00:16:51Byte 12: 96
+00:16:51Byte 13: 123
+00:16:51Byte 14: 151
+00:16:51Byte 16: 195
+00:16:51Byte 17: 178
+00:16:51Byte 18: 206
+00:16:51Byte 19: 142
+00:16:51Byte 20: 89
+00:16:51Byte 21: 9
+00:16:51Byte 22: 153
+00:16:51Byte 23: 64
+00:16:51Byte 24: 99
+00:16:51Byte 25: 9
+00:16:51Byte 26: 6
+00:16:51Byte 27: 13
+00:16:51Byte 28: 116
+00:16:51Byte 29: 137
+00:16:51Looking up Chain..Scission
+00:16:51Scission: Found Crystal: Earth Crystal
+00:16:53Sending Synthchain: 17409.  Setting info.status to Spirit Update
+00:16:54Received 0x05C. Current Status: Spirit Update   Showing all non 0 byte packets:
+00:16:54Byte 1: 92
+00:16:54Byte 2: 18
+00:16:54Byte 3: 224
+00:16:54Byte 4: 59
+00:16:54Byte 5: 1
+00:16:54Byte 9: 10
+00:16:54Byte 17: 3
+00:16:54Byte 21: 134
+00:16:54Byte 22: 1
+00:16:54Byte 25: 5
+00:16:54Byte 33: 220
+00:16:54Byte 34: 64
+00:16:54Synth Success! Chain Performed:Distortion Spirit Gained:5 Current Spirit:16604
+00:16:54Moving to next step. 4 Current Spirit:16604
+00:16:54Sleeping 10 for animation delay and sending ACK, setting to 'Chain Ready'
+00:17:04Received 0x05C. Current Status: Chain Ready   Showing all non 0 byte packets:
+00:17:04Byte 1: 92
+00:17:04Byte 2: 18
+00:17:04Byte 3: 250
+00:17:04Byte 4: 59
+00:17:04Byte 5: 5
+00:17:04Byte 9: 78
+00:17:04Byte 10: 103
+00:17:04Byte 21: 99
+00:17:05Finished synth. Setting Status back to Initial
+00:17:06Received 0x05C. Current Status: Initial   Showing all non 0 byte packets:
+00:17:06Byte 1: 92
+00:17:06Byte 2: 18
+00:17:06Byte 3: 254
+00:17:06Byte 4: 59
+00:17:06Byte 5: 122
+00:17:06Byte 6: 130
+00:17:06Byte 7: 149
+00:17:06Byte 8: 140
+00:17:06Byte 9: 147
+00:17:06Byte 10: 99
+00:17:06Byte 11: 131
+00:17:06Byte 12: 96
+00:17:06Byte 13: 122
+00:17:06Byte 14: 151
+00:17:06Byte 16: 195
+00:17:06Byte 17: 178
+00:17:06Byte 18: 206
+00:17:06Byte 19: 141
+00:17:06Byte 20: 89
+00:17:06Byte 21: 9
+00:17:06Byte 22: 153
+00:17:06Byte 23: 64
+00:17:06Byte 24: 99
+00:17:06Byte 25: 9
+00:17:06Byte 26: 6
+00:17:06Byte 27: 13
+00:17:06Byte 28: 116
+00:17:06Byte 29: 137
+00:17:06Looking up Chain..Gravitation
+00:17:06Gravitation: Found Crystal: Dark Crystal
+00:17:08Sending Synthchain: 51201.  Setting info.status to Spirit Update
+00:17:08Received 0x05C. Current Status: Spirit Update   Showing all non 0 byte packets:
+00:17:08Byte 1: 92
+00:17:08Byte 2: 18
+00:17:08Byte 3: 4
+00:17:08Byte 4: 60
+00:17:08Byte 5: 1
+00:17:08Byte 9: 14
+00:17:08Byte 17: 7
+00:17:08Byte 21: 134
+00:17:08Byte 22: 1
+00:17:08Byte 25: 15
+00:17:08Byte 33: 235
+00:17:08Byte 34: 64
+00:17:08Synth Success! Chain Performed:Darkness Spirit Gained:15 Current Spirit:16619
+00:17:08Hit end of chain - resetting. Current Spirit:16619
+00:17:08Sleeping 10 for animation delay and sending ACK, setting to 'Chain Ready'
+00:17:19Received 0x05C. Current Status: Chain Ready   Showing all non 0 byte packets:
+00:17:19Byte 1: 92
+00:17:19Byte 2: 18
+00:17:19Byte 3: 29
+00:17:19Byte 4: 60
+00:17:19Byte 5: 5
+00:17:19Byte 9: 78
+00:17:19Byte 10: 103
+00:17:19Byte 21: 99
+00:17:20Finished synth. Setting Status back to Initial
+00:17:20Received 0x05C. Current Status: Initial   Showing all non 0 byte packets:
+00:17:20Byte 1: 92
+00:17:20Byte 2: 18
+00:17:20Byte 3: 33
+00:17:20Byte 4: 60
+00:17:20Byte 5: 122
+00:17:20Byte 6: 130
+00:17:20Byte 7: 149
+00:17:20Byte 8: 140
+00:17:20Byte 9: 147
+00:17:20Byte 10: 99
+00:17:20Byte 11: 131
+00:17:20Byte 12: 95
+00:17:20Byte 13: 122
+00:17:20Byte 14: 150
+00:17:20Byte 16: 195
+00:17:20Byte 17: 178
+00:17:20Byte 18: 206
+00:17:20Byte 19: 141
+00:17:20Byte 20: 89
+00:17:20Byte 21: 9
+00:17:20Byte 22: 153
+00:17:20Byte 23: 64
+00:17:20Byte 24: 99
+00:17:20Byte 25: 9
+00:17:20Byte 26: 6
+00:17:20Byte 27: 12
+00:17:20Byte 28: 116
+00:17:20Byte 29: 137
+00:17:20Looking up Chain..Compression
+00:17:20Compression: Found Crystal: Dark Crystal
+00:17:22Sending Synthchain: 34817.  Setting info.status to Spirit Update
+00:17:23Received 0x05C. Current Status: Spirit Update   Showing all non 0 byte packets:
+00:17:23Byte 1: 92
+00:17:23Byte 2: 18
+00:17:23Byte 3: 39
+00:17:23Byte 4: 60
+00:17:23Byte 5: 1
+00:17:23Byte 17: 7
+00:17:23Byte 21: 134
+00:17:23Byte 22: 1
+00:17:23Byte 25: 1
+00:17:23Byte 29: 1
+00:17:23Byte 33: 236
+00:17:23Byte 34: 64
+00:17:23Synth Success! Chain Performed:None Spirit Gained:1 Current Spirit:16620
+00:17:23Moving to next step. 2 Current Spirit:16620
+00:17:23Sleeping 10 for animation delay and sending ACK, setting to 'Chain Ready'
+00:17:33Received 0x05C. Current Status: Chain Ready   Showing all non 0 byte packets:
+00:17:33Byte 1: 92
+00:17:33Byte 2: 18
+00:17:33Byte 3: 64
+00:17:33Byte 4: 60
+00:17:33Byte 5: 5
+00:17:33Byte 9: 78
+00:17:33Byte 10: 103
+00:17:33Byte 21: 99
+00:17:34Finished synth. Setting Status back to Initial
+00:17:35Received 0x05C. Current Status: Initial   Showing all non 0 byte packets:
+00:17:35Byte 1: 92
+00:17:35Byte 2: 18
+00:17:35Byte 3: 67
+00:17:35Byte 4: 60
+00:17:35Byte 5: 122
+00:17:35Byte 6: 130
+00:17:35Byte 7: 149
+00:17:35Byte 8: 140
+00:17:35Byte 9: 147
+00:17:35Byte 10: 99
+00:17:35Byte 11: 131
+00:17:35Byte 12: 94
+00:17:35Byte 13: 121
+00:17:35Byte 14: 150
+00:17:35Byte 16: 195
+00:17:35Byte 17: 178
+00:17:35Byte 18: 206
+00:17:35Byte 19: 141
+00:17:35Byte 20: 89
+00:17:35Byte 21: 9
+00:17:35Byte 22: 153
+00:17:35Byte 23: 63
+00:17:35Byte 24: 99
+00:17:35Byte 25: 9
+00:17:35Byte 26: 6
+00:17:35Byte 27: 12
+00:17:35Byte 28: 116
+00:17:35Byte 29: 137
+00:17:35Looking up Chain..Transfixion
+00:17:35Transfixion: Found Crystal: Light Crystal
+00:17:37Sending Synthchain: 30465.  Setting info.status to Spirit Update
+00:17:37Received 0x05C. Current Status: Spirit Update   Showing all non 0 byte packets:
+00:17:37Byte 1: 92
+00:17:37Byte 2: 18
+00:17:37Byte 3: 73
+00:17:37Byte 4: 60
+00:17:37Byte 5: 1
+00:17:37Byte 9: 7
+00:17:37Byte 17: 6
+00:17:37Byte 21: 134
+00:17:37Byte 22: 1
+00:17:37Byte 25: 2
+00:17:37Byte 29: 1
+00:17:37Byte 33: 238
+00:17:37Byte 34: 64
+00:17:37Synth Success! Chain Performed:Transfixion Spirit Gained:2 Current Spirit:16622
+00:17:37Moving to next step. 3 Current Spirit:16622
+00:17:37Sleeping 10 for animation delay and sending ACK, setting to 'Chain Ready'
+00:17:47Received 0x05C. Current Status: Chain Ready   Showing all non 0 byte packets:
+00:17:47Byte 1: 92
+00:17:47Byte 2: 18
+00:17:47Byte 3: 98
+00:17:47Byte 4: 60
+00:17:47Byte 5: 5
+00:17:47Byte 9: 78
+00:17:47Byte 10: 103
+00:17:47Byte 21: 99
+00:17:49Finished synth. Setting Status back to Initial
+00:17:49Received 0x05C. Current Status: Initial   Showing all non 0 byte packets:
+00:17:49Byte 1: 92
+00:17:49Byte 2: 18
+00:17:49Byte 3: 102
+00:17:49Byte 4: 60
+00:17:49Byte 5: 122
+00:17:49Byte 6: 130
+00:17:49Byte 7: 149
+00:17:49Byte 8: 140
+00:17:49Byte 9: 147
+00:17:49Byte 10: 99
+00:17:49Byte 11: 130
+00:17:49Byte 12: 94
+00:17:49Byte 13: 120
+00:17:49Byte 14: 150
+00:17:49Byte 16: 195
+00:17:49Byte 17: 178
+00:17:49Byte 18: 206
+00:17:49Byte 19: 141
+00:17:49Byte 20: 89
+00:17:49Byte 21: 9
+00:17:49Byte 22: 152
+00:17:49Byte 23: 63
+00:17:49Byte 24: 99
+00:17:49Byte 25: 9
+00:17:49Byte 26: 6
+00:17:49Byte 27: 12
+00:17:49Byte 28: 116
+00:17:49Byte 29: 137
+00:17:49Looking up Chain..Scission
+00:17:49Scission: Found Crystal: Earth Crystal
+00:17:51Sending Synthchain: 17409.  Setting info.status to Spirit Update
+00:17:51Received 0x05C. Current Status: Spirit Update   Showing all non 0 byte packets:
+00:17:51Byte 1: 92
+00:17:51Byte 2: 18
+00:17:51Byte 3: 108
+00:17:51Byte 4: 60
+00:17:51Byte 5: 1
+00:17:51Byte 9: 10
+00:17:51Byte 17: 3
+00:17:51Byte 21: 134
+00:17:51Byte 22: 1
+00:17:51Byte 25: 5
+00:17:51Byte 33: 243
+00:17:51Byte 34: 64
+00:17:51Synth Success! Chain Performed:Distortion Spirit Gained:5 Current Spirit:16627
+00:17:51Moving to next step. 4 Current Spirit:16627
+00:17:51Sleeping 10 for animation delay and sending ACK, setting to 'Chain Ready'
+00:18:02Received 0x05C. Current Status: Chain Ready   Showing all non 0 byte packets:
+00:18:02Byte 1: 92
+00:18:02Byte 2: 18
+00:18:02Byte 3: 133
+00:18:02Byte 4: 60
+00:18:02Byte 5: 5
+00:18:02Byte 9: 78
+00:18:02Byte 10: 103
+00:18:02Byte 21: 99
+00:18:03Finished synth. Setting Status back to Initial
+00:18:03Received 0x05C. Current Status: Initial   Showing all non 0 byte packets:
+00:18:03Byte 1: 92
+00:18:03Byte 2: 18
+00:18:03Byte 3: 137
+00:18:03Byte 4: 60
+00:18:03Byte 5: 122
+00:18:03Byte 6: 130
+00:18:03Byte 7: 149
+00:18:03Byte 8: 139
+00:18:03Byte 9: 147
+00:18:03Byte 10: 99
+00:18:03Byte 11: 130
+00:18:03Byte 12: 94
+00:18:03Byte 13: 119
+00:18:03Byte 14: 150
+00:18:03Byte 16: 195
+00:18:03Byte 17: 178
+00:18:03Byte 18: 206
+00:18:03Byte 19: 140
+00:18:03Byte 20: 89
+00:18:03Byte 21: 9
+00:18:03Byte 22: 152
+00:18:03Byte 23: 63
+00:18:03Byte 24: 99
+00:18:03Byte 25: 9
+00:18:03Byte 26: 6
+00:18:03Byte 27: 12
+00:18:03Byte 28: 116
+00:18:03Byte 29: 137
+00:18:04Looking up Chain..Gravitation
+00:18:04Gravitation: Found Crystal: Dark Crystal
+00:18:06Sending Synthchain: 51201.  Setting info.status to Spirit Update
+00:18:06Received 0x05C. Current Status: Spirit Update   Showing all non 0 byte packets:
+00:18:06Byte 1: 92
+00:18:06Byte 2: 18
+00:18:06Byte 3: 143
+00:18:06Byte 4: 60
+00:18:06Byte 5: 1
+00:18:06Byte 9: 14
+00:18:06Byte 17: 7
+00:18:06Byte 21: 134
+00:18:06Byte 22: 1
+00:18:06Byte 25: 15
+00:18:06Byte 33: 2
+00:18:06Byte 34: 65
+00:18:06Synth Success! Chain Performed:Darkness Spirit Gained:15 Current Spirit:16642
+00:18:06Hit end of chain - resetting. Current Spirit:16642
+00:18:06Sleeping 10 for animation delay and sending ACK, setting to 'Chain Ready'
+00:18:16Received 0x05C. Current Status: Chain Ready   Showing all non 0 byte packets:
+00:18:16Byte 1: 92
+00:18:16Byte 2: 18
+00:18:16Byte 3: 168
+00:18:16Byte 4: 60
+00:18:16Byte 5: 5
+00:18:16Byte 9: 78
+00:18:16Byte 10: 103
+00:18:16Byte 21: 99
+00:18:17Finished synth. Setting Status back to Initial
+00:18:18Received 0x05C. Current Status: Initial   Showing all non 0 byte packets:
+00:18:18Byte 1: 92
+00:18:18Byte 2: 18
+00:18:18Byte 3: 171
+00:18:18Byte 4: 60
+00:18:18Byte 5: 122
+00:18:18Byte 6: 130
+00:18:18Byte 7: 149
+00:18:18Byte 8: 139
+00:18:18Byte 9: 147
+00:18:18Byte 10: 99
+00:18:18Byte 11: 130
+00:18:18Byte 12: 93
+00:18:18Byte 13: 119
+00:18:18Byte 14: 149
+00:18:18Byte 16: 195
+00:18:18Byte 17: 178
+00:18:18Byte 18: 206
+00:18:18Byte 19: 140
+00:18:18Byte 20: 89
+00:18:18Byte 21: 9
+00:18:18Byte 22: 152
+00:18:18Byte 23: 63
+00:18:18Byte 24: 99
+00:18:18Byte 25: 9
+00:18:18Byte 26: 6
+00:18:18Byte 27: 11
+00:18:18Byte 28: 116
+00:18:18Byte 29: 137
+00:18:18Looking up Chain..Compression
+00:18:18Compression: Found Crystal: Dark Crystal
+00:18:20Sending Synthchain: 34817.  Setting info.status to Spirit Update
+00:18:20Received 0x05C. Current Status: Spirit Update   Showing all non 0 byte packets:
+00:18:20Byte 1: 92
+00:18:20Byte 2: 18
+00:18:20Byte 3: 177
+00:18:20Byte 4: 60
+00:18:20Byte 5: 1
+00:18:20Byte 17: 7
+00:18:20Byte 21: 134
+00:18:20Byte 22: 1
+00:18:20Byte 25: 1
+00:18:20Byte 29: 1
+00:18:20Byte 33: 3
+00:18:20Byte 34: 65
+00:18:20Synth Success! Chain Performed:None Spirit Gained:1 Current Spirit:16643
+00:18:20Moving to next step. 2 Current Spirit:16643
+00:18:20Sleeping 10 for animation delay and sending ACK, setting to 'Chain Ready'
+00:18:31Received 0x05C. Current Status: Chain Ready   Showing all non 0 byte packets:
+00:18:31Byte 1: 92
+00:18:31Byte 2: 18
+00:18:31Byte 3: 203
+00:18:31Byte 4: 60
+00:18:31Byte 5: 5
+00:18:31Byte 9: 78
+00:18:31Byte 10: 103
+00:18:31Byte 21: 99
+00:18:32Finished synth. Setting Status back to Initial
+00:18:32Received 0x05C. Current Status: Initial   Showing all non 0 byte packets:
+00:18:32Byte 1: 92
+00:18:32Byte 2: 18
+00:18:32Byte 3: 206
+00:18:32Byte 4: 60
+00:18:32Byte 5: 122
+00:18:32Byte 6: 130
+00:18:32Byte 7: 149
+00:18:32Byte 8: 139
+00:18:32Byte 9: 147
+00:18:32Byte 10: 99
+00:18:32Byte 11: 130
+00:18:32Byte 12: 92
+00:18:32Byte 13: 118
+00:18:32Byte 14: 149
+00:18:32Byte 16: 195
+00:18:32Byte 17: 178
+00:18:32Byte 18: 206
+00:18:32Byte 19: 140
+00:18:32Byte 20: 89
+00:18:32Byte 21: 9
+00:18:32Byte 22: 152
+00:18:32Byte 23: 62
+00:18:32Byte 24: 99
+00:18:32Byte 25: 9
+00:18:32Byte 26: 6
+00:18:32Byte 27: 11
+00:18:32Byte 28: 116
+00:18:32Byte 29: 137
+00:18:32Looking up Chain..Transfixion
+00:18:32Transfixion: Found Crystal: Light Crystal
+00:18:34Sending Synthchain: 30465.  Setting info.status to Spirit Update
+00:18:34Received 0x05C. Current Status: Spirit Update   Showing all non 0 byte packets:
+00:18:34Byte 1: 92
+00:18:34Byte 2: 18
+00:18:34Byte 3: 212
+00:18:34Byte 4: 60
+00:18:34Byte 5: 1
+00:18:34Byte 9: 7
+00:18:34Byte 17: 6
+00:18:34Byte 21: 134
+00:18:34Byte 22: 1
+00:18:34Byte 25: 2
+00:18:34Byte 29: 1
+00:18:34Byte 33: 5
+00:18:34Byte 34: 65
+00:18:34Synth Success! Chain Performed:Transfixion Spirit Gained:2 Current Spirit:16645
+00:18:34Moving to next step. 3 Current Spirit:16645
+00:18:34Sleeping 10 for animation delay and sending ACK, setting to 'Chain Ready'
+00:18:45Received 0x05C. Current Status: Chain Ready   Showing all non 0 byte packets:
+00:18:45Byte 1: 92
+00:18:45Byte 2: 18
+00:18:45Byte 3: 237
+00:18:45Byte 4: 60
+00:18:45Byte 5: 5
+00:18:45Byte 9: 78
+00:18:45Byte 10: 103
+00:18:45Byte 21: 99
+00:18:46Finished synth. Setting Status back to Initial
+00:18:46Received 0x05C. Current Status: Initial   Showing all non 0 byte packets:
+00:18:46Byte 1: 92
+00:18:46Byte 2: 18
+00:18:46Byte 3: 240
+00:18:46Byte 4: 60
+00:18:46Byte 5: 122
+00:18:46Byte 6: 130
+00:18:46Byte 7: 149
+00:18:46Byte 8: 139
+00:18:46Byte 9: 147
+00:18:46Byte 10: 99
+00:18:46Byte 11: 129
+00:18:46Byte 12: 92
+00:18:46Byte 13: 117
+00:18:46Byte 14: 149
+00:18:46Byte 16: 195
+00:18:46Byte 17: 178
+00:18:46Byte 18: 206
+00:18:46Byte 19: 140
+00:18:46Byte 20: 89
+00:18:46Byte 21: 9
+00:18:46Byte 22: 151
+00:18:46Byte 23: 62
+00:18:46Byte 24: 99
+00:18:46Byte 25: 9
+00:18:46Byte 26: 6
+00:18:46Byte 27: 11
+00:18:46Byte 28: 116
+00:18:46Byte 29: 137
+00:18:46Looking up Chain..Scission
+00:18:46Scission: Found Crystal: Earth Crystal
+00:18:48Sending Synthchain: 17409.  Setting info.status to Spirit Update
+00:18:49Received 0x05C. Current Status: Spirit Update   Showing all non 0 byte packets:
+00:18:49Byte 1: 92
+00:18:49Byte 2: 18
+00:18:49Byte 3: 246
+00:18:49Byte 4: 60
+00:18:49Byte 5: 1
+00:18:49Byte 9: 10
+00:18:49Byte 17: 3
+00:18:49Byte 21: 134
+00:18:49Byte 22: 1
+00:18:49Byte 25: 5
+00:18:49Byte 33: 10
+00:18:49Byte 34: 65
+00:18:49Synth Success! Chain Performed:Distortion Spirit Gained:5 Current Spirit:16650
+00:18:49Moving to next step. 4 Current Spirit:16650
+00:18:49Sleeping 10 for animation delay and sending ACK, setting to 'Chain Ready'
+00:18:59Received 0x05C. Current Status: Chain Ready   Showing all non 0 byte packets:
+00:18:59Byte 1: 92
+00:18:59Byte 2: 18
+00:18:59Byte 3: 15
+00:18:59Byte 4: 61
+00:18:59Byte 5: 5
+00:18:59Byte 9: 78
+00:18:59Byte 10: 103
+00:18:59Byte 21: 99
+00:19:00Finished synth. Setting Status back to Initial
+00:19:00Received 0x05C. Current Status: Initial   Showing all non 0 byte packets:
+00:19:00Byte 1: 92
+00:19:00Byte 2: 18
+00:19:00Byte 3: 18
+00:19:00Byte 4: 61
+00:19:00Byte 5: 122
+00:19:00Byte 6: 130
+00:19:00Byte 7: 149
+00:19:00Byte 8: 138
+00:19:00Byte 9: 147
+00:19:00Byte 10: 99
+00:19:00Byte 11: 129
+00:19:00Byte 12: 92
+00:19:00Byte 13: 116
+00:19:00Byte 14: 149
+00:19:00Byte 16: 195
+00:19:00Byte 17: 178
+00:19:00Byte 18: 206
+00:19:00Byte 19: 139
+00:19:00Byte 20: 89
+00:19:00Byte 21: 9
+00:19:00Byte 22: 151
+00:19:00Byte 23: 62
+00:19:00Byte 24: 99
+00:19:00Byte 25: 9
+00:19:00Byte 26: 6
+00:19:00Byte 27: 11
+00:19:00Byte 28: 116
+00:19:00Byte 29: 137
+00:19:00Looking up Chain..Gravitation
+00:19:00Gravitation: Found Crystal: Dark Crystal
+00:19:02Sending Synthchain: 51201.  Setting info.status to Spirit Update
+00:19:03Received 0x05C. Current Status: Spirit Update   Showing all non 0 byte packets:
+00:19:03Byte 1: 92
+00:19:03Byte 2: 18
+00:19:03Byte 3: 24
+00:19:03Byte 4: 61
+00:19:03Byte 5: 1
+00:19:03Byte 9: 14
+00:19:03Byte 17: 7
+00:19:03Byte 21: 134
+00:19:03Byte 22: 1
+00:19:03Byte 25: 15
+00:19:03Byte 33: 25
+00:19:03Byte 34: 65
+00:19:03Synth Success! Chain Performed:Darkness Spirit Gained:15 Current Spirit:16665
+00:19:03Hit end of chain - resetting. Current Spirit:16665
+00:19:03Sleeping 10 for animation delay and sending ACK, setting to 'Chain Ready'
+00:19:14Received 0x05C. Current Status: Chain Ready   Showing all non 0 byte packets:
+00:19:14Byte 1: 92
+00:19:14Byte 2: 18
+00:19:14Byte 3: 49
+00:19:14Byte 4: 61
+00:19:14Byte 5: 5
+00:19:14Byte 9: 78
+00:19:14Byte 10: 103
+00:19:14Byte 21: 99
+00:19:15Finished synth. Setting Status back to Initial
+00:19:15Received 0x05C. Current Status: Initial   Showing all non 0 byte packets:
+00:19:15Byte 1: 92
+00:19:15Byte 2: 18
+00:19:15Byte 3: 52
+00:19:15Byte 4: 61
+00:19:15Byte 5: 122
+00:19:15Byte 6: 130
+00:19:15Byte 7: 149
+00:19:15Byte 8: 138
+00:19:15Byte 9: 147
+00:19:15Byte 10: 99
+00:19:15Byte 11: 129
+00:19:15Byte 12: 91
+00:19:15Byte 13: 116
+00:19:15Byte 14: 148
+00:19:15Byte 16: 195
+00:19:15Byte 17: 178
+00:19:15Byte 18: 206
+00:19:15Byte 19: 139
+00:19:15Byte 20: 89
+00:19:15Byte 21: 9
+00:19:15Byte 22: 151
+00:19:15Byte 23: 62
+00:19:15Byte 24: 99
+00:19:15Byte 25: 9
+00:19:15Byte 26: 6
+00:19:15Byte 27: 10
+00:19:15Byte 28: 116
+00:19:15Byte 29: 137
+00:19:15Looking up Chain..Compression
+00:19:15Compression: Found Crystal: Dark Crystal
+00:19:17Sending Synthchain: 34817.  Setting info.status to Spirit Update
+00:19:18Received 0x05C. Current Status: Spirit Update   Showing all non 0 byte packets:
+00:19:18Byte 1: 92
+00:19:18Byte 2: 18
+00:19:18Byte 3: 58
+00:19:18Byte 4: 61
+00:19:18Byte 5: 1
+00:19:18Byte 17: 7
+00:19:18Byte 21: 134
+00:19:18Byte 22: 1
+00:19:18Byte 25: 1
+00:19:18Byte 29: 1
+00:19:18Byte 33: 26
+00:19:18Byte 34: 65
+00:19:18Synth Success! Chain Performed:None Spirit Gained:1 Current Spirit:16666
+00:19:18Moving to next step. 2 Current Spirit:16666
+00:19:18Sleeping 10 for animation delay and sending ACK, setting to 'Chain Ready'
+00:19:28Received 0x05C. Current Status: Chain Ready   Showing all non 0 byte packets:
+00:19:28Byte 1: 92
+00:19:28Byte 2: 18
+00:19:28Byte 3: 84
+00:19:28Byte 4: 61
+00:19:28Byte 5: 5
+00:19:28Byte 9: 78
+00:19:28Byte 10: 103
+00:19:28Byte 21: 99
+00:19:29Finished synth. Setting Status back to Initial
+00:19:30Received 0x05C. Current Status: Initial   Showing all non 0 byte packets:
+00:19:30Byte 1: 92
+00:19:30Byte 2: 18
+00:19:30Byte 3: 88
+00:19:30Byte 4: 61
+00:19:30Byte 5: 122
+00:19:30Byte 6: 130
+00:19:30Byte 7: 149
+00:19:30Byte 8: 138
+00:19:30Byte 9: 147
+00:19:30Byte 10: 99
+00:19:30Byte 11: 129
+00:19:30Byte 12: 90
+00:19:30Byte 13: 115
+00:19:30Byte 14: 148
+00:19:30Byte 16: 195
+00:19:30Byte 17: 178
+00:19:30Byte 18: 206
+00:19:30Byte 19: 139
+00:19:30Byte 20: 89
+00:19:30Byte 21: 9
+00:19:30Byte 22: 151
+00:19:30Byte 23: 61
+00:19:30Byte 24: 99
+00:19:30Byte 25: 9
+00:19:30Byte 26: 6
+00:19:30Byte 27: 10
+00:19:30Byte 28: 116
+00:19:30Byte 29: 137
+00:19:30Looking up Chain..Transfixion
+00:19:30Transfixion: Found Crystal: Light Crystal
+00:19:32Sending Synthchain: 30465.  Setting info.status to Spirit Update
+00:19:32Received 0x05C. Current Status: Spirit Update   Showing all non 0 byte packets:
+00:19:32Byte 1: 92
+00:19:32Byte 2: 18
+00:19:32Byte 3: 94
+00:19:32Byte 4: 61
+00:19:32Byte 5: 1
+00:19:32Byte 9: 7
+00:19:32Byte 17: 6
+00:19:32Byte 21: 134
+00:19:32Byte 22: 1
+00:19:32Byte 25: 2
+00:19:32Byte 29: 1
+00:19:32Byte 33: 28
+00:19:32Byte 34: 65
+00:19:32Synth Success! Chain Performed:Transfixion Spirit Gained:2 Current Spirit:16668
+00:19:32Moving to next step. 3 Current Spirit:16668
+00:19:32Sleeping 10 for animation delay and sending ACK, setting to 'Chain Ready'
+00:19:43Received 0x05C. Current Status: Chain Ready   Showing all non 0 byte packets:
+00:19:43Byte 1: 92
+00:19:43Byte 2: 18
+00:19:43Byte 3: 119
+00:19:43Byte 4: 61
+00:19:43Byte 5: 5
+00:19:43Byte 9: 78
+00:19:43Byte 10: 103
+00:19:43Byte 21: 99
+00:19:44Finished synth. Setting Status back to Initial
+00:19:44Received 0x05C. Current Status: Initial   Showing all non 0 byte packets:
+00:19:44Byte 1: 92
+00:19:44Byte 2: 18
+00:19:44Byte 3: 122
+00:19:44Byte 4: 61
+00:19:44Byte 5: 122
+00:19:44Byte 6: 130
+00:19:44Byte 7: 149
+00:19:44Byte 8: 138
+00:19:44Byte 9: 147
+00:19:44Byte 10: 99
+00:19:44Byte 11: 128
+00:19:44Byte 12: 90
+00:19:44Byte 13: 114
+00:19:44Byte 14: 148
+00:19:44Byte 16: 195
+00:19:44Byte 17: 178
+00:19:44Byte 18: 206
+00:19:44Byte 19: 139
+00:19:44Byte 20: 89
+00:19:44Byte 21: 9
+00:19:44Byte 22: 150
+00:19:44Byte 23: 61
+00:19:44Byte 24: 99
+00:19:44Byte 25: 9
+00:19:44Byte 26: 6
+00:19:44Byte 27: 10
+00:19:44Byte 28: 116
+00:19:44Byte 29: 137
+00:19:44Looking up Chain..Scission
+00:19:44Scission: Found Crystal: Earth Crystal
+00:19:46Sending Synthchain: 17409.  Setting info.status to Spirit Update
+00:19:46Received 0x05C. Current Status: Spirit Update   Showing all non 0 byte packets:
+00:19:46Byte 1: 92
+00:19:46Byte 2: 18
+00:19:46Byte 3: 128
+00:19:46Byte 4: 61
+00:19:46Byte 5: 1
+00:19:46Byte 9: 10
+00:19:46Byte 17: 3
+00:19:46Byte 21: 134
+00:19:46Byte 22: 1
+00:19:46Byte 25: 5
+00:19:46Byte 33: 33
+00:19:46Byte 34: 65
+00:19:46Synth Success! Chain Performed:Distortion Spirit Gained:5 Current Spirit:16673
+00:19:46Moving to next step. 4 Current Spirit:16673
+00:19:46Sleeping 10 for animation delay and sending ACK, setting to 'Chain Ready'
+00:19:57Received 0x05C. Current Status: Chain Ready   Showing all non 0 byte packets:
+00:19:57Byte 1: 92
+00:19:57Byte 2: 18
+00:19:57Byte 3: 153
+00:19:57Byte 4: 61
+00:19:57Byte 5: 5
+00:19:57Byte 9: 78
+00:19:57Byte 10: 103
+00:19:57Byte 21: 99
+00:19:58Finished synth. Setting Status back to Initial
+00:19:58Received 0x05C. Current Status: Initial   Showing all non 0 byte packets:
+00:19:58Byte 1: 92
+00:19:58Byte 2: 18
+00:19:58Byte 3: 157
+00:19:58Byte 4: 61
+00:19:58Byte 5: 122
+00:19:58Byte 6: 130
+00:19:58Byte 7: 149
+00:19:58Byte 8: 137
+00:19:58Byte 9: 147
+00:19:58Byte 10: 99
+00:19:58Byte 11: 128
+00:19:58Byte 12: 90
+00:19:58Byte 13: 113
+00:19:58Byte 14: 148
+00:19:58Byte 16: 195
+00:19:58Byte 17: 178
+00:19:58Byte 18: 206
+00:19:58Byte 19: 138
+00:19:58Byte 20: 89
+00:19:58Byte 21: 9
+00:19:58Byte 22: 150
+00:19:58Byte 23: 61
+00:19:58Byte 24: 99
+00:19:58Byte 25: 9
+00:19:58Byte 26: 6
+00:19:58Byte 27: 10
+00:19:58Byte 28: 116
+00:19:58Byte 29: 137
+00:19:58Looking up Chain..Gravitation
+00:19:58Gravitation: Found Crystal: Dark Crystal
+00:20:00Sending Synthchain: 51201.  Setting info.status to Spirit Update
+00:20:01Received 0x05C. Current Status: Spirit Update   Showing all non 0 byte packets:
+00:20:01Byte 1: 92
+00:20:01Byte 2: 18
+00:20:01Byte 3: 163
+00:20:01Byte 4: 61
+00:20:01Byte 17: 7
+00:20:01Byte 21: 134
+00:20:01Byte 22: 1
+00:20:01Byte 29: 1
+00:20:01Byte 33: 33
+00:20:01Byte 34: 65
+00:20:01ERROR: Synth Fail. Resetting Chain. Current Spirit:16673
+00:20:01Sleeping 10 for animation delay and sending ACK, setting to 'Chain Ready'
+00:20:11Received 0x05C. Current Status: Chain Ready   Showing all non 0 byte packets:
+00:20:11Byte 1: 92
+00:20:11Byte 2: 18
+00:20:11Byte 3: 188
+00:20:11Byte 4: 61
+00:20:11Byte 5: 5
+00:20:11Byte 9: 78
+00:20:11Byte 10: 103
+00:20:11Byte 21: 99
+00:20:12Finished synth. Setting Status back to Initial
+00:20:13Received 0x05C. Current Status: Initial   Showing all non 0 byte packets:
+00:20:13Byte 1: 92
+00:20:13Byte 2: 18
+00:20:13Byte 3: 192
+00:20:13Byte 4: 61
+00:20:13Byte 5: 122
+00:20:13Byte 6: 130
+00:20:13Byte 7: 149
+00:20:13Byte 8: 137
+00:20:13Byte 9: 147
+00:20:13Byte 10: 99
+00:20:13Byte 11: 128
+00:20:13Byte 12: 89
+00:20:13Byte 13: 113
+00:20:13Byte 14: 147
+00:20:13Byte 16: 195
+00:20:13Byte 17: 178
+00:20:13Byte 18: 206
+00:20:13Byte 19: 138
+00:20:13Byte 20: 89
+00:20:13Byte 21: 9
+00:20:13Byte 22: 150
+00:20:13Byte 23: 61
+00:20:13Byte 24: 99
+00:20:13Byte 25: 9
+00:20:13Byte 26: 6
+00:20:13Byte 27: 9
+00:20:13Byte 28: 116
+00:20:13Byte 29: 137
+00:20:13Looking up Chain..Compression
+00:20:13Compression: Found Crystal: Dark Crystal
+00:20:15Sending Synthchain: 34817.  Setting info.status to Spirit Update
+00:20:15Received 0x05C. Current Status: Spirit Update   Showing all non 0 byte packets:
+00:20:15Byte 1: 92
+00:20:15Byte 2: 18
+00:20:15Byte 3: 198
+00:20:15Byte 4: 61
+00:20:15Byte 5: 1
+00:20:15Byte 17: 7
+00:20:15Byte 21: 134
+00:20:15Byte 22: 1
+00:20:15Byte 25: 1
+00:20:15Byte 29: 2
+00:20:15Byte 33: 34
+00:20:15Byte 34: 65
+00:20:15Synth Success! Chain Performed:None Spirit Gained:1 Current Spirit:16674
+00:20:15Moving to next step. 2 Current Spirit:16674
+00:20:15Sleeping 10 for animation delay and sending ACK, setting to 'Chain Ready'
+00:20:26Received 0x05C. Current Status: Chain Ready   Showing all non 0 byte packets:
+00:20:26Byte 1: 92
+00:20:26Byte 2: 18
+00:20:26Byte 3: 223
+00:20:26Byte 4: 61
+00:20:26Byte 5: 5
+00:20:26Byte 9: 78
+00:20:26Byte 10: 103
+00:20:26Byte 21: 99
+00:20:27Finished synth. Setting Status back to Initial
+00:20:27Received 0x05C. Current Status: Initial   Showing all non 0 byte packets:
+00:20:27Byte 1: 92
+00:20:27Byte 2: 18
+00:20:27Byte 3: 227
+00:20:27Byte 4: 61
+00:20:27Byte 5: 122
+00:20:27Byte 6: 130
+00:20:27Byte 7: 149
+00:20:27Byte 8: 137
+00:20:27Byte 9: 147
+00:20:27Byte 10: 99
+00:20:27Byte 11: 128
+00:20:27Byte 12: 88
+00:20:27Byte 13: 112
+00:20:27Byte 14: 147
+00:20:27Byte 16: 195
+00:20:27Byte 17: 178
+00:20:27Byte 18: 206
+00:20:27Byte 19: 138
+00:20:27Byte 20: 89
+00:20:27Byte 21: 9
+00:20:27Byte 22: 150
+00:20:27Byte 23: 60
+00:20:27Byte 24: 99
+00:20:27Byte 25: 9
+00:20:27Byte 26: 6
+00:20:27Byte 27: 9
+00:20:27Byte 28: 116
+00:20:27Byte 29: 137
+00:20:27Looking up Chain..Transfixion
+00:20:27Transfixion: Found Crystal: Light Crystal
+00:20:29Sending Synthchain: 30465.  Setting info.status to Spirit Update
+00:20:30Received 0x05C. Current Status: Spirit Update   Showing all non 0 byte packets:
+00:20:30Byte 1: 92
+00:20:30Byte 2: 18
+00:20:30Byte 3: 233
+00:20:30Byte 4: 61
+00:20:30Byte 5: 1
+00:20:30Byte 9: 7
+00:20:30Byte 17: 6
+00:20:30Byte 21: 134
+00:20:30Byte 22: 1
+00:20:30Byte 25: 2
+00:20:30Byte 29: 2
+00:20:30Byte 33: 36
+00:20:30Byte 34: 65
+00:20:30Synth Success! Chain Performed:Transfixion Spirit Gained:2 Current Spirit:16676
+00:20:30Moving to next step. 3 Current Spirit:16676
+00:20:30Sleeping 10 for animation delay and sending ACK, setting to 'Chain Ready'
+00:20:40Received 0x05C. Current Status: Chain Ready   Showing all non 0 byte packets:
+00:20:40Byte 1: 92
+00:20:40Byte 2: 18
+00:20:40Byte 3: 2
+00:20:40Byte 4: 62
+00:20:40Byte 5: 5
+00:20:40Byte 9: 78
+00:20:40Byte 10: 103
+00:20:40Byte 21: 99
+00:20:41Finished synth. Setting Status back to Initial
+00:20:42Received 0x05C. Current Status: Initial   Showing all non 0 byte packets:
+00:20:42Byte 1: 92
+00:20:42Byte 2: 18
+00:20:42Byte 3: 6
+00:20:42Byte 4: 62
+00:20:42Byte 5: 122
+00:20:42Byte 6: 130
+00:20:42Byte 7: 149
+00:20:42Byte 8: 137
+00:20:42Byte 9: 147
+00:20:42Byte 10: 99
+00:20:42Byte 11: 127
+00:20:42Byte 12: 88
+00:20:42Byte 13: 111
+00:20:42Byte 14: 147
+00:20:42Byte 16: 195
+00:20:42Byte 17: 178
+00:20:42Byte 18: 206
+00:20:42Byte 19: 138
+00:20:42Byte 20: 89
+00:20:42Byte 21: 9
+00:20:42Byte 22: 149
+00:20:42Byte 23: 60
+00:20:42Byte 24: 99
+00:20:42Byte 25: 9
+00:20:42Byte 26: 6
+00:20:42Byte 27: 9
+00:20:42Byte 28: 116
+00:20:42Byte 29: 137
+00:20:42Looking up Chain..Scission
+00:20:42Scission: Found Crystal: Earth Crystal
+00:20:44Sending Synthchain: 17409.  Setting info.status to Spirit Update
+00:20:44Received 0x05C. Current Status: Spirit Update   Showing all non 0 byte packets:
+00:20:44Byte 1: 92
+00:20:44Byte 2: 18
+00:20:44Byte 3: 12
+00:20:44Byte 4: 62
+00:20:44Byte 5: 1
+00:20:44Byte 9: 10
+00:20:44Byte 17: 3
+00:20:44Byte 21: 134
+00:20:44Byte 22: 1
+00:20:44Byte 25: 5
+00:20:44Byte 33: 41
+00:20:44Byte 34: 65
+00:20:44Synth Success! Chain Performed:Distortion Spirit Gained:5 Current Spirit:16681
+00:20:44Moving to next step. 4 Current Spirit:16681
+00:20:44Sleeping 10 for animation delay and sending ACK, setting to 'Chain Ready'
+00:20:55Received 0x05C. Current Status: Chain Ready   Showing all non 0 byte packets:
+00:20:55Byte 1: 92
+00:20:55Byte 2: 18
+00:20:55Byte 3: 38
+00:20:55Byte 4: 62
+00:20:55Byte 5: 5
+00:20:55Byte 9: 78
+00:20:55Byte 10: 103
+00:20:55Byte 21: 99
+00:20:56Finished synth. Setting Status back to Initial
+00:20:56Received 0x05C. Current Status: Initial   Showing all non 0 byte packets:
+00:20:56Byte 1: 92
+00:20:56Byte 2: 18
+00:20:56Byte 3: 41
+00:20:56Byte 4: 62
+00:20:56Byte 5: 122
+00:20:56Byte 6: 130
+00:20:56Byte 7: 149
+00:20:56Byte 8: 136
+00:20:56Byte 9: 147
+00:20:56Byte 10: 99
+00:20:56Byte 11: 127
+00:20:56Byte 12: 88
+00:20:56Byte 13: 110
+00:20:56Byte 14: 147
+00:20:56Byte 16: 195
+00:20:56Byte 17: 178
+00:20:56Byte 18: 206
+00:20:56Byte 19: 137
+00:20:56Byte 20: 89
+00:20:56Byte 21: 9
+00:20:56Byte 22: 149
+00:20:56Byte 23: 60
+00:20:56Byte 24: 99
+00:20:56Byte 25: 9
+00:20:56Byte 26: 6
+00:20:56Byte 27: 9
+00:20:56Byte 28: 116
+00:20:56Byte 29: 137
+00:20:56Looking up Chain..Gravitation
+00:20:56Gravitation: Found Crystal: Dark Crystal
+00:20:58Sending Synthchain: 51201.  Setting info.status to Spirit Update
+00:20:59Received 0x05C. Current Status: Spirit Update   Showing all non 0 byte packets:
+00:20:59Byte 1: 92
+00:20:59Byte 2: 18
+00:20:59Byte 3: 47
+00:20:59Byte 4: 62
+00:20:59Byte 5: 1
+00:20:59Byte 9: 14
+00:20:59Byte 17: 7
+00:20:59Byte 21: 134
+00:20:59Byte 22: 1
+00:20:59Byte 25: 15
+00:20:59Byte 33: 56
+00:20:59Byte 34: 65
+00:20:59Synth Success! Chain Performed:Darkness Spirit Gained:15 Current Spirit:16696
+00:20:59Hit end of chain - resetting. Current Spirit:16696
+00:20:59Sleeping 10 for animation delay and sending ACK, setting to 'Chain Ready'
+00:21:09Received 0x05C. Current Status: Chain Ready   Showing all non 0 byte packets:
+00:21:09Byte 1: 92
+00:21:09Byte 2: 18
+00:21:09Byte 3: 72
+00:21:09Byte 4: 62
+00:21:09Byte 5: 5
+00:21:09Byte 9: 78
+00:21:09Byte 10: 103
+00:21:09Byte 21: 99
+00:21:10Finished synth. Setting Status back to Initial
+00:21:11Received 0x05C. Current Status: Initial   Showing all non 0 byte packets:
+00:21:11Byte 1: 92
+00:21:11Byte 2: 18
+00:21:11Byte 3: 76
+00:21:11Byte 4: 62
+00:21:11Byte 5: 122
+00:21:11Byte 6: 130
+00:21:11Byte 7: 149
+00:21:11Byte 8: 136
+00:21:11Byte 9: 147
+00:21:11Byte 10: 99
+00:21:11Byte 11: 127
+00:21:11Byte 12: 87
+00:21:11Byte 13: 110
+00:21:11Byte 14: 146
+00:21:11Byte 16: 195
+00:21:11Byte 17: 178
+00:21:11Byte 18: 206
+00:21:11Byte 19: 137
+00:21:11Byte 20: 89
+00:21:11Byte 21: 9
+00:21:11Byte 22: 149
+00:21:11Byte 23: 60
+00:21:11Byte 24: 99
+00:21:11Byte 25: 9
+00:21:11Byte 26: 6
+00:21:11Byte 27: 8
+00:21:11Byte 28: 116
+00:21:11Byte 29: 137
+00:21:11Looking up Chain..Compression
+00:21:11Compression: Found Crystal: Dark Crystal
+00:21:13Sending Synthchain: 34817.  Setting info.status to Spirit Update
+00:21:13Received 0x05C. Current Status: Spirit Update   Showing all non 0 byte packets:
+00:21:13Byte 1: 92
+00:21:13Byte 2: 18
+00:21:13Byte 3: 82
+00:21:13Byte 4: 62
+00:21:13Byte 5: 1
+00:21:13Byte 17: 7
+00:21:13Byte 21: 134
+00:21:13Byte 22: 1
+00:21:13Byte 25: 1
+00:21:13Byte 29: 1
+00:21:13Byte 33: 57
+00:21:13Byte 34: 65
+00:21:13Synth Success! Chain Performed:None Spirit Gained:1 Current Spirit:16697
+00:21:13Moving to next step. 2 Current Spirit:16697
+00:21:13Sleeping 10 for animation delay and sending ACK, setting to 'Chain Ready'
+00:21:24Received 0x05C. Current Status: Chain Ready   Showing all non 0 byte packets:
+00:21:24Byte 1: 92
+00:21:24Byte 2: 18
+00:21:24Byte 3: 108
+00:21:24Byte 4: 62
+00:21:24Byte 5: 5
+00:21:24Byte 9: 78
+00:21:24Byte 10: 103
+00:21:24Byte 21: 99
+00:21:25Finished synth. Setting Status back to Initial
+00:21:25Received 0x05C. Current Status: Initial   Showing all non 0 byte packets:
+00:21:25Byte 1: 92
+00:21:25Byte 2: 18
+00:21:25Byte 3: 112
+00:21:25Byte 4: 62
+00:21:25Byte 5: 122
+00:21:25Byte 6: 130
+00:21:25Byte 7: 149
+00:21:25Byte 8: 136
+00:21:25Byte 9: 147
+00:21:25Byte 10: 99
+00:21:25Byte 11: 127
+00:21:25Byte 12: 86
+00:21:25Byte 13: 109
+00:21:25Byte 14: 146
+00:21:25Byte 16: 195
+00:21:25Byte 17: 178
+00:21:25Byte 18: 206
+00:21:25Byte 19: 137
+00:21:25Byte 20: 89
+00:21:25Byte 21: 9
+00:21:25Byte 22: 149
+00:21:25Byte 23: 59
+00:21:25Byte 24: 99
+00:21:25Byte 25: 9
+00:21:25Byte 26: 6
+00:21:25Byte 27: 8
+00:21:25Byte 28: 116
+00:21:25Byte 29: 137
+00:21:25Looking up Chain..Transfixion
+00:21:25Transfixion: Found Crystal: Light Crystal
+00:21:27Sending Synthchain: 30465.  Setting info.status to Spirit Update
+00:21:28Received 0x05C. Current Status: Spirit Update   Showing all non 0 byte packets:
+00:21:28Byte 1: 92
+00:21:28Byte 2: 18
+00:21:28Byte 3: 118
+00:21:28Byte 4: 62
+00:21:28Byte 5: 1
+00:21:28Byte 9: 7
+00:21:28Byte 17: 6
+00:21:28Byte 21: 134
+00:21:28Byte 22: 1
+00:21:28Byte 25: 2
+00:21:28Byte 29: 1
+00:21:28Byte 33: 59
+00:21:28Byte 34: 65
+00:21:28Synth Success! Chain Performed:Transfixion Spirit Gained:2 Current Spirit:16699
+00:21:28Moving to next step. 3 Current Spirit:16699
+00:21:28Sleeping 10 for animation delay and sending ACK, setting to 'Chain Ready'
+00:21:38Received 0x05C. Current Status: Chain Ready   Showing all non 0 byte packets:
+00:21:38Byte 1: 92
+00:21:38Byte 2: 18
+00:21:38Byte 3: 143
+00:21:38Byte 4: 62
+00:21:38Byte 5: 5
+00:21:38Byte 9: 78
+00:21:38Byte 10: 103
+00:21:38Byte 21: 99
+00:21:39Finished synth. Setting Status back to Initial
+00:21:40Received 0x05C. Current Status: Initial   Showing all non 0 byte packets:
+00:21:40Byte 1: 92
+00:21:40Byte 2: 18
+00:21:40Byte 3: 147
+00:21:40Byte 4: 62
+00:21:40Byte 5: 122
+00:21:40Byte 6: 130
+00:21:40Byte 7: 149
+00:21:40Byte 8: 136
+00:21:40Byte 9: 147
+00:21:40Byte 10: 99
+00:21:40Byte 11: 126
+00:21:40Byte 12: 86
+00:21:40Byte 13: 108
+00:21:40Byte 14: 146
+00:21:40Byte 16: 195
+00:21:40Byte 17: 178
+00:21:40Byte 18: 206
+00:21:40Byte 19: 137
+00:21:40Byte 20: 89
+00:21:40Byte 21: 9
+00:21:40Byte 22: 148
+00:21:40Byte 23: 59
+00:21:40Byte 24: 99
+00:21:40Byte 25: 9
+00:21:40Byte 26: 6
+00:21:40Byte 27: 8
+00:21:40Byte 28: 116
+00:21:40Byte 29: 137
+00:21:40Looking up Chain..Scission
+00:21:40Scission: Found Crystal: Earth Crystal
+00:21:42Sending Synthchain: 17409.  Setting info.status to Spirit Update
+00:21:42Received 0x05C. Current Status: Spirit Update   Showing all non 0 byte packets:
+00:21:42Byte 1: 92
+00:21:42Byte 2: 18
+00:21:42Byte 3: 153
+00:21:42Byte 4: 62
+00:21:42Byte 5: 1
+00:21:42Byte 9: 10
+00:21:42Byte 17: 3
+00:21:42Byte 21: 134
+00:21:42Byte 22: 1
+00:21:42Byte 25: 5
+00:21:42Byte 33: 64
+00:21:42Byte 34: 65
+00:21:42Synth Success! Chain Performed:Distortion Spirit Gained:5 Current Spirit:16704
+00:21:42Moving to next step. 4 Current Spirit:16704
+00:21:42Sleeping 10 for animation delay and sending ACK, setting to 'Chain Ready'
+00:21:53Received 0x05C. Current Status: Chain Ready   Showing all non 0 byte packets:
+00:21:53Byte 1: 92
+00:21:53Byte 2: 18
+00:21:53Byte 3: 178
+00:21:53Byte 4: 62
+00:21:53Byte 5: 5
+00:21:53Byte 9: 78
+00:21:53Byte 10: 103
+00:21:53Byte 21: 99
+00:21:54Finished synth. Setting Status back to Initial
+00:21:55Received 0x05C. Current Status: Initial   Showing all non 0 byte packets:
+00:21:55Byte 1: 92
+00:21:55Byte 2: 18
+00:21:55Byte 3: 182
+00:21:55Byte 4: 62
+00:21:55Byte 5: 122
+00:21:55Byte 6: 130
+00:21:55Byte 7: 149
+00:21:55Byte 8: 135
+00:21:55Byte 9: 147
+00:21:55Byte 10: 99
+00:21:55Byte 11: 126
+00:21:55Byte 12: 86
+00:21:55Byte 13: 107
+00:21:55Byte 14: 146
+00:21:55Byte 16: 195
+00:21:55Byte 17: 178
+00:21:55Byte 18: 206
+00:21:55Byte 19: 136
+00:21:55Byte 20: 89
+00:21:55Byte 21: 9
+00:21:55Byte 22: 148
+00:21:55Byte 23: 59
+00:21:55Byte 24: 99
+00:21:55Byte 25: 9
+00:21:55Byte 26: 6
+00:21:55Byte 27: 8
+00:21:55Byte 28: 116
+00:21:55Byte 29: 137
+00:21:55Looking up Chain..Gravitation
+00:21:55Gravitation: Found Crystal: Dark Crystal
+00:21:57Sending Synthchain: 51201.  Setting info.status to Spirit Update
+00:21:57Received 0x05C. Current Status: Spirit Update   Showing all non 0 byte packets:
+00:21:57Byte 1: 92
+00:21:57Byte 2: 18
+00:21:57Byte 3: 188
+00:21:57Byte 4: 62
+00:21:57Byte 5: 1
+00:21:57Byte 9: 14
+00:21:57Byte 17: 7
+00:21:57Byte 21: 134
+00:21:57Byte 22: 1
+00:21:57Byte 25: 15
+00:21:57Byte 33: 79
+00:21:57Byte 34: 65
+00:21:57Synth Success! Chain Performed:Darkness Spirit Gained:15 Current Spirit:16719
+00:21:57Hit end of chain - resetting. Current Spirit:16719
+00:21:57Sleeping 10 for animation delay and sending ACK, setting to 'Chain Ready'
+00:22:07Received 0x05C. Current Status: Chain Ready   Showing all non 0 byte packets:
+00:22:07Byte 1: 92
+00:22:07Byte 2: 18
+00:22:07Byte 3: 213
+00:22:07Byte 4: 62
+00:22:07Byte 5: 5
+00:22:07Byte 9: 78
+00:22:07Byte 10: 103
+00:22:07Byte 21: 99
+00:22:08Finished synth. Setting Status back to Initial
+00:22:09Received 0x05C. Current Status: Initial   Showing all non 0 byte packets:
+00:22:09Byte 1: 92
+00:22:09Byte 2: 18
+00:22:09Byte 3: 216
+00:22:09Byte 4: 62
+00:22:09Byte 5: 122
+00:22:09Byte 6: 130
+00:22:09Byte 7: 149
+00:22:09Byte 8: 135
+00:22:09Byte 9: 147
+00:22:09Byte 10: 99
+00:22:09Byte 11: 126
+00:22:09Byte 12: 85
+00:22:09Byte 13: 107
+00:22:09Byte 14: 145
+00:22:09Byte 16: 195
+00:22:09Byte 17: 178
+00:22:09Byte 18: 206
+00:22:09Byte 19: 136
+00:22:09Byte 20: 89
+00:22:09Byte 21: 9
+00:22:09Byte 22: 148
+00:22:09Byte 23: 59
+00:22:09Byte 24: 99
+00:22:09Byte 25: 9
+00:22:09Byte 26: 6
+00:22:09Byte 27: 7
+00:22:09Byte 28: 116
+00:22:09Byte 29: 137
+00:22:09Looking up Chain..Compression
+00:22:09Compression: Found Crystal: Dark Crystal
+00:22:11Sending Synthchain: 34817.  Setting info.status to Spirit Update
+00:22:11Received 0x05C. Current Status: Spirit Update   Showing all non 0 byte packets:
+00:22:11Byte 1: 92
+00:22:11Byte 2: 18
+00:22:11Byte 3: 222
+00:22:11Byte 4: 62
+00:22:11Byte 5: 1
+00:22:11Byte 17: 7
+00:22:11Byte 21: 134
+00:22:11Byte 22: 1
+00:22:11Byte 25: 1
+00:22:11Byte 29: 1
+00:22:11Byte 33: 80
+00:22:11Byte 34: 65
+00:22:11Synth Success! Chain Performed:None Spirit Gained:1 Current Spirit:16720
+00:22:11Moving to next step. 2 Current Spirit:16720
+00:22:11Sleeping 10 for animation delay and sending ACK, setting to 'Chain Ready'
+00:22:22Received 0x05C. Current Status: Chain Ready   Showing all non 0 byte packets:
+00:22:22Byte 1: 92
+00:22:22Byte 2: 18
+00:22:22Byte 3: 248
+00:22:22Byte 4: 62
+00:22:22Byte 5: 5
+00:22:22Byte 9: 78
+00:22:22Byte 10: 103
+00:22:22Byte 21: 99
+00:22:23Finished synth. Setting Status back to Initial
+00:22:23Received 0x05C. Current Status: Initial   Showing all non 0 byte packets:
+00:22:23Byte 1: 92
+00:22:23Byte 2: 18
+00:22:23Byte 3: 251
+00:22:23Byte 4: 62
+00:22:23Byte 5: 122
+00:22:23Byte 6: 130
+00:22:23Byte 7: 149
+00:22:23Byte 8: 135
+00:22:23Byte 9: 147
+00:22:23Byte 10: 99
+00:22:23Byte 11: 126
+00:22:23Byte 12: 84
+00:22:23Byte 13: 106
+00:22:23Byte 14: 145
+00:22:23Byte 16: 195
+00:22:23Byte 17: 178
+00:22:23Byte 18: 206
+00:22:23Byte 19: 136
+00:22:23Byte 20: 89
+00:22:23Byte 21: 9
+00:22:23Byte 22: 148
+00:22:23Byte 23: 58
+00:22:23Byte 24: 99
+00:22:23Byte 25: 9
+00:22:23Byte 26: 6
+00:22:23Byte 27: 7
+00:22:23Byte 28: 116
+00:22:23Byte 29: 137
+00:22:23Looking up Chain..Transfixion
+00:22:23Transfixion: Found Crystal: Light Crystal
+00:22:25Sending Synthchain: 30465.  Setting info.status to Spirit Update
+00:22:25Received 0x05C. Current Status: Spirit Update   Showing all non 0 byte packets:
+00:22:25Byte 1: 92
+00:22:25Byte 2: 18
+00:22:25Byte 3: 1
+00:22:25Byte 4: 63
+00:22:25Byte 5: 1
+00:22:25Byte 9: 7
+00:22:25Byte 17: 6
+00:22:25Byte 21: 134
+00:22:25Byte 22: 1
+00:22:25Byte 25: 2
+00:22:25Byte 29: 1
+00:22:25Byte 33: 82
+00:22:25Byte 34: 65
+00:22:25Synth Success! Chain Performed:Transfixion Spirit Gained:2 Current Spirit:16722
+00:22:25Moving to next step. 3 Current Spirit:16722
+00:22:25Sleeping 10 for animation delay and sending ACK, setting to 'Chain Ready'
+00:22:36Received 0x05C. Current Status: Chain Ready   Showing all non 0 byte packets:
+00:22:36Byte 1: 92
+00:22:36Byte 2: 18
+00:22:36Byte 3: 27
+00:22:36Byte 4: 63
+00:22:36Byte 5: 5
+00:22:36Byte 9: 78
+00:22:36Byte 10: 103
+00:22:36Byte 21: 99
+00:22:37Finished synth. Setting Status back to Initial
+00:22:38Received 0x05C. Current Status: Initial   Showing all non 0 byte packets:
+00:22:38Byte 1: 92
+00:22:38Byte 2: 18
+00:22:38Byte 3: 31
+00:22:38Byte 4: 63
+00:22:38Byte 5: 122
+00:22:38Byte 6: 130
+00:22:38Byte 7: 149
+00:22:38Byte 8: 135
+00:22:38Byte 9: 147
+00:22:38Byte 10: 99
+00:22:38Byte 11: 125
+00:22:38Byte 12: 84
+00:22:38Byte 13: 105
+00:22:38Byte 14: 145
+00:22:38Byte 16: 195
+00:22:38Byte 17: 178
+00:22:38Byte 18: 206
+00:22:38Byte 19: 136
+00:22:38Byte 20: 89
+00:22:38Byte 21: 9
+00:22:38Byte 22: 147
+00:22:38Byte 23: 58
+00:22:38Byte 24: 99
+00:22:38Byte 25: 9
+00:22:38Byte 26: 6
+00:22:38Byte 27: 7
+00:22:38Byte 28: 116
+00:22:38Byte 29: 137
+00:22:38Looking up Chain..Scission
+00:22:38Scission: Found Crystal: Earth Crystal
+00:22:40Sending Synthchain: 17409.  Setting info.status to Spirit Update
+00:22:40Received 0x05C. Current Status: Spirit Update   Showing all non 0 byte packets:
+00:22:40Byte 1: 92
+00:22:40Byte 2: 18
+00:22:40Byte 3: 37
+00:22:40Byte 4: 63
+00:22:40Byte 5: 1
+00:22:40Byte 9: 10
+00:22:40Byte 17: 3
+00:22:40Byte 21: 134
+00:22:40Byte 22: 1
+00:22:40Byte 25: 5
+00:22:40Byte 33: 87
+00:22:40Byte 34: 65
+00:22:40Synth Success! Chain Performed:Distortion Spirit Gained:5 Current Spirit:16727
+00:22:40Moving to next step. 4 Current Spirit:16727
+00:22:40Sleeping 10 for animation delay and sending ACK, setting to 'Chain Ready'
+00:22:50Received 0x05C. Current Status: Chain Ready   Showing all non 0 byte packets:
+00:22:50Byte 1: 92
+00:22:50Byte 2: 18
+00:22:50Byte 3: 62
+00:22:50Byte 4: 63
+00:22:50Byte 5: 5
+00:22:50Byte 9: 78
+00:22:50Byte 10: 103
+00:22:50Byte 21: 99
+00:22:51Finished synth. Setting Status back to Initial
+00:22:52Received 0x05C. Current Status: Initial   Showing all non 0 byte packets:
+00:22:52Byte 1: 92
+00:22:52Byte 2: 18
+00:22:52Byte 3: 65
+00:22:52Byte 4: 63
+00:22:52Byte 5: 122
+00:22:52Byte 6: 130
+00:22:52Byte 7: 149
+00:22:52Byte 8: 134
+00:22:52Byte 9: 147
+00:22:52Byte 10: 99
+00:22:52Byte 11: 125
+00:22:52Byte 12: 84
+00:22:52Byte 13: 104
+00:22:52Byte 14: 145
+00:22:52Byte 16: 195
+00:22:52Byte 17: 178
+00:22:52Byte 18: 206
+00:22:52Byte 19: 135
+00:22:52Byte 20: 89
+00:22:52Byte 21: 9
+00:22:52Byte 22: 147
+00:22:52Byte 23: 58
+00:22:52Byte 24: 99
+00:22:52Byte 25: 9
+00:22:52Byte 26: 6
+00:22:52Byte 27: 7
+00:22:52Byte 28: 116
+00:22:52Byte 29: 137
+00:22:52Looking up Chain..Gravitation
+00:22:52Gravitation: Found Crystal: Dark Crystal
+00:22:54Sending Synthchain: 51201.  Setting info.status to Spirit Update
+00:22:54Received 0x05C. Current Status: Spirit Update   Showing all non 0 byte packets:
+00:22:54Byte 1: 92
+00:22:54Byte 2: 18
+00:22:54Byte 3: 71
+00:22:54Byte 4: 63
+00:22:54Byte 5: 1
+00:22:54Byte 9: 14
+00:22:54Byte 17: 7
+00:22:54Byte 21: 134
+00:22:54Byte 22: 1
+00:22:54Byte 25: 15
+00:22:54Byte 33: 102
+00:22:54Byte 34: 65
+00:22:54Synth Success! Chain Performed:Darkness Spirit Gained:15 Current Spirit:16742
+00:22:54Hit end of chain - resetting. Current Spirit:16742
+00:22:54Sleeping 10 for animation delay and sending ACK, setting to 'Chain Ready'
+00:22:55Stop Issued. Exiting Menu.

@@ -38,7 +38,7 @@ function user_setup()
     state.CastingMode:options('Normal', 'SIRD', 'Resistant')
     state.PhysicalDefenseMode:options('PDT', 'HP', 'Reraise', 'Charm')
     state.MagicalDefenseMode:options('MDT', 'HP', 'Reraise', 'Charm')
-    state.IdleMode:options('Normal', 'Refresh', 'DT')
+    state.IdleMode:options('Normal', 'Refresh', 'DT', 'HP')
      
     state.ExtraDefenseMode = M{['description']='Extra Defense Mode', 'None', 'MP', 'Knockback', 'MP_Knockback'}
     state.EquipShield = M(false, 'Equip Shield w/Defense')
@@ -205,6 +205,11 @@ function init_gear_sets()
         body=gear.OdyWSBODY,hands="Sulevia's Gauntlets +2",ring1="Rufescent Ring",ring2="Regal Ring",
         back=gear.RudianosWS,waist="Sailfi Belt +1",legs=gear.ValWSLEGS,feet="Sulevia's Leggings +2"}    
      
+        sets.precast.WS['Judgment'] = {ammo="Amar Cluster",
+        head="Hjarrandi Helm",neck="Fotia Gorget",ear1="Moonshade Earring",ear2="Thurd Earring",
+        body=gear.OdyWSBODY,hands="Sulevia's Gauntlets +2",ring1="Rufescent Ring",ring2="Regal Ring",
+        back=gear.RudianosWS,waist="Sailfi Belt +1",legs=gear.ValWSLEGS,feet="Sulevia's Leggings +2"}
+
     sets.precast.WS['Circle Blade'] = {ammo="Amar Cluster",
         head="Sulevia's Mask",neck="Fotia Gorget",ear1="Moonshade Earring",ear2="Thurd Earring",
         body=gear.OdyWSBODY,hands="Sulevia's Gauntlets +2",ring1="Rufescent Ring",ring2="Regal Ring",
@@ -259,7 +264,7 @@ function init_gear_sets()
 }
 
     sets.midcast.Phalanx = set_combine(sets.midcast.FastRecast, {hands="Souveran handschuhs +1", 
-        feet="Souveran schuhs +1", body=gear.PhalanxBody, back=gear.Weard, neck="Incanter's Torque",
+        feet="Souveran schuhs +1", body=gear.PhalanxBody, legs="Sakpata's Cuisses", back=gear.Weard, neck="Incanter's Torque",
          ring1="Stikini Ring", ring2="Stikini Ring"})
      
     sets.midcast.Stun = set_combine(sets.midcast.Enmity, {})
@@ -340,7 +345,7 @@ function init_gear_sets()
      
     sets.Kiting = {legs="Carmine Cuisses +1"}
  
-    sets.latent_refresh = {waist="Fucho-no-obi"}
+    sets.latent_refresh = {waist="Fucho-no-obi",ammo="Homiliary"}
  
  
     --------------------------------------

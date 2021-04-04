@@ -1,0 +1,17 @@
+sets.exported={
+    main={ name="Taming Sari", augments={'STR+9','DEX+8','DMG:+14',}},
+    sub="Tauret",
+    ammo="Staunch Tathlum +1",
+    head={ name="Herculean Helm", augments={'"Fast Cast"+3','INT+4','Mag. Acc.+3','"Mag.Atk.Bns."+6',}},
+    body="Meg. Cuirie +2",
+    hands="Meg. Gloves +2",
+    legs="Meg. Chausses +2",
+    feet="Jute Boots +1",
+    neck="Bathy Choker +1",
+    waist="Flume Belt",
+    left_ear="Infused Earring",
+    right_ear="Odnowa Earring +1",
+    left_ring="Defending Ring",
+    right_ring={ name="Dark Ring", augments={'Phys. dmg. taken -5%','Magic dmg. taken -4%','Breath dmg. taken -3%',}},
+    back="Solemnity Cape",
+}

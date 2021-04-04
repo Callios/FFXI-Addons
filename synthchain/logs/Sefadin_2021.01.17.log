@@ -1,0 +1,25 @@
+02:18:00Loading Inventory Start.
+04:02:08Received 0x34 back from Open Menu, Setting to Initial.
+04:02:09Received 0x05C. Current Status: Initial   Showing all non 0 byte packets:
+04:02:09Byte 1: 92
+04:02:09Byte 2: 18
+04:02:09Byte 3: 246
+04:02:09Byte 4: 88
+04:02:09Byte 5: 187
+04:02:09Byte 6: 2
+04:02:09Byte 7: 68
+04:02:09Byte 8: 2
+04:02:09Byte 9: 119
+04:02:09Byte 10: 11
+04:02:09Byte 11: 213
+04:02:09Byte 12: 10
+04:02:09Byte 13: 157
+04:02:09Byte 14: 2
+04:02:09Byte 15: 240
+04:02:09Byte 16: 7
+04:02:09Byte 17: 144
+04:02:09Byte 19: 86
+04:02:09Byte 20: 5
+04:02:09Byte 21: 1
+04:02:09Byte 23: 8
+04:02:09Inv only received.  Stopping and exiting Menu.

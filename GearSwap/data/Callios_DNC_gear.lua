@@ -9,6 +9,10 @@ function user_setup()
     state.WeaponskillMode:options('Normal', 'Acc')
     state.PhysicalDefenseMode:options('PDT')
 
+
+    gear.HercHeadFC = { name="Herculean Helm", augments={'"Fast Cast"+3','INT+4','Mag. Acc.+3','"Mag.Atk.Bns."+6',}}
+
+
     select_default_macro_book(2, 3)
 end
 
@@ -66,7 +70,7 @@ function init_gear_sets()
     -- Fast cast sets for spells
     
     sets.precast.FC = {ammo="Impatiens",
-		head="Herculean helm",neck="Orunmila's torque",ear1="Enchanter earring +1",ear2="Loquacious Earring",
+		head=gear.HercHeadFC,neck="Orunmila's torque",ear1="Enchanter earring +1",ear2="Loquacious Earring",
 		body="Dread jupon",hands="Leyline gloves",ring2="Lebeche ring",
 		back="Swith cape"}
 
