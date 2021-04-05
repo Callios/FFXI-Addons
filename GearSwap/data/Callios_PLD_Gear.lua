@@ -50,7 +50,7 @@ function user_setup()
     gear.RudianosEnm = { name="Rudianos's Mantle", augments={'HP+60','Eva.+20 /Mag. Eva.+20','Mag. Evasion+10','Enmity+10',}}
     gear.Ejekamal = { name="Ejekamal Boots", augments={'Haste+2','"Snapshot"+2','"Fast Cast"+3',}}
     gear.AcroLegsFC = { name="Acro Breeches", augments={'"Fast Cast"+2'}}
-    gear.SIRDFeet = { name="Odyssean Greaves", augments={'Mag. Acc.+11 "Mag.Atk.Bns."+11','"Fast Cast"+2','"Mag.Atk.Bns."+1',}}
+    gear.SIRDFeet = { name="Odyssean Greaves", augments={'Rng.Atk.+16','Accuracy+30','"Refresh"+1','Mag. Acc.+6 "Mag.Atk.Bns."+6',}}
     gear.OdyWSBODY = { name="Odyss. Chestplate", augments={'Accuracy+15','Weapon skill damage +5%','STR+9',}}
     gear.ValWSLEGS = { name="Valorous Hose", augments={'"Subtle Blow"+3','Magic Damage +3','Weapon skill damage +9%','Accuracy+17 Attack+17',}}
     gear.OdyMagWSFeet = { name="Odyssean Greaves", augments={'Mag. Acc.+15 "Mag.Atk.Bns."+15','Weapon skill damage +4%','INT+4','"Mag.Atk.Bns."+10',}}
@@ -241,6 +241,10 @@ function init_gear_sets()
     waist="Rumination Sash", -- 10 
     legs="Carmine Cuisses +1", -- 20 
     head="Souveran Schaller +1", -- 20
+    body="Souveran Cuirass +1",
+    ring1="Defending Ring",
+    ring2="Apeile ring +1",
+    hands="Souveran handschuhs +1",
     feet=gear.SIRDFeet,} -- 20
  
     sets.midcast.Flash = set_combine(sets.midcast.Enmity, {neck="Unmoving collar +1", wasit="Tempus Fugit +1"})
@@ -280,11 +284,38 @@ function init_gear_sets()
     sets.midcast['Blue Magic'].SIRD = set_combine(sets.midcast['Blue Magic'], sets.midcast.SIRD)
     sets.midcast['Blue Magic']['Wild Carrot'] = set_combine(sets.midcast.Enmity, sets.midcast.Cure)
     sets.midcast['Blue Magic']['Wild Carrot'].SIRD = set_combine(sets.midcast['Blue Magic']['Wild Carrot'], sets.midcast.SIRD)
-    sets.midcast['Blue Magic']['Blank Gaze']= set_combine(sets.midcast.Enmity, {waist="Gishdubar sash"})
-    --sets.midcast['Blue Magic']['Healing Breeze'] = set_combine(sets.midcast.Enmity, {waist="Gishdubar sash"})
+    --sets.midcast['Blue Magic']['Blank Gaze'] = set_combine(sets.midcast.Enmity, sets.midcast.SIRD)
+    --sets.midcast['Blue Magic']['Blank Gaze'].SIRD = set_combine(sets.midcast['Blue Magic']['Blank Gaze'], sets.midcast.SIRD)
+
+    sets.midcast['Blank Gaze'] =  set_combine(sets.midcast.SIRD)
+    sets.midcast['Jettatura'] =  set_combine(sets.midcast.SIRD)
+    sets.midcast['Geist Wall'] =  set_combine(sets.midcast.SIRD)
+    sets.midcast['Sheep Song'] =  set_combine(sets.midcast.SIRD)
+    sets.midcast['Soporific'] =  set_combine(sets.midcast.SIRD)
+    sets.midcast['Awful Eye'] =  set_combine(sets.midcast.SIRD)
+    --sets.midcast[''] =  set_combine(sets.midcast.SIRD)
+
+    -- sets.midcast['Blue Magic']['Blank Gaze'] = set_combine(sets.midcast.Enmity, {waist="Rumination Sash"})
+    --  sets.midcast['Blue Magic']['Blank Gaze'].SIRD = set_combine(sets.midcast.Enmity, sets.midcast.SIRD, {})
+    --  sets.midcast['Blue Magic']['Jettatura'] = set_combine(sets.midcast.Enmity, sets.midcast.SIRD,{})
+    --  sets.midcast['Blue Magic']['Geist Wall'] = set_combine(sets.midcast.Enmity, sets.midcast.SIRD,{})
+    --  sets.midcast['Blue Magic']['Sheep Song'] = set_combine(sets.midcast.Enmity, sets.midcast.SIRD, {})
+    --  sets.midcast['Blue Magic']['Awful Eye'] = set_combine(sets.midcast.Enmity, sets.midcast.SIRD, {})
+    --  sets.midcast['Blue Magic']['Soporific'] = set_combine(sets.midcast.Enmity, sets.midcast.SIRD, {})
+     
+
+    --  sets.midcast['Blue Magic']['Blank Gaze'].SIRD = set_combine(sets.midcast.Enmity, sets.midcast.SIRD, {})
+    --  sets.midcast['Blue Magic']['Jettatura'].SIRD = set_combine(sets.midcast.Enmity, sets.midcast.SIRD,{})
+    --  sets.midcast['Blue Magic']['Geist Wall'].SIRD = set_combine(sets.midcast.Enmity, sets.midcast.SIRD,{})
+    --  sets.midcast['Blue Magic']['Sheep Song'].SIRD = set_combine(sets.midcast.Enmity, sets.midcast.SIRD, {})
+    --  sets.midcast['Blue Magic']['Awful Eye'].SIRD = set_combine(sets.midcast.Enmity, sets.midcast.SIRD, {})
+    --  sets.midcast['Blue Magic']['Soporific'].SIRD = set_combine(sets.midcast.Enmity, sets.midcast.SIRD, {})
+     --sets.midcast['Blue Magic']['Healing Breeze'].SIRD = set_combine(sets.midcast.Enmity, sets.midcast.SIRD, {})
+     --sets.midcast['Blue Magic']['Healing Breeze'] = set_combine(sets.midcast.Enmity, {waist="Gishdubar sash"})
   
     sets.midcast['Blue Magic'].Healing = set_combine(sets.midcast.Cure)
     sets.midcast['Blue Magic'].Enmity = set_combine(sets.midcast.Enmity)
+    sets.midcast['Blue Magic'].SIRD = set_combine(sets.midcast['Blue Magic'].Enmity,sets.midcast.SIRD)
 
  
 --95 Enmity, -104% Spell Interrupt, 2,713 HP--
@@ -492,13 +523,13 @@ end
 -- Job-specific hooks for standard casting events.
 -------------------------------------------------------------------------------------------------------------------
  
-function job_pretarget(spell, action, spellMap, eventArgs)
-    if spell.type == "WeaponSkill" and player.status == 'Engaged' and spell.target.distance > target_distance then -- Cancel WS If You Are Out Of Range --
-       eventArgs.cancel=true
-       add_to_chat(123, spell.name..' Canceled: [Out of Range]')
-       return
-    end
-end
+-- function job_pretarget(spell, action, spellMap, eventArgs)
+--     if spell.type == "WeaponSkill" and player.status == 'Engaged' and spell.target.distance > target_distance then -- Cancel WS If You Are Out Of Range --
+--        eventArgs.cancel=true
+--        add_to_chat(123, spell.name..' Canceled: [Out of Range]')
+--        return
+--     end
+-- end
  
  
 --function job_midcast(spell, action, spellMap, eventArgs)

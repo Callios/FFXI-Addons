@@ -4,19 +4,19 @@
         <Attempts>22</Attempts>
         <AutoCraft>false</AutoCraft>
         <AutoSave>true</AutoSave>
-        <Catalyst1>8</Catalyst1>
-        <Catalyst2>7</Catalyst2>
-        <Catalyst3>0</Catalyst3>
+        <Catalyst1>14</Catalyst1>
+        <Catalyst2>9</Catalyst2>
+        <Catalyst3>2</Catalyst3>
         <CraftEquipset>9</CraftEquipset>
         <DefaultEquipset>9</DefaultEquipset>
         <Delay>5</Delay>
-        <Level1>0</Level1>
+        <Level1>6</Level1>
         <Level2>0</Level2>
         <Level3>1</Level3>
-        <Materials>Bruised Starfruit,Scorpion Stinger,Fetich Head,Giant Fish Bones,Indigo Memosphere,Fetich Legs,Tonberry Board,Carbuncle&apos;s Ruby,Beryl Memosphere,Orcish Mail Scales,Soiled Letter,Fetich Arms,Demon Pen,Magicked Steel,Ancient Salt,Desert Venom,Fetich Torso,Lucky Egg,Ancient Papyrus,Rusty Key,Star Spinel,Rusty Medal,Elshimo Marble,Teal Memosphere,Shoalweed,Colorful Hair,Test Answers,White Memosphere,Exoray Mold,Bomb Coal,Frayed Arrow,Delkfutt Key</Materials>
+        <Materials>Bruised Starfruit,Delkfutt Key,Frayed Arrow,Magicked Steel,Indigo Memosphere,Fetich Legs,Exoray Mold,Lucky Egg,Beryl Memosphere,Orcish Mail Scales,Ancient Papyrus,Fetich Head,Demon Pen,Giant Fish Bones,Ancient Salt,Tonberry Board,Colorful Hair,Rusty Key,Soiled Letter,Carbuncle&apos;s Ruby,Star Spinel,Rusty Medal,Elshimo Marble,Teal Memosphere,Shoalweed,Fetich Torso,Test Answers,White Memosphere,Desert Venom,Bomb Coal,Fetich Arms,Scorpion Stinger</Materials>
         <Obtain>2</Obtain>
         <RecheckDelay>5</RecheckDelay>
-        <SpiritImbue>55</SpiritImbue>
+        <SpiritImbue>117</SpiritImbue>
         <SpiritLost>0</SpiritLost>
         <Verbose>true</Verbose>
     </global>

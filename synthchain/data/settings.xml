@@ -97,6 +97,14 @@
             </pos>
         </synthchainbox>
     </calsmule>
+    <ivanhelicopters>
+        <display>
+            <pos>
+                <x>689</x>
+                <y>86</y>
+            </pos>
+        </display>
+    </ivanhelicopters>
     <sefadin>
         <display>
             <pos>
