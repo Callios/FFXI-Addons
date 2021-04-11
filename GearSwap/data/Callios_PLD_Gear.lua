@@ -196,22 +196,22 @@ function init_gear_sets()
 
 
     sets.precast.WS['Atonement'] = {ammo="Staunch tathlum +1",
-        head="Souveran Schaller +1",neck="Fotia Gorget",ear1="Moonshade Earring",ear2="Thurd Earring",
+        head="Souveran Schaller +1",neck="Fotia Gorget",ear1="Moonshade Earring",ear2="Thrud Earring",
         body="Souveran Cuirass +1",hands="Souveran handschuhs +1",ring1="Apeile Ring",ring2="Apeile ring +1",
         back=gear.RudianosEnm,waist="Fotia Belt",legs="Souveran Diechlings +1",feet="Souveran Schuhs +1"}
          
     sets.precast.WS['Savage Blade'] = {ammo="Amar Cluster",
-        head="Hjarrandi Helm",neck="Fotia Gorget",ear1="Moonshade Earring",ear2="Thurd Earring",
-        body=gear.OdyWSBODY,hands="Sulevia's Gauntlets +2",ring1="Rufescent Ring",ring2="Regal Ring",
+        head="Valorous Mask",neck="Fotia Gorget",ear1="Moonshade Earring",ear2="Thrud Earring",
+        body=gear.OdyWSBODY,hands="Valorous Mitts",ring1="Rufescent Ring",ring2="Regal Ring",
         back=gear.RudianosWS,waist="Sailfi Belt +1",legs=gear.ValWSLEGS,feet="Sulevia's Leggings +2"}    
      
         sets.precast.WS['Judgment'] = {ammo="Amar Cluster",
-        head="Hjarrandi Helm",neck="Fotia Gorget",ear1="Moonshade Earring",ear2="Thurd Earring",
-        body=gear.OdyWSBODY,hands="Sulevia's Gauntlets +2",ring1="Rufescent Ring",ring2="Regal Ring",
+        head="Valorous Mask",neck="Fotia Gorget",ear1="Moonshade Earring",ear2="Thrud Earring",
+        body=gear.OdyWSBODY,hands="Valorous Mitts",ring1="Rufescent Ring",ring2="Regal Ring",
         back=gear.RudianosWS,waist="Sailfi Belt +1",legs=gear.ValWSLEGS,feet="Sulevia's Leggings +2"}
 
     sets.precast.WS['Circle Blade'] = {ammo="Amar Cluster",
-        head="Sulevia's Mask",neck="Fotia Gorget",ear1="Moonshade Earring",ear2="Thurd Earring",
+        head="Valorous Mask",neck="Fotia Gorget",ear1="Moonshade Earring",ear2="Thrud Earring",
         body=gear.OdyWSBODY,hands="Sulevia's Gauntlets +2",ring1="Rufescent Ring",ring2="Regal Ring",
         back=gear.RudianosWS,waist="Sailfi Belt +1",legs=gear.ValWSLEGS,feet="Sulevia's Leggings +2"}
          
@@ -260,7 +260,7 @@ function init_gear_sets()
     neck="Bathy Choker +1",
     waist="Creed Baudrier",
     left_ear="Odnowa Earring +1",
-    right_ear="Odnowa Earring",
+    right_ear="Tuisto earring",
     ring1="Ilabrat Ring",
     ring2="Moonbeam Ring",
     back="Moonbeam Cape",
@@ -347,7 +347,7 @@ function init_gear_sets()
  
     -- Idle sets
     sets.idle = {ammo="Staunch Tathlum +1",
-        head="Sakpata's Helm",neck="Bathy Choker +1",ear1="Odnowa earring +1",ear2="Infused Earring",
+        head="Sakpata's Helm",neck="Bathy Choker +1",ear1="Odnowa earring +1",ear2="Tuisto earring",
         body="Sakpata's breastplate",hands="Sakpata's gauntlets",ring1="Gelatinous ring +1",ring2="Defending Ring",
         back=gear.RudianosEnm,waist="Carrier's sash",legs="Carmine Cuisses +1",feet="Sakpata's Leggings"}
 
@@ -357,7 +357,7 @@ function init_gear_sets()
         back=gear.RudianosEnm,waist="Carrier's sash",legs="Sakpata's cuisses",feet="Sakpata's Leggings"}
 
     sets.idle.HP = {ammo="Staunch Tathlum +1",
-        head="Souveran schaller +1",neck="Loricate Torque +1",ear1="Genmei Earring",ear2="Etiolation Earring",
+        head="Souveran schaller +1",neck="Loricate Torque +1",ear1="Genmei Earring",ear2="Tuisto earring",
         body="Souveran cuirass +1",hands="Souveran handschuhs +1",ring1="Gelatinous Ring +1",ring2="Defending Ring",
         back=gear.RudianosEnm,waist="Flume Belt",legs="Souveran Diechlings +1",feet="Souveran Schuhs +1"}
  
