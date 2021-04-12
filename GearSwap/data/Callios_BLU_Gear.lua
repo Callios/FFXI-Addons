@@ -206,7 +206,7 @@ function init_gear_sets()
 		back="Cornflower cape",waist="Eschan stone",legs="Carmine cuisses +1",feet="Assimilator's charuqs +3"})
 
     sets.midcast['Blue Magic'].SkillBasedBuff = {ammo="Mavi Tathlum",
-        head="Luhlaza keffiyeh +1",neck="Incanter's torque",
+        head="Luhlaza keffiyeh +1",neck="Incanter's torque", wasit="Witful belt",
         body="Assimilator's jubbah +3",hands="Rawhide gloves",ring1="Stikini Ring",ring2="Stikini ring",
         back="Cornflower Cape",legs="Hashishin tayt +1",feet="Luhlaza charuqs +1"}
 
@@ -357,7 +357,7 @@ sets.engaged.DT = {ammo="Ginsen",
         }
 	-- DW Sets
     sets.engaged.DW = {ammo="Ginsen",
-        head="Adhemar bonnet +1",neck="Combatant's torque",ear1="Telos earring",ear2="Suppanomimi",
+        head="Adhemar bonnet +1",neck="Combatant's torque",ear1="Eabani earring",ear2="Suppanomimi",
         body="Adhemar jacket +1",hands="Adhemar wristbands +1",ring1="Petrov ring",ring2="Epona's Ring",
         back="Lupine cape",waist="Windbuffet Belt +1",legs="Samnuha tights",
         feet={ name="Herculean Boots", augments={'Accuracy+14 Attack+14','"Triple Atk."+3','Accuracy+15',}}
@@ -378,7 +378,7 @@ sets.engaged.DT = {ammo="Ginsen",
         }
 
         sets.engaged.DW.DT = {ammo="Ginsen",
-        head="Malignance Chapeau",neck="Combatant's torque",ear1="Telos earring",ear2="Dignitary's earring",
+        head="Malignance Chapeau",neck="Combatant's torque",ear1="Eabani Earring",ear2="Suppanomimi earring",
         body="Malignance Tabard",hands="Malignance gloves",ring1="Petrov Ring",ring2="Ilabrat ring",
         back="Lupine cape",waist="Windbuffet Belt +1",legs="Malignance tights",
         feet={ name="Herculean Boots", augments={'Accuracy+14 Attack+14','"Triple Atk."+3','Accuracy+15',}}

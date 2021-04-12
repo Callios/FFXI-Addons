@@ -87,7 +87,7 @@ function user_setup()
     state.HybridMode:options('Normal', 'DT')
     state.WeaponskillMode:options('Normal', 'Acc')
     state.CastingMode:options('Normal', 'Resistant')
-    state.IdleMode:options('Normal', 'DT', 'MEva')
+    state.IdleMode:options('Normal', 'DT')
 
     state.LullabyMode = M{['description']='Lullaby Instrument', 'Horn', 'Harp'}
 
@@ -214,9 +214,9 @@ function init_gear_sets()
 		range="Gjallarhorn",
 		head="Fili calot +1",			--14
 		body="Brioso justaucorps +3",	--15
-		legs="Querkening brais",		--10
+		legs="Doyen Pants",				--6
 		feet="Bihu Slippers +3",		--10
-		}) --49 song reduction time
+		}) --45 song reduction time
 
     sets.precast.FC.SongPlaceholder = set_combine(sets.precast.FC.BardSong, {range=info.ExtraSongInstrument})
 	sets.precast.FC['Honor March'] = set_combine(sets.precast.FC.BardSong, {range="Marsyas"})
@@ -394,18 +394,18 @@ function init_gear_sets()
 		main="Daybreak",
 		sub="Ammurapi Shield",
 		ammo="Pemphredo Tathlum",
-		head="Vanya hood",
+		head="Kaykaus Mitra +1",
 		neck="Incanter's torque",
 		ear1="Regal Earring",
 		ear2="Mendicant's earring",
-		body="Vanya robe",
+		body="Kaykaus Bliaut +1",
 		hands="Inyanga dastanas +2",
 		ring1="Stikini Ring +1",
 		ring2="Stikini Ring +1",
 		back="Tempered cape +1",
 		waist="Bishop's sash",
-		legs="Vanya slops",
-		feet="Vanya clogs"
+		legs="Kaykaus Tights +1",
+		feet="Kaykaus Boots +1"
 		}
         
     sets.midcast.Curaga = sets.midcast.Cure
@@ -499,40 +499,22 @@ function init_gear_sets()
 		back=gear.IntarabusIDLE,
 		waist="Fucho-no-obi",
 		legs="Assiduity pants +1",
-		feet="Fili cothurnes +1"
+		feet="Inyanga Crackows +2"
 		} 
 
     sets.idle.DT = {
 		main="Daybreak",
 		sub="Genmei shield",
 		range="Nibiru Harp",
-        head="Bihu Roundlet +3",
-        body="Bihu Jstcorps. +3",
-        hands="Inyan. Dastanas +2",
-        legs="Brioso Cannions +3",
-        feet="Inyan. Crackows +2",
-        neck="Loricate Torque +1",
-        ear1="Sanare Earring",
-        ear2="Eabani Earring",
-        ring1="Defending Ring",
-        ring2="Inyanga Ring",
-        back=gear.IntarabusIDLE,
-        waist="Flume Belt +1",
-        }
-
-    sets.idle.MEva = {
-		main="Daybreak",
-		sub="Genmei shield",
-		range="Nibiru Harp",
-        head="Inyanga Tiara +2",
-        body="Inyanga Jubbah +2",
-        hands="Inyan. Dastanas +2",
-        legs="Inyanga Shalwar +2",
-        feet="Inyan. Crackows +2",
+        head="Nyame Helm",
+        body="Nyame Mail",
+        hands="Nyame Gauntlets",
+        legs="Nyame Flanchard",
+        feet="Nyame Sollerets",
         neck="Warder's Charm +1",
         ear1="Sanare Earring",
         ear2="Eabani Earring",
-        ring1="Defending Ring",
+        ring1="Purity Ring",
         ring2="Inyanga Ring",
         back=gear.IntarabusIDLE,
         waist="Flume Belt +1",
@@ -543,15 +525,14 @@ function init_gear_sets()
     
     sets.idle.Weak = sets.idle.DT
     
-    
     ------------------------------------------------------------------------------------------------
     ---------------------------------------- Defense Sets ------------------------------------------
     ------------------------------------------------------------------------------------------------
 
-    sets.defense.PDT = sets.idle.DT
-    sets.defense.MDT = sets.idle.DT
+    sets.defense.PDT = set_combine(sets.idle.DT, {})
+    sets.defense.MDT = set_combine(sets.idle.DT, {})
 
-    sets.Kiting = {feet="Fili Cothurnes +1"}
+    sets.Kiting = {ring1="Shneddick Ring",}
     sets.latent_refresh = {waist="Fucho-no-obi"}
 
     ------------------------------------------------------------------------------------------------
@@ -669,13 +650,14 @@ function init_gear_sets()
     ------------------------------------------------------------------------------------------------
 
     sets.engaged.Hybrid = {
-        head="Bihu Roundlet +3",
-		body="Bihu Justaucorps +3",
-		hands="Bihu Cuffs +3",
-        feet="Bihu Slippers +3",
-		neck="Loricate Torque +1",
+        head="Nyame Helm",
+		body="Nyame Mail",
+		hands="Nyame Gauntlets",
+		legs="Nyame Flanchard",
+        feet="Nyame Sollerets",
         ring1="Chirich Ring +1", 
         ring2="Defending Ring", 
+		waist="Sailfi Belt +1",
         }
 
     sets.engaged.DT = set_combine(sets.engaged, sets.engaged.Hybrid)

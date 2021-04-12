@@ -79,8 +79,8 @@ nukeModes = M('normal', 'acc')
 -- cast and we revert to idle or engaged sets, we'll be checking the following for weapon selection. 
 -- Defaults are the first in each list
 
-mainWeapon = M('Daybreak', 'Crocea Mors', 'Naegling', 'Maxentius' , 'Sequence', 'ceremonial dagger')
-subWeapon = M('Sacro Bulwark', 'Ammurapi Shield', 'Tauret','Blurred knife +1','Naegling','Daybreak', 'Chicken Knife II')
+mainWeapon = M('Daybreak', 'Crocea Mors', 'Naegling', 'Tauret', 'Maxentius' , 'Sequence', 'ceremonial dagger')
+subWeapon = M('Sacro Bulwark', 'Ammurapi Shield', 'Tauret', 'Maxentius','Blurred knife +1','Naegling','Daybreak', 'Chicken Knife II')
 ------------------------------------------------------------------------------------------------------
 
 ----------------------------------------------------------
@@ -363,7 +363,7 @@ function get_sets()
         waist       =   "Grunfeld Rope",
     })
     sets.me.melee.dtdw = set_combine(sets.me.melee.normaldw,{
-        neck        =   "Loricate Torque",
+        neck        =   "Loricate Torque +1",
         head        =   "Malignance Chapeau",
         body        =   "Malignance Tabard",
         hands       =   "Malignance Gloves",
