@@ -296,7 +296,7 @@ function init_gear_sets()
         back=MantelAGI,
 		waist="Fotia Belt",
 		legs="Samnuha Tights",
-		feet=HercBootsWSD
+		feet="Lanun Bottes +3"
         }
 
     sets.precast.WS.Acc = set_combine(sets.precast.WS, {
@@ -314,7 +314,7 @@ function init_gear_sets()
         back=MantelAGI,
 		waist="Fotia belt",
 		legs="Meg. Chausses +2",
-		feet="Meg. Jam. +2"
+		feet="Lanun Bottes +3"
 		}
 
     sets.precast.WS['Last Stand'].Acc = set_combine(sets.precast.WS['Last Stand'], {
@@ -351,7 +351,7 @@ function init_gear_sets()
         back=MantleAGIWSD,
 		waist="Eschan Stone",
 		legs={ name="Herculean Trousers", augments={'Mag. Acc.+20 "Mag.Atk.Bns."+20','Crit.hit rate+1','"Mag.Atk.Bns."+15',}},
-		feet={ name="Herculean Boots", augments={'Weapon skill damage +5%','AGI+1','Rng.Acc.+2','Rng.Atk.+14',}},
+		feet= "Lanun Bottes +3",
         }
 
 	sets.precast.WS['Leaden Salute'].Acc = set_combine(sets.precast.WS['Leaden Salute'], {
@@ -371,14 +371,14 @@ function init_gear_sets()
         MantelAGI = { name="Camulus's Mantle", augments={'AGI+20','Rng.Acc.+20 Rng.Atk.+20','AGI+5','"Store TP"+10',}},
 		waist="Fotia Belt",
 		legs="Mummu Kecks +2",
-		feet= { name ="Herculean Boots", augments={'Weapon skill damage +5%','AGI+1','Rng.Acc.+2','Rng.Atk.+14',}}
+		feet= "Lanun Bottes +3",
         }
 
     sets.precast.WS['Evisceration'].Acc = set_combine(sets.precast.WS['Evisceration'], {
         head="Mummu Bonnet +2",
         hands="Mummu Wrists +2",
         legs="Meghanada Chausses +2",
-		feet="Mummu Gamashes +1"
+		feet="Lanun Bottes +3",
         })
 
     sets.precast.WS['Savage Blade'] = {
@@ -391,7 +391,7 @@ function init_gear_sets()
         back=MantleSTRWSD,
 		waist="Grunfeld rope",
 		legs="Samnuha tights",
-		feet= { name ="Herculean Boots", augments={'Weapon skill damage +5%','AGI+1','Rng.Acc.+2','Rng.Atk.+14',}}
+		feet= "Lanun Bottes +3",
         }
         
     sets.precast.WS['Savage Blade'].Acc = set_combine(sets.precast.WS['Savage Blade'], {
@@ -442,7 +442,7 @@ function init_gear_sets()
         back=MantleAGIWSD,
 		waist="Fotia Belt",
 		legs=HercPants_MAB,
-		feet=HercBootsWSD
+		feet="Lanun Bottes +3"
 		}
 	
 	sets.precast.WS['Hot Shot'].Acc = set_combine(sets.precast.WS['Hot Shot'], {
@@ -673,7 +673,7 @@ function init_gear_sets()
 		ear1="Telos earring",			-- 4
 		ear2="Dedition Earring",				-- 5
         body="Adhemar Jacket +1",		-- 6
-		hands="Malignance gloves",		-- 5
+		hands="Floral gauntlets",		-- 5
 		ring1="Ilabrat Ring",
 		ring2="Epona's Ring",
         back=MantleTP,
