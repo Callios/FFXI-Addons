@@ -49,5 +49,9 @@ return {
 		["Vertical Slash"] = "TURNAROUND TRUN THE FUCK AROUND TURNAROUND",
 		["Light of Condemnation"] = "SC STARTING SHIT SHIT FUCK",
 	},
-	
+	["Tenzen"]={
+        ["Yaegasumi"] = "YAG HE USED YAG YAG",
+		["Meikyo Shisui"] = "DREADSPIKES STOP THE HIT THINGS OH SHIT",
+		["Subjugating Slash"] = "OH SHIT BIG DMG",
+	},
 }

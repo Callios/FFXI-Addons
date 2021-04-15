@@ -46,9 +46,14 @@
     <callios>
         <display>
             <pos>
-                <x>1293</x>
-                <y>346</y>
+                <x>1334</x>
+                <y>776</y>
             </pos>
+            <text>
+                <fonts>
+
+                </fonts>
+            </text>
         </display>
     </callios>
     <gipi>
@@ -57,11 +62,6 @@
                 <x>1190</x>
                 <y>266</y>
             </pos>
-            <text>
-                <fonts>
-
-                </fonts>
-            </text>
         </display>
     </gipi>
 </settings>
