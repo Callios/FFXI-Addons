@@ -1,0 +1,17 @@
+sets.exported={
+    main={ name="Kali", augments={'Mag. Acc.+15','String instrument skill +10','Wind instrument skill +10',}},
+    sub="Kali",
+    range="Daurdabla",
+    head="Fili Calot",
+    body="Ayanmo Corazza +2",
+    hands={ name="Leyline Gloves", augments={'Accuracy+15','Mag. Acc.+15','"Mag.Atk.Bns."+15','"Fast Cast"+3',}},
+    legs="Aya. Cosciales +2",
+    feet="Fili Cothurnes +1",
+    neck="Baetyl Pendant",
+    waist="Witful Belt",
+    left_ear="Etiolation Earring",
+    right_ear="Loquac. Earring",
+    left_ring="Kishar Ring",
+    right_ring="Inyanga Ring",
+    back={ name="Intarabus's Cape", augments={'DEX+20','Accuracy+20 Attack+20','"Dbl.Atk."+10',}},
+}

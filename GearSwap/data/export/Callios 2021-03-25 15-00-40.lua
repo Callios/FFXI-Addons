@@ -1,0 +1,17 @@
+sets.exported={
+    main="Aeneas",
+    sub="Tauret",
+    ammo="Staunch Tathlum +1",
+    head={ name="Herculean Helm", augments={'Weapon skill damage +2%','DEX+14',}},
+    body={ name="Adhemar Jacket", augments={'HP+80','"Fast Cast"+7','Magic dmg. taken -3',}},
+    hands={ name="Leyline Gloves", augments={'Accuracy+15','Mag. Acc.+15','"Mag.Atk.Bns."+15','"Fast Cast"+3',}},
+    legs={ name="Herculean Trousers", augments={'"Fast Cast"+5','MND+5',}},
+    feet={ name="Herculean Boots", augments={'"Mag.Atk.Bns."+12','"Fast Cast"+6','Mag. Acc.+1',}},
+    neck="Baetyl Pendant",
+    waist="Tempus Fugit +1",
+    left_ear="Enchntr. Earring +1",
+    right_ear="Loquac. Earring",
+    left_ring="Defending Ring",
+    right_ring="Lebeche Ring",
+    back="Solemnity Cape",
+}

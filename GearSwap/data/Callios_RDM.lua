@@ -227,7 +227,7 @@ function get_sets()
         back= RDMCape.TP,
         waist="Fucho-no-obi",
         legs="Carmine Cuisses +1",
-        feet="Ayanmo gambieras +2"
+        feet="Nyame Sollerets"
 
     }
 
@@ -248,7 +248,7 @@ function get_sets()
         back= RDMCape.TP,               
         waist="Flume Belt",             
         legs="Malignance Tights",           
-        feet="Ayanmo gambieras +2",        
+        feet="Nyame Sollerets",        
 
     }
 
@@ -368,7 +368,7 @@ function get_sets()
         body        =   "Malignance Tabard",
         hands       =   "Malignance Gloves",
         legs        =   "Malignance Tights",
-        feet        =   "Aya. Gambieras +2",
+        feet        =   "Nayme sollerets",
         left_ring   =   "Gelatinous Ring +1",
         right_ring  =   "Defending Ring",
     })
@@ -409,12 +409,45 @@ function get_sets()
         hands ="Jhakri Cuffs +2",
         ear1="Regal Earring",
         ear2="Moonshade Earring",
-        body="Vitiation Tabard +3",
         legs="Jhakri Slops +2",
         ring1="Rufescent Ring",
         ring2="Ilabrat Ring",
         waist="Sailfi Belt +1",
-        feet="Jhakri Pigaches +1",
+        feet="Nyame Sollerets",
+        back= RDMCape.STRWS
+
+    }
+
+    sets.me["Emperal Arrow"] = {
+
+        head="Malignance Chapeau",
+        body="Malignance Tabard",
+        neck="Combatant's Torque",
+        hands ="Malignance Gloves",
+        ear1="Telos Earring",
+        ear2="Enervating Earring",
+        legs="Malignance Tights",
+        ring1="Cacoethic Ring +1",
+        ring2="Haverton Ring",
+        waist="Sailfi Belt +1",
+        feet="Nyame Sollerets",
+        back= RDMCape.STRWS
+
+    }
+
+    sets.me["Death Blossom"] = {
+
+        head="Viti. Chapeau +3",
+        body="Vitiation Tabard +3",
+        neck="Duelist's torque +2",
+        hands ="Jhakri Cuffs +2",
+        ear1="Regal Earring",
+        ear2="Moonshade Earring",
+        legs="Jhakri Slops +2",
+        ring1="Rufescent Ring",
+        ring2="Ilabrat Ring",
+        waist="Sailfi Belt +1",
+        feet="Nyame Sollerets",
         back= RDMCape.STRWS
 
     }
@@ -430,7 +463,7 @@ function get_sets()
         ring1="Rufescent Ring",
         ring2="Metamorph Ring +1",
         waist="Prosilio Belt +1",
-        feet="Carmine Greaves +1",
+        feet="Nyame Sollerets",
         back= RDMCape.MAGWS,
     }
     sets.me["Requiescat"] = {
@@ -446,7 +479,7 @@ function get_sets()
         back= RDMCape.MACC,
         waist="Fotia Belt",
         legs="Jhakri Slops +2",
-        feet="Jhakri Pigaches +1"
+        feet="Nyame Sollerets"
 
     }
     sets.me["Chant du Cygne"] = {
@@ -478,7 +511,7 @@ function get_sets()
         back= RDMCape.MAGWS,
         waist="Refoccilation Stone",
         legs="Jhakri Slops +2",
-        feet="Jhakri Pigaches +1"
+        feet="Nyame Sollerets"
     }
     sets.me["Red Lotus Blade"] = {
 
@@ -493,7 +526,7 @@ function get_sets()
         back= RDMCape.MAGWS,
         waist="Refoccilation Stone",
         legs="Jhakri Slops +2",
-        feet="Jhakri Pigaches +1"
+        feet="Nyame Sollerets"
 
     }
     sets.me["Seraph Blade"] = {
@@ -509,7 +542,7 @@ function get_sets()
         back= RDMCape.MAGWS,
         waist="Refoccilation Stone",
         legs="Jhakri Slops +2",
-        feet="Jhakri Pigaches +1"
+        feet="Nyame Sollerets"
 
     }
 
@@ -524,7 +557,8 @@ function get_sets()
     sets.aftercast = {}         -- Leave this empty  
     sets.midcast.nuking = {}        -- leave this empty
     sets.midcast.MB = {}        -- leave this empty   
-    sets.midcast.enhancing = {}     -- leave this empty   
+    sets.midcast.enhancing = {} 
+    --sets.midcast.ehnancing.dw = {}    -- leave this empty   
     ----------
     -- Precast
     ----------
@@ -567,6 +601,8 @@ function get_sets()
     -- Stoneskin casting time -, works off of enhancing -
     sets.precast.stoneskin = set_combine(sets.precast.enhancing,{
         head="Umuthi hat",
+        main="Pukulatmuj +1",
+        sub="Pukulatmuj",
         legs="Doyen pants"
 
     })
@@ -762,8 +798,8 @@ function get_sets()
         ammo="Regal Gem", --
         head="Viti. Chapeau +3", --24
         neck="Dls. Torque +2", 
-        ear1="Regal Earring",
-        ear2="Dignitary's earring",
+        ear1="Snorta Earring",
+        ear2="Vor Earring",
         body="Atrophy Tabard +2", --21
         hands="Leth. Gantherots +1", --19
         ring1="Stikini Ring", --8
@@ -781,7 +817,7 @@ function get_sets()
         ammo="Regal Gem",
         head="Viti. Chapeau +3",
         neck="Dls. Torque +2",
-        ear1="Regal Earring",
+        ear1="Vor Earring",
         ear2="Snorta Earring",
         body="Lethargy Sayon +1",
         hands="Lethargy Gantherots +1",
@@ -822,20 +858,40 @@ function get_sets()
         neck="Duelist's torque +2",
         body="Vitiation Tabard +3",
         hands="Atrophy gloves +3",
-        back="Ghostfyre Cape",
+        back="Ghostfyre cape",
         legs="Telchine Braconi",
         waist="Embla sash",
-        feet="Lethargy Houseaux +1"
+        feet="Lethargy Houseaux +1",
+        ear1="Mimir Earring"
 
     }
     -- For Potency spells like Temper and Enspells
     sets.midcast.enhancing.potency = set_combine(sets.midcast.enhancing.duration, {
-        main="Daybreak",
-        sub="Ammurapi Shield",
+        main="Pukulatmuj +1", -- 11
+        sub="Pukulatmuj", --10
+        ammo="Pemphredo Tathlum", --
+        head="Befouled Crown", -- 16
+        neck="Incanter's Torque", -- 10
+        ear2="Andoaa Earring", -- 5
+        ear1="Mimir Earring", --10
+        body="Vitiation Tabard +3", --23
+        hands="Vitiation Gloves +1", -- 
+        ring1="Stikini Ring", -- 5
+        ring2="Stikini Ring", -- 5
+        back="Ghostfyre cape", -- 4
+        waist="Embla Sash",
+        legs="Atrophy Tights +3", -- 24
+        feet="Leth. Houseaux +1" -- 25
+    }) 
+
+    sets.midcast.enhancing.potency.dw = set_combine(sets.midcast.enhancing.duration, {
+        main="Pukulatmuj +1",
+        sub="Pukulatmuj",
         ammo="Pemphredo Tathlum",
         head="Befouled Crown",
         neck="Duelist's torque +2",
         ear2="Andoaa Earring",
+        ear2="Mimir Earring",
         body="Vitiation Tabard +3",
         hands="Telchine Gloves",
         ring1="Stikini Ring",
@@ -851,7 +907,7 @@ function get_sets()
         head        =   EMPY.Head,
         hands       =   AF.Hands,
         legs        =   EMPY.Legs,
-        back        =   RDMCape.MACC,
+        back        =   "Ghostfyre cape",
     })  
 
 
@@ -867,8 +923,9 @@ function get_sets()
     -- Stoneskin
     sets.midcast.stoneskin = set_combine(sets.midcast.enhancing.duration, {
         neck="Nodens gorget",
-        legs="Shedir seraweels",
-        waist="Siegel Sash"
+        legs="Doyen Pants",
+        waist="Siegel Sash",
+        main="Pukulatmuj +1"
     })
     sets.midcast.refresh = set_combine(sets.midcast.enhancing.duration, {
     --head      =   Amal.Head.A,
@@ -896,8 +953,8 @@ function get_sets()
         neck="Nodens gorget",
         ear1="Mendicant's Earring",     --5
         ear2="Novia Earring",
-        body="Vitiation Tabard +3",
-        hands="Vanya Cuffs",
+        body="Chironic doublet",
+        hands="Telchine Gloves",
         ring1="Sirona's ring",
         ring2="Lebeche ring",           --2
         back= RDMCape.MACC,         --10

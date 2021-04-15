@@ -1,0 +1,18 @@
+sets.exported={
+    main="Fettering Blade",
+    sub="Odium",
+    range="Fomalhaut",
+    ammo="Orichalc. Bullet",
+    head={ name="Lilitu Headpiece", augments={'STR+10','DEX+10','Attack+15','Weapon skill damage +3%',}},
+    body="Laksa. Frac +2",
+    hands="Meg. Gloves +2",
+    legs={ name="Herculean Trousers", augments={'Mag. Acc.+20 "Mag.Atk.Bns."+20','Crit.hit rate+1','"Mag.Atk.Bns."+15',}},
+    feet={ name="Herculean Boots", augments={'Weapon skill damage +5%','AGI+1','Rng.Acc.+2','Rng.Atk.+14',}},
+    neck="Baetyl Pendant",
+    waist="Grunfeld Rope",
+    left_ear="Ishvara Earring",
+    right_ear="Digni. Earring",
+    left_ring="Archon Ring",
+    right_ring="Regal Ring",
+    back="Lupine Cape",
+}

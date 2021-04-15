@@ -1,0 +1,17 @@
+sets.exported={
+    main={ name="Lathi", augments={'INT+15','"Mag.Atk.Bns."+15','Mag. Acc.+15',}},
+    sub="Alber Strap",
+    ammo="Staunch Tathlum +1",
+    head={ name="Psycloth Tiara", augments={'Mag. Acc.+18','"Fast Cast"+9','INT+6',}},
+    body="Jhakri Robe +2",
+    hands={ name="Amalric Gages", augments={'INT+10','Mag. Acc.+15','"Mag.Atk.Bns."+15',}},
+    legs={ name="Psycloth Lappas", augments={'MP+50','Mag. Acc.+9','"Fast Cast"+4',}},
+    feet={ name="Merlinic Crackows", augments={'Mag. Acc.+30','Magic burst dmg.+8%','VIT+3','"Mag.Atk.Bns."+14',}},
+    neck="Baetyl Pendant",
+    waist="Witful Belt",
+    left_ear="Loquac. Earring",
+    right_ear="Etiolation Earring",
+    left_ring="Kishar Ring",
+    right_ring="Locus Ring",
+    back={ name="Taranus's Cape", augments={'INT+20','Mag. Acc+20 /Mag. Dmg.+20','Mag. Acc.+10','"Mag.Atk.Bns."+10',}},
+}

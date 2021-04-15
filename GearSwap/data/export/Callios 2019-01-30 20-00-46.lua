@@ -1,0 +1,17 @@
+sets.exported={
+    main={ name="Lathi", augments={'INT+15','"Mag.Atk.Bns."+15','Mag. Acc.+15',}},
+    sub="Alber Strap",
+    ammo="Staunch Tathlum +1",
+    head={ name="Merlinic Hood", augments={'Mag. Acc.+23 "Mag.Atk.Bns."+23','Mag. crit. hit dmg. +5%','INT+14','Mag. Acc.+10','"Mag.Atk.Bns."+8',}},
+    body="Jhakri Robe +2",
+    hands={ name="Amalric Gages", augments={'INT+10','Mag. Acc.+15','"Mag.Atk.Bns."+15',}},
+    legs={ name="Merlinic Shalwar", augments={'Mag. Acc.+24 "Mag.Atk.Bns."+24','"Drain" and "Aspir" potency +5','Mag. Acc.+14','"Mag.Atk.Bns."+12',}},
+    feet={ name="Merlinic Crackows", augments={'Mag. Acc.+30','Magic burst dmg.+8%','VIT+3','"Mag.Atk.Bns."+14',}},
+    neck="Bathy Choker +1",
+    waist="Eschan Stone",
+    left_ear="Friomisi Earring",
+    right_ear="Barkaro. Earring",
+    left_ring="Defending Ring",
+    right_ring={ name="Dark Ring", augments={'Phys. dmg. taken -5%','Magic dmg. taken -4%','Breath dmg. taken -3%',}},
+    back="Solemnity Cape",
+}

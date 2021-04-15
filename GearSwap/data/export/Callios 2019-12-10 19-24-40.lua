@@ -1,0 +1,17 @@
+sets.exported={
+    main="Montante +1",
+    sub="Alber Strap",
+    ammo="Ginsen",
+    head="Hjarrandi Helm",
+    body="Hjarrandi Breast.",
+    hands="Flam. Manopolas +2",
+    legs="Sulev. Cuisses +2",
+    feet="Flam. Gambieras +2",
+    neck="Combatant's Torque",
+    waist="Sailfi Belt +1",
+    left_ear="Telos Earring",
+    right_ear="Brutal Earring",
+    left_ring="Petrov Ring",
+    right_ring="Regal Ring",
+    back={ name="Rudianos's Mantle", augments={'HP+60','Eva.+20 /Mag. Eva.+20','Mag. Evasion+10','Enmity+10',}},
+}

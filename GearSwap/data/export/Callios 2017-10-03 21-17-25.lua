@@ -1,0 +1,17 @@
+sets.exported={
+    main={ name="Taming Sari", augments={'STR+3','DEX+4','DMG:+2',}},
+    sub="Odium",
+    ammo="Seething Bomblet",
+    head={ name="Lilitu Headpiece", augments={'STR+10','DEX+10','Attack+15','Weapon skill damage +3%',}},
+    body="Meg. Cuirie +2",
+    hands="Meg. Gloves +2",
+    legs={ name="Herculean Trousers", augments={'Accuracy+24 Attack+24','Crit. hit damage +3%','AGI+14','Accuracy+14','Attack+5',}},
+    feet={ name="Herculean Boots", augments={'Accuracy+25','"Triple Atk."+2','Attack+15',}},
+    neck="Sanctity Necklace",
+    waist="Grunfeld Rope",
+    left_ear="Ishvara Earring",
+    right_ear="Digni. Earring",
+    left_ring="Dim. Ring (Dem)",
+    right_ring="Regal Ring",
+    back="Lupine Cape",
+}

@@ -1,0 +1,17 @@
+sets.exported={
+    main="Bolelabunga",
+    sub="Genmei Shield",
+    ammo="Regal Gem",
+    head={ name="Viti. Chapeau +1", augments={'Enhances "Dia III" effect','Enhances "Slow II" effect',}},
+    body="Jhakri Robe +2",
+    hands="Atrophy Gloves +2",
+    legs={ name="Carmine Cuisses +1", augments={'Accuracy+20','Attack+12','"Dual Wield"+6',}},
+    feet={ name="Merlinic Crackows", augments={'Mag. Acc.+30','Magic burst dmg.+8%','VIT+3','"Mag.Atk.Bns."+14',}},
+    neck="Bathy Choker +1",
+    waist="Fucho-no-Obi",
+    left_ear="Infused Earring",
+    right_ear="Andoaa Earring",
+    left_ring="Defending Ring",
+    right_ring="Gelatinous Ring +1",
+    back={ name="Ghostfyre Cape", augments={'Enfb.mag. skill +10','Enha.mag. skill +1','Enh. Mag. eff. dur. +16',}},
+}

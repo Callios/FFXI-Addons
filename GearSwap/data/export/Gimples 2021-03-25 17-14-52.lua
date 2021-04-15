@@ -1,0 +1,17 @@
+sets.exported={
+    main="Bolelabunga",
+    sub="Sors Shield",
+    ammo="Hydrocera",
+    head="Befouled Crown",
+    body="Annoint. Kalasiris",
+    hands="Angantyr Mittens",
+    legs="Assiduity Pants",
+    feet="Inyanga Crackows",
+    neck="Warder's Charm +1",
+    waist="Fucho-no-Obi",
+    left_ear="Hearty Earring",
+    right_ear="Etiolation Earring",
+    left_ring="Defending Ring",
+    right_ring="Warden's Ring",
+    back="Disperser's Cape",
+}

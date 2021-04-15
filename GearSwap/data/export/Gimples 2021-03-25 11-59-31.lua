@@ -1,0 +1,17 @@
+sets.exported={
+    main={ name="Queller Rod", augments={'Healing magic skill +15','"Cure" potency +10%','"Cure" spellcasting time -7%',}},
+    sub="Sors Shield",
+    ammo="Hydrocera",
+    head="Nahtirah Hat",
+    body={ name="Telchine Chas.", augments={'"Fast Cast"+3','Pet: Damage taken -2%',}},
+    hands={ name="Telchine Gloves", augments={'"Fast Cast"+4','Enh. Mag. eff. dur. +10',}},
+    legs={ name="Telchine Braconi", augments={'"Fast Cast"+3','Pet: Damage taken -2%',}},
+    feet="Regal Pumps",
+    neck="Voltsurge Torque",
+    waist="Embla Sash",
+    left_ear="Etiolation Earring",
+    right_ear="Hearty Earring",
+    left_ring="Kishar Ring",
+    right_ring="Lebeche Ring",
+    back="Disperser's Cape",
+}

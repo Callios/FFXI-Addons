@@ -1,0 +1,17 @@
+sets.exported={
+    main={ name="Kali", augments={'Mag. Acc.+15','String instrument skill +10','Wind instrument skill +10',}},
+    sub="Ammurapi Shield",
+    range="Daurdabla",
+    head="Inyanga Tiara +2",
+    body="Inyanga Jubbah +2",
+    hands="Inyan. Dastanas +2",
+    legs="Assid. Pants +1",
+    feet="Fili Cothurnes +1",
+    neck="Bathy Choker +1",
+    waist="Fucho-no-Obi",
+    left_ear="Infused Earring",
+    right_ear="Odnowa Earring +1",
+    left_ring="Defending Ring",
+    right_ring="Warp Ring",
+    back={ name="Intarabus's Cape", augments={'CHR+20','Mag. Acc+20 /Mag. Dmg.+20','Mag. Acc.+6','"Fast Cast"+10',}},
+}

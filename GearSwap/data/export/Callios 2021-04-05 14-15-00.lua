@@ -1,0 +1,17 @@
+sets.exported={
+    main="Burtgang",
+    sub="Ochain",
+    ammo="Staunch Tathlum +1",
+    head={ name="Souv. Schaller +1", augments={'HP+105','Enmity+9','Potency of "Cure" effect received +15%',}},
+    body={ name="Souv. Cuirass +1", augments={'HP+105','Enmity+9','Potency of "Cure" effect received +15%',}},
+    hands={ name="Souv. Handsch. +1", augments={'HP+105','Enmity+9','Potency of "Cure" effect received +15%',}},
+    legs={ name="Carmine Cuisses +1", augments={'Accuracy+20','Attack+12','"Dual Wield"+6',}},
+    feet={ name="Odyssean Greaves", augments={'Rng.Atk.+16','Accuracy+30','"Refresh"+1','Mag. Acc.+6 "Mag.Atk.Bns."+6',}},
+    neck="Moonbeam Necklace",
+    waist="Rumination Sash",
+    left_ear={ name="Nourish. Earring +1", augments={'Path: A',}},
+    right_ear="Knightly Earring",
+    left_ring="Apeile Ring",
+    right_ring="Apeile Ring +1",
+    back={ name="Rudianos's Mantle", augments={'HP+60','Eva.+20 /Mag. Eva.+20','Mag. Evasion+10','Enmity+10',}},
+}

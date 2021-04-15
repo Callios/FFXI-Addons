@@ -1,0 +1,17 @@
+sets.exported={
+    main="Aeneas",
+    sub={ name="Taming Sari", augments={'STR+9','DEX+8','DMG:+14',}},
+    ammo="Ginsen",
+    head="Meghanada Visor +2",
+    body="Meg. Cuirie +2",
+    hands="Meg. Gloves +2",
+    legs={ name="Samnuha Tights", augments={'STR+10','DEX+10','"Dbl.Atk."+3','"Triple Atk."+3',}},
+    feet={ name="Herculean Boots", augments={'Accuracy+14 Attack+14','"Triple Atk."+3','Accuracy+15',}},
+    neck="Bathy Choker +1",
+    waist="Kentarch Belt",
+    left_ear="Infused Earring",
+    right_ear="Digni. Earring",
+    left_ring="Defending Ring",
+    right_ring="Epona's Ring",
+    back={ name="Senuna's Mantle", augments={'DEX+20','Accuracy+20 Attack+20','DEX+10','Weapon skill damage +10%',}},
+}

@@ -1,0 +1,17 @@
+sets.exported={
+    main="Burtgang",
+    sub="Ochain",
+    ammo="Staunch Tathlum +1",
+    head="Flam. Zucchetto +2",
+    body={ name="Odyss. Chestplate", augments={'"Snapshot"+4','Mag. Acc.+17','Phalanx +3',}},
+    hands="Flam. Manopolas +2",
+    legs={ name="Carmine Cuisses +1", augments={'Accuracy+20','Attack+12','"Dual Wield"+6',}},
+    feet="Flam. Gambieras +2",
+    neck="Bathy Choker +1",
+    waist="Fucho-no-Obi",
+    left_ear="Odnowa Earring +1",
+    right_ear="Infused Earring",
+    left_ring="Gelatinous Ring +1",
+    right_ring="Defending Ring",
+    back={ name="Rudianos's Mantle", augments={'HP+60','Eva.+20 /Mag. Eva.+20','Mag. Evasion+10','Enmity+10',}},
+}

@@ -1,0 +1,18 @@
+sets.exported={
+    main="Fettering Blade",
+    sub="Odium",
+    range="Fomalhaut",
+    ammo="Chrono Bullet",
+    head="Meghanada Visor +2",
+    body="Meg. Cuirie +2",
+    hands="Meg. Gloves +2",
+    legs={ name="Carmine Cuisses +1", augments={'Accuracy+20','Attack+12','"Dual Wield"+6',}},
+    feet={ name="Herculean Boots", augments={'Accuracy+14 Attack+14','"Triple Atk."+3','Accuracy+15',}},
+    neck="Loricate Torque +1",
+    waist="Gishdubar Sash",
+    left_ear="Infused Earring",
+    right_ear="Etiolation Earring",
+    left_ring="Meghanada Ring",
+    right_ring="Defending Ring",
+    back="Solemnity Cape",
+}

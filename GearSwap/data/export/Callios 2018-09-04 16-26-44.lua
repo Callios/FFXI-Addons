@@ -1,0 +1,17 @@
+sets.exported={
+    main="Sequence",
+    sub={ name="Colada", augments={'DEX+10','Accuracy+7','DMG:+16',}},
+    ammo="Ginsen",
+    head={ name="Dampening Tam", augments={'DEX+7','Accuracy+12','Mag. Acc.+2','Quadruple Attack +1',}},
+    body="Ayanmo Corazza +2",
+    hands="Aya. Manopolas +2",
+    legs={ name="Herculean Trousers", augments={'Accuracy+24 Attack+24','Crit. hit damage +3%','AGI+14','Accuracy+14','Attack+5',}},
+    feet={ name="Herculean Boots", augments={'Accuracy+14 Attack+14','"Triple Atk."+3','Accuracy+15',}},
+    neck="Sanctity Necklace",
+    waist="Olseni Belt",
+    left_ear="Telos Earring",
+    right_ear="Digni. Earring",
+    left_ring="Ilabrat Ring",
+    right_ring="Cacoethic Ring +1",
+    back="Lupine Cape",
+}

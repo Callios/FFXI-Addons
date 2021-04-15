@@ -1,0 +1,17 @@
+sets.exported={
+    main="Aeneas",
+    sub={ name="Taming Sari", augments={'STR+9','DEX+8','DMG:+14',}},
+    range="Daurdabla",
+    head="Aya. Zucchetto +2",
+    body="Ayanmo Corazza +2",
+    hands="Aya. Manopolas +2",
+    legs="Aya. Cosciales +2",
+    feet="Aya. Gambieras +2",
+    neck="Sanctity Necklace",
+    waist="Grunfeld Rope",
+    left_ear="Telos Earring",
+    right_ear="Digni. Earring",
+    left_ring="Ilabrat Ring",
+    right_ring="Petrov Ring",
+    back={ name="Intarabus's Cape", augments={'DEX+20','Accuracy+20 Attack+20','"Dbl.Atk."+10',}},
+}

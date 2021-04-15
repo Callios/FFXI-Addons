@@ -1,0 +1,18 @@
+sets.exported={
+    main="Fettering Blade",
+    sub="Odium",
+    range="Fomalhaut",
+    ammo="Orichalc. Bullet",
+    head="Pixie Hairpin +1",
+    body="Laksa. Frac +2",
+    hands={ name="Carmine Fin. Ga.", augments={'Rng.Atk.+15','"Mag.Atk.Bns."+10','"Store TP"+5',}},
+    legs={ name="Herculean Trousers", augments={'Mag. Acc.+20 "Mag.Atk.Bns."+20','Crit.hit rate+1','"Mag.Atk.Bns."+15',}},
+    feet={ name="Herculean Boots", augments={'Accuracy+14 Attack+14','"Triple Atk."+3','Accuracy+15',}},
+    neck="Baetyl Pendant",
+    waist="Eschan Stone",
+    left_ear="Novio Earring",
+    right_ear="Friomisi Earring",
+    left_ring="Archon Ring",
+    right_ring="Dingir Ring",
+    back={ name="Gunslinger's Cape", augments={'Enmity-4','"Mag.Atk.Bns."+4','Weapon skill damage +2%',}},
+}

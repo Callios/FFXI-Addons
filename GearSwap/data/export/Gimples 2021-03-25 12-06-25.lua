@@ -1,0 +1,17 @@
+sets.exported={
+    main={ name="Gada", augments={'Enh. Mag. eff. dur. +3','MND+14','Mag. Acc.+20','"Mag.Atk.Bns."+18',}},
+    sub="Sors Shield",
+    ammo="Hydrocera",
+    head="Theo. Cap +1",
+    body="Annoint. Kalasiris",
+    hands="Theo. Mitts +1",
+    legs="Sifahir Slacks",
+    feet="Regal Pumps",
+    neck="Voltsurge Torque",
+    waist="Embla Sash",
+    left_ear="Gwati Earring",
+    right_ear="Nourish. Earring",
+    left_ring="Sirona's Ring",
+    right_ring="Lebeche Ring",
+    back="Pahtli Cape",
+}

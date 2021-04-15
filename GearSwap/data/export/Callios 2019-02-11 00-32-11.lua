@@ -1,0 +1,17 @@
+sets.exported={
+    main="Kaja Sword",
+    sub="Ochain",
+    ammo="Staunch Tathlum +1",
+    head="Flam. Zucchetto +2",
+    body={ name="Souv. Cuirass +1", augments={'HP+105','Enmity+9','Potency of "Cure" effect received +15%',}},
+    hands="Flam. Manopolas +2",
+    legs={ name="Souv. Diechlings +1", augments={'HP+105','Enmity+9','Potency of "Cure" effect received +15%',}},
+    feet="Flam. Gambieras +2",
+    neck="Bathy Choker +1",
+    waist="Eschan Stone",
+    left_ear="Odnowa Earring +1",
+    right_ear="Odnowa Earring",
+    left_ring="Gelatinous Ring +1",
+    right_ring="Regal Ring",
+    back={ name="Rudianos's Mantle", augments={'HP+60','Eva.+20 /Mag. Eva.+20','Mag. Evasion+10','Enmity+10',}},
+}

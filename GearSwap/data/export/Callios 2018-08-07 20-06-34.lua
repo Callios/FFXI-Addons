@@ -1,0 +1,18 @@
+sets.exported={
+    main="Fettering Blade",
+    sub="Odium",
+    range="Fomalhaut",
+    ammo="Orichalc. Bullet",
+    head="Meghanada Visor +2",
+    body="Meg. Cuirie +2",
+    hands="Meg. Gloves +2",
+    legs="Meg. Chausses +2",
+    feet={ name="Herculean Boots", augments={'Accuracy+14 Attack+14','"Triple Atk."+3','Accuracy+15',}},
+    neck="Sanctity Necklace",
+    waist="Reiki Yotai",
+    left_ear="Telos Earring",
+    right_ear="Digni. Earring",
+    left_ring="Ilabrat Ring",
+    right_ring="Epona's Ring",
+    back={ name="Camulus's Mantle", augments={'DEX+20','Accuracy+20 Attack+20','"Store TP"+10',}},
+}

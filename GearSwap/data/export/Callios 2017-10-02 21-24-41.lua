@@ -1,0 +1,18 @@
+sets.exported={
+    main={ name="Malevolence", augments={'INT+10','Mag. Acc.+10','"Mag.Atk.Bns."+10','"Fast Cast"+5',}},
+    sub="Nusku Shield",
+    range={ name="Doomsday", augments={'Rng.Atk.+19','"Snapshot"+2','AGI+19',}},
+    ammo="Decimating Bullet",
+    head="Meghanada Visor +2",
+    body="Meg. Cuirie +2",
+    hands="Meg. Gloves +2",
+    legs="Meg. Chausses +1",
+    feet="Jute Boots +1",
+    neck="Gaudryi Necklace",
+    waist="Eschan Stone",
+    left_ear="Telos Earring",
+    right_ear="Infused Earring",
+    left_ring="Meghanada Ring",
+    right_ring="Haverton Ring",
+    back={ name="Belenus's Cape", augments={'AGI+20','Rng.Acc.+20 Rng.Atk.+20','AGI+10','"Store TP"+10',}},
+}
