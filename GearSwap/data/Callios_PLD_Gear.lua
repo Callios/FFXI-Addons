@@ -112,7 +112,7 @@ function init_gear_sets()
     sets.precast.Enmity = {ammo="Paeapua",
         head="Loess Barbuta +1",neck="Unmoving Collar +1",ear2="Friomisi Earring", ear1="Cryptic Earring",
         body="Souveran cuirass +1",hands="Souveran handschuhs +1",ring1="Apeile Ring",ring2="Apeile Ring +1",
-        back=gear.RudianosEnm,waist="Creed Baudrier",legs="Souveran diechlings +1",feet="Souveran schuhs +1"}
+        back=gear.RudianosEnm,waist="Creed Baudrier",legs="Souveran diechlings +1",feet="Eschite Greaves"}
  
     -- Precast sets to enhance JAs
     sets.precast.JA['Invincible'] = set_combine(sets.precast.Enmity, {legs="Caballarius Breeches +1"})
@@ -164,12 +164,12 @@ function init_gear_sets()
      
     sets.precast.WS = {ammo="Amar Cluster",
         head="Flamma Zucchetto +2",neck="Fotia Gorget",ear1="Moonshade Earring",ear2="Brutal Earring",
-        body="Flamma korazin +2",hands="Sulevia's Gauntlets +2",ring1="Regal Ring",ring2="Rufescent Ring",
+        body="Flamma korazin +2",hands="Sulevia's Gauntlets +2",ring1="Regal Ring",ring2="Epaminondas's ring",
         back=gear.RudianosWS,waist="Fotia Belt",legs="Sulevia's Cuisses +2",feet="Sulevia's Leggings +2"}
  
     sets.precast.WS.Acc = {ammo="Amar Cluster",
         head="Flamma Zucchetto +2",neck="Fotia Gorget",ear1="Moonshade Earring",ear2="Ishvara Earring",
-        body="Flamma Korazin +2",hands="Flamma Manopolas +2",ring1="Regal Ring",ring2="Rufescent Ring",
+        body="Flamma Korazin +2",hands="Flamma Manopolas +2",ring1="Regal Ring",ring2="Epaminondas's ring",
         back=gear.RudianosWS,waist="Anguinus Belt",legs="Flamma Dirs +2",feet="Flamma Gambieras +2"}
  
      
@@ -202,17 +202,17 @@ function init_gear_sets()
          
     sets.precast.WS['Savage Blade'] = {ammo="Amar Cluster",
         head="Valorous Mask",neck="Fotia Gorget",ear1="Moonshade Earring",ear2="Thrud Earring",
-        body=gear.OdyWSBODY,hands="Valorous Mitts",ring1="Rufescent Ring",ring2="Regal Ring",
+        body=gear.OdyWSBODY,hands="Valorous Mitts",ring1="Rufescent Ring",ring2="Epaminondas's ring",
         back=gear.RudianosWS,waist="Sailfi Belt +1",legs=gear.ValWSLEGS,feet="Sulevia's Leggings +2"}    
      
         sets.precast.WS['Judgment'] = {ammo="Amar Cluster",
         head="Valorous Mask",neck="Fotia Gorget",ear1="Moonshade Earring",ear2="Thrud Earring",
-        body=gear.OdyWSBODY,hands="Valorous Mitts",ring1="Rufescent Ring",ring2="Regal Ring",
+        body=gear.OdyWSBODY,hands="Valorous Mitts",ring1="Epaminondas's ring",ring2="Regal Ring",
         back=gear.RudianosWS,waist="Sailfi Belt +1",legs=gear.ValWSLEGS,feet="Sulevia's Leggings +2"}
 
     sets.precast.WS['Circle Blade'] = {ammo="Amar Cluster",
         head="Valorous Mask",neck="Fotia Gorget",ear1="Moonshade Earring",ear2="Thrud Earring",
-        body=gear.OdyWSBODY,hands="Sulevia's Gauntlets +2",ring1="Rufescent Ring",ring2="Regal Ring",
+        body=gear.OdyWSBODY,hands="Sulevia's Gauntlets +2",ring1="Epaminondas's ring",ring2="Regal Ring",
         back=gear.RudianosWS,waist="Sailfi Belt +1",legs=gear.ValWSLEGS,feet="Sulevia's Leggings +2"}
          
          

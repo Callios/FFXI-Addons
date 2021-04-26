@@ -102,7 +102,7 @@ function init_gear_sets()
 
 	sets.precast.WS = {range="Linos",
 		head="Ayanmo zucchetto +2",neck="Caro necklace",ear1="Ishvara earring",ear2="Moonshade earring",
-		body="Bihu Jstcorps. +3",hands="Ayanmo manopolas +2",ring1="Petrov ring",ring2="Ilabrat ring",
+		body="Bihu Jstcorps. +3",hands="Ayanmo manopolas +2",ring1="Epaminondas's ring",ring2="Ilabrat ring",
 		back=BRD_MELEE,waist="Grunfeld rope",legs="Lustratio subligar +1",feet="Lustratio leggings +1"}
 		
 	sets.precast.WS.Acc = set_combine(sets.precast.WS, {})
@@ -114,7 +114,7 @@ function init_gear_sets()
 	 
 	sets.precast.WS['Mordant Rime'] = {range="Linos",
 		head="Bihu roundlet +3",neck="Moonbow Whistle +1",ear1="Brutal earring",ear2="Regal Earring",
-		body="Bihu Jstcorps. +3",hands="Bihu Cuffs +3",ring1="Petrov ring",ring2="Ilabrat ring",
+		body="Bihu Jstcorps. +3",hands="Bihu Cuffs +3",ring1="Epaminondas's ring",ring2="Ilabrat ring",
 		back=BRD_MELEE,waist="Grunfeld rope",legs="Lustratio subligar +1",feet="Bihu Slippers +3"}
 		
 	sets.precast.WS['Mordant Rime'].Acc = set_combine(sets.precast.WS['Mordant Rime'], {
@@ -124,7 +124,7 @@ function init_gear_sets()
 		
 	sets.precast.WS['Evisceration'] = {range="Linos",
 		head="Bihu Roundlet +3",neck="Fotia gorget",ear1="Brutal earring",ear2="Moonshade earring",
-		body="Bihu Jstcorps. +3",hands="Bihu Cuffs +3",ring1="Begrudging Ring",ring2="Ilabrat Ring",
+		body="Bihu Jstcorps. +3",hands="Bihu Cuffs +3",ring1="Begrudging Ring",ring2="Epaminondas's ring",
 		back=BRD_MELEE,waist="Fotia belt",legs="Lustratio subligar +1",feet="Bihu Slippers +3"}
 		
 	sets.precast.WS['Evisceration'].Acc = set_combine(sets.precast.WS["Evisceration"], {

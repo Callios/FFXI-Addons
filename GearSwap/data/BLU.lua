@@ -128,7 +128,7 @@ function job_setup()
         'Geist Wall','Hecatomb Wave','Infrasonics','Jettatura','Light of Penance',
         'Lowing','Mind Blast','Mortal Ray','MP Drainkiss','Osmosis','Reaving Wind',
         'Sandspin','Sandspray','Sheep Song','Soporific','Sound Blast','Stinking Gas',
-        'Sub-zero Smash','Venom Shell','Voracious Trunk','Yawn'
+        'Sub-zero Smash','Venom Shell','Voracious Trunk','Yawn','Cruel Joke'
     }
         
     -- Breath-based spells
@@ -152,7 +152,7 @@ function job_setup()
     
     -- Buffs that depend on blue magic skill
     blue_magic_maps.SkillBasedBuff = S{
-        'Barrier Tusk','Diamondhide','Magic Barrier','Metallic Body','Plasma Charge',
+        'Barrier Tusk','Diamondhide','Magic Barrier','Metallic Body','Plasma Charge','Occultation',
         'Pyric Bulwark','Reactor Cool',
     }
 
@@ -160,7 +160,7 @@ function job_setup()
     blue_magic_maps.Buff = S{
         'Amplification','Animating Wail','Battery Charge','Carcharian Verve','Cocoon',
         'Erratic Flutter','Exuviation','Fantod','Feather Barrier','Harden Shell',
-        'Memento Mori','Nat. Meditation','Occultation','Orcish Counterstance','Refueling',
+        'Memento Mori','Nat. Meditation','Orcish Counterstance','Refueling',
         'Regeneration','Saline Coat','Triumphant Roar','Warm-Up','Winds of Promyvion',
         'Zephyr Mantle'
     }

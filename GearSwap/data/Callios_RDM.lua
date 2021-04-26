@@ -411,7 +411,7 @@ function get_sets()
         ear2="Moonshade Earring",
         legs="Jhakri Slops +2",
         ring1="Rufescent Ring",
-        ring2="Ilabrat Ring",
+        ring2="Epaminondas's ring",
         waist="Sailfi Belt +1",
         feet="Nyame Sollerets",
         back= RDMCape.STRWS
@@ -445,7 +445,7 @@ function get_sets()
         ear2="Moonshade Earring",
         legs="Jhakri Slops +2",
         ring1="Rufescent Ring",
-        ring2="Ilabrat Ring",
+        ring2="Epaminondas's ring",
         waist="Sailfi Belt +1",
         feet="Nyame Sollerets",
         back= RDMCape.STRWS
@@ -460,7 +460,7 @@ function get_sets()
         ear1="Regal Earring",
         ear2="Moonshade Earring",
         body="Vitiation Tabard +3",
-        ring1="Rufescent Ring",
+        ring1="Epaminondas's ring",
         ring2="Metamorph Ring +1",
         waist="Prosilio Belt +1",
         feet="Nyame Sollerets",
@@ -475,7 +475,7 @@ function get_sets()
         body="Jhakri Robe +2",
         hands="Atrophy Gloves +3",
         ring1="Rufescent Ring",
-        ring2="Ilabrat Ring",
+        ring2="Epaminondas's ring",
         back= RDMCape.MACC,
         waist="Fotia Belt",
         legs="Jhakri Slops +2",
@@ -491,7 +491,7 @@ function get_sets()
         body="Ayanmo Corazza +2",
         hands="Atrophy Gloves +3",
         ring1="Begrudging Ring",
-        ring2="Ilabrat Ring",
+        ring2="Epaminondas's ring",
         back= RDMCape.DW,
         waist="Fotia Belt",
         legs="Jhakri Slops +2",
@@ -537,7 +537,7 @@ function get_sets()
         ear2="Malignance Earring",
         body="Jhakri Robe +2",
         hands="Jhakri Cuffs +2",
-        ring1="Archon Ring",
+        ring1="Epaminondas's ring",
         ring2="Freke Ring",
         back= RDMCape.MAGWS,
         waist="Refoccilation Stone",
@@ -852,7 +852,7 @@ function get_sets()
     
     -- Enhancing yourself 
     sets.midcast.enhancing.duration = {
-
+        main="Colada",
         sub="Ammurapi Shield",
         head="Telchine cap",
         neck="Duelist's torque +2",
@@ -875,11 +875,11 @@ function get_sets()
         ear2="Andoaa Earring", -- 5
         ear1="Mimir Earring", --10
         body="Vitiation Tabard +3", --23
-        hands="Vitiation Gloves +1", -- 
+        hands="Vitiation Gloves +1", -- 20
         ring1="Stikini Ring", -- 5
         ring2="Stikini Ring", -- 5
         back="Ghostfyre cape", -- 4
-        waist="Embla Sash",
+        waist="Olympus sash", -- 5
         legs="Atrophy Tights +3", -- 24
         feet="Leth. Houseaux +1" -- 25
     }) 
@@ -897,7 +897,7 @@ function get_sets()
         ring1="Stikini Ring",
         ring2="Stikini Ring",
         back="Ghostfyre cape",
-        waist="Embla Sash",
+        waist="Olympus sash",
         legs="Telchine Braconi",
         feet="Leth. Houseaux +1"
     }) 

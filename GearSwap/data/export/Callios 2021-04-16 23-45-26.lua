@@ -1,0 +1,17 @@
+sets.exported={
+    main="Naegling",
+    sub="Maxentius",
+    ammo="Amar Cluster",
+    head={ name="Lilitu Headpiece", augments={'STR+10','DEX+10','Attack+15','Weapon skill damage +3%',}},
+    body="Assim. Jubbah +3",
+    hands="Jhakri Cuffs +2",
+    legs={ name="Samnuha Tights", augments={'STR+10','DEX+10','"Dbl.Atk."+3','"Triple Atk."+3',}},
+    feet="Aya. Gambieras +2",
+    neck="Caro Necklace",
+    waist="Grunfeld Rope",
+    left_ear="Ishvara Earring",
+    right_ear={ name="Moonshade Earring", augments={'Attack+4','TP Bonus +250',}},
+    left_ring="Ilabrat Ring",
+    right_ring="Rufescent Ring",
+    back="Lupine Cape",
+}
