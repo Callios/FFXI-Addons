@@ -44,6 +44,8 @@ function init_gear_sets()
     sets.buff.Enchainment = {body="Luhlaza Jubbah +1"}
     sets.buff.Efflux = {legs="Hashishin tayt +1",back=gear.RosCapeDEX}
 
+    gear.BLUnuke = {name="Rosmerta's Cape", augments={'INT+20','Mag. Acc+20 /Mag. Dmg.+20','INT+10','"Mag.Atk.Bns."+10',}}
+    gear.BLUSTRWS = { name="Rosmerta's Cape", augments={'STR+20','Accuracy+20 Attack+20','Weapon skill damage +10%',}}
     
     -- Precast Sets
     
@@ -62,7 +64,7 @@ function init_gear_sets()
     sets.precast.FC = {ammo="Impatiens",
         head="Carmine mask +1",neck="Baetyl pendant",ear1="Enchanter earring +1",ear2="Loquacious Earring",
         body="Luhlaza jubbah +3",hands="Leyline gloves",ring1="Kishar ring",ring2="Defending Ring",
-        back="Solemnity cape",waist="Witful Belt",legs="Ayanmo cosciales +2",feet="Carmine greaves +1"}
+        back="Fi Follet Cape +1",waist="Witful Belt",legs="Ayanmo cosciales +2",feet="Carmine greaves +1"}
         
     sets.precast.FC['Blue Magic'] = set_combine(sets.precast.FC, {body="Hashishin mintan"})
 
@@ -72,43 +74,43 @@ function init_gear_sets()
     sets.precast.WS = {ammo="Amar cluster",
         head="Adhemar bonnet +1",neck="Caro necklace",ear1="Ishvara earring",ear2="Brutal Earring",
         body="Assim. Jubbah +3",hands="Adhemar wristbands +1",ring1="Ilabrat ring",ring2="Epaminondas's ring",
-        back="Cornflower cape",waist="Sailfi Belt +1",legs=gear.HercLegsSTR,feet="Nyame Sollerets"}
+        back=gear.BLUSTRWS,waist="Sailfi Belt +1",legs=gear.HercLegsSTR,feet="Nyame Sollerets"}
     
     sets.precast.WS.Acc = {ammo="Mantoptera",
         head=gear.TaeonHeadTA,neck="Fotia gorget",ear1="Zennaroi Earring",ear2="Moonshade Earring",
         body="Assim. Jubbah +3", hands="Adhemar wristbands +1",ring1="Ilabrat ring",ring2="Ramuh ring +1",
-        back="Cornflower cape",waist="Fotia belt",legs="Samnuha tights",feet="Nyame Sollerets"}
+        back=gear.BLUSTRWS,waist="Fotia belt",legs="Samnuha tights",feet="Nyame Sollerets"}
 
     -- Specific weaponskill sets.  Uses the base set if an appropriate WSMod version isn't found.
     sets.precast.WS['Chant du Cygne'] = {ammo="Jukukik feather",
         head="Adhemar bonnet +1",neck="Fotia gorget",ear1="Telos earring",ear2="Moonshade earring",
         body="Assim. Jubbah +3",hands="Adhemar wristbands +1",ring1="Apate ring",ring2="Epaminondas's ring",
-        back="Cornflower Cape",waist="Fotia belt",legs="Samnuha tights",feet="Nyame Sollerets"}
+        back=gear.BLUSTRWS,waist="Fotia belt",legs="Samnuha tights",feet="Nyame Sollerets"}
 	
 	sets.precast.WS['Chant du Cygne'].Acc = {ammo="Falcon eye",
         head="Carmine mask +1",neck="Fotia gorget",ear1="Zennaroi Earring",ear2="Moonshade Earring",
         body="Assim. Jubbah +3",hands=gear.HercHandsACC,ring1="Begrudging ring",ring2="Epaminondas's ring",
-        back=gear.RosCapeDEX,waist="Fotia belt",legs="Carmine cuisses +1",feet="Thereoid Greaves"}
+        back=gear.BLUSTRWS,waist="Fotia belt",legs="Carmine cuisses +1",feet="Thereoid Greaves"}
 		
 	sets.precast.WS['Savage Blade'] = {ammo="Amar cluster",
         head="Lilitu headpiece",neck="Caro necklace",ear1="Ishvara earring",ear2="Moonshade Earring",
         body="Assim. Jubbah +3",hands="Jhakri cuffs +2",ring1="Epaminondas's ring",ring2="Rufescent ring",
-        back="Lupine cape",waist="Sailfi Belt +1",legs="Samnuha tights",feet="Nyame Sollerets"}
+        back=gear.BLUSTRWS,waist="Sailfi Belt +1",legs="Samnuha tights",feet="Nyame Sollerets"}
 		
 	sets.precast.WS['Savage Blade'].Acc = {ammo="Amar cluster",
         head="Lilitu headpiece",neck="Caro Necklace",ear1="Regal earring",ear2="Moonshade Earring",
         body="Assim. Jubbah +3",hands="Jhakri cuffs +2",ring1="Epaminondas's ring",ring2="Rufescent ring",
-        back="Lupine cape",waist="Sailfi Belt +1",legs="Samnuha tights",feet="Nyame Sollerets"}
+        back=gear.BLUSTRWS,waist="Sailfi Belt +1",legs="Samnuha tights",feet="Nyame Sollerets"}
 
 	sets.precast.WS['Expiacion'] = {ammo="Floestone",
         head="Lilitu headpiece",neck="Caro necklace",ear1="Ishvara earring",ear2="Moonshade Earring",
         body="Assim. Jubbah +3",hands="Jhakri cuffs +2",ring1="Ilabrat ring",ring2="Epaminondas's ring",
-        back=gear.RosCapeSTR,waist="Prosilio belt +1",legs=gear.HercLegsSTR,feet="Nyame Sollerets"}
+        back=gear.BLUSTRWS,waist="Prosilio belt +1",legs=gear.HercLegsSTR,feet="Nyame Sollerets"}
 		
 	sets.precast.WS['Expiacion'].Acc = {ammo="Mantoptera",
         head="Lilitu headpiece",neck="Caro necklace",ear1="Regal earring",ear2="Moonshade Earring",
         body="Assim. Jubbah +3",hands="Jhakri cuffs +2",ring1="Ilabrat ring",ring2="Epaminondas's ring",
-        back=gear.RosCapeSTR,waist="Sailfi Belt +1",legs=gear.HercLegsSTR,feet="Nyame Sollerets"}
+        back=gear.BLUSTRWS,waist="Sailfi Belt +1",legs=gear.HercLegsSTR,feet="Nyame Sollerets"}
 		
 	sets.precast.WS['Requiescat'] = {ammo="Floestone",
 		head="Jhakri coronal +2",neck="Fotia gorget",ear1="Cessance earring",ear2="Brutal earring",
@@ -123,7 +125,7 @@ function init_gear_sets()
     sets.precast.WS['Sanguine Blade'] = {ammo="Pemphredo tathlum",
         head="pixie hairpin +1",neck="Sanctity Necklace",ear1="Regal earring",ear2="Friomisi Earring",
         body="Jhakri robe +2", hands="Jhakri cuffs +2", ring1="Shiva ring", ring2="Shiva ring",
-        back="Cornflower cape",waist="Eschan stone",
+        back=gear.BLUnuke,waist="Eschan stone",
         legs={ name="Herculean Trousers", augments={'Mag. Acc.+20 "Mag.Atk.Bns."+20','Crit.hit rate+1','"Mag.Atk.Bns."+15',}},
         feet="Nyame Sollerets"}
     
@@ -153,7 +155,7 @@ function init_gear_sets()
     sets.midcast['Blue Magic'].PhysicalAcc = {ammo="Mantoptera eye",
         head="Carmine mask +1",neck="Caro necklace",ear1="Regal earring",ear2="Dignitary's earring",
         body="Assimilator's jubbah +3",hands="Jhakri cuffs +2",ring1="Ilabrat ring",ring2="Ramuh ring +1",
-        back=gear.RosCapeSTR,waist="Grunfeld rope",legs="Carmine cuisses +1",feet="Nyame Sollerets"}
+        back=gear.BLUnuke,waist="Grunfeld rope",legs="Carmine cuisses +1",feet="Nyame Sollerets"}
 
     sets.midcast['Blue Magic'].PhysicalStr = set_combine(sets.midcast['Blue Magic'].Physical,{})
     sets.midcast['Blue Magic'].PhysicalDex = set_combine(sets.midcast['Blue Magic'].Physical,{})
@@ -169,13 +171,13 @@ function init_gear_sets()
     
     sets.midcast['Blue Magic'].Magical = {ammo="Dosis tathlum",
         head="Jhakri coronal +2",neck="Baetyl pendant",ear1="Regal Earring",ear2="Friomisi earring",
-        body="Jhakri robe +2",hands="Amalric gages",ring1="Shiva ring",ring2="Shiva ring",
-        back="Cornflower cape",waist="Eschan stone",legs="Jhakri slops +2",feet="Nyame Sollerets"}
+        body="Jhakri robe +2",hands="Jhakri cuffs +2",ring1="Shiva ring",ring2="Jhakri ring",
+        back=gear.BLUnuke,waist="Eschan stone",legs="Jhakri slops +2",feet="Jhakri Pigaches +2"}
 
     sets.midcast['Blue Magic'].Magical.Resistant = {ammo="Pemphredo tathlum",
 		head="Jhakri coronal +2",neck="Sanctity Necklace",ear1="Regal Earring",ear2="Dignitary's earring",
 		body="Jhakri robe +2",hands="Jhakri cuffs +2",ring1="Stikini ring",ring2="Stikini ring",
-		back=gear.RosCapeNuke,waist=gear.ElementalObi,legs="Jhakri slops +2",feet="Nyame Sollerets"}
+		back=gear.BLUnuke,waist=gear.ElementalObi,legs="Jhakri slops +2",feet="Jhakri Pigaches +2"}
 		
 	sets.midcast['Tenebral Crush'] = set_combine(sets.midcast['Blue Magic'].Magical,{
 		head="Pixie hairpin +1",ring2="Archon ring"})
@@ -187,8 +189,8 @@ function init_gear_sets()
 
     sets.midcast['Blue Magic'].MagicAccuracy = {ammo="Pemphredo tathlum",
         head="Carmine mask +1",neck="Sanctity necklace",ear1="Gwati earring",ear2="Dignitary's earring",
-		body="Jhakri robe +2",hands="Jhakri cuffs +2",ring1="Stikini ring",ring2="Stikini ring",
-        back="Cornflower Cape",waist="Luminary sash",legs="Jhakri slops +2",feet="Nyame Sollerets"}
+		body="Jhakri robe +2",hands="Jhakri cuffs +2",ring1="Stikini ring",ring2="Jhakri ring",
+        back=gear.BLUnuke,waist="Luminary sash",legs="Jhakri slops +2",feet="Jhakri Pigaches +2"}
 
     -- Breath Spells --
     
@@ -378,7 +380,7 @@ sets.engaged.DT = {ammo="Ginsen",
         }
 
         sets.engaged.DW.DT = {ammo="Ginsen",
-        head="Malignance Chapeau",neck="Combatant's torque",ear1="Eabani Earring",ear2="Suppanomimi earring",
+        head="Malignance Chapeau",neck="Combatant's torque",ear1="Eabani Earring",ear2="Suppanomimi",
         body="Malignance Tabard",hands="Malignance gloves",ring1="Petrov Ring",ring2="Ilabrat ring",
         back="Lupine cape",waist="Windbuffet Belt +1",legs="Malignance tights",
         feet={ name="Herculean Boots", augments={'Accuracy+14 Attack+14','"Triple Atk."+3','Accuracy+15',}}

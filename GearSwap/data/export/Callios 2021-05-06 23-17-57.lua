@@ -1,0 +1,17 @@
+sets.exported={
+    main="C. Palug Hammer",
+    sub="Genmei Shield",
+    ammo="Staunch Tathlum +1",
+    head="C. Palug Crown",
+    body="Inyanga Jubbah +2",
+    hands="Inyan. Dastanas +2",
+    legs="Aya. Cosciales +2",
+    feet="Nyame Sollerets",
+    neck="Baetyl Pendant",
+    waist="Embla Sash",
+    left_ear="Malignance Earring",
+    right_ear="Loquac. Earring",
+    left_ring="Rahab Ring",
+    right_ring="Kishar Ring",
+    back={ name="Fi Follet Cape +1", augments={'Path: A',}},
+}

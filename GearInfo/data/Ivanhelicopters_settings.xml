@@ -69,6 +69,7 @@
                 <y>73</y>
             </pos>
         </display>
+        <image_folder_name>default</image_folder_name>
         <player>
             <rank>1</rank>
             <show_COR_messages>true</show_COR_messages>
@@ -80,6 +81,7 @@
             <show_acc_Stuff>false</show_acc_Stuff>
             <show_att_Stuff>false</show_att_Stuff>
             <show_dt_Stuff>false</show_dt_Stuff>
+            <show_logo>true</show_logo>
             <show_total_haste>true</show_total_haste>
             <show_tp_Stuff>true</show_tp_Stuff>
             <update_gs>true</update_gs>

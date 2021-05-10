@@ -80,7 +80,7 @@ nukeModes = M('normal', 'acc')
 -- Defaults are the first in each list
 
 mainWeapon = M('Daybreak', 'Crocea Mors', 'Naegling', 'Tauret', 'Maxentius' , 'Sequence', 'ceremonial dagger')
-subWeapon = M('Sacro Bulwark', 'Ammurapi Shield', 'Tauret', 'Maxentius','Blurred knife +1','Naegling','Daybreak', 'Chicken Knife II')
+subWeapon = M('Sacro Bulwark', 'Ammurapi Shield', 'Machaera +2','Tauret', 'Maxentius','Blurred knife +1','Naegling','Daybreak', 'Chicken Knife II', 'ceremonial dagger')
 ------------------------------------------------------------------------------------------------------
 
 ----------------------------------------------------------

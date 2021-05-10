@@ -70,13 +70,13 @@ return {
     [3]={
         ["discription"]="DMG:5 Delay:228", 
         ["en"]="Onion Sword", 
-        ["skill"]="Sword", 
-        ["delay"]=228, 
-        ["category"]="Weapon", 
         ["slots"]={
             [0]="Main", 
             [1]="Sub"
         }, 
+        ["delay"]=228, 
+        ["category"]="Weapon", 
+        ["skill"]="Sword", 
         ["jobs"]={
             [1]="WAR", 
             [5]="RDM", 
@@ -137,6 +137,40 @@ return {
         }, 
         ["en"]="Hume Slacks", 
         ["id"]=12883, 
+        ["category"]="Armor", 
+        ["jobs"]={
+            [1]="WAR", 
+            [2]="MNK", 
+            [3]="WHM", 
+            [4]="BLM", 
+            [5]="RDM", 
+            [6]="THF", 
+            [7]="PLD", 
+            [8]="DRK", 
+            [9]="BST", 
+            [10]="BRD", 
+            [11]="RNG", 
+            [12]="SAM", 
+            [13]="NIN", 
+            [14]="DRG", 
+            [15]="SMN", 
+            [16]="BLU", 
+            [17]="COR", 
+            [18]="PUP", 
+            [19]="DNC", 
+            [20]="SCH", 
+            [21]="GEO", 
+            [22]="RUN"
+        }
+    }, 
+    [6]={
+        ["discription"]="DEF:1", 
+        ["DEF"]=1, 
+        ["slots"]={
+            [1]="Sub"
+        }, 
+        ["en"]="Troth", 
+        ["id"]=26489, 
         ["category"]="Armor", 
         ["jobs"]={
             [1]="WAR", 

@@ -49,13 +49,21 @@
                 <x>1334</x>
                 <y>776</y>
             </pos>
+        </display>
+    </callios>
+    <gimples>
+        <display>
+            <pos>
+                <x>24</x>
+                <y>312</y>
+            </pos>
             <text>
                 <fonts>
 
                 </fonts>
             </text>
         </display>
-    </callios>
+    </gimples>
     <gipi>
         <display>
             <pos>

@@ -95,7 +95,7 @@ function init_gear_sets()
     hands="Leyline Gloves",ring1="Kishar Ring",ring2="Rahab Ring",neck="Baetyl Pendant",waist="Sailfi Belt+1",
     feet=gear.HercFeetFC}
 
-    sets.precast.FC.Utsusemi = set_combine(sets.precast.FC, {neck="Magoraga Beads",body="Passion jacket"})
+    sets.precast.FC.Utsusemi = set_combine(sets.precast.FC, {neck="Magoraga Beads",body="Passion jacket", back="Andartia's mantle"})
 
     -- Snapshot for ranged
     sets.precast.RA = {hands="Volte Mittens",legs="Volte Tights",feet="Wurrukatte Boots"}
@@ -136,7 +136,7 @@ function init_gear_sets()
     hands="Leyline Gloves",ring1="Kishar Ring",ring2="Rahab Ring",neck="Baetyl Pendant",
     feet=gear.HercFeetFC}
         
-    sets.midcast.Utsusemi = set_combine(sets.midcast.SelfNinjutsu, {feet="Iga Kyahan +2"})
+    sets.midcast.Utsusemi = set_combine(sets.midcast.SelfNinjutsu, {feet="Iga Kyahan +2", back="Andartia's Mantle"})
 
     sets.midcast.ElementalNinjutsu = {
         head="Ryuo Somen",neck="Baetyl Pendant",ear1="Friomisi Earring",ear2="Novio Earring",
@@ -215,11 +215,17 @@ function init_gear_sets()
     -- Normal melee group
     sets.engaged = {ammo="Happo Shuriken +1",
         head="Ryuo Somen +1",neck="Moonbeam Nodowa",ear1="Suppanomimi",ear2="Eabani Earring",
-        body="Adhemar jacket +1",hands="Adhemar wristbands +1",ring1="Petrov Ring",ring2="Epona's Ring",
+        body="Tatenashi haramaki +1",hands="Adhemar wristbands +1",ring1="Petrov Ring",ring2="Epona's Ring",
         back="Atheling Mantle",waist="Reiki yotai",legs="Samnuha Tights",
         feet="Hizamaru Sune-ate +2",}
 
     sets.engaged.Acc = {ammo="Yamarang",
+        head="Ryuo Somen +1",neck="Moonbeam Nodowa",ear1="Suppanomimi",ear2="Eabani Earring",
+        body="Adhemar jacket +1",hands="Adhemar wristbands +1",ring1="Petrov Ring",ring2="Epona's Ring",
+        back="Atheling Mantle",waist="Reiki yotai",legs="Samnuha Tights",
+        feet="Hizamaru Sune-ate +2",}
+
+        sets.engaged.Hybrid = {ammo="Yamarang",
         head="Ryuo Somen +1",neck="Moonbeam Nodowa",ear1="Suppanomimi",ear2="Eabani Earring",
         body="Adhemar jacket +1",hands="Adhemar wristbands +1",ring1="Petrov Ring",ring2="Epona's Ring",
         back="Atheling Mantle",waist="Reiki yotai",legs="Samnuha Tights",
@@ -248,14 +254,14 @@ function init_gear_sets()
     -- Custom melee group: High Haste (~20% DW)
     sets.engaged.HighHaste = {ammo="Happo shuriken +1",
         head="Adhemar Bonnet +1",neck="Moonbeam Nodowa",ear1="Suppanomimi",ear2="Eabani Earring",
-        body="Adhemar jacket +1",hands="Adhemar wristbands +1",ring1="Petrov Ring",ring2="Epona's Ring",
-        back="Atheling Mantle",waist="Reiki yotai",legs="Samnuha Tights",
+        body="Tatenashi haramaki +1",hands="Adhemar wristbands +1",ring1="Petrov Ring",ring2="Epona's Ring",
+        back="Atheling Mantle",waist="Windbuffet Belt +1",legs="Samnuha Tights",
         feet=gear.HercFeetTP}
 
     sets.engaged.Acc.HighHaste = {ammo="Yamarang",
         head="Adhemar Bonnet +1",neck="Moonbeam Nodowa",ear1="Suppanomimi",ear2="Eabani Earring",
         body="Adhemar jacket +1",hands="Adhemar wristbands +1",ring1="Petrov Ring",ring2="Epona's Ring",
-        back="Atheling Mantle",waist="Reiki yotai",legs="Samnuha Tights",
+        back="Atheling Mantle",waist="Windbuffet Belt +1",legs="Samnuha Tights",
         feet=gear.HercFeetTP}
 
     --sets.engaged.Evasion.HighHaste = {ammo="Qirmiz Tathlum",
@@ -312,13 +318,13 @@ function init_gear_sets()
     -- Custom melee group: Max Haste (0% DW)
     sets.engaged.MaxHaste = {ammo="Happo shuriken +1",
         head="Adhemar Bonnet +1",neck="Moonbeam Nodowa",ear1="Telos Earring",ear2="Brutal Earring",
-        body="Kendatsuba Samue +1",hands="Adhemar wristbands +1",ring1="Petrov Ring",ring2="Epona's Ring",
+        body="Tatenashi haramaki +1",hands="Adhemar wristbands +1",ring1="Petrov Ring",ring2="Epona's Ring",
         back="Atheling Mantle",waist="Windbuffet Belt +1",legs="Samnuha Tights",
         feet=gear.HercFeetTP}
 
     sets.engaged.Acc.MaxHaste = {ammo="Qirmiz Tathlum",
         head="Whirlpool Mask",neck="Asperity Necklace",ear1="Bladeborn Earring",ear2="Steelflash Earring",
-        body="Kendatsuba Samue +1",hands="Otronif Gloves",ring1="Rajas Ring",ring2="Epona's Ring",
+        body="Tatenashi haramaki +1",hands="Otronif Gloves",ring1="Rajas Ring",ring2="Epona's Ring",
         back="Yokaze Mantle",waist="Hurch'lan Sash",legs="Manibozho Brais",feet=gear.HercFeetTP}
 
     --sets.engaged.Evasion.MaxHaste = {ammo="Qirmiz Tathlum",

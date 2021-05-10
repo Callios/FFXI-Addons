@@ -1,0 +1,17 @@
+sets.exported={
+    main="Daybreak",
+    sub="Genmei Shield",
+    ammo="Staunch Tathlum +1",
+    head="Inyanga Tiara +2",
+    body="Inyanga Jubbah +2",
+    hands="Inyan. Dastanas +2",
+    legs="Inyanga Shalwar +2",
+    feet="Nyame Sollerets",
+    neck="Warder's Charm +1",
+    waist="Carrier's Sash",
+    left_ear="Hearty Earring",
+    right_ear="Odnowa Earring +1",
+    left_ring="Inyanga Ring",
+    right_ring="Defending Ring",
+    back="Solemnity Cape",
+}

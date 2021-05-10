@@ -1,0 +1,17 @@
+sets.exported={
+    main="Naegling",
+    sub="Maxentius",
+    ammo="Staunch Tathlum +1",
+    head="Rawhide Mask",
+    body="Jhakri Robe +2",
+    hands="Malignance Gloves",
+    legs={ name="Carmine Cuisses +1", augments={'Accuracy+20','Attack+12','"Dual Wield"+6',}},
+    feet="Nyame Sollerets",
+    neck="Bathy Choker +1",
+    waist="Fucho-no-Obi",
+    left_ear="Odnowa Earring",
+    right_ear="Odnowa Earring +1",
+    left_ring="Defending Ring",
+    right_ring={ name="Dark Ring", augments={'Phys. dmg. taken -5%','Magic dmg. taken -4%','Breath dmg. taken -3%',}},
+    back={ name="Rosmerta's Cape", augments={'INT+20','Mag. Acc+20 /Mag. Dmg.+20','INT+10','"Mag.Atk.Bns."+10',}},
+}
