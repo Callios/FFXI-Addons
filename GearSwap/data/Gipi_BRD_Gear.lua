@@ -187,8 +187,8 @@ function init_gear_sets()
 
     -- Fast cast sets for spells
 	sets.precast.FC = {
-		main="Vampirism",				--7
-		head="Cath Palug Crown",		--8
+		main="Malevolence",				--5
+		head="Bunzi's Hat",				--10
 		neck="Orunmila's torque",		--5
 		ear1="Enchntr. earring +1",		--2
 		ear2="Loquac. Earring",			--2
@@ -198,12 +198,12 @@ function init_gear_sets()
 		ring2="Rahab ring",				--2
 		back=gear.IntarabusMACC,		--10
 		waist="Witful belt",			--3
-		legs="Lengo pants",				--5
-		feet=gear.ChironicFeetMATK,		--4
-		} --73
+		legs="Volte Brais",				--8
+		feet="Kaykaus Boots +1",		--4
+		} --76
 	 
-	sets.precast.FC['Stoneskin'] = set_combine(sets.precast.FC, {head="Umuthi hat",legs="Doyen pants"})
-	sets.precast.FC['Enhancing Magic'] = set_combine(sets.precast.FC, {waist="Siegel Sash"})
+	sets.precast.FC['Stoneskin'] = set_combine(sets.precast.FC, {head="Umuthi hat",})
+	sets.precast.FC['Enhancing Magic'] = set_combine(sets.precast.FC, {})
 	sets.precast.FC['Elemental Magic'] = set_combine(sets.precast.FC, {})	
 	sets.precast.FC.Cure = set_combine(sets.precast.FC, {legs="Doyen Pants",})
 	sets.precast.FC.Curaga = sets.precast.FC.Cure
@@ -212,11 +212,9 @@ function init_gear_sets()
     
 	sets.precast.FC.BardSong = set_combine(sets.precast.FC, {
 		range="Gjallarhorn",
-		head="Fili calot +1",			--14
 		body="Brioso justaucorps +3",	--15
-		legs="Doyen Pants",				--6
 		feet="Bihu Slippers +3",		--10
-		}) --45 song reduction time
+		}) 
 
     sets.precast.FC.SongPlaceholder = set_combine(sets.precast.FC.BardSong, {range=info.ExtraSongInstrument})
 	sets.precast.FC['Honor March'] = set_combine(sets.precast.FC.BardSong, {range="Marsyas"})
@@ -240,7 +238,7 @@ function init_gear_sets()
         range="Linos",
         head="Bihu Roundlet +3",
         body="Bihu Jstcorps. +3",
-        hands="Bihu Cuffs +3",
+        hands="Bunzi's Gloves",
         legs="Lustratio subligar +1",
         feet="Bihu Slippers +3",
         neck="Bard's Charm +2",
@@ -284,12 +282,12 @@ function init_gear_sets()
 		ear1="Regal Earring",
 		ear2="Moonshade earring",
 		body="Bihu Jstcorps. +3",
-		hands="Leyline Gloves",
+		hands="Nyame Gauntlets",
 		ring1="Epaminondas's Ring",
 		ring2="Shiva Ring +1",
 		back=gear.IntarabusWS,
 		waist="Refoccilation Stone",
-		legs="Lustratio subligar +1",
+		legs="Nyame Flanchard",
 		feet=gear.ChironicHandsMATK
 		}
     
@@ -301,9 +299,11 @@ function init_gear_sets()
  
 	sets.midcast.FastRecast = set_combine(sets.precast.FC, {
 		head="Vanya Hood",
-		waist="Luminary Sash",
 		legs="Lengo pants",
-		feet="Medium's Sabots",
+		feet="Kaykaus Boots +1",
+		ear1="Magnetic Earring",
+		waist="Luminary Sash",
+		back="Fi Follet Cape +1",
 		})
         
     -- Gear to enhance certain classes of songs.
@@ -375,18 +375,18 @@ function init_gear_sets()
 		main="Terra's staff",
 		sub="Enki Strap",
 		range=info.ExtraSongInstrument,
-		head="Inyanga Tiara +2",
-		neck="Loricate torque +1",
+		head="Nyame Helm",
+		neck="Warder's Charm +1",
 		ear1="Sanare earring",
 		ear2="Eabani earring",
-		body="Inyanga Jubbah +2",
-		hands="Inyanga dastanas +2",
+		body="Nyame Mail",
+		hands="Nyame Gauntlets",
 		ring1="Defending ring",
-		ring2="Gelatinous Ring +1",
+		ring2="Inyanga Ring",
 		back=gear.IntarabusIDLE,
 		waist="Flume Belt +1",
-		legs="Inyanga Shalwar +2",
-		feet="Inyanga Crackows +2"
+		legs="Nyame Flanchard",
+		feet="Nyame Sollerets"
 		}
 
     -- Other general spells and classes.
@@ -396,7 +396,7 @@ function init_gear_sets()
 		ammo="Pemphredo Tathlum",
 		head="Kaykaus Mitra +1",
 		neck="Incanter's torque",
-		ear1="Regal Earring",
+		ear1="Magnetic Earring",
 		ear2="Mendicant's earring",
 		body="Kaykaus Bliaut +1",
 		hands="Inyanga dastanas +2",
@@ -424,13 +424,14 @@ function init_gear_sets()
 		}
         
     sets.midcast.Cursna = set_combine(sets.midcast.StatusRemoval, {
-
+		ring1="Menelaus's Ring",
+		ring2="Haoma's Ring",
         })
     
     sets.midcast['Enhancing Magic'] = {sub="Ammurapi Shield",
 		head="Umuthi hat",neck="Incanter's torque",ear1="Andoaa earring",
-		body="Telchine chasuble",hands="Inyanga dastanas +2",ring1="Stikini Ring +1",ring2="Stikini Ring +1",
-		back="Fi Follet Cape +1",waist="Olympus sash",legs="Shedir seraweels",feet="Rubeus boots"}
+		body=gear.TelchineBodyDURATION,hands="Inyanga dastanas +2",ring1="Stikini Ring +1",ring2="Stikini Ring +1",
+		back="Fi Follet Cape +1",waist="Olympus sash",legs="Shedir seraweels",feet="Kaykaus Boots +1"}
 
 	sets.midcast.EnhancingDuration = set_combine(sets.midcast['Enhancing Magic'], {
 		sub="Ammurapi Shield",
@@ -530,7 +531,7 @@ function init_gear_sets()
     ------------------------------------------------------------------------------------------------
 
     sets.defense.PDT = set_combine(sets.idle.DT, {})
-    sets.defense.MDT = set_combine(sets.idle.DT, {})
+    sets.defense.MDT = set_combine(sets.defense.PDT, {})
 
     sets.Kiting = {ring1="Shneddick Ring",}
     sets.latent_refresh = {waist="Fucho-no-obi"}
@@ -554,13 +555,13 @@ function init_gear_sets()
 		ear1="Telos Earring",
 		ear2="Cessance earring",
 		body="Ashera harness",
-		hands=gear.ChironicHandsTP,
+		hands="Bunzi's Gloves",
 		ring1="Chirich Ring +1",
 		ring2="Chirich Ring +1",
 		back=gear.IntarabusTP,
 		waist="Windbuffet Belt +1",
-		legs="Volte Tights",
-		feet="Volte Spats"
+		legs="Nyame Flanchard",
+		feet="Nyame Sollerets"
 		}
 
     sets.engaged.Acc = set_combine(sets.engaged, {
@@ -582,20 +583,18 @@ function init_gear_sets()
 		ear1="Suppanomimi",
 		ear2="Eabani earring",
 		body="Ashera harness",
-		hands=gear.ChironicHandsTP,
+		hands="Bunzi's Gloves",
 		ring1="Chirich Ring +1",
 		ring2="Chirich Ring +1",
 		back=gear.IntarabusTP,
 		waist="Reiki Yotai",
-		legs="Volte Tights",
-		feet="Volte Spats"
+		legs="Nyame Flanchard",
+		feet="Nyame Sollerets"
 		}
 
     sets.engaged.DW.Acc = set_combine(sets.engaged.DW, {
-        hands="Bihu Cuffs +3",
-        feet="Bihu Slippers +3",
-		ear1="Telos Earring",
-		ear2="Mache Earring",
+		ear1="Mache Earring +1",
+		ear2="Mache Earring +1",
         })
 
     -- 15% Magic Haste (67% DW to cap)
@@ -611,30 +610,8 @@ function init_gear_sets()
     sets.engaged.DW.Acc.HighHaste = sets.engaged.DW.Acc
 
     -- 45% Magic Haste (36% DW to cap)
-	sets.engaged.DW.MaxHaste = {
-        main="Carnwenhan",
-        sub="Twashtar",
-		range="Linos",
-		head="Ayanmo zucchetto +2",
-		neck="Bard's Charm +2",
-		ear1="Telos Earring",
-		ear2="Eabani earring",
-		body="Ashera harness",
-		hands=gear.ChironicHandsTP,
-		ring1="Chirich Ring +1",
-		ring2="Chirich Ring +1",
-		back=gear.IntarabusTP,
-		waist="Reiki Yotai",
-		legs="Volte Tights",
-		feet="Volte Spats"
-		}
-
-    sets.engaged.DW.MaxHaste.Acc = set_combine(sets.engaged.DW, {
-        hands="Bihu Cuffs +3",
-        feet="Bihu Slippers +3",
-		ear1="Telos Earring",
-		ear2="Mache Earring",
-        })
+	sets.engaged.DW.MaxHaste = sets.engaged.DW
+    sets.engaged.DW.MaxHaste.Acc = sets.engaged.DW.Acc
 
     sets.engaged.DW.MaxHastePlus = set_combine(sets.engaged.DW.MaxHaste, {})
     sets.engaged.DW.Acc.MaxHastePlus = set_combine(sets.engaged.DW.Acc.MaxHaste, {})
@@ -689,9 +666,9 @@ function init_gear_sets()
     sets.SongDWDuration = {main="Carnwenhan"}
 
     sets.buff.Doom = {
-        neck="Nicander's Necklace", --20
-        ring1={name="Eshmun's Ring", bag="wardrobe3"}, --20
-        ring2={name="Eshmun's Ring", bag="wardrobe4"}, --20
+        --neck="Nicander's Necklace", --20
+        --ring1={name="Eshmun's Ring", bag="wardrobe3"}, --20
+        --ring2={name="Eshmun's Ring", bag="wardrobe4"}, --20
         waist="Gishdubar Sash", --10
         }
 

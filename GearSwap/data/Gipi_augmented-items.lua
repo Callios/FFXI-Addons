@@ -1,3 +1,5 @@
+--Augmented items that you'll use among multiple jobs.
+
 --Acro
 	gear.AcroHandsSTP = {name="Acro Gauntlets", augments={'Accuracy+21','"Store TP"+6','DEX+10',}}
 	
@@ -10,7 +12,7 @@
 	gear.ChironicHeadTP = {name="Chironic hat", augments={'Accuracy+18 Attack+18','Spell interruption rate down -10%','Accuracy+11'}}
 	gear.ChironicHandsTP = {name="Chironic gloves", augments={'AGI+5','"Mag.Atk.Bns."+21','Quadruple Attack +2','Accuracy+16 Attack+16'}}
 	
-	gear.ChironicLegsMACC = {name="Chironic hose", augments={'Mag. Acc.+22 "Mag.Atk.Bns."+22','Mag. Acc.+15'}}
+	gear.ChironicLegsMACC = {name="Chironic Hose", augments={'Mag. Acc.+25 "Mag.Atk.Bns."+25','"Conserve MP"+1','CHR+7','Mag. Acc.+14',}}
 	
 	gear.ChironicFeetMATK = {name="Chironic Slippers", augments={'"Mag.Atk.Bns."+23','"Fast Cast"+4','Accuracy+1 Attack+1','Mag. Acc.+17 "Mag.Atk.Bns."+17',}}
 	
@@ -29,6 +31,7 @@
 	
 --Herculean
 	gear.HercHeadMagic = {name="Herculean helm", augments={'Pet: Attack+21 Pet: Rng.Atk.+21','"Mag.Atk.Bns."+29','Accuracy+1 Attack+1','Mag. Acc.+16 "Mag.Atk.Bns."+16',}}
+	gear.HercHandsMagic = {name="Herculean gloves", augments={'"Mag.Atk.Bns."+25','Attack+15','Damage taken-2%','Mag. Acc.+20 "Mag.Atk.Bns."+20',}}
 	gear.HercLegsMagic = {name="Herculean Trousers", augments={'MND+11','"Mag.Atk.Bns."+28','Accuracy+20 Attack+20','Mag. Acc.+16 "Mag.Atk.Bns."+16',}}
 	gear.HercFeetMagic = {name="Herculean boots", augments={'AGI+8','Crit.hit rate+1','Weapon skill damage +8%','Mag. Acc.+20 "Mag.Atk.Bns."+20'}}
 	
@@ -48,9 +51,6 @@
 	gear.HercFeetCDMG = {name="Herculean Boots", augments={'Attack+25','Crit. hit damage +2%','DEX+11',}}
 	
 	gear.HercFeetTP = {name="Herculean boots", augments={'Accuracy+23 Attack+23','"Triple Atk."+4','Accuracy+8','Attack+7'}}
-	
-	gear.HercHandsACC = {name="Herculean gloves", augments={'Accuracy+17 Attack+17','"Triple Atk."+4','AGI+4','Accuracy+15','Attack+11'}}
-	gear.HercFeetACC = {name="Herculean boots", augments={'Accuracy+22','Weapon skill damage +3%','Accuracy+14 Attack+14'}}
 
 	gear.HercHandsDT = {name="Herculean gloves", augments={'Rng.Atk.+22','Damage taken-3%','DEX+9','Accuracy+7','Attack+15',}}	
 	gear.HercFeetDT = {name="Herculean boots", augments={'Damage taken-3%','AGI+12','"Store TP"+3','Mag. Acc.+15 "Mag.Atk.Bns."+15'}}
@@ -60,9 +60,10 @@
 	gear.HercFeetFC = {name="Herculean boots", augments={'"Fast Cast"+5','"Mag.Atk.Bns."+3'}}
 	
 	gear.HercHeadTH = {name="Herculean helm", augments={'"Blood Pact" ability delay -1','Pet: AGI+10','"Treasure Hunter"+1','Accuracy+17 Attack+17',}}
-	gear.HercBodyTH = {name="Herculean Vest", augments={'"Waltz" potency +9%','MND+2','"Treasure Hunter"+2','Mag. Acc.+20 "Mag.Atk.Bns."+20',}}
 	gear.HercHandsTH = {name="Herculean gloves", augments={'STR+5','Pet: "Subtle Blow"+6','"Treasure Hunter"+2','Accuracy+8 Attack+8',}}	
 	
+	gear.HercBodyPHALANX = {name="Herculean Vest", augments={'STR+5','"Fast Cast"+1','Phalanx +5','Accuracy+4 Attack+4',}}
+	gear.HercHandsPHALANX = {name="Herculean gloves", augments={'Pet: STR+4','Rng.Atk.+12','Phalanx +4',}}	
 	gear.HercLegsPHALANX = {name="Herculean trousers", augments={'Attack+29','"Dual Wield"+3','Phalanx +4','Accuracy+19 Attack+19','Mag. Acc.+20 "Mag.Atk.Bns."+20',}}
 	gear.HercFeetPHALANX = {name="Herculean boots", augments={'Accuracy+9','Crit.hit rate+2','Phalanx +4',}}
 
@@ -97,13 +98,13 @@
 	gear.TelchineBodyDURATION = {name="Telchine chasuble", augments={'"Cure" potency +4%','Enh. Mag. eff. dur. +10'}}
 	gear.TelchineHandsDURATION = {name="Telchine gloves", augments={'Enh. Mag. eff. dur. +10'}}
 	gear.TelchineLegsDURATION = {name="Telchine braconi", augments={'Enh. Mag. eff. dur. +10'}}
-	gear.TelchineFeetDURATION = {name="Telchine pigaches", augments={'"Cure" potency +7%','Enh. Mag. eff. dur. +10'}}
+	gear.TelchineFeetDURATION = {name="Telchine Pigaches", augments={'Mag. Evasion+18','Song spellcasting time -6%','Enh. Mag. eff. dur. +10',}}
 	
 --Valorous
 	gear.ValHeadWS = {name="Valorous Mask", augments={'Accuracy+17 Attack+17','Weapon skill damage +3%','STR+6','Accuracy+14',}}
 	gear.ValBodyWS = {name="Valorous Mail", augments={'Weapon skill damage +5%','STR+10','Attack+4',}}
 	gear.ValHandsWS = {name="Valorous Mitts", augments={'Attack+28','Weapon skill damage +3%','STR+9','Accuracy+3',}}
-	gear.ValFeetWS = {name="Valorous Greaves", augments={'Accuracy+25 Attack+25','Crit. hit damage +1%','STR+8','Attack+12',}}
+	gear.ValFeetWS = {name="Valorous Greaves", augments={'Magic burst dmg.+1%','Pet: DEX+1','Weapon skill damage +9%','Accuracy+19 Attack+19',}}
 
 	gear.ValBodySTP = {name="Valorous Mail", augments={'Accuracy+16','"Store TP"+8',}}
 	gear.ValLegsSTP = {name="Valorous Hose", augments={'Accuracy+30','"Store TP"+7','Attack+8',}}
@@ -122,8 +123,8 @@
 	gear.RosCapeTP = {name="Rosmerta's cape", augments={'DEX+20','Accuracy+20 Attack+20','Accuracy+10','"Store TP"+10','Phys. dmg. taken-10%',}}
 	gear.RosCapeDEX = {name="Rosmerta's cape", augments={'DEX+20','Accuracy+20 Attack+20','DEX+10','Crit.hit rate+10'}}
 	gear.RosCapeSTR = {name="Rosmerta's cape", augments={'STR+20','Accuracy+20 Attack+20','STR+10','Weapon skill damage +10%'}}
-	gear.RosCapeFC = {name="Rosmerta's cape", augments={'Fast Cast+10'}}
-	gear.RosCapeNuke = {name="Rosmerta's Cape", augments={'INT+20','Mag. Acc+20 /Mag. Dmg.+20','INT+10','"Mag.Atk.Bns."+10',}}
+	gear.RosCapeFC = {name="Rosmerta's cape", augments={'MND+20','Mag. Acc+20 /Mag. Dmg.+20','Mag. Acc.+10','"Fast Cast"+10','Phys. dmg. taken-10%',}}
+	gear.RosCapeNuke = {name="Rosmerta's Cape", augments={'INT+20','Mag. Acc+20 /Mag. Dmg.+20','INT+10','"Mag.Atk.Bns."+10','Phys. dmg. taken-10%',}}
 		
 --Capes BRD
 	gear.IntarabusMACC = {name="Intarabus's cape", augments={'CHR+20','Mag. Acc+20 /Mag. Dmg.+20','Mag. Acc.+10','"Fast Cast"+10',}}
@@ -155,6 +156,11 @@
 	gear.BrigWSD = {name="Brigantia's Mantle", augments={'STR+20','Accuracy+20 Attack+20','STR+10','Weapon skill damage +10%',}}
 	gear.BrigCRIT = {name="Brigantia's Mantle", augments={'STR+20','Accuracy+20 Attack+20','STR+10','Crit.hit rate+10',}}
 	
+--Capes MNK
+	gear.SegomoDA = {name="Segomo's Mantle", augments={'STR+20','Accuracy+20 Attack+20','STR+10','"Dbl.Atk."+10',}}
+	gear.SegomoWSD = {name="Segomo's Mantle", augments={'STR+20','Accuracy+20 Attack+20','STR+10','"Dbl.Atk."+10',}}
+	gear.SegomoTP = {name="Segomo's Mantle", augments={'DEX+20','Accuracy+20 Attack+20','DEX+10','"Dbl.Atk."+10','Phys. dmg. taken-10%',}}
+	
 --Capes NIN
 	gear.AndartiaTP = {name="Andartia's Mantle", augments={'DEX+20','Accuracy+20 Attack+20','"Dbl.Atk."+10','Phys. dmg. taken-10%',}}	
 	gear.AndartiaWS = {name="Andartia's Mantle", augments={'STR+20','Accuracy+20 Attack+20','Weapon skill damage +10%',}}	
@@ -185,8 +191,8 @@
 	
 --Capes SCH
 	gear.LughMB = {name="Lugh's cape", augments={'INT+20','Mag. Acc+20 /Mag. Dmg.+20','INT+10','"Mag.Atk.Bns."+10'}}
-	gear.LughMACC = {name="Lugh's cape", augments={'MND+20','Mag. Acc+20 /Mag. Dmg.+20','MND+10','"Cure" potency +10%',}}
-	gear.LughFC = {name="Lugh's cape", augments={'"Fast Cast"+10'}}
+	gear.LughMACC = {name="Lugh's cape", augments={'MND+20','Mag. Acc+20 /Mag. Dmg.+20','MND+10','Enmity-10',}}
+	gear.LughFC = {name="Lugh's cape", augments={'MND+20','Eva.+20 /Mag. Eva.+20','"Fast Cast"+10','Phys. dmg. taken-10%',}}
 
 --Capes SMN
 	gear.CampMBP = {name="Campestres's Cape", augments={'Pet: M.Acc.+20 Pet: M.Dmg.+20','"Fast Cast"+10'}}
@@ -198,5 +204,15 @@
 	gear.ToutCapeTP = {name="Toutatis's cape", augments={'DEX+20','Accuracy+20 Attack+20','Accuracy+10','"Store TP"+10','Phys. dmg. taken-10%',}}
 	gear.ToutCapeDW = {name="Toutatis's cape", augments={'DEX+20','Accuracy+20 Attack+20','Accuracy+10','"Dual Wield"+10',}}
 	gear.ToutCapeCRIT = {name="Toutatis's cape", augments={'DEX+20','Accuracy+20 Attack+20','Crit.hit rate+10'}}
+	
+--Capes WHM
+	gear.AlaunusCURE = {name="Alaunus's Cape", augments={'MND+20','Mag. Acc+20 /Mag. Dmg.+20','MND+10','Enmity-10','Phys. dmg. taken-10%',}}
+	gear.AlaunusFC = {name="Alaunus's Cape", augments={'MND+20','Eva.+20 /Mag. Eva.+20','Mag. Evasion+10','"Fast Cast"+10','Phys. dmg. taken-10%',}}
+	gear.AlaunusTP = {name="Alaunus's Cape", augments={'DEX+20','Accuracy+20 Attack+20','"Dbl.Atk."+10','Phys. dmg. taken-10%',}}
+	
+	
+	
+	
+	
 	
 	

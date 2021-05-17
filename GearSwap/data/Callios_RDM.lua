@@ -179,7 +179,7 @@ function get_sets()
     --Vitiation
     RELIC.Head      =   "Viti. Chapeau +3"
     RELIC.Body      =   "Viti. Tabard +3"
-    RELIC.Hands     =   "Viti. Gloves +1"
+    RELIC.Hands     =   "Viti. Gloves +3"
     RELIC.Legs      =   "Viti. Tights +3"
     RELIC.Feet      =   "Vitiation Boots +2"
 
@@ -660,7 +660,7 @@ function get_sets()
         ear1="Loquacious Earring",      --2
         ear2="Malignance Earring",      --4
         body="Vitiation Tabard +3",     --15
-        hands="Vitiation Gloves +1",         --7
+        hands="Vitiation Gloves +3",         --7
         ring1="Stikini ring",         --
         ring2="Defending Ring",     --
         back="Solemnity cape",      --
@@ -875,7 +875,7 @@ function get_sets()
         ear2="Andoaa Earring", -- 5
         ear1="Mimir Earring", --10
         body="Vitiation Tabard +3", --23
-        hands="Vitiation Gloves +1", -- 20
+        hands="Vitiation Gloves +3", -- 20
         ring1="Stikini Ring", -- 5
         ring2="Stikini Ring", -- 5
         back="Ghostfyre cape", -- 4

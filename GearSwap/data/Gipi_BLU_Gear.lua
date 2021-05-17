@@ -141,7 +141,7 @@ function job_setup()
         'Enervation','Feather Tickle','Filamented Hold','Frightful Roar','Geist Wall','Hecatomb Wave',
         'Infrasonics','Jettatura','Light of Penance','Lowing','Mind Blast','Mortal Ray','MP Drainkiss',
         'Osmosis','Reaving Wind','Sandspin','Sandspray','Sheep Song','Soporific','Sound Blast',
-        'Stinking Gas','Sub-zero Smash','Venom Shell','Voracious Trunk','Yawn'}
+        'Stinking Gas','Sub-zero Smash','Venom Shell','Voracious Trunk','Yawn','Cruel Joke'}
 
     -- Breath-based spells
     blue_magic_maps.Breath = S{'Bad Breath','Flying Hip Press','Frost Breath','Heat Breath','Hecatomb Wave',
@@ -193,7 +193,7 @@ function user_setup()
     state.HybridMode:options('Normal', 'DT')
     state.RangedMode:options('Normal', 'Acc')
     state.WeaponskillMode:options('Normal', 'Acc')
-    state.CastingMode:options('Normal', 'Resistant', 'TH')
+    state.CastingMode:options('Normal', 'Resistant')
     state.PhysicalDefenseMode:options('PDT', 'MDT')
     state.IdleMode:options('Normal', 'DT')--, 'Learning')
 
@@ -206,6 +206,7 @@ function user_setup()
 	send_command('lua l azureSets')
     send_command('bind ^` gs c cycle treasuremode')
     send_command('bind @c gs c toggle CP')
+	send_command('bind !` gs c toggle MagicBurst')
 
     select_default_macro_book()
     set_lockstyle()
@@ -240,7 +241,6 @@ function init_gear_sets()
     -- Enmity set
     sets.Enmity = {
 		ammo="Staunch Tathlum +1",
-		--head="",
 		neck="Unmoving collar +1",
 		ear1="Cryptic earring",
 		ear2="Trux earring",
@@ -261,7 +261,7 @@ function init_gear_sets()
     sets.buff['Efflux'] = {legs="Hashishin Tayt +1"}
 
     sets.precast.JA['Azure Lore'] = {hands="Luh. Bazubands +1"}
-    sets.precast.JA['Chain Affinity'] = {feet="Assim. Charuqs +1"}
+    sets.precast.JA['Chain Affinity'] = {feet="Assim. Charuqs +3"}
     sets.precast.JA['Convergence'] = {head="Luh. Keffiyeh +3"}
     --sets.precast.JA['Enchainment'] = {body="Luhlaza Jubbah +1"}
 
@@ -271,23 +271,20 @@ function init_gear_sets()
 		neck="Orunmila's torque",		--5
 		ear1="Enchanter earring +1",	--2
 		ear2="Loquacious Earring",		--2
-        body="Adhemar Jacket",			--7
+        body="Pinga Tunic +1",			--15
 		hands="Leyline gloves",			--8
-		ring1="Defending Ring",
-		ring2="Weather. Ring",			--5
+		ring1="Defending Ring",			--
+		ring2="Kishar Ring",			--4
         back=gear.RosCapeFC,			--10
 		waist="Witful Belt",			--3
 		legs="Carmine Cuisses +1",		
 		feet="Carmine greaves +1"		--8
-		} --64
+		} --71
 
-    sets.precast.FC['Blue Magic'] = set_combine(sets.precast.FC, {body="Hashishin Mintan +1"})
-    sets.precast.FC['Enhancing Magic'] = set_combine(sets.precast.FC, {waist="Siegel Sash"})
-    sets.precast.FC.Cure = set_combine(sets.precast.FC, {ammo="Impatiens", ear2="Mendi. Earring"})
-
-    sets.precast.FC.Utsusemi = set_combine(sets.precast.FC, {
-
-        })
+    sets.precast.FC['Blue Magic'] = set_combine(sets.precast.FC, {})
+    sets.precast.FC['Enhancing Magic'] = set_combine(sets.precast.FC, {})
+    sets.precast.FC.Cure = set_combine(sets.precast.FC, {})
+    sets.precast.FC.Utsusemi = set_combine(sets.precast.FC, {})
 
 
     ------------------------------------------------------------------------------------------------
@@ -311,7 +308,6 @@ function init_gear_sets()
 		}
 
     sets.precast.WS.Acc = set_combine(sets.precast.WS, {
-        head="Dampening Tam",
 		neck="Mirage Stole +2",
 		ear1="Mache Earring +1",
         ear2="Mache Earring +1",
@@ -410,7 +406,7 @@ function init_gear_sets()
         ammo="Pemphredo Tathlum",
         head="Pixie Hairpin +1",
         body="Amalric Doublet +1",
-        hands="Jhakri Cuffs +1",
+        hands="Jhakri Cuffs +2",
         legs="Luhlaza Shalwar +3",
         feet="Amalric Nails +1",
         neck="Fotia Gorget",
@@ -425,7 +421,6 @@ function init_gear_sets()
     sets.precast.WS['Flash Nova'] = set_combine(sets.precast.WS['Sanguine Blade'], {
         head="Jhakri Coronal +2",
 		ring1="Shiva Ring +1",
-		ring2="Weather. Ring",
         })
 
 	sets.precast.WS['Burning Blade'] = set_combine(sets.precast.WS['Flash Nova'], {ring2="Shiva Ring +1",})
@@ -441,7 +436,7 @@ function init_gear_sets()
 		ammo="Pemphredo Tathlum",
 		head="Carmine mask +1",			--14
 		neck="Orunmila's torque",		--5
-		ear1="Enchanter earring +1",	--2
+		ear1="Magnetic Earring",		--
 		ear2="Loquacious Earring",		--2
         body="Amalric Doublet +1",
 		hands="Amalric Cuffs +1",		
@@ -460,23 +455,20 @@ function init_gear_sets()
 		feet="Amalric Nails +1",  --16
         ring1="Evanescence Ring", --5
         waist="Rumination Sash", --10
+		ear1="Magnetic Earring",
         }
 
     sets.midcast['Blue Magic'] = set_combine(sets.midcast.FastRecast,{
-		hands="Hashishin bazubands +1"
-		})
-		
-	sets.midcast['Occultation'] = set_combine(sets.precast.FC,{
 		hands="Hashishin bazubands +1"
 		})
 
     sets.midcast['Blue Magic'].Physical = {
         ammo="Floestone",
         head="Luh. Keffiyeh +3",
-        body="Jhakri Robe +2",
-        hands="Jhakri Cuffs +2",
-        legs="Jhakri Slops +2",
-        feet="Jhakri Pigaches +2",
+        body="Nyame Mail",
+        hands="Nyame Gauntlets",
+        legs="Nyame Flanchard",
+        feet="Assim. Charuqs +3",
         neck="Mirage Stole +2",
 		ear1="Telos Earring",
         ear2="Mache Earring +1",
@@ -486,45 +478,14 @@ function init_gear_sets()
         waist="Sailfi Belt +1",
         }
 
-    sets.midcast['Blue Magic'].PhysicalAcc = set_combine(sets.midcast['Blue Magic'].Physical, {
-        ammo="Falcon Eye",
-        legs="Carmine Cuisses +1",
-        feet="Assim. Charuqs +3",
-		ear1="Mache Earring +1",
-        back=gear.RosCapeDEX,
-        waist="Grunfeld Rope",
-        })
-
-    sets.midcast['Blue Magic'].PhysicalStr = sets.midcast['Blue Magic'].Physical
-
-    sets.midcast['Blue Magic'].PhysicalDex = set_combine(sets.midcast['Blue Magic'].Physical, {
-        ammo="Falcon Eye",
-        ear2="Mache Earring +1",
-        ring2="Ilabrat Ring",
-        back=gear.RosCapeDEX,
-        })
-
-    sets.midcast['Blue Magic'].PhysicalVit = sets.midcast['Blue Magic'].Physical
-
-    sets.midcast['Blue Magic'].PhysicalAgi = set_combine(sets.midcast['Blue Magic'].Physical, {
-        hands="Adhemar Wristbands +1",
-        ring2="Ilabrat Ring",
-        })
-
-    sets.midcast['Blue Magic'].PhysicalInt = set_combine(sets.midcast['Blue Magic'].Physical, {
-        ear2="Regal Earring",
-        ring1="Shiva Ring +1",
-        ring2="Shiva Ring +1",
-        back=gear.RosCapeNuke,
-        })
-
-    sets.midcast['Blue Magic'].PhysicalMnd = set_combine(sets.midcast['Blue Magic'].Physical, {
-        ear2="Regal Earring",
-        ring1="Stikini Ring +1",
-        ring2="Stikini Ring +1",
-        })
-
-    sets.midcast['Blue Magic'].PhysicalChr = set_combine(sets.midcast['Blue Magic'].Physical, {ear1="Regal Earring", ear2="Enchntr. Earring +1"})
+    sets.midcast['Blue Magic'].PhysicalAcc = set_combine(sets.midcast['Blue Magic'].Physical, {})
+    sets.midcast['Blue Magic'].PhysicalStr = set_combine(sets.midcast['Blue Magic'].Physical, {})
+    sets.midcast['Blue Magic'].PhysicalDex = set_combine(sets.midcast['Blue Magic'].Physical, {})
+    sets.midcast['Blue Magic'].PhysicalVit = set_combine(sets.midcast['Blue Magic'].Physical, {})
+    sets.midcast['Blue Magic'].PhysicalAgi = set_combine(sets.midcast['Blue Magic'].Physical, {})
+    sets.midcast['Blue Magic'].PhysicalInt = set_combine(sets.midcast['Blue Magic'].Physical, {})
+    sets.midcast['Blue Magic'].PhysicalMnd = set_combine(sets.midcast['Blue Magic'].Physical, {})
+    sets.midcast['Blue Magic'].PhysicalChr = set_combine(sets.midcast['Blue Magic'].Physical, {})
 
     sets.midcast['Blue Magic'].Magical = {
         ammo="Pemphredo Tathlum",
@@ -543,59 +504,41 @@ function init_gear_sets()
         }
 
     sets.midcast['Blue Magic'].Magical.Resistant = set_combine(sets.midcast['Blue Magic'].Magical, {
-        head="Assim. Keffiyeh +2",
-        neck="Mirage Stole +2",
-        ear1="Digni. Earring",
-        ring1="Stikini Ring +1",
-        ring2="Stikini Ring +1",
-        waist="Yamabuki-no-Obi",
+        head="Nyame Helm",
+        body="Nyame Mail",
+		Hands="Nyame Gauntlets",
+		Legs="Nyame Flanchard",
+		Feet="Nyame Sollerets",
         })
 
-    sets.midcast['Blue Magic'].Magical.TH = set_combine(sets.midcast['Blue Magic'].Magical, {
-		body=gear.HercBodyTH,
-		hands=gear.HercHandsTH,
-        })
+    sets.midcast['Blue Magic'].MagicalDark = set_combine(sets.midcast['Blue Magic'].Magical, {})
 
-    sets.midcast['Blue Magic'].MagicalDark = set_combine(sets.midcast['Blue Magic'].Magical, {
-        head="Pixie Hairpin +1",
-        ring2="Archon Ring",
-        })
+    sets.midcast['Blue Magic'].MagicalLight = set_combine(sets.midcast['Blue Magic'].Magical, {})
 
-    sets.midcast['Blue Magic'].MagicalLight = set_combine(sets.midcast['Blue Magic'].Magical, {
+    sets.midcast['Blue Magic'].MagicalMnd = set_combine(sets.midcast['Blue Magic'].Magical, {})
 
-        })
-
-    sets.midcast['Blue Magic'].MagicalMnd = set_combine(sets.midcast['Blue Magic'].Magical, {
-        ring1="Stikini Ring +1",
-        ring2="Stikini Ring +1",
-        })
-
-    sets.midcast['Blue Magic'].MagicalDex = set_combine(sets.midcast['Blue Magic'].Magical, {
-        ear1="Mache Earring +1",
-		ear2="Mache Earring +1",
-        ring1="Ramuh Ring +1",
-        ring2="Ilabrat Ring",
-        })
+    sets.midcast['Blue Magic'].MagicalDex = set_combine(sets.midcast['Blue Magic'].Magical, {})
 
     sets.midcast['Blue Magic'].MagicalVit = set_combine(sets.midcast['Blue Magic'].Magical, {})
-    sets.midcast['Blue Magic'].MagicalChr = set_combine(sets.midcast['Blue Magic'].Magical, {ear1="Regal Earring", ear2="Enchntr. Earring +1"})
+    sets.midcast['Blue Magic'].MagicalChr = set_combine(sets.midcast['Blue Magic'].Magical, {})
 
     sets.midcast['Blue Magic'].MagicAccuracy = {
 		ammo="Pemphredo tathlum",
-        head="Amalric Coif +1",
+        head="Malignance Chapeau",
 		neck="Mirage Stole +2",
 		ear1="Regal earring",
 		ear2="Dignitary's earring",
-		body="Amalric Doublet +1",
-		hands="Regal Cuffs",
+		body="Malignance Tabard",
+		hands="Malignance Gloves",
 		ring1="Stikini Ring +1",
 		ring2="Stikini Ring +1",
         back="Cornflower Cape",
 		waist="Luminary sash",
-		legs="Assimilator's shalwar +2",
-		feet="Jhakri pigaches +2"
+		legs="Malignance Tights",
+		feet="Nyame Sollerets"
 		}
-
+	
+	sets.midcast['Blue Magic']['Cruel Joke'] = set_combine(sets.midcast['Blue Magic'].MagicAccuracy, {})
     sets.midcast['Blue Magic'].Breath = set_combine(sets.midcast['Blue Magic'].Magical, {head="Luh. Keffiyeh +3"})
 
     sets.midcast['Blue Magic'].Stun = {
@@ -604,14 +547,14 @@ function init_gear_sets()
 		neck="Mirage Stole +2",
 		ear1="Regal earring",
 		ear2="Dignitary's earring",
-		body="Jhakri Robe +2",
+		body="Malignance Tabard",
 		hands="Malignance Gloves",
 		ring1="Stikini Ring +1",
 		ring2="Stikini Ring +1",
 		back="Cornflower cape",
-		waist="Eschan stone",
+		waist="Olseni Belt",
 		legs="Malignance Tights",
-		feet="Jhakri pigaches +2"
+		feet="Nyame Sollerets"
 		}
 
     sets.midcast['Blue Magic'].Healing = {
@@ -620,7 +563,7 @@ function init_gear_sets()
 		neck="Incanter's Torque",		--
 		ear1="Regal earring",
 		ear2="Mendicant's earring",		--5
-		body="Vrikodara jupon",			--13
+		body="Pinga Tunic +1",			--15
 		hands="Telchine gloves",		--10
 		ring1="Stikini Ring +1",
 		ring2="Stikini Ring +1",		
@@ -637,18 +580,18 @@ function init_gear_sets()
 
 	sets.midcast['Blue Magic']['White Wind'] = {
         ammo="Pemphredo Tathlum",
-		head="Pinga Crown +1",
+		head="Pinga Crown +1",			--10
 		neck="Incanter's Torque",
 		ear1="Odnowa earring +1",
-		ear2="Mendicant's earring",
-        body="Vrikodara jupon",
-		hands="Telchine gloves",
+		ear2="Mendicant's earring",		--5
+        body="Pinga Tunic +1",			--15
+		hands="Telchine gloves",		--10
 		ring1="Kunaji ring",
 		ring2="Meridian Ring",
         back="Moonbeam cape",
 		waist="Gishdubar sash",
-		legs="Gyve Trousers",
-		feet="Medium's sabots"
+		legs="Gyve Trousers",			--10
+		feet="Medium's sabots"			--12
 		}
 
     sets.midcast['Blue Magic'].Buff = sets.midcast['Blue Magic']
@@ -668,6 +611,10 @@ function init_gear_sets()
 		waist="Witful Belt",
         }) -- 124 (gear) + 476 (base) = 600 skill
 
+	sets.midcast['Occultation'] = set_combine(sets.precast.FC,{
+		hands="Hashishin bazubands +1"
+		})
+		
     sets.midcast['Blue Magic']['Carcharian Verve'] = set_combine(sets.midcast['Blue Magic'].Buff, {
         head="Amalric Coif +1",
         hands="Regal Cuffs",
@@ -736,28 +683,28 @@ function init_gear_sets()
 		ring2="Stikini Ring +1",
         back=gear.RosCapeTP,
 		waist="Fucho-no-obi",
-		legs="Carmine cuisses +1",
+		legs=gear.HercLegsREFRESH,
 		feet=gear.HercFeetREFRESH
 		}
 
     sets.idle.DT = {
 		ammo="Staunch Tathlum +1",				--3
-        head="Malignance Chapeau",				--6
+        head="Nyame Helm",						--7
 		neck="Warder's Charm +1",				--
 		ear1="Eabani Earring",
-		ear2="Suppanomimi",
-        body="Shamash Robe",					--10
-		hands="Malignance Gloves",				--5
+		ear2="Sanare Earring",
+        body="Nyame Mail",						--10
+		hands="Nyame Gauntlets",				--7
 		ring1="Defending Ring",					--10
 		ring2="Purity Ring",					
         back=gear.RosCapeTP,					--10
 		waist="Flume Belt +1",					--4
-		legs="Malignance Tights",				--7
-		feet=gear.HercFeetTP					--2
+		legs="Nyame Flanchard",					--8
+		feet="Nyame Sollerets"					--7
 		}
 
     sets.idle.Town = set_combine(sets.idle, {})
-
+	sets.Kiting = {ring2="Shneddick Ring"}
     sets.idle.Weak = set_combine(sets.idle, {})
 
     --sets.idle.Learning = set_combine(sets.idle, sets.Learning)
@@ -769,14 +716,16 @@ function init_gear_sets()
     sets.defense.PDT = set_combine(sets.idle.DT, {
 		ammo="Ginsen",
 		neck="Mirage Stole +2",
+		head="Malignance Chapeau",
 		body="Malignance Tabard",
+		hands="Malignance Gloves",
+		legs="Malignance Tights",
 		ring2="Epona's Ring",	
-		waist="Kentarch Belt +1",
+		waist="Windbuffet belt +1",
 		})
 		
-    sets.defense.MDT = set_combine(sets.idle.DT, {
-		body="Malignance Tabard",
-		waist="Kentarch Belt +1",
+    sets.defense.MDT = set_combine(sets.defense.PDT, {
+
 		})
 
     ------------------------------------------------------------------------------------------------
@@ -1040,7 +989,9 @@ function init_gear_sets()
 		ring1="Defending Ring",
         ring2="Chirich Ring +1",
 		back=gear.RosCapeTP,
+		waist="Sailfi Belt +1",
 		legs="Malignance Tights",
+		feet="Nyame Sollerets",
         }
 
     sets.engaged.DT = set_combine(sets.engaged, sets.engaged.Hybrid)
@@ -1083,29 +1034,31 @@ function init_gear_sets()
     ------------------------------------------------------------------------------------------------
     ---------------------------------------- Special Sets ------------------------------------------
     ------------------------------------------------------------------------------------------------
-
+	
     sets.magic_burst = set_combine(sets.midcast['Blue Magic'].Magical, {
         body="Samnuha Coat", --(8)
         hands="Amalric Gages +1", --(5)
         legs="Assim. Shalwar +3", --10
         feet="Jhakri Pigaches +2", --5
         ring1="Mujin Band", --(5)
-        back="Seshaw Cape", --5
         })
 
-    sets.Kiting = {legs="Carmine Cuisses +1"}
-    --sets.Learning = {hands="Assim. Bazu. +1"}
     sets.latent_refresh = {waist="Fucho-no-obi"}
 
     sets.buff.Doom = {
         neck="Nicander's Necklace", --20
-        ring1="Purity Ring",
-        --ring2={name="Eshmun's Ring", bag="wardrobe4"}, --20
+        ring1="Purity Ring",		--7
         waist="Gishdubar Sash", --10
         }
 
     sets.CP = {back="Mecisto. Mantle"}
-    sets.TreasureHunter = {head="Volte Cap", hands=gear.Herc_TH_hands, waist="Chaac Belt"}
+    
+	sets.TreasureHunter = {		
+		body="Volte Jupon",
+		waist="Chaac belt",
+		feet="Volte Boots",
+		}
+		
     sets.midcast.Dia = sets.TreasureHunter
     sets.midcast.Diaga = sets.TreasureHunter
     sets.midcast.Bio = sets.TreasureHunter

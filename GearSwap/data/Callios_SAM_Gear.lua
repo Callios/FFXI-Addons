@@ -271,17 +271,17 @@ sets.precast.WS['Namas Arrow'] = {ranged="Yoichinoyumi",ammo="Yoichi's Arrow",
     sets.idle.Town = {ammo="Staunch Tathlum +1",
         head="Valorous Mask",neck="Bathy Choker +1",ear1="Infused Earring",ear2="Etiolation Earring",
         body="Wakido Domaru +3",hands="Wakido Kote +3",ring1="Gelatinous ring +1",ring2="Defending Ring",
-        back="Moonbeam Cape",waist="Flume Belt",legs="Ryuo Hakama +1",feet="Danzo Sune-ate"}
+        back="Moonbeam Cape",waist="Flume Belt",legs="Ryuo Hakama +1",feet="Nyame Sollerets"}
     
     sets.idle.Field = {ammo="Staunch Tathlum +1",
         head="Valorous Mask",neck="Loricate Torque +1",ear1="Infused Earring",ear2="Etiolation Earring",
         body="Wakido Domaru +3",hands="Wakido Kote +3",ring1="Gelatinous Ring +1",ring2="Defending Ring",
-        back="Solemnity Cape",waist="Flume Belt",legs="Ryuo Hakama +1",feet="Danzo Sune-ate"}
+        back="Solemnity Cape",waist="Flume Belt",legs="Ryuo Hakama +1",feet="Nyame Sollerets"}
 
     sets.idle.Weak = {ammo="Staunch Tathlum +1",
         head="Valorous Mask",neck="Loricate Torque +1",ear1="Infused Earring",ear2="Etiolation Earring",
         body="Wakido Domaru +3",hands="Macabre Gauntlets",ring1="Gelatinous Ring +1",ring2="Defending Ring",
-        back="Moonbeam Cape",waist="Flume Belt",legs="Ryuo Hakama +1",feet="Danzo Sune-ate"}
+        back="Moonbeam Cape",waist="Flume Belt",legs="Ryuo Hakama +1",feet="Nyame Sollerets"}
     
     -- Defense sets
     sets.defense.PDT = {ammo="Staunch Tathlum +1",
@@ -325,17 +325,24 @@ sets.precast.WS['Namas Arrow'] = {ranged="Yoichinoyumi",ammo="Yoichi's Arrow",
 		feet="Ryuo Sune-Ate +1"
 		}
     
-	sets.engaged.Acc = {ammo="Ginsen",
-        head="Flamma Zucchetto +2",
-		neck="Samurai's Nodowa +2",
-		ear1="Telos Earring",ear2="Dignitary's Earring",
-        body="Kendatsuba samue +1",
-		hands="Wakido Kote +3",
-		ring1="Niqmaddu Ring",ring2="Flamma Ring",
-        back=CapeSTP,
-		waist="Ioskeha Belt +1",
-		legs="Kendatsuba Hakama +1",
-		feet="Flamma Gambieras +2"
+	sets.engaged.Acc = {
+        
+    sub="Utu Grip",
+    ammo="Ginsen",
+    head="Flam. Zucchetto +2",
+    body={ name="Tatena. Harama. +1", augments={'Path: A',}},
+    hands="Wakido Kote +3",
+    legs={ name="Tatena. Haidate +1", augments={'Path: A',}},
+    feet={ name="Ryuo Sune-Ate +1", augments={'HP+65','"Store TP"+5','"Subtle Blow"+8',}},
+    neck={ name="Sam. Nodowa +2", augments={'Path: A',}},
+    waist="Ioskeha Belt +1",
+    left_ear="Telos Earring",
+    right_ear="Dedition Earring",
+    left_ring="Niqmaddu Ring",
+    right_ring="Chirich Ring +1",
+    back=CapeSTP
+    
+
 		}
    
    sets.engaged.PDT = {ammo="Staunch Tathlum +1",

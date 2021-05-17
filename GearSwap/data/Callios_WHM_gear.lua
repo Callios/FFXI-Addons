@@ -207,9 +207,15 @@ function init_gear_sets()
 
     -- 110 total Enhancing Magic Skill; caps even without Light Arts
     sets.midcast['Enhancing Magic'] = {main="Beneficus",sub="Genbu's Shield",
-        head="Umuthi Hat",neck="Colossus's Torque",
-        body="Manasa Chasuble",hands="Dynasty Mitts",
-        back="Mending Cape",waist="Olympus Sash",legs="Piety Pantaloons",feet="Orison Duckbills +2"}
+        head="Telchine Cap",neck="Incater's torque",
+        body="Telchine chasuble",hands="Telchine Gloves",
+        back="Mending Cape",waist="Embla sash",legs="Telchine Braconi",feet="Theo. Duckbills +1 "}
+
+        sets.midcast['Haste'] = {main="Beneficus",sub="Genbu's Shield",
+        head="Telchine Cap",neck="Incater's torque",
+        body="Telchine chasuble",hands="Telchine Gloves",
+        back="Fi Follet Cape +1",waist="Embla Sash",legs="Telchine Braconi",feet="Theo. Duckbills +1 "}
+
 
     sets.midcast.Stoneskin = {
         head="Nahtirah Hat",neck="Orison Locket",ear2="Loquacious Earring",
@@ -346,9 +352,24 @@ function init_gear_sets()
     
     -- Basic set for if no TP weapon is defined.
     sets.engaged = {
-        head="Nahtirah Hat",neck="Asperity Necklace",ear1="Bladeborn Earring",ear2="Steelflash Earring",
-        body="Vanir Cotehardie",hands="Dynasty Mitts",ring1="Rajas Ring",ring2="K'ayres Ring",
-        back="Umbra Cape",waist="Goading Belt",legs="Gendewitha Spats",feet="Gendewitha Galoshes"}
+
+    main="Yagrush",
+    sub="C. Palug Hammer",
+    ammo="Amar Cluster",
+    head="Aya. Zucchetto +2",
+    body="Ayanmo Corazza +2",
+    hands="Aya. Manopolas +2",
+    legs="Aya. Cosciales +2",
+    feet="Aya. Gambieras +2",
+    neck="Combatant's Torque",
+    waist="Windbuffet Belt +1",
+    left_ear="Suppanomimi",
+    right_ear="Eabani Earring",
+    left_ring="Chirich Ring +1",
+    right_ring="Chirich Ring +1",
+    back="Moonbeam Cape",
+    
+    }
 
 
     -- Buff sets: Gear that needs to be worn to actively enhance a current player buff.

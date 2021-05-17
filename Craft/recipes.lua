@@ -28958,6 +28958,34 @@ return {
             "Mussel",
         },
     },
+    ["Seafood gratin"] = {
+        ["crystal"] = "Fire Crystal",
+        ["ingredients"] = {
+           "San d'Or. Flour",
+           "Selbina Butter",
+           "Rock Salt",
+           "Danceshroom",
+           "Selbina Milk",
+           "Gigant Squid",
+           "Bastore Sweeper",
+           "Chalaimbille",
+
+        },
+    },
+    ["Popotoes con queso"] = {
+        ["crystal"] = "Fire Crystal",
+        ["ingredients"] = {
+           "San d'Or. Flour",
+           "Selbina Butter",
+           "Popoto",
+           "Rock Salt",
+           "Danceshroom",
+           "Selbina Milk",
+           "Wild Onion",
+           "Chalaimbille",
+
+        },
+    },
     ["Seafood Pitaru"] = {
         ["crystal"] = "Fire Crystal",
         ["ingredients"] = {

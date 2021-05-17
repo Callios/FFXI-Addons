@@ -210,7 +210,7 @@ function init_gear_sets()
         neck="Orunmila's Torque", --5
         ear1="Loquacious Earring", --2
         ear2="Enchntr. Earring +1", --2
-        ring1="Weather. Ring", --5
+        ring1="Rahab Ring", --2
         ring2="Kishar Ring", --4
         }
 
@@ -353,8 +353,9 @@ function init_gear_sets()
 		}
 	
 	sets.precast.WS['Aeolian Edge'].TH = set_combine(sets.precast.WS['Aeolian Edge'], {
-		body=gear.HercBodyTH,
-		hands=gear.HercHandsTH,
+		body="Volte Jupon",
+		waist="Chaac belt",
+		feet="Volte Boots",
 	})
 
 	--RANGED WS GEAR
@@ -593,7 +594,7 @@ function init_gear_sets()
         body="Chasseur's Frac +1", 
         hands="Lanun Gants +3", 
 		back=gear.CamMantleRACC,
-        --legs="Oshosi Trousers", 
+        legs="Oshosi Trousers +1", 
         feet="Oshosi Leggings +1", 
         } 
 
@@ -612,26 +613,26 @@ function init_gear_sets()
         body="Meghanada Cuirie +2",
 		hands="Meghanada Gloves +2",
 		ring1="Chirich Ring +1",
-		ring2="Meghanada Ring",
+		ring2="Chirich Ring +1",
         back=gear.CamMantleDA,
 		waist="Flume Belt +1",
-		legs="Carmine Cuisses +1",
+		legs="Meghanada Chausses +2",
 		feet="Meghanada Jambeaux +2"
         }
 
     sets.idle.DT = set_combine(sets.idle, {
-        head="Malignance Chapeau",		--6
+        head="Nyame Helm",				--7
 		neck="Warder's Charm +1",		
 		ear1="Eabani Earring",
 		ear2="Sanare Earring",
-        body="Malignance Tabard",		--9
-		hands="Malignance Gloves",		--5
+        body="Nyame Mail",				--9
+		hands="Nyame Gauntlets",		--7
 		ring1="Defending Ring",			--10
 		ring2="Purity Ring",			
         back=gear.CamMantleTP,			--10
 		waist="Reiki Yotai",			
-		legs="Malignance Tights",		--7
-		feet=gear.HercFeetTP,			--2
+		legs="Nyame Flanchard",			--8
+		feet="Nyame Sollerets",			--7
         })
 
     sets.idle.Town = set_combine(sets.idle, {ammo=gear.RAbullet,})
@@ -650,6 +651,10 @@ function init_gear_sets()
     ------------------------------------------------------------------------------------------------
 
     sets.defense.PDT = set_combine(sets.idle.DT, {
+		head="Malignance Chapeau",
+		body="Malignance Tabard",
+		hands="Malignance Gloves",
+		legs="Malignance Tights",
 		ring2="Chirich Ring +1",
 		waist="Reiki Yotai",		
 		})
@@ -658,7 +663,7 @@ function init_gear_sets()
 		
 		})
 
-    sets.Kiting = {legs="Carmine Cuisses +1"}
+    sets.Kiting = {ring1="Shneddick Ring",}
 
 
     ------------------------------------------------------------------------------------------------
@@ -910,6 +915,7 @@ function init_gear_sets()
 		ring2="Chirich Ring +1",
 		back=gear.CamMantleDA,			--10
 		legs="Malignance Tights", 		--7
+		feet="Nyame Sollerets",
         }
     
     sets.engaged.DT = set_combine(sets.engaged, sets.engaged.Hybrid)

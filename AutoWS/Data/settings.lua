@@ -3,11 +3,11 @@ return {
         ["NIN"] = {
             ["Katana"] = {
                 ["hps"] = {
-                    ["<"] = 100,
+                    ["<"] = 60,
                     [">"] = 1
                 },
                 ["mobs"] = {},
-                ["ws_cmd"] = "/ws \"Blade: Ku\" <t>"
+                ["ws_cmd"] = "/ws \"Blade: Ei\" <t>"
             }
         },
         ["RDM"] = {
@@ -28,6 +28,16 @@ return {
                 },
                 ["mobs"] = {},
                 ["ws_cmd"] = "/ws \"gust slash\" <t>"
+            }
+        },
+        ["WHM"] = {
+            ["Club"] = {
+                ["hps"] = {
+                    ["<"] = 40,
+                    [">"] = 1
+                },
+                ["mobs"] = {},
+                ["ws_cmd"] = "/ws \"mystic boon\" <t>"
             }
         }
     },

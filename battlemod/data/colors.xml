@@ -22,10 +22,10 @@
         <enfeebcol>501</enfeebcol>
         <itemcol>256</itemcol>
         <mob>69</mob>
-        <mobdmg>260</mobdmg>
+        <mobdmg>0</mobdmg>
         <mobspellcol>0</mobspellcol>
         <mobwscol>0</mobwscol>
-        <mydmg>260</mydmg>
+        <mydmg>0</mydmg>
         <other>8</other>
         <otherdmg>0</otherdmg>
         <p0>501</p0>
@@ -34,9 +34,9 @@
         <p3>492</p3>
         <p4>259</p4>
         <p5>260</p5>
-        <partydmg>213</partydmg>
-        <spellcol>259</spellcol>
-        <statuscol>217</statuscol>
-        <wscol>260</wscol>
+        <partydmg>0</partydmg>
+        <spellcol>0</spellcol>
+        <statuscol>0</statuscol>
+        <wscol>0</wscol>
     </global>
 </settings>

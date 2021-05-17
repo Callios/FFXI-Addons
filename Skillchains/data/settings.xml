@@ -57,19 +57,19 @@
                 <x>24</x>
                 <y>312</y>
             </pos>
-            <text>
-                <fonts>
-
-                </fonts>
-            </text>
         </display>
     </gimples>
     <gipi>
         <display>
             <pos>
-                <x>1190</x>
-                <y>266</y>
+                <x>131</x>
+                <y>330</y>
             </pos>
+            <text>
+                <fonts>
+
+                </fonts>
+            </text>
         </display>
     </gipi>
 </settings>

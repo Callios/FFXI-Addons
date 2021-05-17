@@ -302,9 +302,9 @@ function init_gear_sets()
 		back=BRD_MELEE,waist="Windbuffet belt +1",legs="Volte Tights",feet="Bihu Slippers +3"}
 	 
 	sets.engaged.MidAcc = {range="linos",
-		head="Ayanmo zucchetto +2",neck="Combatant's torque",ear1="Telos Earring",ear2="Cessance Earring",
-		body="Ayanmo Corazza +2",hands="Ayanmo manopolas +2",ring1="Cacoethic ring +1",ring2="Ilabrat ring",
-		back=BRD_MELEE,waist="Olseni belt",legs="Ayanmo cosciales +2",feet="Ayanmo gambieras +2"}
+		head="Ayanmo zucchetto +2",neck="Combatant's torque",ear1="Telos Earring",ear2="Eabani Earring",
+		body="Ayanmo Corazza +2",hands="Volte Mittens",ring1="Chirich Ring +1",ring2="Chirich Ring +1",
+		back=BRD_MELEE,waist="Reiki Yotai",legs="Volte Tights",feet="Ayanmo gambieras +2"}
 	 
 	sets.engaged.HighAcc = {range="linos",
 		head="Ayanmo zucchetto +2",neck="Combatant's torque",ear1="Telos Earring",ear2="Dignitary's Earring",
