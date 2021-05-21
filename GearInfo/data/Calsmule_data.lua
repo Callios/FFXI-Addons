@@ -69,12 +69,12 @@ return {
     }, 
     [3]={
         ["discription"]="Increases rate of synthesis success by 1%", 
-        ["id"]=28587, 
+        ["en"]="Artificer's Ring", 
         ["slots"]={
             [13]="Left Ring", 
             [14]="Right Ring"
         }, 
-        ["en"]="Artificer's Ring", 
+        ["id"]=28587, 
         ["category"]="Armor", 
         ["jobs"]={
             [1]="WAR", 
@@ -103,12 +103,12 @@ return {
     }, 
     [4]={
         ["discription"]="Likelihood of synthesis material loss-1%", 
-        ["id"]=28585, 
+        ["en"]="Craftkeeper's Ring", 
         ["slots"]={
             [13]="Left Ring", 
             [14]="Right Ring"
         }, 
-        ["en"]="Craftkeeper's Ring", 
+        ["id"]=28585, 
         ["category"]="Armor", 
         ["jobs"]={
             [1]="WAR", 
@@ -139,7 +139,9 @@ return {
         ["discription"]="DMG:+4 Delay:+96 Accuracy+2", 
         ["category"]="Weapon", 
         ["en"]="Brass Knuckles", 
-        ["skill"]="Hand-to-Hand", 
+        ["slots"]={
+            [0]="Main"
+        }, 
         ["delay"]=96, 
         ["jobs"]={
             [1]="WAR", 
@@ -152,22 +154,18 @@ return {
             [19]="DNC"
         }, 
         ["id"]=16391, 
-        ["slots"]={
-            [0]="Main"
-        }, 
+        ["skill"]="Hand-to-Hand", 
         ["Accuracy"]=2, 
         ["damage"]=4
     }, 
     [6]={
         ["discription"]="DMG:+5 Delay:+86 HP+2 MP+2 Accuracy+2 Attack+3", 
         ["category"]="Weapon", 
-        ["delay"]=86, 
-        ["en"]="Bas. Knuckles", 
-        ["MP"]=2, 
         ["HP"]=2, 
-        ["slots"]={
-            [0]="Main"
-        }, 
+        ["en"]="Bas. Knuckles", 
+        ["Accuracy"]=2, 
+        ["delay"]=86, 
+        ["skill"]="Hand-to-Hand", 
         ["jobs"]={
             [1]="WAR", 
             [2]="MNK", 
@@ -178,11 +176,13 @@ return {
             [9]="BST", 
             [19]="DNC"
         }, 
-        ["Accuracy"]=2, 
-        ["damage"]=5, 
+        ["MP"]=2, 
+        ["Attack"]=3, 
         ["id"]=17499, 
-        ["skill"]="Hand-to-Hand", 
-        ["Attack"]=3
+        ["slots"]={
+            [0]="Main"
+        }, 
+        ["damage"]=5
     }, 
     [7]={
         ["discription"]="DEF:1 +1 Goldsmithing skill +1", 
@@ -222,12 +222,12 @@ return {
         ["Ranged Attack"]=2, 
         ["category"]="Weapon", 
         ["en"]="Windurstian Bow", 
+        ["skill"]="Archery", 
+        ["delay"]=350, 
+        ["discription"]="DMG:13 Delay:350 Ranged Attack+2", 
         ["slots"]={
             [2]="Range"
         }, 
-        ["delay"]=350, 
-        ["discription"]="DMG:13 Delay:350 Ranged Attack+2", 
-        ["skill"]="Archery", 
         ["jobs"]={
             [1]="WAR", 
             [5]="RDM", 
@@ -245,7 +245,7 @@ return {
     [9]={
         ["Evasion"]=49, 
         ["MND"]=18, 
-        ["AGI"]=31, 
+        ["STR"]=9, 
         ["jobs"]={
             [2]="MNK", 
             [3]="WHM", 
@@ -265,15 +265,8 @@ return {
             [22]="RUN"
         }, 
         ["DEX"]=10, 
-        ["discription"]="DEF:60 HP+12 MP+14 STR+9 DEX+10 VIT+9 AGI+31 INT+17 MND+18 CHR+32 Magic Accuracy+4 Evasion+49 Magic Evasion+100  \"Magic Def. Bonus\"+5 Haste+3% Set: \"Refresh\"+3", 
-        ["en"]="Wayfarer Clogs", 
-        ["item_level"]=117, 
-        ["DEF"]=60, 
-        ["HP"]=12, 
-        ["slots"]={
-            [8]="Feet"
-        }, 
         ["Set Bonus"]={
+            ["set id"]=110, 
             ["bonus"]={
                 [1]={}, 
                 [2]={}, 
@@ -282,11 +275,18 @@ return {
                 [5]={
                     ["Refresh"]=3
                 }
-            }, 
-            ["set id"]=110
+            }
         }, 
-        ["STR"]=9, 
+        ["AGI"]=31, 
+        ["en"]="Wayfarer Clogs", 
+        ["item_level"]=117, 
+        ["HP"]=12, 
         ["Haste"]=3, 
+        ["discription"]="DEF:60 HP+12 MP+14 STR+9 DEX+10 VIT+9 AGI+31 INT+17 MND+18 CHR+32 Magic Accuracy+4 Evasion+49 Magic Evasion+100  \"Magic Def. Bonus\"+5 Haste+3% Set: \"Refresh\"+3", 
+        ["slots"]={
+            [8]="Feet"
+        }, 
+        ["DEF"]=60, 
         ["MP"]=14, 
         ["id"]=28308, 
         ["INT"]=17, 
@@ -298,7 +298,7 @@ return {
     [10]={
         ["Evasion"]=19, 
         ["MND"]=32, 
-        ["AGI"]=4, 
+        ["STR"]=6, 
         ["jobs"]={
             [2]="MNK", 
             [3]="WHM", 
@@ -318,15 +318,8 @@ return {
             [22]="RUN"
         }, 
         ["DEX"]=26, 
-        ["discription"]="DEF:77 HP+20 MP+14 STR+6 DEX+26 VIT+24 AGI+4 INT+18 MND+32 CHR+18 Magic Accuracy+4 Evasion+19 Magic Evasion+35 \"Magic Def. Bonus\"+2 Haste+3% Set: \"Refresh\"+3", 
-        ["en"]="Wayfarer Cuffs", 
-        ["item_level"]=117, 
-        ["DEF"]=77, 
-        ["HP"]=20, 
-        ["slots"]={
-            [6]="Hands"
-        }, 
         ["Set Bonus"]={
+            ["set id"]=110, 
             ["bonus"]={
                 [1]={}, 
                 [2]={}, 
@@ -335,11 +328,18 @@ return {
                 [5]={
                     ["Refresh"]=3
                 }
-            }, 
-            ["set id"]=110
+            }
         }, 
-        ["STR"]=6, 
+        ["AGI"]=4, 
+        ["en"]="Wayfarer Cuffs", 
+        ["item_level"]=117, 
+        ["HP"]=20, 
         ["Haste"]=3, 
+        ["discription"]="DEF:77 HP+20 MP+14 STR+6 DEX+26 VIT+24 AGI+4 INT+18 MND+32 CHR+18 Magic Accuracy+4 Evasion+19 Magic Evasion+35 \"Magic Def. Bonus\"+2 Haste+3% Set: \"Refresh\"+3", 
+        ["slots"]={
+            [6]="Hands"
+        }, 
+        ["DEF"]=77, 
         ["MP"]=14, 
         ["id"]=28031, 
         ["INT"]=18, 
@@ -351,9 +351,7 @@ return {
     [11]={
         ["Evasion"]=24, 
         ["MND"]=22, 
-        ["slots"]={
-            [7]="Legs"
-        }, 
+        ["STR"]=24, 
         ["jobs"]={
             [2]="MNK", 
             [3]="WHM", 
@@ -372,7 +370,25 @@ return {
             [21]="GEO", 
             [22]="RUN"
         }, 
+        ["en"]="Wayfarer Slops", 
+        ["Haste"]=5, 
+        ["AGI"]=16, 
+        ["item_level"]=117, 
+        ["discription"]="DEF:99 HP+38 MP+28 STR+24 VIT+12 AGI+16 INT+32 MND+22 CHR+19 \"Magic Atk. Bonus\"+5 Evasion+24 Magic Evasion+100 \"Magic Def. Bonus\"+5 Haste+5% Set: \"Refresh\"+3", 
+        ["HP"]=38, 
+        ["id"]=28170, 
+        ["Magic Atk. Bonus"]=5, 
+        ["DEF"]=99, 
+        ["MP"]=28, 
+        ["VIT"]=12, 
+        ["slots"]={
+            [7]="Legs"
+        }, 
+        ["CHR"]=19, 
+        ["INT"]=32, 
+        ["category"]="Armor", 
         ["Set Bonus"]={
+            ["set id"]=110, 
             ["bonus"]={
                 [1]={}, 
                 [2]={}, 
@@ -381,35 +397,19 @@ return {
                 [5]={
                     ["Refresh"]=3
                 }
-            }, 
-            ["set id"]=110
-        }, 
-        ["AGI"]=16, 
-        ["item_level"]=117, 
-        ["discription"]="DEF:99 HP+38 MP+28 STR+24 VIT+12 AGI+16 INT+32 MND+22 CHR+19 \"Magic Atk. Bonus\"+5 Evasion+24 Magic Evasion+100 \"Magic Def. Bonus\"+5 Haste+5% Set: \"Refresh\"+3", 
-        ["DEF"]=99, 
-        ["HP"]=38, 
-        ["id"]=28170, 
-        ["Magic Atk. Bonus"]=5, 
-        ["Haste"]=5, 
-        ["MP"]=28, 
-        ["VIT"]=12, 
-        ["STR"]=24, 
-        ["CHR"]=19, 
-        ["INT"]=32, 
-        ["category"]="Armor", 
-        ["en"]="Wayfarer Slops"
+            }
+        }
     }, 
     [12]={
         ["discription"]="MP+45 Enmity-3 Spell interruption rate down 5% Magic critical hit rate +14%", 
-        ["id"]=27535, 
+        ["category"]="Armor", 
         ["slots"]={
             [11]="Left Ear", 
             [12]="Right Ear"
         }, 
+        ["id"]=27535, 
         ["en"]="Halasz Earring", 
         ["MP"]=45, 
-        ["category"]="Armor", 
         ["jobs"]={
             [1]="WAR", 
             [2]="MNK", 
@@ -472,12 +472,12 @@ return {
     }, 
     [14]={
         ["discription"]="Increases rate of high quality-item synthesis success by 1", 
-        ["id"]=28586, 
+        ["en"]="Craftmaster's Ring", 
         ["slots"]={
             [13]="Left Ring", 
             [14]="Right Ring"
         }, 
-        ["en"]="Craftmaster's Ring", 
+        ["id"]=28586, 
         ["category"]="Armor", 
         ["jobs"]={
             [1]="WAR", 
@@ -540,11 +540,11 @@ return {
     }, 
     [16]={
         ["discription"]="Goldsmithing skill +2", 
-        ["id"]=10950, 
+        ["en"]="Goldsm. Torque", 
         ["slots"]={
             [9]="Neck"
         }, 
-        ["en"]="Goldsm. Torque", 
+        ["id"]=10950, 
         ["category"]="Armor", 
         ["jobs"]={
             [1]="WAR", 
@@ -573,11 +573,11 @@ return {
     }, 
     [17]={
         ["discription"]="Slightly enhances chocobo digging skill", 
-        ["id"]=11767, 
+        ["en"]="Chocobo Rope", 
         ["slots"]={
             [10]="Waist"
         }, 
-        ["en"]="Chocobo Rope", 
+        ["id"]=11767, 
         ["category"]="Armor", 
         ["jobs"]={
             [1]="WAR", 
@@ -637,5 +637,27 @@ return {
             [21]="GEO", 
             [22]="RUN"
         }
+    }, 
+    [19]={
+        ["discription"]="DMG:45 Delay:340 HP+29 MP-29 VIT+5", 
+        ["category"]="Weapon", 
+        ["VIT"]=5, 
+        ["en"]="Brass Jadagna", 
+        ["HP"]=29, 
+        ["delay"]=340, 
+        ["skill"]="Club", 
+        ["slots"]={
+            [0]="Main", 
+            [1]="Sub"
+        }, 
+        ["jobs"]={
+            [1]="WAR", 
+            [3]="WHM", 
+            [7]="PLD", 
+            [21]="GEO"
+        }, 
+        ["MP"]=-29, 
+        ["id"]=18848, 
+        ["damage"]=45
     }
 }

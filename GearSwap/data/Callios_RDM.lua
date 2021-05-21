@@ -198,6 +198,11 @@ function get_sets()
     RDMCape.DW      =   {name="Sucellos's Cape", augments={'DEX+20','Accuracy+20 Attack+20','"Dual Wield"+10'}}
     RDMCape.STRWS   =   {name="Sucellos's Cape", augments={'STR+20','Accuracy+20 Attack+20','STR+10','Weapon skill damage +10%'}}
     RDMCape.MAGWS   =   {name="Sucellos's Cape", augments={'MND+20','Mag. Acc+20 /Mag. Dmg.+20','Weapon skill damage +10%'}}
+
+    -- Augmented Pieces 
+    ChironicLegs = {}
+    ChironicLegs.A = {name="Chironic Hose", augments={'Mag. Acc.+30','MND+13'}}
+    ChironicLegs.B = {name="Chironic Hose", augments={'"Cure" spellcasting time -9%','DEX+6','Mag. Acc.+13','"Mag.Atk.Bns."+7',}}
     -- SETS
      
     sets.me = {}                -- leave this empty
@@ -634,7 +639,8 @@ function get_sets()
         waist="Hachirin-no-Obi",
     }
     sets.midcast.Orpheus = {
-        --waist="Orpheus's Sash", -- Commented cause I dont have one yet
+       waist="Orpheus's Sash", -- Commented cause I dont have one yet
+        
     }  
     -----------------------------------------------------------------------------------------------
     -- Helix sets automatically derives from casting sets. SO DONT PUT ANYTHING IN THEM other than:
@@ -742,7 +748,7 @@ function get_sets()
         ring2="Kishar Ring",
         back=RDMCape.MACC,
         waist="Luminary sash",
-        legs="Vitiation Tights +3",
+        legs=ChironicLegs.A,
         feet="Vitiation Boots +2"
 
     }
@@ -766,7 +772,7 @@ function get_sets()
         ring2="Kishar Ring",
         back=RDMCape.MACC,
         waist="Luminary sash",
-        legs="Vitiation Tights +3",
+        legs=ChironicLegs.A,
         feet="Vitiation Boots +2"
 
     }
@@ -786,7 +792,7 @@ function get_sets()
         ring2="Kishar Ring",
         back=RDMCape.MACC,
         waist="Luminary sash",
-        legs="Vitiation Tights +3",
+        legs=ChironicLegs.A,
         feet="Vitiation Boots +2"
 
     }
@@ -825,7 +831,7 @@ function get_sets()
         ring2="Kishar Ring",
         back=RDMCape.MACC,
         waist="Luminary sash",
-        legs="Vitiation Tights +3",
+        legs=ChironicLegs.A,
         feet="Vitiation Boots +2"
 
     }
@@ -845,7 +851,7 @@ function get_sets()
         ring2="Kishar Ring",
         back=RDMCape.MACC,
         waist="Luminary sash",
-        legs="Vitiation Tights +3",
+        legs=ChironicLegs.A,
         feet="Vitiation Boots +2"
 
     }

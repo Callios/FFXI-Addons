@@ -55,6 +55,14 @@ return {
     },
     ["Gipi"] = {
         ["COR"] = {
+            ["Dagger"] = {
+                ["hps"] = {
+                    ["<"] = 100,
+                    [">"] = 5
+                },
+                ["mobs"] = {},
+                ["ws_cmd"] = "/ws \"savage blade\" <t>"
+            },
             ["Sword"] = {
                 ["hps"] = {
                     ["<"] = 100,
@@ -62,6 +70,16 @@ return {
                 },
                 ["mobs"] = {},
                 ["ws_cmd"] = "/ws \"savage blade\" <t>"
+            }
+        },
+        ["SCH"] = {
+            ["Staff"] = {
+                ["hps"] = {
+                    ["<"] = 55,
+                    [">"] = 5
+                },
+                ["mobs"] = {},
+                ["ws_cmd"] = "/ws \"omniscience\" <t>"
             }
         }
     },

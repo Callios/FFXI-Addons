@@ -306,21 +306,21 @@ function init_gear_sets()
         back="Umbra Cape",waist="Witful Belt",legs="Gendewitha Spats",feet="Herald's Gaiters"}
 
     sets.idle.Town = {    
-    main="Daybreak",
-    sub="Genmei Shield",
-    ammo="Hydrocera",
-    head="Befouled Crown",
-    body="Annoint. Kalasiris",
-    hands="Inyanga Dastanas +2",
-    legs="Assiduity Pants",
-    feet="Inyanga Crackows +1",
-    neck="Warder's Charm +1",
-    waist="Carrier's Sash",
-    left_ear="Hearty Earring",
-    right_ear="Etiolation Earring",
-    left_ring="Defending Ring",
-    right_ring="Inyanga Ring",
-    back="Disperser's Cape",}
+        main="Daybreak",
+        sub="Genmei Shield",
+        ammo="Staunch Tathlum +1",
+        head="Inyanga Tiara +2",
+        body="Inyanga Jubbah +2",
+        hands="Inyan. Dastanas +2",
+        legs="Inyanga Shalwar +2",
+        feet="Nyame Sollerets",
+        neck="Warder's Charm +1",
+        waist="Carrier's Sash",
+        left_ear="Hearty Earring",
+        right_ear="Odnowa Earring +1",
+        left_ring="Inyanga Ring",
+        right_ring="Defending Ring",
+        back="Solemnity Cape",}
     
     sets.idle.Weak = {main="Bolelabunga",sub="Genbu's Shield",ammo="Incantor Stone",
         head="Nahtirah Hat",neck="Twilight Torque",ear1="Bloodgem Earring",ear2="Loquacious Earring",
