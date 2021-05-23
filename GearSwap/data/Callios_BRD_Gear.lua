@@ -49,7 +49,7 @@ function init_gear_sets()
 -- Fast cast sets for spells
 
 	sets.precast.FC = {
-		main="Kali",				--7
+		main="Vampirism",				--7
 		head="Nahtirah Hat",			--10
 		neck="Baetyl Pendant",		--5
 		ear1="Enchntr. earring +1",		--2
@@ -60,7 +60,7 @@ function init_gear_sets()
 		ring2="Rahab ring",				--2 --Need ring 12/21/18
 		back=BRD_MACC_FC,		--10
 		waist="Witful belt",			--3
-		legs="Ayanmo cosciales +2",				--5
+		legs="Kaykaus tights +1",				--5
 		feet=gear.ChironicHandsMATK		--4 -- Need FC Feet 12/21/18
 		} --75
 	 
@@ -71,8 +71,10 @@ function init_gear_sets()
 	sets.precast.FC.Cure = set_combine(sets.precast.FC, {
 		main="Daybreak",
 		ear1="Mendicant's earring",
+		head="Kaykaus mitra +1",
 		body="Heka's Kalasiris",
 		legs="Doyen pants",
+		fett="Kaykaus boots +1"
 		})
 		
 	sets.precast.FC.Curaga = sets.precast.FC.Cure
@@ -207,9 +209,9 @@ function init_gear_sets()
 -- Other general spells and classes.
 
 	sets.midcast.Cure = {main="Daybreak",sub="Enki Strap",ammo="Pemphredo Tathlum",
-		head="Vanya hood",neck="Incanter's torque",ear1="Mendicant's earring",ear2="Novia earring",
-		body="Chironic doublet",hands="Inyanga dastanas +2",ring1="Sirona's ring",ring2="Lebeche ring",
-		back="Tempered cape +1",waist="Porous rope",legs="Vanya slops",feet="Vanya clogs"}
+		head="Kaykaus mitra +1",neck="Incanter's torque",ear1="Mendicant's earring",ear2="Novia earring",
+		body="Kaykaus bliaut +1",hands="Kaykaus cuffs +1",ring1="Sirona's ring",ring2="Lebeche ring",
+		back="Tempered cape +1",waist="Porous rope",legs="Kaykaus tights +1",feet="Kaykaus boots +1"}
 
 	sets.midcast.Curaga = sets.midcast.Cure
 	sets.midcast.CureSelf = {waist="Gishdubar Sash",}

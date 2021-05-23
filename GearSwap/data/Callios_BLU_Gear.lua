@@ -125,14 +125,14 @@ function init_gear_sets()
     sets.precast.WS['Sanguine Blade'] = {ammo="Pemphredo tathlum",
         head="pixie hairpin +1",neck="Sanctity Necklace",ear1="Regal earring",ear2="Friomisi Earring",
         body="Jhakri robe +2", hands="Jhakri cuffs +2", ring1="Shiva ring", ring2="Shiva ring",
-        back=gear.BLUnuke,waist="Eschan stone",
+        back=gear.BLUnuke,waist="Orpheus's sash",
         legs={ name="Herculean Trousers", augments={'Mag. Acc.+20 "Mag.Atk.Bns."+20','Crit.hit rate+1','"Mag.Atk.Bns."+15',}},
         feet="Nyame Sollerets"}
     
 	sets.precast.WS['Flash Nova'] = {ammo="Pemphredo tathlum",
         head="Jhakri coronal +2",neck="Sanctity Necklace",ear1="Regal earring",ear2="Friomisi Earring",
         body="Assimilator jubbah +3",hands="Jhakri cuffs +2",ring1="Shiva ring +1",ring2="Shiva ring +1",
-        back="Cornflower cape",waist="Eschan stone",legs="Amalric slops",feet=gear.HercFeetMagic}
+        back="Cornflower cape",waist="Orpheus's sash",legs="Amalric slops",feet=gear.HercFeetMagic}
     
     -- Midcast Sets
     sets.midcast.FastRecast = {ammo="Staunch tathlum +1",
@@ -169,15 +169,15 @@ function init_gear_sets()
 
     -- Magical Spells --
     
-    sets.midcast['Blue Magic'].Magical = {ammo="Dosis tathlum",
-        head="Jhakri coronal +2",neck="Baetyl pendant",ear1="Regal Earring",ear2="Friomisi earring",
-        body="Jhakri robe +2",hands="Jhakri cuffs +2",ring1="Shiva ring",ring2="Jhakri ring",
-        back=gear.BLUnuke,waist="Eschan stone",legs="Jhakri slops +2",feet="Jhakri Pigaches +2"}
+    sets.midcast['Blue Magic'].Magical = {ammo="Ghastly tathlum +1",
+        head="Amalric coif +1",neck="Baetyl pendant",ear1="Regal Earring",ear2="Friomisi earring",
+        body="Amalric doublet +1",hands="Amalric gages +1",ring1="Shiva ring",ring2="Jhakri ring",
+        back=gear.BLUnuke,waist="Orpheus's sash",legs="Amalric slops +1",feet="Amalric nails +1"}
 
-    sets.midcast['Blue Magic'].Magical.Resistant = {ammo="Pemphredo tathlum",
-		head="Jhakri coronal +2",neck="Sanctity Necklace",ear1="Regal Earring",ear2="Dignitary's earring",
-		body="Jhakri robe +2",hands="Jhakri cuffs +2",ring1="Stikini ring",ring2="Stikini ring",
-		back=gear.BLUnuke,waist=gear.ElementalObi,legs="Jhakri slops +2",feet="Jhakri Pigaches +2"}
+    sets.midcast['Blue Magic'].Magical.Resistant = {ammo="Ghastly tathlum +1",
+		head="Amalric coif +1",neck="Sanctity Necklace",ear1="Regal Earring",ear2="Dignitary's earring",
+		body="Amalric doublet +1",hands="Amalric gages +1",ring1="Stikini ring",ring2="Stikini ring",
+		back=gear.BLUnuke,waist="Orpheus's sash",legs="Amalric slops +1",feet="Amalric nails +1"}
 		
 	sets.midcast['Tenebral Crush'] = set_combine(sets.midcast['Blue Magic'].Magical,{
 		head="Pixie hairpin +1",ring2="Archon ring"})

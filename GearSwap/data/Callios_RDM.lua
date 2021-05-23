@@ -66,7 +66,7 @@ include('Modes.lua')
 -- to define sets for idle if you add more modes, name them: sets.me.idle.mymode and add 'mymode' in the group.
 -- Same idea for nuke modes. 
 idleModes = M('refresh', 'dt', 'mdt')
-meleeModes = M('normal', 'CapHaste', 'savage', 'CapHasteSavage', 'odin', 'acc', 'dt', 'mdt')
+meleeModes = M('normal', 'CapHaste', 'savage', 'CapHasteSavage', 'enspell', 'odin', 'acc', 'dt', 'mdt')
 nukeModes = M('normal', 'acc')
 
 ------------------------------------------------------------------------------------------------------
@@ -229,7 +229,7 @@ function get_sets()
         hands="Malignance Gloves",
         ring1="Defending Ring",
         ring2="Gelatinous Ring +1",
-        back= RDMCape.TP,
+        back= "Moonbeam Cape",
         waist="Fucho-no-obi",
         legs="Carmine Cuisses +1",
         feet="Nyame Sollerets"
@@ -275,16 +275,16 @@ function get_sets()
 
         ammo="Ginsen",
         head="Malignance Chapeau",
-        neck="Anu Torque",
-        ear1="Sherida Earring",
+        neck="Combatant's Torque",
+        ear1="Suppanomimi",
         ear2="Eabani Earring",
         body="Malignance Tabard",
         hands="Malignance Gloves",
         ring1="Chirich Ring +1",
-        ring2="Ilabrat Ring",
+        ring2="Chirich Ring +1",
         back= RDMCape.DW,
         waist="Reiki Yotai",
-        legs="Malignance Tights",
+        legs="Carmine Cuisses +1",
         feet="Carmine Greaves +1",  
 
     }
@@ -343,6 +343,24 @@ function get_sets()
 
     }
 
+    sets.me.melee.enspelldw = {   
+
+        range="Ullr",
+        head="Malignance Chapeau",
+        neck="Sanctity Necklace",
+        ear1="Suppanomimi",
+        ear2="Hollow Earring",
+        body="Malignance Tabard",
+        hands="Ayanmo Manopolas +2",
+        ring1="Chirich Ring +1",
+        ring2="Chirich Ring +1",
+        back= RDMCape.DW,
+        waist="Orpheus's Sash",
+        legs="Carmine Cuisses +1",
+        feet="Carmine Greaves +1", 
+
+    }
+
     sets.me.melee.odindw = {   
 
         range="Ullr",
@@ -360,6 +378,7 @@ function get_sets()
         feet="Carmine Greaves +1", 
 
     }
+
     sets.me.melee.accdw = set_combine(sets.me.melee.normaldw,{
         --head      =   Carm.Head.D,
         neck        =   "Sanctity Necklace",
@@ -411,7 +430,7 @@ function get_sets()
         head="Viti. Chapeau +3",
         body="Vitiation Tabard +3",
         neck="Duelist's torque +2",
-        hands ="Jhakri Cuffs +2",
+        hands="Atrophy Gloves +3",
         ear1="Regal Earring",
         ear2="Moonshade Earring",
         legs="Jhakri Slops +2",
@@ -445,7 +464,7 @@ function get_sets()
         head="Viti. Chapeau +3",
         body="Vitiation Tabard +3",
         neck="Duelist's torque +2",
-        hands ="Jhakri Cuffs +2",
+        hands="Atrophy Gloves +3",
         ear1="Regal Earring",
         ear2="Moonshade Earring",
         legs="Jhakri Slops +2",
@@ -461,13 +480,13 @@ function get_sets()
         head="Viti. Chapeau +3",
         body="Vitiation Tabard +3",
         neck="Duelist's Torque +2",
-        hands ="Jhakri Cuffs +2",
+        hands="Atrophy Gloves +3",
         ear1="Regal Earring",
-        ear2="Moonshade Earring",
+        ear2="Sherida Earring",
         body="Vitiation Tabard +3",
         ring1="Epaminondas's ring",
         ring2="Metamorph Ring +1",
-        waist="Prosilio Belt +1",
+        waist="Sailfi Belt +1",
         feet="Nyame Sollerets",
         back= RDMCape.MAGWS,
     }
@@ -491,10 +510,10 @@ function get_sets()
 
         head="Malignance Chapeau",
         neck="Fotia Gorget",
-        ear1="Moonshade Earring",
+        ear1="Mache Earring +1",
         ear2="Sherida Earring",
         body="Ayanmo Corazza +2",
-        hands="Atrophy Gloves +3",
+        hands="Malignance Gloves",
         ring1="Begrudging Ring",
         ring2="Epaminondas's ring",
         back= RDMCape.DW,
@@ -503,20 +522,38 @@ function get_sets()
         feet="Thereoid Greaves"
 
     }
+
+    sets.me["Evisceration"] = {
+
+        head="Malignance Chapeau",
+        neck="Fotia Gorget",
+        ear1="Mache Earring +1",
+        ear2="Sherida Earring",
+        body="Ayanmo Corazza +2",
+        hands="Malignance Gloves",
+        ring1="Begrudging Ring",
+        ring2="Epaminondas's ring",
+        back= RDMCape.DW,
+        waist="Fotia Belt",
+        legs="Jhakri Slops +2",
+        feet="Thereoid Greaves"
+
+    }
+
     sets.me["Sanguine Blade"] = {
 
         head="Pixie Hairpin +1",
-        neck="Sanctity Necklace",
+        neck="Baetyl Pendant",
         ear1="Regal Earring",
         ear2="Malignance Earring",
-        body="Jhakri Robe +2",
+        body="Amalric Doublet +1",
         hands="Jhakri Cuffs +2",
         ring1="Archon Ring",
-        ring2="Freke Ring",
+        ring2="Metamor. Ring 1",
         back= RDMCape.MAGWS,
-        waist="Refoccilation Stone",
-        legs="Jhakri Slops +2",
-        feet="Nyame Sollerets"
+        waist="Orpheus's Sash",
+        legs="Amalric Slops +1",
+        feet="Amalric Nails +1"
     }
     sets.me["Red Lotus Blade"] = {
 
@@ -537,17 +574,36 @@ function get_sets()
     sets.me["Seraph Blade"] = {
 
         head="Cath Palug crown",
-        neck="Duelist's Torque +2",
-        ear1="Regal Earring",
+        neck="Baetyl Pendant",
+        ear1="Moonshade Earring",
         ear2="Malignance Earring",
-        body="Jhakri Robe +2",
+        body="Amalric Doublet +1",
         hands="Jhakri Cuffs +2",
         ring1="Epaminondas's ring",
         ring2="Freke Ring",
         back= RDMCape.MAGWS,
-        waist="Refoccilation Stone",
-        legs="Jhakri Slops +2",
-        feet="Nyame Sollerets"
+        waist="Orpheus's Sash",
+        legs="Amalric Slops +1",
+        feet="Amalric Nails +1",
+        ammo="Regal Gem",
+
+    }
+
+    sets.me["Aeolian Edge"] = {
+
+        head="Cath Palug crown",
+        neck="Baetyl Pendant",
+        ear1="Regal Earring",
+        ear2="Malignance Earring",
+        body="Amalric Doublet +1",
+        hands="Jhakri Cuffs +2",
+        ring1="Epaminondas's ring",
+        ring2="Freke Ring",
+        back= RDMCape.MAGWS,
+        waist="Orpheus's Sash",
+        legs="Amalric Slops +1",
+        feet="Amalric Nails +1",
+        ammo="Ghastly Tathlum +1",
 
     }
 
@@ -571,17 +627,17 @@ function get_sets()
     -- Generic Casting Set that all others take off of. Here you should add all your fast cast RDM need 50 pre JP 42 at master
     sets.precast.casting = {
         main="Crocea Mors",
-        head="Atrophy Chapeau +2",           --15
-        neck="Baetyl pendant",      --5
-        ear1="Loquacious Earring",      --2
+        head="Atrophy Chapeau +2",           --14
+        neck="Loricate Torque +1",      --4
+        ear1="Gwati Earring",      --2
         ear2="Malignance Earring",      --4
         body="Vitiation Tabard +3",     --15
-        hands="Leyline gloves",         --7
-        ring1="Defending ring",         --
-        ring2="Gelatinous Ring +1",     --
-        back="Solemnity cape",      --
+        hands="Leyline gloves",         --8
+        ring1="Lebeche ring",         --
+        ring2="Defending Ring",     --
+        back="Moonbeam cape",      --
         waist="Witful Belt",            --
-        legs="Lengo Pants",             --5                         
+        legs="Kaykaus Tights +1",             --5                         
         feet="Carmine Greaves +1"       --5
     }                                           --Total: 71 -- To Do: overkill need to slot DT / HP 
 
@@ -618,7 +674,7 @@ function get_sets()
     -- Curing Precast, Cure Spell Casting time -
     sets.precast.cure = set_combine(sets.precast.casting,{
     back        =   "Pahtli Cape",
-    feet        =   "Telchine Pigaches",
+    feet        =   "Kaykaus boots +1",
     left_ring   =   "Lebeche Ring",     
     })
       
@@ -677,20 +733,20 @@ function get_sets()
 
     sets.midcast.nuking.normal = {
         main ="Maxentius",
-        sub  ="Ammurapi Shield",
-        ammo ="Pemphredo tathlum",
+        sub ="Ammurapi Shield",
+        ammo ="Ghastly Tathlum +1",
         head ="Cath Palug crown",
-        neck ="Duelist's Torque +2",
+        neck ="Baetyl Pendant",
         ear1 ="Regal earring",
         ear2 ="Malignance earring",
-        body ="Jhakri robe +2",
-        hands="Amalric Gages",
+        body ="Amalric Doublet +1",
+        hands="Amalric Gages +1",
         ring1="Freke ring",
         ring2="Shiva ring",
         back=RDMCape.MACC,
-        waist="Eschan Stone",
-        legs="Merlinic Shalwar",
-        feet="Vitiation Boots +2",
+        waist="Orpheus's Sash",
+        legs="Amalric Slops +1",
+        feet="Amalric Nails +1",
     }
     -- used with toggle, default: F10
     -- Pieces to swap from freen nuke to Magic Burst
@@ -703,21 +759,21 @@ function get_sets()
     })
     
     sets.midcast.nuking.acc = {
-        main        =   "Maxentius",
-        sub         =   "Ammurapi Shield",
-        left_ring   =   "Shiva Ring",    
-        ammo        =   "Pemphredo Tathlum",
-        --head      =   Merl.Head.ACC,
-        --body      =   Amal.Body.A,
-        --hands     =   Amal.Hands.D,
-        --legs      =   Amal.Legs.A,
-        --feet      =   Amal.Feet.A,
-        neck        =   "Dls. Torque +2",
-        waist       =   "Refoccilation Stone",
-        left_ear    =   "Friomisi Earring",
-        right_ear   =   "Enchntr. Earring +1",
-        back        =   RDMCape.MACC,
-        right_ring  =   "Freke Ring",
+        main ="Maxentius",
+        sub ="Ammurapi Shield",
+        range ="Ullr",
+        head ="Cath Palug crown",
+        neck ="Duelist Torque +2",
+        ear1 ="Regal earring",
+        ear2 ="Malignance earring",
+        body ="Amalric Doublet +1",
+        hands="Amalric Gages +1",
+        ring1="Freke ring",
+        ring2="Metamorph ring +1",
+        back=RDMCape.MACC,
+        waist="Orpheus's Sash",
+        legs="Amalric Slops +1",
+        feet="Vitiation Boots +3",
     }
     -- used with toggle, default: F10
     -- Pieces to swap from freen nuke to Magic Burst
@@ -743,7 +799,7 @@ function get_sets()
         ear1="Regal Earring",
         ear2="Snorta Earring",
         body="Lethargy Sayon +1",
-        hands="Lethargy Gantherots +1",
+        hands="Kaykaus Cuffs +1",
         ring1="Stikini Ring",
         ring2="Kishar Ring",
         back=RDMCape.MACC,
@@ -767,7 +823,7 @@ function get_sets()
         ear1="Regal Earring",
         ear2="Snorta Earring",
         body="Lethargy Sayon +1",
-        hands="Lethargy Gantherots +1",
+        hands="Kaykaus Cuffs +1",
         ring1="Stikini Ring",
         ring2="Kishar Ring",
         back=RDMCape.MACC,
@@ -787,7 +843,7 @@ function get_sets()
         ear1="Regal Earring",
         ear2="Snorta Earring",
         body="Lethargy Sayon +1",
-        hands="Lethargy Gantherots +1",
+        hands="Kaykaus Cuffs +1",
         ring1="Stikini Ring",
         ring2="Kishar Ring",
         back=RDMCape.MACC,
@@ -810,7 +866,7 @@ function get_sets()
         hands="Leth. Gantherots +1", --19
         ring1="Stikini Ring", --8
         ring2="Stikini Ring", --8
-        back=RDMCape.MACC, --10
+        back="Ghostfyre Cape", --10
         waist="Rumination Sash", --7
         legs="Psycloth Lappas", --13
         feet="Vitiation Boots +2"
@@ -829,7 +885,7 @@ function get_sets()
         hands="Lethargy Gantherots +1",
         ring1="Stikini Ring",
         ring2="Kishar Ring",
-        back=RDMCape.MACC,
+        back="Ghostfyre Cape",
         waist="Luminary sash",
         legs=ChironicLegs.A,
         feet="Vitiation Boots +2"
@@ -846,10 +902,10 @@ function get_sets()
         ear1="Regal Earring",
         ear2="Snorta Earring",
         body="Lethargy Sayon +1",
-        hands="Lethargy Gantherots +1",
+        hands="Kaykaus Cuffs +1",
         ring1="Stikini Ring",
         ring2="Kishar Ring",
-        back=RDMCape.MACC,
+        back="Ghostfyre Skill",
         waist="Luminary sash",
         legs=ChironicLegs.A,
         feet="Vitiation Boots +2"
@@ -934,11 +990,11 @@ function get_sets()
         main="Pukulatmuj +1"
     })
     sets.midcast.refresh = set_combine(sets.midcast.enhancing.duration, {
-    --head      =   Amal.Head.A,
+    head = "Amalric Coif +1",
     })
 
     sets.midcast.aquaveil = set_combine(sets.midcast.refresh, {
-    
+    head = "Amalric Coif +1",
     })
     
     sets.midcast["Drain"] = set_combine(sets.midcast.nuking, {
@@ -955,18 +1011,18 @@ function get_sets()
         main="Daybreak",                --30
         sub="Sacro Bulwark",
         ammo="Regal Gem",
-        head="Vanya Hood",              --10
+        head="Kaykaus Mitra +1",              --10
         neck="Nodens gorget",
         ear1="Mendicant's Earring",     --5
-        ear2="Novia Earring",
-        body="Chironic doublet",
-        hands="Telchine Gloves",
+        ear2="Regal Earring",
+        body="Kaykaus Bliaut +1",
+        hands="Kaykaus Cuffs +1",
         ring1="Sirona's ring",
         ring2="Lebeche ring",           --2
         back= RDMCape.MACC,         --10
-        waist="Porous Rope",
-        legs="Atrophy tights +3",
-        feet="Vanya Clogs"  
+        waist="Luminary Sash",
+        legs="Kaykaus Tights +1",
+        feet="Kaykaus Boots +1"  
 
     })
     sets.midcast.cure.weather = set_combine(sets.midcast.cure.normal,{
