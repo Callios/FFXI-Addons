@@ -66,7 +66,7 @@ function init_gear_sets()
         body="Luhlaza jubbah +3",hands="Leyline gloves",ring1="Kishar ring",ring2="Defending Ring",
         back="Fi Follet Cape +1",waist="Witful Belt",legs="Ayanmo cosciales +2",feet="Carmine greaves +1"}
         
-    sets.precast.FC['Blue Magic'] = set_combine(sets.precast.FC, {body="Hashishin mintan"})
+    sets.precast.FC['Blue Magic'] = set_combine(sets.precast.FC, {body="Hashishin mintan +1"})
 
        
     -- Weaponskill sets
@@ -124,10 +124,9 @@ function init_gear_sets()
 		
     sets.precast.WS['Sanguine Blade'] = {ammo="Pemphredo tathlum",
         head="pixie hairpin +1",neck="Sanctity Necklace",ear1="Regal earring",ear2="Friomisi Earring",
-        body="Jhakri robe +2", hands="Jhakri cuffs +2", ring1="Shiva ring", ring2="Shiva ring",
+        body="Amalric Doublet +1", hands="Jhakri cuffs +2", ring1="Shiva ring", ring2="Shiva ring",
         back=gear.BLUnuke,waist="Orpheus's sash",
-        legs={ name="Herculean Trousers", augments={'Mag. Acc.+20 "Mag.Atk.Bns."+20','Crit.hit rate+1','"Mag.Atk.Bns."+15',}},
-        feet="Nyame Sollerets"}
+        legs="Amalric Slops +1", feet="Amalric Nails +1"}
     
 	sets.precast.WS['Flash Nova'] = {ammo="Pemphredo tathlum",
         head="Jhakri coronal +2",neck="Sanctity Necklace",ear1="Regal earring",ear2="Friomisi Earring",
@@ -209,12 +208,12 @@ function init_gear_sets()
 
     sets.midcast['Blue Magic'].SkillBasedBuff = {ammo="Mavi Tathlum",
         head="Luhlaza keffiyeh +1",neck="Incanter's torque", wasit="Witful belt",
-        body="Hashishin mintan",hands="Rawhide gloves",ring1="Stikini Ring",ring2="Stikini ring",
+        body="Hashishin mintan +1",hands="Rawhide gloves",ring1="Stikini Ring",ring2="Stikini ring",
         back="Cornflower Cape",legs="Hashishin tayt +1",feet="Luhlaza charuqs +1"}
 
     sets.midcast['Blue Magic'].Buff = {ammo="Impatiens",
         head="Carmine mask +1",neck="Baetyl pendant",ear1="Etiolation earring",ear2="Loquacious Earring",
-        body="Hashishin mintan",hands="Hashishin Bazubands",ring1="Kishar ring",ring2="Jhakri ring",
+        body="Hashishin mintan +1",hands="Hashishin Bazubands",ring1="Kishar ring",ring2="Jhakri ring",
         back="Solemnity cape",waist="Witful Belt",legs="Ayanmo cosciales +2",feet="Carmine greaves +1"}
 		
 	sets.midcast['Blue Magic']['White Wind'] = {

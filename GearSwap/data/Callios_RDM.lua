@@ -80,7 +80,7 @@ nukeModes = M('normal', 'acc')
 -- Defaults are the first in each list
 
 mainWeapon = M('Daybreak', 'Crocea Mors', 'Naegling', 'Tauret', 'Maxentius' , 'Sequence', 'ceremonial dagger')
-subWeapon = M('Sacro Bulwark', 'Ammurapi Shield', 'Machaera +2','Tauret', 'Maxentius','Blurred knife +1','Naegling','Daybreak', 'Chicken Knife II', 'ceremonial dagger')
+subWeapon = M('Sacro Bulwark', 'Ammurapi Shield', 'Machaera +2',"Gleti's Knife",'Tauret', 'Maxentius','Blurred knife +1','Naegling','Daybreak', 'Chicken Knife II', 'ceremonial dagger')
 ------------------------------------------------------------------------------------------------------
 
 ----------------------------------------------------------
@@ -227,8 +227,8 @@ function get_sets()
         ear2="Etiolation Earring",
         body="Jhakri Robe +2",
         hands="Malignance Gloves",
-        ring1="Defending Ring",
-        ring2="Gelatinous Ring +1",
+        ring2="Defending Ring",
+        ring1="Gelatinous Ring +1",
         back= "Moonbeam Cape",
         waist="Fucho-no-obi",
         legs="Carmine Cuisses +1",
@@ -248,8 +248,8 @@ function get_sets()
         ear2="Etiolation Earring",             
         body="Malignance Tabard",               
         hands="Malignance Gloves",          
-        ring1="Defending Ring",             
-        ring2="Gelatinous Ring +1",         
+        ring2="Defending Ring",             
+        ring1="Gelatinous Ring +1",         
         back= RDMCape.TP,               
         waist="Flume Belt",             
         legs="Malignance Tights",           
@@ -295,13 +295,13 @@ function get_sets()
         head="Malignance Chapeau",
         neck="Anu Torque",
         ear1="Sherida Earring",
-        ear2="Eabani Earring",
+        ear2="Telos Earring",
         body="Malignance Tabard",
         hands="Malignance Gloves",
         ring1="Chirich Ring +1",
-        ring2="Ilabrat Ring",
-        back= RDMCape.TP,
-        waist="Reiki Yotai",
+        ring2="Chirich Ring +1",
+        back= RDMCape.DW,
+        waist="Sailfi Belt +1",
         legs="Malignance Tights",
         feet="Carmine Greaves +1",  
 
@@ -317,7 +317,7 @@ function get_sets()
         body="Malignance Tabard",
         hands="Malignance Gloves",
         ring1="Chirich Ring +1",
-        ring2="Ilabrat Ring",
+        ring2="Chirich Ring +1",
         back= RDMCape.DW,
         waist="Reiki Yotai",
         legs="Malignance Tights",
@@ -393,8 +393,8 @@ function get_sets()
         hands       =   "Malignance Gloves",
         legs        =   "Malignance Tights",
         feet        =   "Nayme sollerets",
-        left_ring   =   "Gelatinous Ring +1",
-        right_ring  =   "Defending Ring",
+        ring1   =   "Gelatinous Ring +1",
+        ring2  =   "Defending Ring",
     })
     sets.me.melee.mdtdw = set_combine(sets.me.melee.normaldw,{
 
@@ -773,7 +773,7 @@ function get_sets()
         back=RDMCape.MACC,
         waist="Orpheus's Sash",
         legs="Amalric Slops +1",
-        feet="Vitiation Boots +3",
+        feet="Vitiation Boots +2",
     }
     -- used with toggle, default: F10
     -- Pieces to swap from freen nuke to Magic Burst

@@ -1,0 +1,17 @@
+sets.exported={
+    main="Daybreak",
+    sub="Gleti's Knife",
+    ammo="Staunch Tathlum +1",
+    head={ name="Viti. Chapeau +3", augments={'Enfeebling Magic duration','Magic Accuracy',}},
+    body="Jhakri Robe +2",
+    hands="Malignance Gloves",
+    legs={ name="Carmine Cuisses +1", augments={'Accuracy+20','Attack+12','"Dual Wield"+6',}},
+    feet="Nyame Sollerets",
+    neck="Bathy Choker +1",
+    waist="Fucho-no-Obi",
+    left_ear="Genmei Earring",
+    right_ear="Etiolation Earring",
+    left_ring="Gelatinous Ring +1",
+    right_ring="Defending Ring",
+    back="Moonbeam Cape",
+}

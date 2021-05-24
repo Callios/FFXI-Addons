@@ -26,7 +26,7 @@
         <oxford>true</oxford>
         <showownernames>false</showownernames>
         <simplify>true</simplify>
-        <sumdamage>false</sumdamage>
+        <sumdamage>true</sumdamage>
         <swingnumber>true</swingnumber>
         <targetnumber>true</targetnumber>
         <tpstatuses>true</tpstatuses>
