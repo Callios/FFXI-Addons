@@ -79,7 +79,7 @@ nukeModes = M('normal', 'acc')
 -- cast and we revert to idle or engaged sets, we'll be checking the following for weapon selection. 
 -- Defaults are the first in each list
 
-mainWeapon = M('Daybreak', 'Crocea Mors', 'Naegling', 'Tauret', 'Maxentius' , 'Sequence', 'ceremonial dagger')
+mainWeapon = M('Daybreak', 'Crocea Mors', 'Naegling', 'Murgleis', 'Tauret', 'Maxentius' , 'Sequence', 'ceremonial dagger')
 subWeapon = M('Sacro Bulwark', 'Ammurapi Shield', 'Machaera +2',"Gleti's Knife",'Tauret', 'Maxentius','Blurred knife +1','Naegling','Daybreak', 'Chicken Knife II', 'ceremonial dagger')
 ------------------------------------------------------------------------------------------------------
 
@@ -230,7 +230,7 @@ function get_sets()
         ring2="Defending Ring",
         ring1="Gelatinous Ring +1",
         back= "Moonbeam Cape",
-        waist="Fucho-no-obi",
+        waist="Carrier's Sash",
         legs="Carmine Cuisses +1",
         feet="Nyame Sollerets"
 
@@ -335,7 +335,7 @@ function get_sets()
         body="Malignance Tabard",
         hands="Malignance Gloves",
         ring1="Chirich Ring +1",
-        ring2="Ilabrat Ring",
+        ring2="Chirich Ring +",
         back= RDMCape.TP,
         waist="Reiki Yotai",
         legs="Malignance Tights",
@@ -683,6 +683,7 @@ function get_sets()
     ---------------------
 
     sets.precast["Chainspell"] = {body = RELIC.Body}
+    sets.precast['Convert'] = {main = 'Murgleis'}
      
 
     

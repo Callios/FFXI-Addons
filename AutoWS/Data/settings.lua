@@ -17,7 +17,7 @@ return {
                     [">"] = 1
                 },
                 ["mobs"] = {},
-                ["ws_cmd"] = "/ws \"fast blade\" <t>"
+                ["ws_cmd"] = "/ws \"death blossom\" <t>"
             }
         },
         ["THF"] = {
@@ -50,6 +50,14 @@ return {
                 },
                 ["mobs"] = {},
                 ["ws_cmd"] = "/ws \"last stand\" <t>"
+            },
+            ["Sword"] = {
+                ["hps"] = {
+                    ["<"] = 100,
+                    [">"] = 5
+                },
+                ["mobs"] = {},
+                ["ws_cmd"] = "/ws \"savage blade\" <t>"
             }
         }
     },

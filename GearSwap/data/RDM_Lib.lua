@@ -711,7 +711,7 @@ function EnspellCheck()
     elseif Buff['En-Weather'] and Buff['En-Day'] then
         equip(sets.midcast.Obi)
     -- Enspell is there but doesnt match a double weather
-    elseif Buff['Enspell'] then
+    elseif Buff['Enspell'] and mainWeapon.value == "Crocea Mors" then
         equip(sets.midcast.Orpheus)
     end 
 end

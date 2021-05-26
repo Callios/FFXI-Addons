@@ -42,8 +42,14 @@
     </global>
     <callios>
         <pos>
-            <x>933</x>
-            <y>25</y>
+            <x>1440</x>
+            <y>870</y>
         </pos>
     </callios>
+    <gimples>
+        <pos>
+            <x>237</x>
+            <y>178</y>
+        </pos>
+    </gimples>
 </settings>
