@@ -1,0 +1,17 @@
+sets.exported={
+    main="Dolichenus",
+    sub="Zantetsuken",
+    ammo="Ginsen",
+    head="Flam. Zucchetto +2",
+    body="Dagon Breast.",
+    hands="Sakpata's Gauntlets",
+    legs="Sakpata's Cuisses",
+    feet="Sakpata's Leggings",
+    neck="Combatant's Torque",
+    waist="Reiki Yotai",
+    left_ear="Brutal Earring",
+    right_ear="Suppanomimi",
+    left_ring="Haverton Ring",
+    right_ring="Niqmaddu Ring",
+    back="Moonbeam Cape",
+}

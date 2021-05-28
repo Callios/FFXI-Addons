@@ -46,7 +46,7 @@ function init_gear_sets()
     main="C. Palug Hammer",
     sub="Genmei Shield",
     ammo="Staunch Tathlum +1",
-    head="C. Palug Crown",
+    head="Bunzi's Hat",
     body="Inyanga Jubbah +2",
     hands="Inyan. Dastanas +2",
     legs="Aya. Cosciales +2",
@@ -60,7 +60,7 @@ function init_gear_sets()
     back ="Fi Follet Cape +1",
     }
         
-    sets.precast.FC['Enhancing Magic'] = set_combine(sets.precast.FC, {waist="Siegel Sash"})
+    sets.precast.FC['Enhancing Magic'] = set_combine(sets.precast.FC, {waist="Embla Sash"})
 
     sets.precast.FC.Stoneskin = set_combine(sets.precast.FC['Enhancing Magic'], {head="Umuthi Hat"})
 
@@ -68,7 +68,7 @@ function init_gear_sets()
     main="C. Palug Hammer",
     sub="Genmei Shield",
     ammo="Staunch Tathlum +1",
-    head="C. Palug Crown",
+    head="Bunzi's Hat",
     body="Inyanga Jubbah +2",
     hands="Inyan. Dastanas +2",
     legs="Aya. Cosciales +2",
@@ -88,7 +88,7 @@ function init_gear_sets()
     main="C. Palug Hammer",
     sub="Genmei Shield",
     ammo="Staunch Tathlum +1",
-    head="C. Palug Crown",
+    head="Bunzi's Hat",
     body="Inyanga Jubbah +2",
     hands="Inyan. Dastanas +2",
     legs="Doyen Pants",
@@ -136,7 +136,7 @@ function init_gear_sets()
     -- Midcast Sets
     
     sets.midcast.FastRecast = {
-        head="Nahtirah Hat",ear2="Loquacious Earring",
+        head="Bunzi's Hat",ear2="Loquacious Earring",
         body="Inyanga Jubbah +2",hands="Dynasty Mitts",ring1="Prolix Ring",
         back="Swith Cape +1",waist="Goading Belt",legs="Gendewitha Spats",feet="Gendewitha Galoshes"}
     

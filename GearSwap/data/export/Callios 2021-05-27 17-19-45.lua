@@ -1,0 +1,17 @@
+sets.exported={
+    main="Dolichenus",
+    sub="Zantetsuken",
+    ammo="Ginsen",
+    head={ name="Valorous Mask", augments={'Weapon skill damage +4%','STR+13','Accuracy+6',}},
+    body={ name="Odyss. Chestplate", augments={'Accuracy+15','Weapon skill damage +5%','STR+9',}},
+    hands={ name="Valorous Mitts", augments={'Attack+13','Weapon skill damage +5%','STR+6','Accuracy+6',}},
+    legs={ name="Valorous Hose", augments={'"Subtle Blow"+3','Magic Damage +3','Weapon skill damage +9%','Accuracy+17 Attack+17',}},
+    feet={ name="Valorous Greaves", augments={'Attack+13','Weapon skill damage +4%','STR+6','Accuracy+4',}},
+    neck="Combatant's Torque",
+    waist="Reiki Yotai",
+    left_ear="Brutal Earring",
+    right_ear="Suppanomimi",
+    left_ring="Haverton Ring",
+    right_ring="Niqmaddu Ring",
+    back="Moonbeam Cape",
+}
