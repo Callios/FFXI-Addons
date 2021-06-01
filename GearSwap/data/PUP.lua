@@ -42,23 +42,28 @@ end
 -- Setup vars that are user-dependent.  Can override this function in a sidecar file.
 function user_setup()
   -- Options: Override default values
-  state.OffenseMode:options('Normal', 'Acc', 'Fodder')
+  state.OffenseMode:options('Normal', 'Acc', 'Hybrid', 'Fodder')
   state.WeaponskillMode:options('Normal', 'Acc', 'Fodder')
   state.PhysicalDefenseMode:options('PDT', 'Evasion')
   state.MagicalDefenseMode:options('MDT')
   state.IdleMode:options('Normal','Auto')
 
-  gear.taeon_head_ta   = { name = "Taeon Chapeau", augments = {'STR+5 DEX+5', 'Accuracy+19 Attack+19', '"Triple Atk."+2'}}
-  gear.taeon_body_ta   = { name = "Taeon Tabard", augments = {'STR+6 AGI+6', 'Accuracy+12 Attack+12', '"Triple Atk."+2'}}
-  gear.taeon_hands_ta  = { name = "Taeon Gloves", augments = {'STR+5 DEX+5', 'Accuracy+17 Attack+17', '"Triple Atk."+2'}}
-  gear.taeon_legs_ta   = { name = "Taeon Tights", augments = {'STR+4 VIT+4', 'Accuracy+12 Attack+12', '"Triple Atk."+2'}}
-  gear.taeon_feet_ta   = { name = "Taeon Boots", augments = {'STR+7 CHR+7', 'Accuracy+8 Attack+8', '"Triple Atk."+2'}}
+  gear.taeon_head_tank   = { name="Taeon Chapeau", augments={'Pet: "Regen"+2','Pet: Damage taken -2%',}}
+  gear.taeon_body_tank   = { name= "Taeon Tabard", augments = {'STR+6 AGI+6', 'Accuracy+12 Attack+12', '"Triple Atk."+2'}}
+  gear.taeon_hands_tank  = { name="Taeon Gloves", augments={'Evasion+23','Pet: "Regen"+2','Pet: Damage taken -3%',}}
+  gear.taeon_legs_tank   = { name="Taeon Tights", augments={'Attack+20','Pet: "Regen"+3','Pet: Damage taken -3%',}}
+  gear.taeon_feet_tank   = { name="Taeon Boots", augments={'Pet: "Regen"+2','Pet: Damage taken -4%',}}
 
   gear.taeon_head_pet  = { name = "Taeon Chapeau", augments = {'"Repair" potency +5%', 'Pet: Damage taken -4%', 'Pet: Accuracy+18 Pet: Rng.Acc.+18'}}
   gear.taeon_body_pet  = { name = "Taeon Tabard", augments = {'"Repair" potency +5%', 'Pet: Haste+4%', 'Pet: "Mag. Atk. Bns."+25'}}
   gear.taeon_hands_pet = { name = "Taeon Gloves", augments = {'"Repair" potency +5%', 'Pet: Haste+5%', 'Pet: "Mag. Atk. Bns."+24'}}
   gear.taeon_legs_pet  = { name = "Taeon Tights", augments = {'Pet: Damage taken -3%', 'Pet: Accuracy+18 Pet: Rng.Acc.+18', 'Pet: "Dbl. Atk."+4'}}
   gear.taeon_feet_pet  = { name = "Taeon Boots", augments = {'Pet: Damage taken -3%', 'Pet: Accuracy+24 Pet: Rng.Acc.+24', 'Pet: "Dbl. Atk."+4'}}
+
+
+  --- Capes ---
+  gear.PetandMasterTP = { name="Visucius's Mantle", augments={'Pet: Acc.+20 Pet: R.Acc.+20 Pet: Atk.+20 Pet: R.Atk.+20','Accuracy+20 Attack+20','Pet: Accuracy+10 Pet: Rng. Acc.+10','Pet: Haste+10','Pet: Damage taken -5%',}}
+
 
   send_command('bind ^= gs c cycle treasuremode')
 
@@ -75,10 +80,21 @@ function init_gear_sets()
 
   -- Fast cast sets for spells
   sets.precast.FC = {
-    head="Rawhide Mask",neck="Orunmila's Torque",ear1="Loquacious Earring",
-    body="Anhur Robe",hands=gear.taeon_hands_ta,ring1="Veneficium Ring",ring2="Prolix Ring",
-    back="Swith Cape",waist="Hurch'lan Sash",legs=gear.taeon_legs_ta,feet="Regal Pumps +1"
+
+    head={ name="Herculean Helm", augments={'"Fast Cast"+3','INT+4','Mag. Acc.+3','"Mag.Atk.Bns."+6',}},
+    body="Zendik Robe",
+    hands="Malignance Gloves",
+    legs={ name="Herculean Trousers", augments={'"Fast Cast"+5','MND+5',}},
+    feet={ name="Herculean Boots", augments={'"Mag.Atk.Bns."+12','"Fast Cast"+6','Mag. Acc.+1',}},
+    neck="Baetyl Pendant",
+    waist="Moonbow Belt",
+    left_ear="Loquac. Earring",
+    right_ear="Enchntr. Earring +1",
+    left_ring="Defending Ring",
+    right_ring="Gelatinous Ring +1",
+    back="Fi Follet Cape +1",
   }
+
 
   sets.precast.FC.Utsusemi = set_combine(sets.precast.FC, {neck="Magoraga Beads"})
 
@@ -110,9 +126,9 @@ function init_gear_sets()
   -- Weaponskill sets
   -- Default set for any weaponskill that isn't any more specifically defined
   sets.precast.WS = {
-    head="Hizamaru somen +1",neck="Fotia Gorget",ear1="Ishvara Earring",ear2="Moonshade Earring",
-    body="Hizamaru Haramaki +1",hands="Hizamaru Kote +1",ring1="Rajas Ring",ring2="Epona's Ring",
-    back="Dispersal mantle",waist="Fotia Belt",legs="Hizamaru Hizayoroi +1",feet="Herculean boots"}
+    head="Mpaca's Cap",neck="Fotia Gorget",ear1="Ishvara Earring",ear2="Moonshade Earring",
+    body="Mpaca's Doublet",hands="Mpaca's Gloves",ring1="Niqmaddu ring",ring2="Epona's Ring",
+    back="Dispersal mantle",waist="Fotia Belt",legs="Mpaca's Hose",feet="Mpaca's Boots"}
 
   -- Specific weaponskill sets.  Uses the base set if an appropriate WSMod version isn't found.
   sets.precast.WS['Stringing Pummel'] = set_combine(sets.precast.WS, {
@@ -122,6 +138,15 @@ function init_gear_sets()
   sets.precast.WS['Victory Smite'] = set_combine(sets.precast.WS, {
     ear1="Cessance Earring",ear2="Moonshade Earring",
     ring1="Pyrosoul Ring"})
+
+    sets.precast.WS['Shijin Spiral'] = set_combine(sets.precast.WS, {
+      ear1="Brutal Earring",ear2="Mache earring +1",
+      ring2="Regal Ring"})
+
+      sets.precast.WS['Howling Fist'] = {
+        head="Hizamaru somen +2",neck="Fotia Gorget",ear1="Brutal Earring",ear2="Moonshade Earring",
+        body="Hizamaru Haramaki +2",hands="Hizamaru Kote +2",ring1="Niqmaddu ring",ring2="Epona's Ring",
+        back="Dispersal mantle",waist="Fotia Belt",legs="Samnuha tights",feet="Herculean boots" }
 
   -- Midcast Sets
 
@@ -153,13 +178,13 @@ function init_gear_sets()
   -- Idle sets
   sets.idle = {
     ammo="Automat. Oil +3",
-    head="Pitre Taj +1",neck="Bathy choker",ear1="Infused Earring",ear2="Burana Earring",
-    body="Gyve Doublet",hands="Count's Cuffs",ring1="Sheltered Ring",ring2="Paguroidea Ring",
-    back="Kumbira Cape",waist="Lycopodium Sash",legs="Rao Haidate +1",feet="Hermes' Sandals"}
+    head="Malignance Chapeau",neck="Bathy choker +1",ear1="Infused Earring",ear2="Eabani Earring",
+    body="Malignance Tabard",hands="Malignance Gloves",ring1="Defending Ring",ring2="Gelatinous Ring +1",
+    back="Moonbeam Cape",waist="Moonbow belt",legs="Malignance Tights",feet="Nyame sollerets"}
   
   sets.idle.Auto = {ammo="Automat. Oil +3",
     head="Anwig salade",neck="Shepherd's chain",ear1="Rimeice Earring",ear2="Domesticator's Earring",
-    body="Gyve Doublet",hands="Count's Cuffs",ring1="Defending Ring",ring2="Paguroidea Ring",
+    body="Gyve Doublet",hands="Count's Cuffs",ring1="Defending Ring",ring2="Gelatinous Ring +1",
     back="Kumbira Cape",waist="Ukko Sash",legs="Rao Haidate +1",feet="Hermes' Sandals"}
 
   -- Set for idle while pet is out (eg: pet regen gear)
@@ -170,10 +195,10 @@ function init_gear_sets()
 
   -- Idle sets to wear while pet is engaged
   sets.idle.Pet.Engaged = {
-    ammo="Automat. Oil +3",
-    head="Anwig Salade",neck="Shepherd's chain",ear1="Rimeice Earring",ear2="Domesticator's Earring",
-    body="Rao Togi",hands="Rao Kote +1",ring1="Defending Ring",ring2="Fortified Ring",
-    back="Visucius's mantle",waist="Isa Belt",legs="Rao Haidate +1",feet="Rao Sune-Ate"}
+    main="Ohtas",ammo="Automat. Oil +3",
+    head="Anwig Salade",neck="Shulmanu Collar",ear1="Rimeice Earring",ear2="Enmerkar Earring",
+    body="Rao Togi",hands="Rao Kote +1",ring1="Defending Ring",ring2="Gelatinous Ring +1",
+    back=gear.PetandMasterTP,waist="Klouskap Sash",legs="Rao Haidate +1",feet="Mpaca's Boots"}
 
   sets.idle.Pet.Engaged.Ranged = set_combine(sets.idle.Pet.Engaged, {main="Nibiru Sainti",feet="Punchinellos"})
   sets.idle.Pet.Engaged.Nuke = set_combine(sets.idle.Pet.Engaged, {main="Denouements",legs="Karaggoz Pantaloni +1",feet="Pitre Babouches +1"})
@@ -181,9 +206,9 @@ function init_gear_sets()
   sets.idle.Pet.Engaged.Heal = sets.idle.Pet.Engaged.Magic
 
   sets.idle.Pet.Engaged.Tank = set_combine(sets.idle.Pet.Engaged, {main="Midnights",ammo="Automat. Oil +3",
-    head="Anwig Salade",neck="Shepherd's chain",ear1="Rimeice Earring",ear2="Domesticator's Earring",
-    body="Rao Togi",hands="Rao Kote +1",ring1="Defending Ring",ring2="Fortified Ring",
-    back="Visucius's mantle",waist="Isa Belt",legs="Rao Haidate +1",feet="Rao Sune-Ate"})
+    head=gear.taeon_head_tank,neck="Shepherd's chain",ear1="Rimeice Earring",ear2="Domesticator's Earring",
+    body=gear.taeon_body_tank,hands=gear.taeon_hands_tank,ring1="Defending Ring",ring2="Fortified Ring",
+    back=gear.PetandMasterTP,waist="Isa Belt",legs=gear.taeon_legs_tank,feet=gear.taeon_feet_tank})
   -- Engaged sets
 
   -- Variations for TP weapon and (optional) offense/defense modes.  Code will fall back on previous
@@ -193,10 +218,40 @@ function init_gear_sets()
 
   -- Normal melee group
   sets.engaged = {
-    ammo="Automat. Oil +3",
-    head="Hizamaru Somen +1", body="Hiza. Haramaki +1", hands="Hizamaru Kote +1",
-    legs="Hiza. Hizayoroi +1", feet="Herculean boots", neck="Clotharius Torque", waist="Olseni belt", back="Visucius's mantle",
-    left_ear="Digni. Earring", right_ear="Cessance Earring", left_ring="Rajas Ring", right_ring="Ramuh Ring +1"}
+    ammo = "Automat. Oil +3",
+    head="Mpaca's Cap",
+    body="Mpaca's Doublet",
+    hands="Mpaca's Gloves",
+    legs="Mpaca's Hose",
+    --feet={ name="Herculean Boots", augments={'Accuracy+14 Attack+14','"Triple Atk."+3','Accuracy+15',}},
+    feet="Mpaca's Boots",
+    neck="Shulmanu Collar",
+    waist="Moonbow Belt",
+    left_ear="Dedition Earring",
+    right_ear="Telos Earring",
+    left_ring="Chirich Ring +1",
+    right_ring="Niqmaddu Ring",
+    back={ name="Mecisto. Mantle", augments={'Cap. Point+49%','VIT+2','"Mag.Atk.Bns."+2','DEF+8',}}
+  
+  }
+
+  sets.engaged.Hybrid = {
+    ammo = "Automat. Oil +3",
+    head="Malignance Chapeau",
+    body="Malignance Tabard",
+    hands="Malignance Gloves",
+    legs="Malignance Tights",
+    --feet={ name="Herculean Boots", augments={'Accuracy+14 Attack+14','"Triple Atk."+3','Accuracy+15',}},
+    feet="Mpaca's Boots",
+    neck="Shulmanu Collar",
+    waist="Moonbow Belt",
+    left_ear="Dedition Earring",
+    right_ear="Telos Earring",
+    left_ring="Chirich Ring +1",
+    right_ring="Niqmaddu Ring",
+    back={ name="Mecisto. Mantle", augments={'Cap. Point+49%','VIT+2','"Mag.Atk.Bns."+2','DEF+8',}}
+  
+  }
 
   sets.engaged.Acc = set_combine(sets.engaged, {
     head="Ptica Headgear",neck="Subtlety Spectacles",ear1="Zennaroi Earring",
@@ -361,12 +416,12 @@ end
 function select_default_macro_book()
   -- Default macro set/book
   if player.sub_job == 'DNC' then
-    set_macro_page(2, 6)
+    set_macro_page(1, 19)
   elseif player.sub_job == 'NIN' then
-    set_macro_page(2, 6)
+    set_macro_page(1, 19)
   elseif player.sub_job == 'THF' then
-    set_macro_page(2, 6)
+    set_macro_page(1, 19)
   else
-    set_macro_page(2, 6)
+    set_macro_page(1, 19)
   end
 end

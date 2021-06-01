@@ -50,7 +50,7 @@ function init_gear_sets()
 
 	sets.precast.FC = {
 		main="Vampirism",				--7
-		head="Nahtirah Hat",			--10
+		head="Bunzi's Hat",			--10
 		neck="Baetyl Pendant",		--5
 		ear1="Enchntr. earring +1",		--2
 		ear2="Loquac. Earring",			--2
@@ -74,7 +74,7 @@ function init_gear_sets()
 		head="Kaykaus mitra +1",
 		body="Heka's Kalasiris",
 		legs="Doyen pants",
-		fett="Kaykaus boots +1"
+		feet="Kaykaus boots +1"
 		})
 		
 	sets.precast.FC.Curaga = sets.precast.FC.Cure
@@ -84,7 +84,7 @@ function init_gear_sets()
 		range="Gjallarhorn",
 		head="Fili calot",			--13
 		body="Brioso justaucorps +3",	--15
-		legs="Querkening brais",		--10
+		legs="Kaykaus tights +1",		--10
 		feet="Bihu Slippers +3",
 		back=BRD_MACC_FC,		--8
 		}) --49 song reduction time

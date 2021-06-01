@@ -1,0 +1,17 @@
+sets.exported={
+    main="Godhands",
+    range="Animator P",
+    ammo="Automat. Oil +3",
+    head="Malignance Chapeau",
+    body="Malignance Tabard",
+    hands="Malignance Gloves",
+    legs="Malignance Tights",
+    feet={ name="Herculean Boots", augments={'Accuracy+14 Attack+14','"Triple Atk."+3','Accuracy+15',}},
+    neck="Combatant's Torque",
+    waist="Moonbow Belt",
+    left_ear="Dedition Earring",
+    right_ear="Mache Earring +1",
+    left_ring="Chirich Ring +1",
+    right_ring="Niqmaddu Ring",
+    back={ name="Mecisto. Mantle", augments={'Cap. Point+49%','VIT+2','"Mag.Atk.Bns."+2','DEF+8',}},
+}

@@ -1,0 +1,15 @@
+<?xml version="1.1" ?>
+<settings>
+    <global>
+        <buy_list>
+            <1>
+                <id>23</id>
+                <name>Maiden phantom gem</name>
+            </1>
+            <2>
+                <id>22</id>
+                <name>Divine phantom gem</name>
+            </2>
+        </buy_list>
+    </global>
+</settings>

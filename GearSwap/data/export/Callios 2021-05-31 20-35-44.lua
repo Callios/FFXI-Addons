@@ -1,0 +1,17 @@
+sets.exported={
+    main="Godhands",
+    range="Animator P II",
+    ammo="Automat. Oil +3",
+    head={ name="Taeon Chapeau", augments={'Pet: "Regen"+2','Pet: Damage taken -2%',}},
+    body={ name="Taeon Tabard", augments={'Pet: "Dbl. Atk."+1','Pet: Damage taken -3%',}},
+    hands={ name="Taeon Gloves", augments={'Evasion+23','Pet: "Regen"+2','Pet: Damage taken -3%',}},
+    legs={ name="Taeon Tights", augments={'Attack+20','Pet: "Regen"+3','Pet: Damage taken -3%',}},
+    feet={ name="Taeon Boots", augments={'Pet: "Regen"+2','Pet: Damage taken -4%',}},
+    neck="Bathy Choker +1",
+    waist="Moonbow Belt",
+    left_ear="Infused Earring",
+    right_ear="Eabani Earring",
+    left_ring="Defending Ring",
+    right_ring="Gelatinous Ring +1",
+    back={ name="Visucius's Mantle", augments={'Pet: Acc.+20 Pet: R.Acc.+20 Pet: Atk.+20 Pet: R.Atk.+20','Accuracy+20 Attack+20','Pet: Accuracy+10 Pet: Rng. Acc.+10','Pet: Haste+10','Pet: Damage taken -5%',}},
+}

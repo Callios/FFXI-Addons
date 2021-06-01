@@ -90,7 +90,7 @@ function init_gear_sets()
     -- Weaponskill sets
     -- Default set for any weaponskill that isn't any more specifically defined
     sets.precast.WS = {ammo="Knobkierrie",
-        head="Valorous Mask",
+        head="Mpaca's Cap",
 		neck="Samurai's Nodowa +2",
 		ear1="Ishvara Earring",ear2="Moonshade Earring",
         body="Sakonji Domaru +3",
@@ -107,7 +107,7 @@ function init_gear_sets()
     -- Specific weaponskill sets.  Uses the base set if an appropriate WSMod version isn't found.
     sets.precast.WS['Tachi: Fudo'] = set_combine(sets.precast.WS, 
 		{ammo="Knobkierrie",
-        head="Valorous Mask",
+        head="Mpaca's Cap",
 		neck="Samurai's Nodowa +2",
 		ear1="Thrud Earring",ear2="Moonshade Earring",
         body="Sakonji Domaru +3",
@@ -126,7 +126,7 @@ function init_gear_sets()
     sets.precast.WS['Tachi: Fudo'].Mod = set_combine(sets.precast.WS['Tachi: Fudo'], {waist="Fotia Belt"})
 
     sets.precast.WS['Tachi: Shoha'] = set_combine(sets.precast.WS, {ammo="Knobkierrie",
-        head="Valorous Mask",
+        head="Mpaca's Cap",
 		neck="Samurai's Nodowa +2",
 		ear1="Thrud Earring",ear2="Moonshade Earring",
         body="Sakonji Domaru +3",
@@ -145,7 +145,7 @@ function init_gear_sets()
 	sets.precast.WS['Tachi: Shoha'].Mod = set_combine(sets.precast.WS['Tachi: Shoha'], {waist="Fotia Belt"})
 
  sets.precast.WS['Impulse Drive'] = set_combine(sets.precast.WS, {ammo="Knobkierrie",
-        head="Valorous Mask",
+        head="Mpaca's Cap",
         neck="Samurai's Nodowa +2",
         ear1="Thrud Earring",ear2="Moonshade Earring",
         body="Sakonji Domaru +3",
@@ -164,7 +164,7 @@ function init_gear_sets()
     sets.precast.WS['Impulse Drive'].Mod = set_combine(sets.precast.WS['Impulse Drive'], {waist="Fotia Belt"})
 
  sets.precast.WS['Stardiver'] = set_combine(sets.precast.WS, {ammo="Knobkierrie",
-        head="Valorous Mask",
+        head="Mpaca's Cap",
         neck="Samurai's Nodowa +2",
         ear1="Thrud Earring",ear2="Moonshade Earring",
         body="Sakonji Domaru +3",

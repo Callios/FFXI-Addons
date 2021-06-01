@@ -46,9 +46,14 @@
     <callios>
         <display>
             <pos>
-                <x>1334</x>
-                <y>776</y>
+                <x>1299</x>
+                <y>870</y>
             </pos>
+            <text>
+                <fonts>
+
+                </fonts>
+            </text>
         </display>
     </callios>
     <gimples>

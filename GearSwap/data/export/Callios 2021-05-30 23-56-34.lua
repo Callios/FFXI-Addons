@@ -1,0 +1,17 @@
+sets.exported={
+    main={ name="Ohtas", augments={'Accuracy+70','Pet: Accuracy+70','Pet: Haste+10%',}},
+    range="Animator P",
+    ammo="Automat. Oil +3",
+    head={ name="Herculean Helm", augments={'"Fast Cast"+3','INT+4','Mag. Acc.+3','"Mag.Atk.Bns."+6',}},
+    body="Zendik Robe",
+    hands="Malignance Gloves",
+    legs={ name="Herculean Trousers", augments={'"Fast Cast"+5','MND+5',}},
+    feet={ name="Herculean Boots", augments={'"Mag.Atk.Bns."+12','"Fast Cast"+6','Mag. Acc.+1',}},
+    neck="Baetyl Pendant",
+    waist="Moonbow Belt",
+    left_ear="Loquac. Earring",
+    right_ear="Enchntr. Earring +1",
+    left_ring="Defending Ring",
+    right_ring="Gelatinous Ring +1",
+    back={ name="Fi Follet Cape +1", augments={'Path: A',}},
+}
