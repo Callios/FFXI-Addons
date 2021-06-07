@@ -373,7 +373,7 @@ function get_sets()
         ring1="Chirich Ring +1",
         ring2="Chirich Ring +1",
         back="Ghostfyre cape",
-        waist="Reiki Yotai",
+        waist="Orpheus's Sash",
         legs="Malignance Tights",
         feet="Carmine Greaves +1", 
 

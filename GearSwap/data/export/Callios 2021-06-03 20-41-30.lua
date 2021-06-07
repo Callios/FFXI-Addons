@@ -1,0 +1,17 @@
+sets.exported={
+    main={ name="Ohtas", augments={'Accuracy+70','Pet: Accuracy+70','Pet: Haste+10%',}},
+    range="Animator P",
+    ammo="Automat. Oil +3",
+    head={ name="Herculean Helm", augments={'Pet: "Store TP"+7','Pet: VIT+3',}},
+    body={ name="Herculean Vest", augments={'Pet: Attack+5 Pet: Rng.Atk.+5','Pet: "Store TP"+10',}},
+    hands={ name="Herculean Gloves", augments={'Pet: "Store TP"+6','Pet: INT+6','Pet: Attack+7 Pet: Rng.Atk.+7',}},
+    legs={ name="Herculean Trousers", augments={'Pet: Accuracy+26 Pet: Rng. Acc.+26','Pet: "Dbl. Atk."+3','Pet: Attack+15 Pet: Rng.Atk.+15',}},
+    feet={ name="Herculean Boots", augments={'Pet: "Store TP"+9','Pet: Attack+10 Pet: Rng.Atk.+10','Pet: "Mag.Atk.Bns."+12',}},
+    neck="Shulmanu Collar",
+    waist="Moonbow Belt",
+    left_ear="Mache Earring +1",
+    right_ear="Cessance Earring",
+    left_ring="Niqmaddu Ring",
+    right_ring="C. Palug Ring",
+    back="Moonbeam Cape",
+}

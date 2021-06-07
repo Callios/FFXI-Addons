@@ -10,6 +10,16 @@ return {
                 ["ws_cmd"] = "/ws \"Blade: Ei\" <t>"
             }
         },
+        ["PUP"] = {
+            ["Hand-to-Hand"] = {
+                ["hps"] = {
+                    ["<"] = 100,
+                    [">"] = 1
+                },
+                ["mobs"] = {},
+                ["ws_cmd"] = "/ws \"Victory Smite\" <t>"
+            }
+        },
         ["RDM"] = {
             ["Sword"] = {
                 ["hps"] = {

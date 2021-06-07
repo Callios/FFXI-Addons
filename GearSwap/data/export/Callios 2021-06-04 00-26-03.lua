@@ -1,0 +1,17 @@
+sets.exported={
+    main="Godhands",
+    range="Animator P",
+    ammo="Automat. Oil +3",
+    head="Malignance Chapeau",
+    body="Malignance Tabard",
+    hands="Malignance Gloves",
+    legs="Mpaca's Hose",
+    feet={ name="Herculean Boots", augments={'Pet: "Store TP"+9','Pet: Attack+10 Pet: Rng.Atk.+10','Pet: "Mag.Atk.Bns."+12',}},
+    neck="Bathy Choker +1",
+    waist="Moonbow Belt",
+    left_ear="Eabani Earring",
+    right_ear="Etiolation Earring",
+    left_ring="C. Palug Ring",
+    right_ring="Thurandaut Ring",
+    back={ name="Visucius's Mantle", augments={'STR+20','Accuracy+20 Attack+20','STR+10','Crit.hit rate+10',}},
+}

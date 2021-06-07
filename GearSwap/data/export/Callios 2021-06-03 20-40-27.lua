@@ -1,0 +1,17 @@
+sets.exported={
+    main={ name="Ohtas", augments={'Accuracy+70','Pet: Accuracy+70','Pet: Haste+10%',}},
+    range="Animator P",
+    ammo="Automat. Oil +3",
+    head={ name="Taeon Chapeau", augments={'Pet: Accuracy+21 Pet: Rng. Acc.+21','Pet: "Dbl. Atk."+5','Pet: Damage taken -2%',}},
+    body={ name="Taeon Tabard", augments={'Pet: Accuracy+23 Pet: Rng. Acc.+23','Pet: "Dbl. Atk."+2','Pet: Damage taken -3%',}},
+    hands={ name="Taeon Gloves", augments={'Pet: Accuracy+22 Pet: Rng. Acc.+22','Pet: "Dbl. Atk."+2','Pet: Damage taken -3%',}},
+    legs={ name="Taeon Tights", augments={'Pet: Accuracy+20 Pet: Rng. Acc.+20','Pet: "Dbl. Atk."+4','Pet: Damage taken -3%',}},
+    feet={ name="Taeon Boots", augments={'Pet: Attack+25 Pet: Rng.Atk.+25','Pet: "Dbl. Atk."+3','Pet: Damage taken -4%',}},
+    neck="Shulmanu Collar",
+    waist="Moonbow Belt",
+    left_ear="Mache Earring +1",
+    right_ear="Cessance Earring",
+    left_ring="Niqmaddu Ring",
+    right_ring="C. Palug Ring",
+    back="Moonbeam Cape",
+}

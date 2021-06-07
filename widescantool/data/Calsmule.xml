@@ -1,0 +1,33 @@
+<?xml version="1.1" ?>
+<settings>
+    <global>
+        <alertbox>
+            <bg>
+                <alpha>192</alpha>
+                <blue>0</blue>
+                <green>0</green>
+                <red>0</red>
+            </bg>
+            <padding>5</padding>
+            <pos>
+                <x>910</x>
+                <y>100</y>
+            </pos>
+            <text>
+                <alpha>255</alpha>
+                <blue>0</blue>
+                <font>Consolas</font>
+                <green>0</green>
+                <red>255</red>
+                <size>15</size>
+            </text>
+        </alertbox>
+        <alertbox_default_string>!ALERT!</alertbox_default_string>
+        <area>
+
+        </area>
+        <filter_pets>true</filter_pets>
+        <worldalerts />
+        <worldfilters />
+    </global>
+</settings>
