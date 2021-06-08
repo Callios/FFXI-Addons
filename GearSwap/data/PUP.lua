@@ -379,8 +379,8 @@ function init_gear_sets()
        	head="Malignance Chapeau",
 		body="Malignance Tabard",
 		hands="Malignance Gloves",
-		legs="Mpaca's Hose",
-		feet="Malignance Boots",
+		legs="Malignance Tights",
+		feet="Mpaca's Boots",
 		ring1="Cath Palug Ring",
 		ring2="Thurandaut Ring",
 		ear1="Enmerkar Earring",
@@ -545,7 +545,7 @@ function init_gear_sets()
 		neck="Fotia Gorget",
 		ear1="Schere Earring",
 		ear2="Moonshade Earring",
-		waist="Moonbow Belt +1",
+		waist="Moonbow Belt",
 		back=Visucius.WSSTR
     }
 
@@ -708,7 +708,7 @@ function init_gear_sets()
 
     sets.midcast.Pet["Elemental Magic"] = {
        	head={ name="Herculean Helm", augments={'Pet: "Mag.Atk.Bns."+30','Pet: "Regen"+3','Pet: INT+7',}},
-	    body={ name="Herculean Vest", augments={'Pet: "Mag.Atk.Bns."+28'}},
+	    body="Udug jacket",
 	    hands={ name="Herculean Gloves", augments={'Pet: "Mag.Atk.Bns."+30','"Store TP"+1','Pet: INT+9',}},
 		legs = Relic_Pitre.Legs_PMagic,
 		feet=Relic_Pitre.Feet_PMagic,
@@ -722,11 +722,11 @@ function init_gear_sets()
     }
 
     sets.midcast.Pet["Enfeebling Magic"] = {
-       -- Add your set here
+       body="Udug jacket"
     }
 
     sets.midcast.Pet["Dark Magic"] = {
-       -- Add your set here
+       body="Udug jacket"
     }
 
     sets.midcast.Pet["Divine Magic"] = {
@@ -859,9 +859,9 @@ function init_gear_sets()
     -- Town Set
     sets.idle.Town = {
         head="Malignance Chapeau",
-		body="Malignance Tabard",
+		body="Udug jacket",
 		hands="Malignance Gloves",
-		legs="Mpaca's Hose",
+		legs="Malignance Tights",
 		feet="Mpaca's Boots",
 		ring1="Cath Palug Ring",
 		ring2="Thurandaut Ring",
