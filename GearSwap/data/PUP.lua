@@ -336,7 +336,7 @@ function init_gear_sets()
 		ear2="Burana Earring",
 		neck="Shulmanu Collar",
 		back=Visucius.PetandMasterTP,
-		waist="Klouskap Sash"
+		waist="Klouskap Sash +1"
 	}
 	
     PetTank = {
@@ -384,8 +384,8 @@ function init_gear_sets()
 		ring1="Cath Palug Ring",
 		ring2="Thurandaut Ring",
 		ear1="Enmerkar Earring",
-		ear2="Rimeice Earring",
-		waist="Moonbow Belt",
+		ear2="Eabani Earring",
+		waist="Moonbow Belt +1",
 		neck="Shulmanu Collar",
     }
 	
@@ -433,7 +433,7 @@ function init_gear_sets()
        legs={ name="Herculean Trousers", augments={'"Fast Cast"+5','MND+5',}},
        feet={ name="Herculean Boots", augments={'"Mag.Atk.Bns."+12','"Fast Cast"+6','Mag. Acc.+1',}},
        neck="Baetyl Pendant",
-       waist="Moonbow Belt",
+       waist="Moonbow Belt +1",
        left_ear="Loquac. Earring",
        right_ear="Enchntr. Earring +1",
        left_ring="Defending Ring",
@@ -450,6 +450,8 @@ function init_gear_sets()
 	
 	-------------------------------------FLASH
 	sets.midcast['Flash'] = sets.Enmity
+
+    sets.midcast['Dia'] = set_combine (sets.precast.FC, {waist="Chaac Belt", head="White Rarab Cap +1",})
 
     -------------------------------------Kiting
     sets.Kiting = {feet = "Hermes' Sandals"}
@@ -508,14 +510,14 @@ function init_gear_sets()
 		ring2="Epona's Ring",
 		ear1="Mache Earring +1",
 		ear2="Telos Earring",
-		waist="Moonbow Belt",
+		waist="Moonbow Belt +1",
 		back=Visucius.PetandMasterTP
 	}
 	
 	sets.pet_accessories = {
 		ring1="Cath Palug Ring",
 	   	ring2="Thurandaut Ring",
-	   	waist="Klouskap Sash",
+	   	waist="Klouskap Sash +1",
 		ear1="Burana Earring",
 		ear2="Enmerkar Earring",
 		back=Visucius.PetandMasterTP,
@@ -545,7 +547,7 @@ function init_gear_sets()
 		neck="Fotia Gorget",
 		ear1="Schere Earring",
 		ear2="Moonshade Earring",
-		waist="Moonbow Belt",
+		waist="Moonbow Belt +1",
 		back=Visucius.WSSTR
     }
 
@@ -595,7 +597,7 @@ function init_gear_sets()
 		legs="Mpaca's Hose",
 		feet="Mpaca's Boots",
 		neck="Shulmanu Collar",
-		waist="Moonbow Belt",
+		waist="Moonbow Belt +1",
 		back=Visucius.PetandMasterTP,
 		ring1="Epona's Ring",
 		ring2="Niqmaddu Ring",
@@ -748,7 +750,7 @@ function init_gear_sets()
 	
 	sets.idle.Mpaca = set_combine(sets.engaged.Mpaca, {ring1="Defending Ring", ring2="Gelatinous Ring +1", neck="Bathy Choker +1",ear1="Eabani earring", ear2="Etiolation Earring", back="Moonbeam Cape"})
 	
-	sets.idle.Malignance = sets.engaged.Malignance
+	sets.idle.Malignance = set_combine(sets.engaged.Malignance, {ear1="Eabani Earring", ear2="Genmei earring", waist="Moonbow Belt +1",})
 	
     sets.idle.PetDA = sets.engaged.PetDA
 	
@@ -776,18 +778,19 @@ function init_gear_sets()
         WSNoFTP is the default weaponskill set used
     ]]
     sets.midcast.Pet.WSNoFTP = {
-        head="Karagoz Capello +1",
-		body=Taeon_DABody,
-		hands="Mpaca's Gloves",
-		legs=Taeon_DALegs,
-		feet="Mpaca's Boots",
-		neck="Shulmanu Collar",
-		back=Visucius.PetandMasterTP,
-		ear1="Burana Earring",
-		ear2="Enmerkar Earring",
-		ring1="Thurandaut Ring",
-		ring2="C. Palug Ring",
-		waist="Klouskap Sash",
+
+        head= Taeon_DAHead,
+            body= Taeon_DABody,
+            legs= Taeon_DALegs,
+            hands= "Mpaca's gloves",
+            ear1="Burana Earring",
+			ear2="Kyrene's Earring",
+			waist="Incarnation Sash",
+            neck="Shulmanu Collar",
+		    back=Visucius.PetandMasterTP,
+		    ring1="Thurandaut Ring",
+		    ring2="C. Palug Ring",
+		    waist="Klouskap Sash +1",
     }
 
     --[[
@@ -815,16 +818,18 @@ function init_gear_sets()
 	})
 
     -- Bone crusher, String Shredder
-    sets.midcast.Pet.WS["VIT"] =
-        set_combine(
-        sets.DD.BONE,
-        {
+    sets.midcast.Pet.WS["VIT"] ={
             -- Add your gear here that would be different from sets.midcast.Pet.WSNoFTP
-            head = Empy_Karagoz.Head_PTPBonus,
+            --head = Empy_Karagoz.Head_PTPBonus,
+            head= Taeon_DAHead,
+            body= Taeon_DABody,
+            legs= Taeon_DALegs,
+            hands= "Mpaca's gloves",
+            ear1="Burana Earring",
 			ear2="Kyrene's Earring",
 			waist="Incarnation Sash",
-        }
-    )
+      }
+
 
     -- Cannibal Blade
     sets.midcast.Pet.WS["MND"] = set_combine(sets.midcast.Pet.WSNoFTP, {})
@@ -867,7 +872,7 @@ function init_gear_sets()
 		ring2="Thurandaut Ring",
 		ear1="Eabani Earring",
 		ear2="Etiolation Earring",
-		waist="Moonbow Belt",
+		waist="Moonbow Belt +1",
 		neck="Bathy Choker +1",
         back="Moonbeam Cape"
     }

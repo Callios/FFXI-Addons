@@ -34,13 +34,13 @@
             <alliance>
             <!-- He's targeting an alliance member -->
                 <all>false</all>
-                <casting>false</casting>
-                <damage>false</damage>
-                <healing>false</healing>
-                <melee>false</melee>
-                <misses>false</misses>
-                <ranged>false</ranged>
-                <readies>false</readies>
+                <casting>true</casting>
+                <damage>true</damage>
+                <healing>true</healing>
+                <melee>true</melee>
+                <misses>true</misses>
+                <ranged>true</ranged>
+                <readies>true</readies>
             </alliance>
             <me>
             <!-- He's targeting you! -->
@@ -60,7 +60,7 @@
                 <damage>false</damage>
                 <healing>false</healing>
                 <melee>false</melee>
-                <misses>true</misses>
+                <misses>false</misses>
                 <ranged>false</ranged>
                 <readies>false</readies>
             </monsters>
@@ -87,31 +87,31 @@
             </my_pet>
             <other_pets>
             <!-- He's targeting someone else's pet -->
-                <all>true</all>
-                <casting>true</casting>
+                <all>false</all>
+                <casting>false</casting>
                 <damage>true</damage>
                 <healing>true</healing>
                 <melee>true</melee>
                 <misses>true</misses>
                 <ranged>true</ranged>
-                <readies>true</readies>
+                <readies>false</readies>
             </other_pets>
             <others>
             <!-- He's targeting some guy nearby -->
-                <all>true</all>
-                <casting>true</casting>
+                <all>false</all>
+                <casting>false</casting>
                 <damage>true</damage>
                 <healing>true</healing>
                 <melee>true</melee>
                 <misses>true</misses>
                 <ranged>true</ranged>
-                <readies>true</readies>
+                <readies>false</readies>
             </others>
             <party>
             <!-- He's targeting a party member -->
                 <all>false</all>
                 <casting>false</casting>
-                <damage>true</damage>
+                <damage>false</damage>
                 <healing>false</healing>
                 <melee>false</melee>
                 <misses>false</misses>
@@ -145,26 +145,26 @@
         <other_pets>
         <!-- He's targeting someone else's pet -->
             <all>true</all>
-            <casting>true</casting>
+            <casting>false</casting>
             <damage>true</damage>
             <healing>true</healing>
             <melee>true</melee>
             <misses>true</misses>
             <ranged>true</ranged>
-            <readies>true</readies>
+            <readies>false</readies>
             <target>false</target>
         </other_pets>
         <others>
         <!-- He's targeting some guy nearby -->
             <all>true</all>
-            <casting>true</casting>
+            <casting>false</casting>
             <damage>true</damage>
             <healing>true</healing>
             <items>true</items>
-            <melee>true</melee>
+            <melee>false</melee>
             <misses>true</misses>
-            <ranged>true</ranged>
-            <readies>true</readies>
+            <ranged>false</ranged>
+            <readies>false</readies>
             <target>false</target>
             <uses>true</uses>
         </others>
@@ -172,12 +172,12 @@
         <!-- He's targeting a party member -->
             <all>false</all>
             <casting>false</casting>
-            <damage>true</damage>
-            <healing>true</healing>
+            <damage>false</damage>
+            <healing>false</healing>
             <items>false</items>
-            <melee>true</melee>
-            <misses>true</misses>
-            <ranged>true</ranged>
+            <melee>false</melee>
+            <misses>false</misses>
+            <ranged>false</ranged>
             <readies>false</readies>
             <target>false</target>
             <uses>true</uses>

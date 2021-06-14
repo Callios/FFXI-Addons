@@ -1076,7 +1076,7 @@ windower.register_event(
                      or state.PetModeCycle.value:lower() == "dd" 
                      or state.PetStyleCycle.value:lower() == "od"
                      or state.PetStyleCycle.value:lower() == "bone")
-                    and (Master_State:lower() == "idle")
+                    --and (Master_State:lower() == "idle")
                     and pet.status == 'Engaged'
              then
                 --Now if pet has more than 1000 tp and pet is engaged and didn't just finish a weaponskill and we have not locked the pet out this set

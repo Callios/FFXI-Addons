@@ -4,6 +4,22 @@
         <AutoActivate>true</AutoActivate>
         <AutoDeusExAutomata>false</AutoDeusExAutomata>
         <autosets>
+            <bone1>
+                <frame>valoredge frame</frame>
+                <head>valoredge head</head>
+                <slot01>turbo charger</slot01>
+                <slot02>turbo charger ii</slot02>
+                <slot03>hammermill</slot03>
+                <slot04>coiler ii</slot04>
+                <slot05>coiler</slot05>
+                <slot06>optic fiber</slot06>
+                <slot07>optic fiber ii</slot07>
+                <slot08>speedloader</slot08>
+                <slot09>magniplug</slot09>
+                <slot10>magniplug ii</slot10>
+                <slot11>inhibitor</slot11>
+                <slot12>inhibitor ii</slot12>
+            </bone1>
             <default>
 
             </default>
@@ -39,6 +55,38 @@
                 <slot11>Optic Fiber</slot11>
                 <slot12>Volt Gun</slot12>
             </melrng>
+            <rngddstp>
+                <frame>sharpshot frame</frame>
+                <head>valoredge head</head>
+                <slot01>speedloader ii</slot01>
+                <slot02>inhibitor ii</slot02>
+                <slot03>inhibitor</slot03>
+                <slot04>attuner</slot04>
+                <slot05>tension spring</slot05>
+                <slot06>truesights</slot06>
+                <slot07>turbo charger ii</slot07>
+                <slot08>turbo charger</slot08>
+                <slot09>scope ii</slot09>
+                <slot10>coiler ii</slot10>
+                <slot11>optic fiber ii</slot11>
+                <slot12>auto-repair kit iv</slot12>
+            </rngddstp>
+            <tanktest>
+                <frame>valoredge frame</frame>
+                <head>valoredge head</head>
+                <slot01>armor plate iv</slot01>
+                <slot02>mana jammer</slot02>
+                <slot03>steam jacket</slot03>
+                <slot04>resister ii</slot04>
+                <slot05>optic fiber ii</slot05>
+                <slot06>flashbulb</slot06>
+                <slot07>strobe</slot07>
+                <slot08>strobe ii</slot08>
+                <slot09>turbo charger ii</slot09>
+                <slot10>turbo charger</slot10>
+                <slot11>auto-repair kit ii</slot11>
+                <slot12>armor plate iii</slot12>
+            </tanktest>
         </autosets>
         <bg>
             <alpha>255</alpha>
@@ -58,8 +106,8 @@
         <maneuvertimers>true</maneuvertimers>
         <padding>0</padding>
         <pos>
-            <x>1600</x>
-            <y>920</y>
+            <x>1533</x>
+            <y>497</y>
         </pos>
         <text>
             <alpha>255</alpha>
@@ -81,10 +129,4 @@
         </text>
         <visible>false</visible>
     </global>
-    <callios>
-        <pos>
-            <x>1533</x>
-            <y>497</y>
-        </pos>
-    </callios>
 </settings>
