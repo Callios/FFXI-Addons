@@ -39,6 +39,22 @@
                 <slot11>Mana Channeler</slot11>
                 <slot12>Stealth Screen</slot12>
             </healer>
+            <lilith1>
+                <frame>valoredge frame</frame>
+                <head>valoredge head</head>
+                <slot01>attuner</slot01>
+                <slot02>flame holder</slot02>
+                <slot03>optic fiber</slot03>
+                <slot04>optic fiber ii</slot04>
+                <slot05>inhibitor ii</slot05>
+                <slot06>inhibitor</slot06>
+                <slot07>magniplug</slot07>
+                <slot08>auto-repair kit iii</slot08>
+                <slot09>magniplug ii</slot09>
+                <slot10>turbo charger ii</slot10>
+                <slot11>steam jacket</slot11>
+                <slot12>turbo charger</slot12>
+            </lilith1>
             <melrng>
                 <frame>Sharpshot Frame</frame>
                 <head>Valoredge Head</head>

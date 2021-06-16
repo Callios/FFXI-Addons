@@ -4,7 +4,7 @@
         <activate>false</activate>
         <active>true</active>
         <deploy>false</deploy>
-        <ignore_mobs>Leader&apos;s,Commander&apos;s,Regiment&apos;s,Squadron&apos;s</ignore_mobs>
+        <ignore_mobs>Commander&apos;s,Leader&apos;s,Regiment&apos;s,Squadron&apos;s</ignore_mobs>
         <maintenance>false</maintenance>
         <man>Light Maneuver,Fire Maneuver,Wind Maneuver</man>
         <remove_pet_debuffs>
@@ -237,7 +237,6 @@
         </text>
     </global>
     <callios>
-        <man>Light Maneuver,Thunder Maneuver,Water Maneuver</man>
         <text>
             <pos>
                 <x>1188</x>

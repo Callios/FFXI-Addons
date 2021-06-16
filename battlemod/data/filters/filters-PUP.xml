@@ -3,7 +3,7 @@
     <global>
         <alliance>
         <!-- He's targeting an alliance member -->
-            <all>false</all>
+            <all>true</all>
             <casting>false</casting>
             <damage>true</damage>
             <healing>true</healing>

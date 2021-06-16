@@ -65,7 +65,7 @@ function user_setup()
         
         Will automatically set IdleMode to Idle when Pet becomes Engaged and you are Idle
     ]]
-    state.IdleMode:options("Mpaca", "Malignance", "PetTP", "PetTank", "PetEnmity", "Rao")
+    state.IdleMode:options("Mpaca", "Malignance", "PetTP", "PetDA", "PetTank", "PetEnmity", "Rao")
 
     --Various Cycles for the different types of PetModes
     state.PetStyleCycleTank = M {"NORMAL", "DD", "MAGIC", "SPAM"}
@@ -174,7 +174,8 @@ function user_setup()
     send_command("bind = gs c clear")
 
     select_default_macro_book()
-	send_command('@wait 4;input /lockstyleset 087')
+	send_command('@wait 4;input /lockstyleset 085')
+    send_command('@wait 6; input //lua l autopup')
 
     -- Adjust the X (horizontal) and Y (vertical) position here to adjust the window
     pos_x = 1400
