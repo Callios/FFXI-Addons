@@ -242,6 +242,7 @@ function init_gear_sets()
     legs="Carmine Cuisses +1", -- 20 
     head="Souveran Schaller +1", -- 20
     body="Souveran Cuirass +1",
+    back=gear.RudianosFC,
     ring1="Defending Ring",
     ring2="Apeile ring +1",
     hands="Souveran handschuhs +1",

@@ -146,7 +146,7 @@ function user_setup()
         //gs c toggle CP 
     ]] 
     state.CP = M(false, "CP") 
-    CP_CAPE = "Aptitude Mantle +1" 
+    CP_CAPE = "Mecistopins mantle" 
 
     --[[
         Enter the slots you would lock based on a custom set up.
@@ -334,7 +334,7 @@ function init_gear_sets()
 		ring1="Cath Palug Ring",
 		ring2="Thurandaut Ring",
 		ear1="Enmerkar Earring",
-		ear2="Burana Earring",
+		ear2="Rimeice Earring",
 		neck="Shulmanu Collar",
 		back=Visucius.PetandMasterTP,
 		waist="Klouskap Sash +1"

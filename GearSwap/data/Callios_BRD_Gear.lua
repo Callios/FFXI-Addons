@@ -259,19 +259,19 @@ function init_gear_sets()
 -- Idle sets (default idle set not needed since the other three are defined, but leaving for testing purposes)
 
 	sets.idle = {main="Carnwenhan",sub="Genmei shield",range="Nibiru Harp",
-		head="Inyanga tiara +2",neck="Bathy choker +1",ear1="Infused earring",ear2="Odnowa earring +1",
+		head="Bunzi's Hat",neck="Bathy choker +1",ear1="Infused earring",ear2="Odnowa earring +1",
 		body="Inyanga jubbah +2",hands="Inyanga dastanas +2",ring1="Defending ring",ring2="Inyanga ring",
 		back="Solemnity cape",waist="Fucho-no-obi",legs="Assiduity pants +1",feet="Fili cothurnes +1"} --22
 		
 	sets.idle.Town = set_combine(sets.idle, {})
 		
 	sets.idle.Kiting = {main="Earth staff",sub="Enki Strap",range="Nibiru harp",
-		head="Inyanga tiara +2",neck="Loricate torque +1",ear1="Odnowa earring",ear2="Odnowa earring +1",
+		head="Bunzi's Hat",neck="Loricate torque +1",ear1="Odnowa earring",ear2="Odnowa earring +1",
 		body="Inyanga jubbah +2",hands="Inyanga dastanas +2",ring1="Defending ring",ring2="Inyanga ring",
 		back=BRD_MACC_FC,waist="Flume Belt",legs="Inyanga shalwar +2",feet="Inyanga crackows +2"} --52		
 
 	sets.idle.Melee = {range="Nibiru harp",
-		head="Inyanga tiara +2",neck="Loricate torque +1",ear1="Sanare earring",ear2="Eabani earring",
+		head="Bunzi's hat",neck="Loricate torque +1",ear1="Sanare earring",ear2="Eabani earring",
 		body="Bihu Jstcorps. +3",hands="Inyanga dastanas +2",ring1="Defending ring",ring2="Moonbeam ring",
 		back=BRD_MELEE,waist="Flume Belt",legs="Brioso cannions +3",feet="Inyanga crackows +2"} --51
 		
@@ -285,7 +285,7 @@ function init_gear_sets()
 		back="Solemnity cape",waist="Flume belt",legs="Brioso cannions +3",feet="Fili cothurnes +1"} 
 	 
 	sets.defense.MDT = {range="Nibiru harp",
-		head="Inyanga tiara +2",neck="Warder's charm +1",ear1="Etiolation earring",ear2="Odnowa earring +1",
+		head="Bunzi's Hat",neck="Warder's charm +1",ear1="Etiolation earring",ear2="Odnowa earring +1",
 		body="Inyanga jubbah +2",hands="Inyanga dastanas +2",ring1="Defending ring",ring2="Dark ring",
 		back="Solemnity cape",waist="Carrier's sash",legs="Brioso cannions +3",feet="Bihu Slippers +3"} 
  
