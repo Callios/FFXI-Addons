@@ -3020,6 +3020,12 @@
             <Width>1920</Width>
         </UIScreen>
     </callios>
+    <calsmule>
+        <UIScreen>
+            <Height>1080</Height>
+            <Width>1920</Width>
+        </UIScreen>
+    </calsmule>
     <dainopu>
         <UIScreen>
             <Height>720</Height>
