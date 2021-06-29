@@ -792,8 +792,8 @@ function get_sets()
     --Type A-pure macc no potency mod
     sets.midcast.Enfeebling.macc = {
 
-        main="Daybreak",
-        sub="Ammurapi Shield",
+        main="Contemplator +1",
+        sub="Enki Strap",
         range="Ullr",
         head="Viti. Chapeau +3",
         neck="Dls. Torque +2",
@@ -836,8 +836,8 @@ function get_sets()
     -- Type C-potency from: Int & "Enfeeb Potency" gear
     sets.midcast.Enfeebling.intpot = { 
 
-        main="Maxentius",
-        sub="Ammurapi Shield",
+        main="Contemplator +1",
+        sub="Enki Strap",
         ammo="Regal Gem",
         head="Viti. Chapeau +3",
         neck="Dls. Torque +2",
@@ -856,8 +856,8 @@ function get_sets()
     --Type D-potency from: Enfeeb Skill & "Enfeeb Potency" gear
     sets.midcast.Enfeebling.skillpot = {
 
-        main="Daybreak",        --16
-        sub="Ammurapi shield",  --
+        main="Contemplator +1",
+        sub="Enki Strap",  --
         ammo="Regal Gem", --
         head="Viti. Chapeau +3", --24
         neck="Dls. Torque +2", 
@@ -875,8 +875,8 @@ function get_sets()
     -- Tpe E-potency from: Enfeeb skill, Mnd, & "Enfeeb Potency" gear
     sets.midcast.Enfeebling.skillmndpot = {
 
-        main="Daybreak",
-        sub="Ammurapi Shield",
+        main="Contemplator +1",
+        sub="Enki Strap",
         ammo="Regal Gem",
         head="Viti. Chapeau +3",
         neck="Dls. Torque +2",
@@ -895,8 +895,8 @@ function get_sets()
     -- Type F-potency from "Enfeebling potency" gear only
     sets.midcast.Enfeebling.skillmndpot = {
 
-        main="Daybreak",
-        sub="Ammurapi Shield",
+        main="Contemplator +1",
+        sub="Enki Strap",
         ammo="Regal Gem",
         head="Viti. Chapeau +3",
         neck="Dls. Torque +2",

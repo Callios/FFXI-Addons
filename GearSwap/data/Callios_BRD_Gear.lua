@@ -176,12 +176,12 @@ function init_gear_sets()
 
 	sets.midcast.SongDebuff = {main="Carnwenhan",sub="Ammurapi shield",range="Gjallarhorn",
 		head="Brioso roundlet +2",neck="Moonbow Whistle +1",ear1="Regal earring",ear2="Dignitary's Earring",
-		body="Fili hongreline +1",hands="Inyanga dastanas +2",ring1="Stikini ring",ring2="Stikini ring",
-		back=BRD_MACC_FC,waist="Porous rope",legs="Inyanga shalwar +2",feet="Brioso Slippers +3"}
+		body="Brioso justaucorps +3",hands="Inyanga dastanas +2",ring1="Metamor. ring +1",ring2="Stikini ring",
+		back=BRD_MACC_FC,waist="Luminary Sash",legs="Brioso Cannions +3",feet="Brioso Slippers +3"}
 		
 	sets.midcast.ResistantSongDebuff = {main="Carnwenhan",sub="Ammurapi shield",range="Gjallarhorn",
 		head="Brioso roundlet +2",neck="Moonbow Whistle +1",ear1="Regal earring",ear2="Dignitary's Earring",
-		body="Brioso justaucorps +3",hands="Inyanga dastanas +2",ring1="Stikini ring",ring2="Stikini ring",
+		body="Brioso justaucorps +3",hands="Inyanga dastanas +2",ring1="Metamor. ring +1",ring2="Stikini ring",
 		back=BRD_MACC_FC,waist="Porous rope",legs="Brioso cannions +3",feet="Brioso Slippers +3"}
 	
 	sets.midcast['Horde Lullaby II'] = set_combine(sets.midcast.SongDebuff, {range="Daurdabla"})
