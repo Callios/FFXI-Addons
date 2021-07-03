@@ -75,7 +75,7 @@ function user_setup()
 		TaeonBoots_Snap = {name="Taeon Boots", augments={'Snapshot+5'}}
 		
         gear.Gun = "Annihilator"
-        gear.Bow = "Nobility"
+        gear.Bow = "Yoichinoyumi"
         --gear.Bow = "Hangaku-no-Yumi"
        
         rng_sub_weapons = S{'Hurlbat', 'Vanir Knife', 'Perun', 
@@ -282,38 +282,38 @@ function init_gear_sets()
         -- Preshot / Snapshot sets, 10% merits, 70% cap, 15% flurry I, 30% flurry 2
         ------------------------------------------------------------------
     sets.precast.RA = {
-    head={ name="Taeon Chapeau", augments={'Rng.Acc.+19','"Snapshot"+8',}},
-    body={ name="Pursuer's Doublet", augments={'AGI+9','"Rapid Shot"+10','"Subtle Blow"+6',}},
-    hands={ name="Carmine Fin. Ga. +1",
+    head={ name="Taeon Chapeau", augments={'Rng.Acc.+19','"Snapshot"+3','"Snapshot"+5',}},
+    body="Volte harness",
+    hands="Carmine Fin. Ga. +1",
     legs="Adhemar Kecks",
-    ammo="Chrono Bullet",
+    --ammo="Chrono Bullet",
     feet="Meg. Jam. +2",
     neck="Iskur Gorget",
-    waist="Impulse Belt",
+    waist="Impulse belt",
     left_ear="Telos Earring",
     right_ear="Enervating Earring",
     left_ring="Cacoethic Ring +1",
     right_ring="Haverton Ring",
     back={ name="Belenus's Cape", augments={'"Snapshot"+10',}},
-}}
+}
         
         ------------------------------------------------------------------
         -- Default Base Gear Sets for Ranged Attacks. Geared for Gun
         ------------------------------------------------------------------
         -- Store TP = 8 + 4 + 4 + 6 + 5 + 10 + 7 = 44
 	sets.midcast.RA = { 				-- 4 weapon, 3 shield 
-    head="Meghanada Visor +2",
-    body="Meg. Cuirie +2",
-    ammo="Chrono Bullet",
-    hands="Meg. Gloves +2",
-    legs="Meghanada chausses +2",
+    head="Orion Beret +2",
+    body="Malignance Tabard",
+    --ammo="Chrono Bullet",
+    hands="Malignance Gloves",
+    legs="Malignance Tights",
     feet="Meg. Jam. +2",
     neck="Iskur Gorget",
-    waist="Eschan Stone",
+    waist="Kwahu Kachina Belt +1",
     left_ear="Telos Earring",
-    right_ear="Enervating Earring",
-    left_ring="Cacoethic Ring +1",
-    right_ring="Haverton Ring",
+    right_ear="Dedition Earring",
+    left_ring="Regal Ring",
+    right_ring="Ilabrat Ring",
     back={ name="Belenus's Cape", augments={'AGI+20','Rng.Acc.+20 Rng.Atk.+20','AGI+10','"Store TP"+10',}},
 }
 
@@ -367,7 +367,7 @@ function init_gear_sets()
             ring1="Regal Ring", 
             ring2="Dingir Ring",
             back=AGI_TP_Cape,
-            waist="Kwahu Kachina Belt",
+            waist="Kwahu Kachina Belt +1",
             legs="Adhemar Kecks", 
             feet=HercBoots_RngTP
         }
@@ -398,20 +398,24 @@ function init_gear_sets()
         })
 
         -- Bow base set.
-        sets.midcast.RA.Bow = {
-            head="Arcadian Beret +1",
-			neck="Iskur Gorget",
-			ear1="Enervating Earring",
-			ear2="Neritic Earring",
-			body="Orion Jerkin +3",
-			hands="Adhemar Wristbands",
-			ring1="Regal Ring",
-			ring2="Ilabrat Ring",
-			back=AGI_TP_Cape,
-			waist="Kwahu Kachina Belt",
-			legs="Adhemar Kecks",
-			feet=HercBoots_RngTP
-        }
+        --sets.midcast.RA.Bow = {
+          --  head="Arcadian Beret +1",
+		--	neck="Iskur Gorget",
+		--ear1="Enervating Earring",
+		--	ear2="Neritic Earring",
+		--	body="Orion Jerkin +3",
+		--	hands="Adhemar Wristbands",
+		--	ring1="Regal Ring",
+		--	ring2="Ilabrat Ring",
+		--	back=AGI_TP_Cape,
+		--	waist="Kwahu Kachina Belt",
+		--	legs="Adhemar Kecks",
+		--	feet=HercBoots_RngTP
+      --  }
+
+        sets.midcast.RA.Bow = set_combine(sets.midcast.RA, {}
+    )
+
         sets.midcast.RA.Bow.Mid = set_combine(sets.midcast.RA.Bow, {
 			body="Orion Jerkin +3",
             legs="Adhemar Kecks",
@@ -429,8 +433,8 @@ function init_gear_sets()
        
         -- Bow Sam roll
         sets.midcast.RA.Bow.SamRoll = set_combine(sets.midcast.RA.Bow, {
-            body="Orion Jerkin +2",
-            hands="Adhemar Wristbands",
+            body="Malignance Tabard",
+            hands="Malignance Gloves",
             ring2="Hajduk Ring",
         })
         sets.midcast.RA.Bow.Mid.SamRoll = set_combine(sets.midcast.RA.Bow.SamRoll, {
@@ -458,12 +462,12 @@ function init_gear_sets()
 
         -- Sam SJ / Bow / Sam's Roll
         sets.midcast.RA.SAM.Bow.SamRoll = set_combine(sets.midcast.RA.SAM.Bow, {
-            waist="Kwahu Kachina Belt",
+            waist="Kwahu Kachina Belt +1",
             feet=HercBoots_RngTP
         })
 
         sets.midcast.RA.SAM.Bow.Mid.SamRoll = set_combine(sets.midcast.RA.SAM.Bow.Mid, {
-            waist="Kwahu Kachina Belt",
+            waist="Kwahu Kachina Belt +1",
         })
         sets.midcast.RA.SAM.Bow.Acc.SamRoll = set_combine(sets.midcast.RA.SAM.Bow.Acc, {})
 
@@ -671,8 +675,10 @@ function init_gear_sets()
         sets.Namas = {
             neck="Fotia Gorget",
             waist="Fotia Belt",
-            hands="Meghanada Gloves +2", -- override since we don't want sigyns in Mid or Acc
+            hands="Meghanada Gloves +2",
+            body="Nisroch jerkin", -- override since we don't want sigyns in Mid or Acc
             back=AGI_WSD_Cape,
+            ear1="Moonshade Earring",
             feet="Meghanada Jambeaux +2"
         }
         sets.precast.WS['Namas Arrow'] = set_combine(sets.precast.WS, sets.Namas)
@@ -699,7 +705,7 @@ function init_gear_sets()
 			ring2="Ilabrat Ring",
 			back=AGI_WSD_Cape,
 			waist="Fotia Belt",
-			legs="Mummu Kecks +1",
+			legs="Mummu Kecks +2",
 			feet="Thereoid Greaves"
         }
         sets.precast.WS['Jishnu\'s Radiance'] = set_combine(sets.precast.WS, sets.Jishnus)
