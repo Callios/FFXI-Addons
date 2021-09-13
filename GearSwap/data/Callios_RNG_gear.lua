@@ -164,7 +164,7 @@ function init_gear_sets()
             feet="Meghanada Jambeaux +2"
         })
         sets.precast.JA['Eagle Eye Shot'].Acc = set_combine(sets.precast.JA['Eagle Eye Shot'].Mid, {
-            waist="Kwahu Kachina Belt"
+            waist="Kwahu Kachina Belt +1"
         })
 
         sets.precast.FC = {
@@ -186,7 +186,7 @@ function init_gear_sets()
 			ear2="Infused Earring",
 			body="Meghanada Cuirie +2",
 			hands="Meghanada Gloves +2",
-			ring1="Meghanada Ring",
+			ring1="Gelatinous Ring +1",
 			ring2="Defending Ring",
 			back="Moonbeam Cape",
 			waist="Flume Belt",
@@ -206,26 +206,26 @@ function init_gear_sets()
         })
         sets.idle.Town = set_combine(sets.idle, {
             body="Meg. Cuirie +2",
-            ring1="Sheltered Ring",
+            ring1="Gelatinous Ring +1",
             ring2="Defending Ring",
-            hands="Iuitl Wristbands +1",
-            legs="Meghanada chausses +2",
+            hands="Malignance gloves",
+            legs="Malignace tights",
             back="Moonbeam Cape"
         })
  
         -- Engaged sets
         sets.engaged =  {
-            head="Arcadian Beret +1",
+            head="Malignance Chapeau",
             neck="Loricate Torque +1",
             ear1="Enervating Earring",
             ear2="Infused Earring",
-            body="Orion Jerkin +3", 
-            hands="Floral Gauntlets",
+            body="Nalignance Tabard", 
+            hands="Malignance Gloves",
             ring1="Dark Ring",
             ring2="Defending Ring",
 			back="Moonbeam Cape",
             waist="Flume Belt",
-            legs="Meghanada chausses +2", 
+            legs="Malignance Tights", 
             feet="Jute Boots +1"
         }
         sets.engaged.PDT = set_combine(sets.engaged, {
