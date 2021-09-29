@@ -331,7 +331,7 @@ function init_gear_sets()
 		hands="Carmine Fin. Ga. +1",
 		ring1="Epaminondas's ring",ring2="Dingir Ring",
         back=MantleAGI,
-		waist="Eschan Stone",
+		waist="Orpheus's Sash",
 		legs={ name="Herculean Trousers", augments={'Mag. Acc.+20 "Mag.Atk.Bns."+20','Crit.hit rate+1','"Mag.Atk.Bns."+15',}},
 		feet={ name="Herculean Boots", augments={'Weapon skill damage +5%','AGI+1','Rng.Acc.+2','Rng.Atk.+14',}},
         }
@@ -349,7 +349,7 @@ function init_gear_sets()
 		hands="Carmine Fin. Ga. +1",
 		ring1="Archon Ring",ring2="Epaminondas's ring",
         back=MantleAGIWSD,
-		waist="Eschan Stone",
+		waist="Orpheus's Sash",
 		legs={ name="Herculean Trousers", augments={'Mag. Acc.+20 "Mag.Atk.Bns."+20','Crit.hit rate+1','"Mag.Atk.Bns."+15',}},
 		feet= "Lanun Bottes +3",
         }
@@ -461,7 +461,7 @@ function init_gear_sets()
 		hands="Leyline Gloves",
 		ring1="Epaminondas's ring",ring2="Dingir Ring",
 		back=MantleAGIWSD,
-		waist="Eschan Stone",
+		waist="Orpheus's Sash",
 		legs={ name="Herculean Trousers", augments={'Mag. Acc.+20 "Mag.Atk.Bns."+20','Crit.hit rate+1','"Mag.Atk.Bns."+15',}},
         feet={ name="Herculean Boots", augments={'Weapon skill damage +5%','AGI+1','Rng.Acc.+2','Rng.Atk.+14',}},
 		}
@@ -531,7 +531,7 @@ function init_gear_sets()
 		hands="Carmine Fin. Ga. +1",
 		ring1="Regal Ring",ring2="Dingir Ring",
         back=MantleAGIWSD,
-		waist="Eschan Stone",
+		waist="Orpheus's Sash",
 		legs={ name="Herculean Trousers", augments={'Mag. Acc.+20 "Mag.Atk.Bns."+20','Crit.hit rate+1','"Mag.Atk.Bns."+15',}},
 		feet="Nvrch. Bottes +1"
         }
@@ -577,7 +577,7 @@ function init_gear_sets()
         legs="Mummu Kecks +2",
         feet="Mummu Gamash. +2",
 		ring2="Mummu Ring",
-        waist="Kwahu Kachina Belt",
+        waist="Kwahu Kachina Belt +1",
         })
 
     sets.midcast.RA.STP = set_combine(sets.midcast.RA, {
@@ -693,13 +693,14 @@ function init_gear_sets()
         })
 
     sets.engaged.HighAcc = set_combine(sets.engaged.MidAcc, {
-       head="Malignance Chapeau",
-        waist="Olseni belt",
+        head="Malignance Chapeau",
+        waist="Reiki Yotai",
+        ear1="Telos earring",			-- 4
+		ear2="Dedition Earring",
         Neck="Combatant's Torque",
         body="Malignance tabard",
         legs="Malignance tights",
         hands="Malignance gloves",
-        ring1="Cacoethic Ring +1",
         feet={ name="Herculean Boots", augments={'Accuracy+14 Attack+14','"Triple Atk."+3','Accuracy+15',}},
         })
 
@@ -873,14 +874,15 @@ function init_gear_sets()
         })
 
     sets.engaged.HighAcc.MaxHaste = set_combine(sets.engaged.MidAcc.MaxHaste, {
-        head="Meghanada Visor +2",
-        waist="Olseni belt",
+        head="Malignance Chapeau",
+        waist="Reiki Yotai",
+        ear1="Suppanomimi",			-- 4
+		ear2="Dedition Earring",
         Neck="Combatant's Torque",
-        body="Meghanada Cuirie +2",
-        legs="Meghanada Jambeaux +2",
+        body="Malignance tabard",
+        legs="Malignance tights",
         hands="Malignance gloves",
-		ring1="Cacoethic Ring +1",
-		feet={ name="Herculean Boots", augments={'Accuracy+14 Attack+14','"Triple Atk."+3','Accuracy+15',}},
+        feet={ name="Herculean Boots", augments={'Accuracy+14 Attack+14','"Triple Atk."+3','Accuracy+15',}},
         })
 
     sets.engaged.STP.MaxHaste = set_combine(sets.engaged.STP, {

@@ -2,7 +2,7 @@
 
 _addon.name = 'Scoreboard'
 _addon.author = 'Suji'
-_addon.version = '1.12'
+_addon.version = '1.14'
 _addon.commands = {'sb', 'scoreboard'}
 
 require('tables')
@@ -69,7 +69,7 @@ end
 
 -- Handle addon args
 windower.register_event('addon command', function()
-    local chatmodes = S{'s', 'l', 'l2', 'p', 't', 'say', 'linkshell', 'linkshell2', 'party', 'tell'}
+    local chatmodes = S{'s', 'l', 'l2', 'p', 't', 'say', 'linkshell', 'linkshell2', 'party', 'tell', 'echo'}
 
     return function(command, ...)
         if command == 'e' then

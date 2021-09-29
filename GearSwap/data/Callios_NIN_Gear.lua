@@ -119,8 +119,65 @@ function init_gear_sets()
 
     sets.precast.WS['Blade: Shun'] = set_combine(sets.precast.WS, {feet=""})
 
-    sets.precast.WS['Blade: Ten'] = set_combine(sets.precast.WS, {feet=""})
+    sets.precast.WS['Blade: Ten'] =  {
+    ammo="Seeth. Bomblet +1",
+    head="Ryuo Somen",
+    neck="Ninja Nodowa +1",
+    ear1="Moonshade Earring",
+    ear2="Lugra Earring +1",
+    body="Nyame Mail",
+    hands="Nyame Gauntlets",
+    ring1="Epaminondas's Ring",
+    ring2="Beithir Ring",
+    back="Andartia's Mantle",
+    waist="Orpheus's Sash",
+    legs="Nyame Flanchard",
+    feet="Nyame Sollerets" }
 
+    sets.precast.WS['Blade: To'] =  {
+        ammo="Seeth. Bomblet +1",
+        head="Ryuo Somen",
+        neck="Ninja Nodowa +1",
+        ear1="Moonshade Earring",
+        ear2="Lugra Earring +1",
+        body="Nyame Mail",
+        hands="Nyame Gauntlets",
+        ring1="Epaminondas's Ring",
+        ring2="Beithir Ring",
+        back="Andartia's Mantle",
+        waist="Orpheus's Sash",
+        legs="Nyame Flanchard",
+        feet="Nyame Sollerets" }
+
+        sets.precast.WS['Blade: Chi'] =  {
+            ammo="Seeth. Bomblet +1",
+            head="Ryuo Somen",
+            neck="Ninja Nodowa +1",
+            ear1="Moonshade Earring",
+            ear2="Lugra Earring +1",
+            body="Nyame Mail",
+            hands="Nyame Gauntlets",
+            ring1="Epaminondas's Ring",
+            ring2="Beithir Ring",
+            back="Andartia's Mantle",
+            waist="Orpheus's Sash",
+            legs="Nyame Flanchard",
+            feet="Nyame Sollerets" }
+
+            sets.precast.WS['Blade: Teki'] =  {
+                ammo="Seeth. Bomblet +1",
+                head="Ryuo Somen",
+                neck="Ninja Nodowa +1",
+                ear1="Moonshade Earring",
+                ear2="Lugra Earring +1",
+                body="Nyame Mail",
+                hands="Nyame Gauntlets",
+                ring1="Epaminondas's Ring",
+                ring2="Beithir Ring",
+                back="Andartia's Mantle",
+                waist="Orpheus's Sash",
+                legs="Nyame Flanchard",
+                feet="Nyame Sollerets" }
 
     sets.precast.WS['Aeolian Edge'] = {
         head="Wayfarer Circlet",neck="Stoicheion Medal",ear1="Friomisi Earring",ear2="Moonshade Earring",
@@ -214,16 +271,32 @@ function init_gear_sets()
     
     -- Normal melee group
     sets.engaged = {ammo="Happo Shuriken +1",
-        head="Ryuo Somen +1",neck="Moonbeam Nodowa",ear1="Suppanomimi",ear2="Eabani Earring",
+        head="Mpaca's Cap",neck="Moonbeam Nodowa",ear1="Suppanomimi",ear2="Eabani Earring",
         body="Tatenashi haramaki +1",hands="Adhemar wristbands +1",ring1="Petrov Ring",ring2="Epona's Ring",
         back="Atheling Mantle",waist="Reiki yotai",legs="Samnuha Tights",
         feet="Hizamaru Sune-ate +2",}
 
-    sets.engaged.Acc = {ammo="Yamarang",
-        head="Ryuo Somen +1",neck="Moonbeam Nodowa",ear1="Suppanomimi",ear2="Eabani Earring",
-        body="Adhemar jacket +1",hands="Adhemar wristbands +1",ring1="Petrov Ring",ring2="Epona's Ring",
-        back="Atheling Mantle",waist="Reiki yotai",legs="Samnuha Tights",
-        feet="Hizamaru Sune-ate +2",}
+  --  sets.engaged.Acc = {ammo="Yamarang",
+      --  head="Ryuo Somen +1",neck="Moonbeam Nodowa",ear1="Suppanomimi",ear2="Eabani Earring",
+      --  body="Adhemar jacket +1",hands="Adhemar wristbands +1",ring1="Petrov Ring",ring2="Epona's Ring",
+     --   back="Atheling Mantle",waist="Reiki yotai",legs="Samnuha Tights",
+        --feet="Hizamaru Sune-ate +2",}
+
+    sets.engaged.Acc = {
+    ammo="Happo Shuriken +1",
+    head="Mpaca's Cap",
+    neck="Moonbeam Nodowa",
+    ear1="Cessance Earring",
+    ear2="Telos Earring",
+    body="Tatena. Harama. +1",
+    hands="Adhemar Wrist. +1",
+    ring1="Epona's Ring",
+    ring2="Petrov Ring",
+    back="Andartia's Mantle",
+    waist="Reiki yotai",
+    legs="Tatena. Haidate +1",
+    feet=gear.HercFeetTP
+    }
 
         sets.engaged.Hybrid = {ammo="Yamarang",
         head="Ryuo Somen +1",neck="Moonbeam Nodowa",ear1="Suppanomimi",ear2="Eabani Earring",
@@ -258,11 +331,20 @@ function init_gear_sets()
         back="Atheling Mantle",waist="Windbuffet Belt +1",legs="Samnuha Tights",
         feet=gear.HercFeetTP}
 
-    sets.engaged.Acc.HighHaste = {ammo="Yamarang",
-        head="Adhemar Bonnet +1",neck="Moonbeam Nodowa",ear1="Suppanomimi",ear2="Eabani Earring",
-        body="Adhemar jacket +1",hands="Adhemar wristbands +1",ring1="Petrov Ring",ring2="Epona's Ring",
-        back="Atheling Mantle",waist="Windbuffet Belt +1",legs="Samnuha Tights",
-        feet=gear.HercFeetTP}
+    sets.engaged.Acc.HighHaste = {
+    ammo="Happo Shuriken +1",
+    head="Mpaca's Cap",
+    neck="Moonbeam Nodowa",
+    ear1="Cessance Earring",
+    ear2="Telos Earring",
+    body="Tatena. Harama. +1",
+    hands="Adhemar Wrist. +1",
+    ring1="Epona's Ring",
+    ring2="Petrov Ring",
+    back="Andartia's Mantle",
+    waist="Reiki yotai",
+    legs="Tatena. Haidate +1",
+    feet=gear.HercFeetTP}
 
     --sets.engaged.Evasion.HighHaste = {ammo="Qirmiz Tathlum",
       --  head="Whirlpool Mask",neck="Ej Necklace",ear1="Dudgeon Earring",ear2="Heartseeker Earring",
@@ -317,15 +399,24 @@ function init_gear_sets()
 
     -- Custom melee group: Max Haste (0% DW)
     sets.engaged.MaxHaste = {ammo="Happo shuriken +1",
-        head="Adhemar Bonnet +1",neck="Moonbeam Nodowa",ear1="Telos Earring",ear2="Brutal Earring",
+        head="Mpaca's Cap",neck="Moonbeam Nodowa",ear1="Telos Earring",ear2="Brutal Earring",
         body="Tatenashi haramaki +1",hands="Adhemar wristbands +1",ring1="Petrov Ring",ring2="Epona's Ring",
-        back="Atheling Mantle",waist="Windbuffet Belt +1",legs="Samnuha Tights",
+        back="Atheling Mantle",waist="Windbuffet Belt +1",legs="Tatenashi Haidate +1",
         feet=gear.HercFeetTP}
 
-    sets.engaged.Acc.MaxHaste = {ammo="Qirmiz Tathlum",
-        head="Whirlpool Mask",neck="Asperity Necklace",ear1="Bladeborn Earring",ear2="Steelflash Earring",
-        body="Tatenashi haramaki +1",hands="Otronif Gloves",ring1="Rajas Ring",ring2="Epona's Ring",
-        back="Yokaze Mantle",waist="Hurch'lan Sash",legs="Manibozho Brais",feet=gear.HercFeetTP}
+    sets.engaged.Acc.MaxHaste = {ammo="Happo Shuriken +1",
+    head="Mpaca's Cap",
+    neck="Moonbeam Nodowa",
+    ear1="Cessance Earring",
+    ear2="Telos Earring",
+    body="Tatena. Harama. +1",
+    hands="Adhemar Wrist. +1",
+    ring1="Epona's Ring",
+    ring2="Petrov Ring",
+    back="Andartia's Mantle",
+    waist="Reiki yotai",
+    legs="Tatena. Haidate +1",
+    feet=gear.HercFeetTP}
 
     --sets.engaged.Evasion.MaxHaste = {ammo="Qirmiz Tathlum",
       --  head="Whirlpool Mask",neck="Ej Necklace",ear1="Bladeborn Earring",ear2="Steelflash Earring",

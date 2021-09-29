@@ -164,13 +164,13 @@ function init_gear_sets()
      
     sets.precast.WS = {ammo="Amar Cluster",
         head="Flamma Zucchetto +2",neck="Fotia Gorget",ear1="Moonshade Earring",ear2="Brutal Earring",
-        body="Flamma korazin +2",hands="Sulevia's Gauntlets +2",ring1="Regal Ring",ring2="Epaminondas's ring",
-        back=gear.RudianosWS,waist="Fotia Belt",legs="Sulevia's Cuisses +2",feet="Sulevia's Leggings +2"}
+        body="Flamma korazin +2",hands="Nyame gauntlets",ring1="Regal Ring",ring2="Epaminondas's ring",
+        back=gear.RudianosWS,waist="Fotia Belt",legs="Sulevia's Cuisses +2",feet="Nyame sollerets"}
  
     sets.precast.WS.Acc = {ammo="Amar Cluster",
         head="Flamma Zucchetto +2",neck="Fotia Gorget",ear1="Moonshade Earring",ear2="Ishvara Earring",
-        body="Flamma Korazin +2",hands="Flamma Manopolas +2",ring1="Regal Ring",ring2="Epaminondas's ring",
-        back=gear.RudianosWS,waist="Anguinus Belt",legs="Flamma Dirs +2",feet="Flamma Gambieras +2"}
+        body="Flamma Korazin +2",hands="Nyame gauntlets",ring1="Regal Ring",ring2="Epaminondas's ring",
+        back=gear.RudianosWS,waist="Anguinus Belt",legs="Flamma Dirs +2",feet="Nyame sollerets"}
  
      
     -- Specific weaponskill sets.  Uses the base set if an appropriate WSMod version isn't found.
@@ -202,18 +202,18 @@ function init_gear_sets()
          
     sets.precast.WS['Savage Blade'] = {ammo="Amar Cluster",
         head="Valorous Mask",neck="Fotia Gorget",ear1="Moonshade Earring",ear2="Thrud Earring",
-        body=gear.OdyWSBODY,hands="Valorous Mitts",ring1="Rufescent Ring",ring2="Epaminondas's ring",
-        back=gear.RudianosWS,waist="Sailfi Belt +1",legs=gear.ValWSLEGS,feet="Sulevia's Leggings +2"}    
+        body=gear.OdyWSBODY,hands="Nyame gauntlets",ring1="Rufescent Ring",ring2="Epaminondas's ring",
+        back=gear.RudianosWS,waist="Sailfi Belt +1",legs=gear.ValWSLEGS,feet="Nyame sollerets"}    
      
         sets.precast.WS['Judgment'] = {ammo="Amar Cluster",
         head="Valorous Mask",neck="Fotia Gorget",ear1="Moonshade Earring",ear2="Thrud Earring",
-        body=gear.OdyWSBODY,hands="Valorous Mitts",ring1="Epaminondas's ring",ring2="Regal Ring",
-        back=gear.RudianosWS,waist="Sailfi Belt +1",legs=gear.ValWSLEGS,feet="Sulevia's Leggings +2"}
+        body=gear.OdyWSBODY,hands="Nyame gauntlets",ring1="Epaminondas's ring",ring2="Regal Ring",
+        back=gear.RudianosWS,waist="Sailfi Belt +1",legs=gear.ValWSLEGS,feet="Nyame sollerets"}
 
     sets.precast.WS['Circle Blade'] = {ammo="Amar Cluster",
         head="Valorous Mask",neck="Fotia Gorget",ear1="Moonshade Earring",ear2="Thrud Earring",
-        body=gear.OdyWSBODY,hands="Sulevia's Gauntlets +2",ring1="Epaminondas's ring",ring2="Regal Ring",
-        back=gear.RudianosWS,waist="Sailfi Belt +1",legs=gear.ValWSLEGS,feet="Sulevia's Leggings +2"}
+        body=gear.OdyWSBODY,hands="Nyame gauntlets",ring1="Epaminondas's ring",ring2="Regal Ring",
+        back=gear.RudianosWS,waist="Sailfi Belt +1",legs=gear.ValWSLEGS,feet="Nyame sollerets"}
          
          
     --------------------------------------
@@ -353,7 +353,7 @@ function init_gear_sets()
         back=gear.RudianosEnm,waist="Carrier's sash",legs="Carmine Cuisses +1",feet="Sakpata's Leggings"}
 
     sets.idle.DT = {ammo="Staunch Tathlum +1",
-        head="Sakpata's Helm",neck="Loricate Torque +1",ear1="Odnowa earring +1",ear2="Eabani Earring",
+        head="Sakpata's Helm",neck="Loricate Torque +1",ear1="Odnowa earring +1",ear2="Tuisto Earring",
         body="Sakpata's breastplate",hands="Sakpata's gauntlets",ring1="Gelatinous ring +1",ring2="Defending Ring",
         back=gear.RudianosEnm,waist="Carrier's sash",legs="Sakpata's cuisses",feet="Sakpata's Leggings"}
 

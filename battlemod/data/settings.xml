@@ -24,7 +24,11 @@
         <line_roll>${actor} ${abil} ¨ ${target} ª ${number}</line_roll>
         <line_steal>[${actor}] ${abil} ¨ ${target} (${item})</line_steal>
         <oxford>true</oxford>
+        <showblocks>true</showblocks>
+        <showcritws>false</showcritws>
+        <showguards>true</showguards>
         <showownernames>false</showownernames>
+        <showrollinfo>false</showrollinfo>
         <simplify>true</simplify>
         <sumdamage>true</sumdamage>
         <swingnumber>true</swingnumber>

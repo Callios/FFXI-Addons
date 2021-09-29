@@ -94,12 +94,12 @@ function init_gear_sets()
 		neck="Samurai's Nodowa +2",
 		ear1="Ishvara Earring",ear2="Moonshade Earring",
         body="Sakonji Domaru +3",
-		hands="Valorous mitts",
-		ring1="Niqmaddu Ring",ring2="Regal Ring",
+		hands="Nyame Gauntlets",
+		ring1="Epaminondas's Ring",ring2="Regal Ring",
         back=CapeWSD,
 		waist="Fotia Belt",
 		legs="Wakido haidate +3",
-		feet="Valorous Greaves"
+		feet="Nyame Sollerets"
 		}
     
 	sets.precast.WS.Acc = set_combine(sets.precast.WS, {back="Letalis Mantle"})
@@ -111,12 +111,12 @@ function init_gear_sets()
 		neck="Samurai's Nodowa +2",
 		ear1="Thrud Earring",ear2="Moonshade Earring",
         body="Sakonji Domaru +3",
-		hands="Valorous mitts",
-		ring1="Niqmaddu Ring",ring2="Regal Ring",
+		hands="Nyame Gauntlets",
+		ring1="Epaminondas's Ring",ring2="Regal Ring",
         back=CapeWSD,
 		waist="Sailfi Belt +1",
 		legs="Wakido haidate +3",
-		feet="Valorous Greaves"
+		feet="Nyame Sollerets"
 		})
 		
     sets.precast.WS['Tachi: Fudo'].Acc = set_combine(sets.precast.WS.Acc, {
@@ -130,12 +130,12 @@ function init_gear_sets()
 		neck="Samurai's Nodowa +2",
 		ear1="Thrud Earring",ear2="Moonshade Earring",
         body="Sakonji Domaru +3",
-		hands="Valorous mitts",
-		ring1="Niqmaddu Ring",ring2="Regal Ring",
+		hands="Nyame Gauntlets",
+		ring1="Epaminondas's Ring",ring2="Regal Ring",
         back=CapeWSD,
 		waist="Fotia Belt",
 		legs="Wakido haidate +3",
-		feet="Valorous Greaves"
+		feet="Nyame Sollerets"
 		})
     
 	sets.precast.WS['Tachi: Shoha'].Acc = set_combine(sets.precast.WS.Acc, {
@@ -149,12 +149,12 @@ function init_gear_sets()
         neck="Samurai's Nodowa +2",
         ear1="Thrud Earring",ear2="Moonshade Earring",
         body="Sakonji Domaru +3",
-        hands="Valorous mitts",
-        ring1="Niqmaddu Ring",ring2="Regal Ring",
+        hands="Nyame gauntlets",
+        ring1="Epaminondas's Ring",ring2="Regal Ring",
         back=CapeWSD,
         waist="Fotia Belt",
         legs="Wakido haidate +3",
-        feet="Valorous Greaves"
+        feet="Nyame Sollerets"
         })
     
     sets.precast.WS['Impulse Drive'].Acc = set_combine(sets.precast.WS.Acc, {
@@ -168,12 +168,12 @@ function init_gear_sets()
         neck="Samurai's Nodowa +2",
         ear1="Thrud Earring",ear2="Moonshade Earring",
         body="Sakonji Domaru +3",
-        hands="Valorous mitts",
-        ring1="Niqmaddu Ring",ring2="Regal Ring",
+        hands="Nyame gauntlets",
+        ring1="Epaminondas's Ring",ring2="Regal Ring",
         back=CapeWSD,
         waist="Fotia Belt",
         legs="Wakido haidate +3",
-        feet="Valorous Greaves"
+        feet="Nyame Sollerets"
         })
     
     sets.precast.WS['Stardiver'].Acc = set_combine(sets.precast.WS.Acc, {
@@ -191,7 +191,7 @@ function init_gear_sets()
 		ear1="Thrud Earring",ear2="Moonshade Earring",
         body="Sakonji Domaru +3",
 		hands="Founder's Gauntlets",
-		ring1="Niqmaddu Ring",ring2="Regal Ring",
+		ring1="Epaminondas's Ring",ring2="Regal Ring",
         back=CapeWSD,
 		waist="Fotia Belt",
 		legs="Wakido haidate +3",
@@ -239,14 +239,14 @@ sets.precast.WS['Namas Arrow'] = {ranged="Yoichinoyumi",ammo="Yoichi's Arrow",
 
  sets.precast.RA = {
         head="Kendatsuba jinpachi +1",           
-        body="Kendatsuba samue +1",             
-        hands="Kobo Kote",
+        body="Volte Harness",             
+        hands="Volte Mittens",
         ring2="Regal Ring",
-        ring1="Haverton ring",
+        ring1="Crepuscular Ring",
         back=CapeSNAP,
         neck="Sanctity Necklace",       
         waist="Yemaya Belt",          
-        legs="Wakido haidate +3",           
+        legs="Volte Tights",           
         feet="Kendatsuba Sune-Ate +1"    
         } 
     -- Midcast Sets
@@ -258,7 +258,7 @@ sets.precast.WS['Namas Arrow'] = {ranged="Yoichinoyumi",ammo="Yoichi's Arrow",
 	-- Ranged gear
 	sets.midcast.RA = {
 		head="Kendatsuba Kabuto +1",neck="Sanctity Necklace",ear1="Telos earring",ear2="Enervating Earring",
-		body="Kendatsuba samue +1",hands="Kobo Kote",ring1="Haverton ring",ring2="Regal Ring",
+		body="Wakido Domaru +3",hands="Volte Mittens",ring1="Crepuscular Ring",ring2="Regal Ring",
 		back=CapeRNG,waist="Yemaya Belt",legs="Wakido haidate +3",feet="Kendatsuba Sune-Ate +1"}
     
     -- Sets to return to when not performing an action.
@@ -320,7 +320,7 @@ sets.precast.WS['Namas Arrow'] = {ranged="Yoichinoyumi",ammo="Yoichi's Arrow",
 		hands="Wakido Kote +3",
 		ring1="Niqmaddu Ring",ring2="Flamma Ring",
         back=CapeSTP,
-		waist="Ioskeha Belt +1 +1",
+		waist="Ioskeha Belt +1",
 		legs="Ryuo Hakama +1",
 		feet="Ryuo Sune-Ate +1"
 		}

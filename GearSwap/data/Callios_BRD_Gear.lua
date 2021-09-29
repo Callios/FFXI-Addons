@@ -97,14 +97,14 @@ function init_gear_sets()
 
 	sets.precast.JA.Nightingale = {feet="Bihu Slippers +3"}
 	sets.precast.JA.Troubadour = {body="Bihu Jstcorps. +3"}
-	sets.precast.JA['Soul Voice'] = {legs="Bihu cannions +1"}
+	sets.precast.JA['Soul Voice'] = {legs="Bihu cannions +3"}
 	sets.precast.Waltz = {}
 
 -- Weaponskill sets
 
 	sets.precast.WS = {range="Linos",
 		head="Ayanmo zucchetto +2",neck="Caro necklace",ear1="Ishvara earring",ear2="Moonshade earring",
-		body="Bihu Jstcorps. +3",hands="Ayanmo manopolas +2",ring1="Epaminondas's ring",ring2="Ilabrat ring",
+		body="Bihu Jstcorps. +3",hands="Nyame gauntlets",ring1="Epaminondas's ring",ring2="Ilabrat ring",
 		back=BRD_MELEE,waist="Grunfeld rope",legs="Lustratio subligar +1",feet="Lustratio leggings +1"}
 		
 	sets.precast.WS.Acc = set_combine(sets.precast.WS, {})
@@ -126,8 +126,13 @@ function init_gear_sets()
 		
 	sets.precast.WS['Evisceration'] = {range="Linos",
 		head="Bihu Roundlet +3",neck="Fotia gorget",ear1="Brutal earring",ear2="Moonshade earring",
-		body="Bihu Jstcorps. +3",hands="Bihu Cuffs +3",ring1="Begrudging Ring",ring2="Epaminondas's ring",
+		body="Bihu Jstcorps. +3",hands="Nyame gauntlets",ring1="Begrudging Ring",ring2="Epaminondas's ring",
 		back=BRD_MELEE,waist="Fotia belt",legs="Lustratio subligar +1",feet="Bihu Slippers +3"}
+
+		sets.precast.WS['Savage Blade'] = {range="Linos",
+		head="Bihu Roundlet +3",neck="Fotia gorget",ear1="Brutal earring",ear2="Moonshade earring",
+		body="Bihu Jstcorps. +3",hands="Nyame gauntlets",ring1="Begrudging Ring",ring2="Epaminondas's ring",
+		back=BRD_MELEE,waist="Sailfi Belt +1",legs="Nyame Flanchard",feet="Nyame sollerets"}
 		
 	sets.precast.WS['Evisceration'].Acc = set_combine(sets.precast.WS["Evisceration"], {
 		neck="Combatant's Torque",
@@ -261,7 +266,7 @@ function init_gear_sets()
 	sets.idle = {main="Carnwenhan",sub="Genmei shield",range="Nibiru Harp",
 		head="Bunzi's Hat",neck="Bathy choker +1",ear1="Infused earring",ear2="Odnowa earring +1",
 		body="Inyanga jubbah +2",hands="Inyanga dastanas +2",ring1="Defending ring",ring2="Inyanga ring",
-		back="Solemnity cape",waist="Fucho-no-obi",legs="Assiduity pants +1",feet="Fili cothurnes +1"} --22
+		back="Solemnity cape",waist="Fucho-no-obi",legs="Assiduity pants +1",feet="Nyame Sollerets"} --22
 		
 	sets.idle.Town = set_combine(sets.idle, {})
 		
@@ -280,14 +285,14 @@ function init_gear_sets()
 -- Defense sets
  
 	sets.defense.PDT = {range="Nibiru harp",
-		head="Bihu Roundlet +3",neck="Loricate torque +1",ear1="Genmei earring",ear2="Odnowa earring +1",
+		head="Bunzi's Hat",neck="Loricate torque +1",ear1="Genmei earring",ear2="Odnowa earring +1",
 		body="Bihu Jstcorps. +3",hands="Bihu Cuffs +3",ring1="Defending ring",ring2="Gelatinous ring +1",
-		back="Solemnity cape",waist="Flume belt",legs="Brioso cannions +3",feet="Fili cothurnes +1"} 
+		back="Solemnity cape",waist="Flume belt",legs="Brioso cannions +3",feet="Nyame Sollerets"} 
 	 
 	sets.defense.MDT = {range="Nibiru harp",
 		head="Bunzi's Hat",neck="Warder's charm +1",ear1="Etiolation earring",ear2="Odnowa earring +1",
 		body="Inyanga jubbah +2",hands="Inyanga dastanas +2",ring1="Defending ring",ring2="Dark ring",
-		back="Solemnity cape",waist="Carrier's sash",legs="Brioso cannions +3",feet="Bihu Slippers +3"} 
+		back="Solemnity cape",waist="Carrier's sash",legs="Brioso cannions +3",feet="Nyame Sollerets"} 
  
  
 -- Engaged sets
@@ -298,9 +303,9 @@ function init_gear_sets()
 -- EG: sets.engaged.Dagger.Accuracy.Evasion
 -- Basic set for if no TP weapon is defined.
 
-	sets.engaged = {range="linos",
+	sets.engaged = {main="Naegling", range="linos",
 		head="Bihu roundlet +3",neck="Combatant's torque",ear1="Telos Earring",ear2="Cessance Earring",
-		body="Ayanmo Corazza +2",hands="Ayanmo manopolas +2",ring1="Petrov ring",ring2="Ilabrat ring",
+		body="Ayanmo Corazza +2",hands="Bihu cuffs +3",ring1="Petrov ring",ring2="Chirich ring +1",
 		back=BRD_MELEE,waist="Windbuffet belt +1",legs="Volte Tights",feet="Bihu Slippers +3"}
 	 
 	sets.engaged.MidAcc = {range="linos",

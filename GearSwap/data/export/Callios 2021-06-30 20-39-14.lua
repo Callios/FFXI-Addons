@@ -1,0 +1,18 @@
+sets.exported={
+    main="Perun +1",
+    sub="Nusku Shield",
+    range="Yoichinoyumi",
+    ammo="Yoichi's Arrow",
+    head={ name="Taeon Chapeau", augments={'Rng.Acc.+19','"Snapshot"+3','"Snapshot"+5',}},
+    body="Volte Harness",
+    hands={ name="Carmine Fin. Ga. +1", augments={'Rng.Atk.+20','"Mag.Atk.Bns."+12','"Store TP"+6',}},
+    legs={ name="Adhemar Kecks", augments={'DEX+10','AGI+10','Accuracy+15',}},
+    feet="Meg. Jam. +2",
+    neck="Iskur Gorget",
+    waist="Yemaya Belt",
+    left_ear="Telos Earring",
+    right_ear="Enervating Earring",
+    left_ring="Cacoethic Ring +1",
+    right_ring="Defending Ring",
+    back={ name="Belenus's Cape", augments={'"Snapshot"+10',}},
+}
