@@ -201,14 +201,14 @@ function init_gear_sets()
         back=gear.RudianosEnm,waist="Fotia Belt",legs="Souveran Diechlings +1",feet="Souveran Schuhs +1"}
          
     sets.precast.WS['Savage Blade'] = {ammo="Amar Cluster",
-        head="Valorous Mask",neck="Fotia Gorget",ear1="Moonshade Earring",ear2="Thrud Earring",
-        body=gear.OdyWSBODY,hands="Nyame gauntlets",ring1="Rufescent Ring",ring2="Epaminondas's ring",
-        back=gear.RudianosWS,waist="Sailfi Belt +1",legs=gear.ValWSLEGS,feet="Nyame sollerets"}    
+        head="Nyame Helm",neck="Fotia Gorget",ear1="Moonshade Earring",ear2="Thrud Earring",
+        body="Nyame Mail",hands="Nyame gauntlets",ring1="Rufescent Ring",ring2="Epaminondas's ring",
+        back=gear.RudianosWS,waist="Sailfi Belt +1",legs="Nyame Flanchard",feet="Nyame sollerets"}    
      
         sets.precast.WS['Judgment'] = {ammo="Amar Cluster",
-        head="Valorous Mask",neck="Fotia Gorget",ear1="Moonshade Earring",ear2="Thrud Earring",
-        body=gear.OdyWSBODY,hands="Nyame gauntlets",ring1="Epaminondas's ring",ring2="Regal Ring",
-        back=gear.RudianosWS,waist="Sailfi Belt +1",legs=gear.ValWSLEGS,feet="Nyame sollerets"}
+        head="Nyame Helm",neck="Fotia Gorget",ear1="Moonshade Earring",ear2="Thrud Earring",
+        body="Nyame Mail",hands="Nyame gauntlets",ring1="Epaminondas's ring",ring2="Regal Ring",
+        back=gear.RudianosWS,waist="Sailfi Belt +1",legs="Nyame Flanchard",feet="Nyame sollerets"}
 
     sets.precast.WS['Circle Blade'] = {ammo="Amar Cluster",
         head="Valorous Mask",neck="Fotia Gorget",ear1="Moonshade Earring",ear2="Thrud Earring",

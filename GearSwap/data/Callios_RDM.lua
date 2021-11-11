@@ -242,17 +242,17 @@ function get_sets()
         main="Daybreak",                    
         sub="Sacro Bulwark",              
         ammo="Staunch Tathlum +1",          
-        head="Malignance Chapeau",         
+        head="Nyame Helm",         
         neck="Warder's Charm +1",          
         ear1="Genmei Earring",             
         ear2="Etiolation Earring",             
-        body="Malignance Tabard",               
-        hands="Malignance Gloves",          
+        body="Nyame Mail",               
+        hands="Nyame Gauntlets",          
         ring2="Defending Ring",             
         ring1="Gelatinous Ring +1",         
         back= RDMCape.TP,               
         waist="Flume Belt",             
-        legs="Malignance Tights",           
+        legs="Nyame flanchard",           
         feet="Nyame Sollerets",        
 
     }
@@ -427,14 +427,14 @@ function get_sets()
     ------------------------------------------------------------------------------------------------------
     sets.me["Savage Blade"] = {
 
-        head="Viti. Chapeau +3",
-        body="Vitiation Tabard +3",
+        head="Nyame Helm",
+        body="Nyame Mail",
         neck="Duelist's torque +2",
-        hands="Atrophy Gloves +3",
+        hands="Nyame Gauntlets",
         ear1="Regal Earring",
         ear2="Moonshade Earring",
-        legs="Jhakri Slops +2",
-        ring1="Rufescent Ring",
+        legs="Nyame Flanchard",
+        ring1="Metamorph Ring +1",
         ring2="Epaminondas's ring",
         waist="Sailfi Belt +1",
         feet="Nyame Sollerets",
@@ -461,14 +461,14 @@ function get_sets()
 
     sets.me["Death Blossom"] = {
 
-        head="Viti. Chapeau +3",
-        body="Vitiation Tabard +3",
+        head="Nyame Helm",
+        body="Nyame Mail",
         neck="Duelist's torque +2",
-        hands="Atrophy Gloves +3",
+        hands="Nyame Gauntlets",
         ear1="Regal Earring",
         ear2="Moonshade Earring",
-        legs="Jhakri Slops +2",
-        ring1="Rufescent Ring",
+        legs="Nyame Flanchard",
+        ring1="Metamorph Ring +1",
         ring2="Epaminondas's ring",
         waist="Sailfi Belt +1",
         feet="Nyame Sollerets",
@@ -477,15 +477,15 @@ function get_sets()
     }
     sets.me["Black Halo"] = {
 
-        head="Viti. Chapeau +3",
-        body="Vitiation Tabard +3",
-        neck="Duelist's Torque +2",
-        hands="Atrophy Gloves +3",
+        head="Nyame Helm",
+        body="Nyame Mail",
+        neck="Duelist's torque +2",
+        hands="Nyame Gauntlets",
         ear1="Regal Earring",
         ear2="Sherida Earring",
-        body="Vitiation Tabard +3",
-        ring1="Epaminondas's ring",
-        ring2="Metamorph Ring +1",
+        legs="Nyame Flanchard",
+        ring1="Metamorph Ring +1",
+        ring2="Epaminondas's ring",
         waist="Sailfi Belt +1",
         feet="Nyame Sollerets",
         back= RDMCape.MAGWS,
@@ -546,14 +546,14 @@ function get_sets()
         neck="Baetyl Pendant",
         ear1="Regal Earring",
         ear2="Malignance Earring",
-        body="Amalric Doublet +1",
+        body="Nyame Mail",
         hands="Jhakri Cuffs +2",
         ring1="Archon Ring",
         ring2="Metamor. Ring 1",
         back= RDMCape.MAGWS,
         waist="Orpheus's Sash",
-        legs="Amalric Slops +1",
-        feet="Amalric Nails +1"
+        legs="Nyame Flanchard",
+        feet="Nyame Sollerets"
     }
     sets.me["Red Lotus Blade"] = {
 
@@ -591,18 +591,18 @@ function get_sets()
 
     sets.me["Aeolian Edge"] = {
 
-        head="Cath Palug crown",
+        head="Nyame Helm",
         neck="Baetyl Pendant",
         ear1="Regal Earring",
         ear2="Malignance Earring",
-        body="Amalric Doublet +1",
+        body="Nyame Mail",
         hands="Jhakri Cuffs +2",
         ring1="Epaminondas's ring",
         ring2="Freke Ring",
         back= RDMCape.MAGWS,
         waist="Orpheus's Sash",
-        legs="Amalric Slops +1",
-        feet="Amalric Nails +1",
+        legs="Nyame Flanchard",
+        feet="Nyame Sollerets",
         ammo="Ghastly Tathlum +1",
 
     }
@@ -692,9 +692,9 @@ function get_sets()
     ----------
     
     -- Just go make it, inventory will thank you and making rules for each is meh.
-    sets.midcast.Obi = {
-        waist="Hachirin-no-Obi",
-    }
+    --sets.midcast.Obi = {
+        --waist="Hachirin-no-Obi",
+    --}
     sets.midcast.Orpheus = {
        waist="Orpheus's Sash", -- Commented cause I dont have one yet
         

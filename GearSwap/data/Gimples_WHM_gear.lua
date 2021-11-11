@@ -201,7 +201,7 @@ function init_gear_sets()
         back="Mending Cape",waist="Goading Belt",legs="Theophany Pantaloons",feet="Gendewitha Galoshes"}
 
     sets.midcast.StatusRemoval = {
-        head="Orison Cap +2",legs="Orison Pantaloons +2"}
+        head="Orison Cap +2",legs="Orison Pantaloons +2", neck="Cleric's Torque"}
 
     -- 110 total Enhancing Magic Skill; caps even without Light Arts
     sets.midcast['Enhancing Magic'] = {main="Beneficus",sub="Genbu's Shield",

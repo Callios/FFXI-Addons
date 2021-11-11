@@ -5,7 +5,7 @@
 -- Setup vars that are user-dependent.  Can override this function in a sidecar file.
 
 function user_setup()
-    state.OffenseMode:options('None', 'Normal', 'MidAcc', 'HighAcc')
+    state.OffenseMode:options('None', 'Normal', 'Ninja', 'MidAcc', 'HighAcc')
 	state.WeaponskillMode:options('Normal', 'Acc')
     state.CastingMode:options('Normal', 'Resistant')
 	state.IdleMode:options('Normal', 'Kiting','Melee')
@@ -126,12 +126,12 @@ function init_gear_sets()
 		
 	sets.precast.WS['Evisceration'] = {range="Linos",
 		head="Bihu Roundlet +3",neck="Fotia gorget",ear1="Brutal earring",ear2="Moonshade earring",
-		body="Bihu Jstcorps. +3",hands="Nyame gauntlets",ring1="Begrudging Ring",ring2="Epaminondas's ring",
+		body="Bihu Jstcorps. +3",hands="Nyame gauntlets",ring1="Begrudging Ring",ring2="Hetairoi Ring",
 		back=BRD_MELEE,waist="Fotia belt",legs="Lustratio subligar +1",feet="Bihu Slippers +3"}
 
 		sets.precast.WS['Savage Blade'] = {range="Linos",
-		head="Bihu Roundlet +3",neck="Fotia gorget",ear1="Brutal earring",ear2="Moonshade earring",
-		body="Bihu Jstcorps. +3",hands="Nyame gauntlets",ring1="Begrudging Ring",ring2="Epaminondas's ring",
+		head="Nyame Helm",neck="Fotia gorget",ear1="Brutal earring",ear2="Moonshade earring",
+		body="Bihu Jstcorps. +3",hands="Nyame gauntlets",ring1="Metamorph Ring +1",ring2="Epaminondas's ring",
 		back=BRD_MELEE,waist="Sailfi Belt +1",legs="Nyame Flanchard",feet="Nyame sollerets"}
 		
 	sets.precast.WS['Evisceration'].Acc = set_combine(sets.precast.WS["Evisceration"], {
@@ -140,9 +140,19 @@ function init_gear_sets()
 		})
 
 	sets.precast.WS['Aeolian Edge'] = {ammo="Pemphredo tathlum",
-		head="Chironic Hat",neck="Sanctity Necklace",ear1="Regal Earring",ear2="Moonshade earring",
-		body="Bihu Jstcorps. +3",hands="Leyline Gloves",ring1="Shiva Ring",ring2="Shiva Ring",
-		back=BRD_MELEE,waist="Eschan Stone",legs="Lustratio subligar +1",feet="Lustratio leggings +1"}
+	head="Nyame Helm",
+	neck="Baetyl Pendant",
+	ear1="Regal Earring",
+	ear2="Friomisi Earring",
+	body="Nyame Mail",
+	hands="Nyame Gauntlets",
+	ring1="Epaminondas's ring",
+	ring2="Freke Ring",
+	back=BRD_MELEE,
+	waist="Orpheus's Sash",
+	legs="Nyame Flanchard",
+	feet="Nyame Sollerets",
+	ammo="Ghastly Tathlum +1",}
 		
 	sets.precast.WS['Aeolian Edge'].Acc = set_combine(sets.precast.WS['Aeolian Edge'], {})
 	
@@ -304,10 +314,16 @@ function init_gear_sets()
 -- Basic set for if no TP weapon is defined.
 
 	sets.engaged = {main="Naegling", range="linos",
-		head="Bihu roundlet +3",neck="Combatant's torque",ear1="Telos Earring",ear2="Cessance Earring",
-		body="Ayanmo Corazza +2",hands="Bihu cuffs +3",ring1="Petrov ring",ring2="Chirich ring +1",
-		back=BRD_MELEE,waist="Windbuffet belt +1",legs="Volte Tights",feet="Bihu Slippers +3"}
+		head="Nyame Helm",neck="Combatant's torque",ear1="Telos Earring",ear2="Cessance Earring",
+		body="Nyame Mail",hands="Nyame Gauntlets",ring1="Chirich ring +1",ring2="Chirich ring +1",
+		back=BRD_MELEE,waist="Sailfi Belt +1",legs="Volte Tights",feet="Nyame Sollerets"}
 	 
+		sets.engaged.Ninja = {main="Naegling", sub="Gleti's Knife", range="linos",
+		head="Nyame Helm",neck="Combatant's torque",ear1="Suppanomimi",ear2="Eabani Earring",
+		body="Aynamo Corazza +2",hands="Bunzi's Gloves",ring1="Chirich ring +1",ring2="Chirich ring +1",
+		back=BRD_MELEE,waist="Sailfi Belt +1",legs="Nyame Flanchard",feet="Nyame Sollerets"}
+	 
+
 	sets.engaged.MidAcc = {range="linos",
 		head="Ayanmo zucchetto +2",neck="Combatant's torque",ear1="Telos Earring",ear2="Eabani Earring",
 		body="Ayanmo Corazza +2",hands="Volte Mittens",ring1="Chirich Ring +1",ring2="Chirich Ring +1",

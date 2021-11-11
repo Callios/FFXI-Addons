@@ -24,7 +24,7 @@
 --(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
 --SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-_addon.version = '2.902'
+_addon.version = '2.903'
 _addon.name = 'Shortcuts'
 _addon.author = 'Byrth'
 _addon.commands = {'shortcuts'}
@@ -115,17 +115,7 @@ default_aliases = {
     cw3="Curing Waltz III",
     cw4="Curing Waltz IV",
     cw5="Curing Waltz V",
-    hw="Healing Waltz",
-    hm="Honor March",
-    vm="Victory March",
-    m5="Valor Minuet V",
-    m4="Valor Minuet IV",
-    pia="Pianissimo",
-    nig="Nightingale",
-    tro="Troubadour",
-    mar="Marcato",
-    b3="Mage's Ballad III",
-    b2="Mage's Ballad II"
+    hw="Healing Waltz"
 }
 
 aliases = config.load('data\\aliases.xml',default_aliases)
@@ -377,9 +367,9 @@ function interp_text(splitline,offset,modified)
         if num_opts > 0 then
             -- If there are usable options then prioritize:
             -- Prefix, if given -> Spells -> Job Abilities -> Weapon Skills -> Monster Skills
-            r_line = res[(offset == 1 and options[command_list[splitline[1]]] and command_list[splitline[1]]) or (options.spells and 'spells') or (options.job_abilities and 'job_abilities') or (options.weapon_skills and 'weapon_skills') or (options.monster_abilities and 'monster_abilities') or (options.mounts and 'mounts')][options[command_list[splitline[1]]] or options.spells or options.job_abilities or options.weapon_skills or options.monster_abilities or options.mounts]
+            r_line = res[(offset == 1 and options[command_list[splitline[1]]] and command_list[splitline[1]]) or (options.spells and 'spells') or (options.job_abilities and 'job_abilities') or (options.weapon_skills and 'weapon_skills') or (options.monster_skills and 'monster_skills') or (options.mounts and 'mounts')][options[command_list[splitline[1]]] or options.spells or options.job_abilities or options.weapon_skills or options.monster_skills or options.mounts]
         elseif num_opts == 0 then
-            r_line = res[(offset == 1 and nonoptions[command_list[splitline[1]]] and command_list[splitline[1]]) or (nonoptions.spells and 'spells') or (nonoptions.weapon_skills and 'weapon_skills') or (nonoptions.job_abilities and 'job_abilities') or (nonoptions.monster_abilities and 'monster_abilities') or (nonoptions.mounts and 'mounts')][nonoptions[command_list[splitline[1]]] or nonoptions.spells or nonoptions.weapon_skills or nonoptions.job_abilities or nonoptions.monster_abilities or nonoptions.mounts]
+            r_line = res[(offset == 1 and nonoptions[command_list[splitline[1]]] and command_list[splitline[1]]) or (nonoptions.spells and 'spells') or (nonoptions.weapon_skills and 'weapon_skills') or (nonoptions.job_abilities and 'job_abilities') or (nonoptions.monster_skills and 'monster_skills') or (nonoptions.mounts and 'mounts')][nonoptions[command_list[splitline[1]]] or nonoptions.spells or nonoptions.weapon_skills or nonoptions.job_abilities or nonoptions.monster_skills or nonoptions.mounts]
         end
         
         local targets = table.reassign({},r_line.targets)

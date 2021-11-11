@@ -49,6 +49,12 @@ return {
             ["ready_reaction"]="turnaround"
         }
 },
+["Apex Archaic Cog"]={
+        ["Restoral"]={
+            ["complete_reaction"]="", 
+            ["ready_reaction"]='input /ma "Sleep" <bt>'
+        }
+        },
 
 }
 
